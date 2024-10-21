@@ -274,8 +274,8 @@
   "tags": []
 },
 {
-  "id": "npc-rebake_npcf_adaptive_shielding_aegis",
-  "name": "ADAPTIVE SHIELDING",
+  "id": "npc-rebake_npcf_focused_shielding_aegis",
+  "name": "FOCUSED SHIELDING",
   "origin": {
     "type": "Class",
     "name": "AEGIS",
@@ -283,6 +283,54 @@
   },
   "locked": false,
   "type": "Trait",
-  "effect": "The first time each round an ally affected by Defense Net takes damage, all allies within the Net gain Resistance to the damage type taken. This lasts until the end of the Aegis’s next turn.",
+  "effect": "Trigger: An allied character within your Defense Net area is hit by a ranged or melee attack.<br>Effect: That character gains resistance to all damage from the attack, then the Defense Net is deactivated.",
+  "tags": [      {
+    "id": "tg_reaction"
+  },      {
+    "id": "tg_round",
+    "val": 1
+  }]
+},{
+  "id": "npcf_guardian_aegis",
+  "name": "GUARDIAN",
+  "origin": {
+    "type": "Class",
+    "name": "AEGIS",
+    "base": false
+  },
+  "locked": false,
+  "type": "Trait",
+  "effect": "Allied characters can use the Aegis for hard cover.",
   "tags": []
+},{
+  "id": "npcf_ring_of_fire_aegis",
+  "name": "RING OF FIRE",
+  "origin": {
+    "type": "Class",
+    "name": "AEGIS",
+    "base": false
+  },
+  "locked": false,
+  "type": "Trait",
+  "effect": "Any hostile characters that start their turn inside the area affected by the Defense Net or that enter it for the first time in a round take 2 heat and become Shredded until they leave the area.",
+  "tags": []
+},{
+  "id": "npcf_ha_blackwall_system_aegis",
+  "name": "HA BLACKWALL SYSTEM",
+  "origin": {
+    "type": "Class",
+    "name": "AEGIS",
+    "base": false
+  },
+  "locked": false,
+  "type": "System",
+  "effect": "As a full action, the Aegis generates a pitch-black wall of blinkspace 5 spaces high covering a line10 area starting within range 5. All spaces must be free. The wall blocks line of sight, effects or attacks and provides hard cover. Characters that start their turn in the wall or who enter it on their turn roll 1d6. On a 4+ they are removed from play until the end of their next turn, when they reappear in a free space of their choice in Range 10 of the wall. If there are no free spaces, they return when a space becomes free. The wall lasts until the Aegis ends it as a quick action, or is destroyed. When it ends, characters remaining in blinkspace reappear.",
+  "tags": [{
+      "id": "tg_limited",
+      "val": 1
+    },
+    {
+      "id": "tg_full_action"
+    }
+  ]
 },]
