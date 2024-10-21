@@ -1,0 +1,74 @@
+[{
+        "id": "rebake_npc_classes_assault",
+        "name": "Assault",
+        "info": {
+            "flavor": "Assault mechs are the most common primary battle frames found throughout the galaxy. Fitted with a heavy rifle, a sidearm, and a suite of systems that enhance movement, targeting, and defensibility, they are straightforward, reliable, and hardy combatants. The pilots of Assault mechs are also the cheapest to train and outfit, but that doesn’t make them any less dangerous.",
+            "tactics": "The Assault is a straightforward, damage-dealing striker that emphasizes the importance of taking cover. Equipped to do good damage at decent range, they want to flank their opponents or drive them out of cover in order to maximize their effectiveness. <strong>Hunker Down</strong> can increase their survivability, but leaves them less able to maneuver in return."
+        },
+        "stats": {
+            "armor": [1, 1, 1],
+            "hp": [15, 18, 21],
+            "evade": [8, 10, 12],
+            "edef": [8, 9, 10],
+            "heatcap": [8, 8, 8],
+            "speed": [4, 4, 4],
+            "sensor": [10, 10, 10],
+            "save": [10, 12, 14],
+            "hull": [1, 2, 3],
+            "agility": [1, 2, 3],
+            "systems": [1, 2, 3],
+            "engineering": [1, 2, 3],
+            "size": [[1], [1], [1]],
+            "activations": [1, 1, 1]
+        },
+		"base_features": [
+            "assault-rebake_npcf_weapon_heavy_assault",
+            "assault-rebake_npcf_weapon_combat_knife",
+            "assault-rebake_npcf_trait_hunker_down"
+        ],
+        "optional_features": [
+            "assault-rebake_npcf_trait_rank_discipline",
+            "assault-rebake_npcf_weapon_underslung_grenade",
+            "assault-rebake_npcf_system_micromissile_barrage",
+            "assault-rebake_npcf_trait_flank_and_fix",
+            "assault-rebake_npcf_trait_stormtrooper"
+        ],
+        "tables": [],
+        "clocks": [],
+        "role": "striker",
+        "power": 100
+},
+{
+    "id": "rebake_npc_classes_aegis",
+    "name": "Aegis",
+    "info": {
+        "flavor": "",
+        "tactics": ""
+    },
+    "stats": {
+        "armor": [2,2,2],
+        "hp": [14,16,18],
+        "evade": [7,8,9],
+        "edef": [10,12,14],
+        "heatcap": [10,10,10],
+        "speed": [3,3,3],
+        "sensor": [10, 10, 10],
+        "save": [10, 12, 14],
+        "hull": [0,0,0],
+        "agility": [-2,-2,-2],
+        "systems": [2,3,4],
+        "engineering": [2,3,4],
+        "size": [[1], [1], [1]],
+        "activations": [1, 1, 1]
+    },
+    "base_features": [
+        "assault-rebake_npcf_weapon_heavy_assault"
+    ],
+    "optional_features": [
+        "assault-rebake_npcf_trait_rank_discipline"
+    ],
+    "tables": [],
+    "clocks": [],
+    "role": "support",
+    "power": 100
+}]

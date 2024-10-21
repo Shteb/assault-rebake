@@ -1,0 +1,288 @@
+[
+  {
+    "id": "npc-rebake_npcf_weapon_heavy_assault",
+    "name": "HEAVY ASSAULT RIFLE",
+    "origin": {
+      "type": "Class",
+      "name": "ASSAULT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon gains <strong>+1 Accuracy</strong> against targets that do not have <strong>cover.</strong>",
+    "tags": [
+    ],
+    "weapon_type": "Heavy Rifle",
+    "attack_bonus": [
+      0,
+      1,
+      2
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          6,
+          8,
+          10
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_weapon_combat_knife",
+    "name": "COMBAT KNIFE",
+    "origin": {
+      "type": "Class",
+      "name": "ASSAULT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "tags": [
+    ],
+    "weapon_type": "Auxiliary Melee",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ]
+},{
+    "id": "npc-rebake_npcf_trait_hunker_down",
+    "name": "HUNKER DOWN",
+    "origin": {
+      "type": "Class",
+      "name": "ASSAULT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Assault gains <strong>Resistance to all damage from the attack</strong>, but becomes <strong>Slowed</strong> until the end of its next turn.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "An attack hits the Assault, but damage hasn't been rolled yet."
+},{
+    "id": "npc-rebake_npcf_trait_rank_discipline",
+    "name": "RANK DISCIPLINE",
+    "origin": {
+      "type": "Class",
+      "name": "ASSAULT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Assault gains <strong>+1 Accuracy</strong> on all attacks, checks, and saves while adjacent to at least one allied character with the <strong>Mech</strong> tag.",
+    "tags": [
+    ]
+},{
+    "id": "npc-rebake_npcf_weapon_underslung_grenade",
+    "name": "UNDERSLUNG GRENADE LAUNCER",
+    "origin": {
+      "type": "Class",
+      "name": "ASSAULT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "The Assault gains <strong>Resistance to all damage from the attack</strong>, but becomes <strong>Slowed</strong> until the end of its next turn.",
+    "tags": [{
+        "id": "tg_knockback",
+        "val": 2
+      },
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "weapon_type": "Auxiliary Launcher",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      },{
+        "type": "Blast",
+        "val": 1
+      }
+    ]
+},{
+    "id": "npc-rebake_npcf_system_micromissile_barrage",
+    "name": "MICRO-MISSILE BARRAGE",
+    "origin": {
+      "type": "Class",
+      "name": "ASSAULT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Assault launches a <strong>Line 10</strong> volley of micro-missiles. All characters within the affected area must succeed on a <strong>Hull</strong> save or take {6/8/10} e explosive damage. On a successful save, they take half damage.",
+    "tags": [{
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ]
+},{
+    "id": "npc-rebake_npcf_trait_flank_and_fix",
+    "name": "FLANK AND FIX",
+    "origin": {
+      "type": "Class",
+      "name": "ASSAULT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Assault may target them with <strong>Overwatch</strong> using the <strong>Heavy Assault Rifle</strong>, dealing half damage on hit.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "A character who doesn't have cover from the Assault is successfully attacked by an allied character."
+},{
+    "id": "npc-rebake_npcf_trait_stormtrooper",
+    "name": "STORMTROOPER",
+    "origin": {
+      "type": "Class",
+      "name": "ASSAULT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "<strong>Hunker Down</strong> no longer causes the Assault to become <strong>Slowed</strong>. Whenever the Assault uses <strong>Hunker Down</strong>, they may also move up to their <strong>Speed</strong> as part of the reaction.",
+    "tags": [
+    ]
+},
+{
+  "id": "npc-rebake_npcf_light_laser_aegis",
+  "name": "LIGHT LASER",
+  "origin": {
+    "type": "Class",
+    "name": "AEGIS",
+    "base": true
+  },
+  "locked": false,
+  "type": "Weapon",
+  "effect": "",
+  "tags": [],
+  "weapon_type": "Main Cannon",
+  "attack_bonus": [
+    1,
+    2,
+    3
+  ],
+  "damage": [{
+      "type": "Energy",
+      "damage": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "type": "Burn",
+      "damage": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "range": [{
+    "type": "Range",
+    "val": 8
+  }],
+  "on_hit": ""
+},
+{
+  "id": "npc-rebake_npcf_defense_net_aegis",
+  "name": "DEFENSE NET",
+  "origin": {
+    "type": "Class",
+    "name": "AEGIS",
+    "base": true
+  },
+  "locked": false,
+  "type": "System",
+  "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a Burst 2 area. While active, the Aegis is Immobilized, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive +2 Difficulty and cannot result in critical hits; whenever an attack receiving this Difficulty misses, the Aegis takes 2 heat. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain Immunity to Impaired and Slowed, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a protocol or is destroyed. If the Aegis exceeds their Heat Cap, becomes Stunned, or becomes Jammed while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.",
+  "tags": [{
+      "id": "tg_recharge",
+      "val": 4
+    },
+    {
+      "id": "tg_shield"
+    },
+    {
+      "id": "tg_full_action"
+    }
+  ]
+},
+{
+  "id": "npc-rebake_npcf_regenerative_shielding_aegis",
+  "name": "REGENERATIVE SHIELDING",
+  "origin": {
+    "type": "Class",
+    "name": "AEGIS",
+    "base": true
+  },
+  "locked": false,
+  "type": "Trait",
+  "effect": "The Aegis has Immunity to Impaired and Slowed and can’t be critically hit.",
+  "immunity": ["Impaired", "Slowed", "Critical Hits"],
+  "tags": []
+},
+{
+  "id": "npc-rebake_npcf_adaptive_shielding_aegis",
+  "name": "ADAPTIVE SHIELDING",
+  "origin": {
+    "type": "Class",
+    "name": "AEGIS",
+    "base": false
+  },
+  "locked": false,
+  "type": "Trait",
+  "effect": "The first time each round an ally affected by Defense Net takes damage, all allies within the Net gain Resistance to the damage type taken. This lasts until the end of the Aegis’s next turn.",
+  "tags": []
+},]
