@@ -912,4 +912,105 @@
         ],
         "power": 100
     },
+    {
+        "id": "npc-rebake_npcc_demolisher",
+        "name": "DEMOLISHER",
+        "role": "defender",
+        "info": {
+            "flavor": "The lengthy siege of Jadigmora City saw the development of the first true Demolisher frames. Based on antique Berserker mechs, Demolishers swapped dramatic heat flows for more sustainable systems, improved hydraulic strength, and stabilizers for supermassive melee weapons. Demolisher pilots soon discovered a range of new applications for their concussion-wave ordnance. A lancer named Hayes Rothford and their NHP, Clarke, were the first pilot/co-pilot team to truly show the power of the platform, singlehandedly bringing down a siege frigate in low orbit.",
+            "tactics": "Demolishers are slow, resilient defenders that dish out heavy damage and stuns when enemies get close to them. Use their size and power in melee combat to force enemy characters away from areasof the map until they can bring the Demolisher down, using Earthshatter to attack them from a distance."
+        },
+        "stats": {
+            "armor": [
+                2,
+                2,
+                2
+            ],
+            "hp": [
+                15,
+                20,
+                25
+            ],
+            "evade": [
+                6,
+                6,
+                6
+            ],
+            "edef": [
+                7,
+                7,
+                7
+            ],
+            "heatcap": [
+                8,
+                8,
+                8
+            ],
+            "speed": [
+                2,
+                2,
+                3
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                13,
+                15
+            ],
+            "hull": [
+                3,
+                4,
+                6
+            ],
+            "agility": [
+                -2,
+                -2,
+                -2
+            ],
+            "systems": [
+                -1,
+                -1,
+                -1
+            ],
+            "engineering": [
+                2,
+                3,
+                4
+            ],
+            "size": [
+                [
+                    2
+                ],
+                [
+                    2
+                ],
+                [
+                    2
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npcf_demolition_hammer_demolisher",
+            "npcf_dig_in_demolisher",
+            "npcf_shock_armor_demolisher",
+            "npcf_heavy_frame_demolisher"
+        ],
+        "optional_features": [
+            "npcf_broad_sweep_haft_demolisher",
+            "npcf_kinetic_compensation_demolisher",
+            "npcf_concussion_missiles_demolisher",
+            "npcf_seismic_destroyer_demolisher",
+            "npcf_sap_demolisher"
+        ],
+        "power": 100
+    },
 ]

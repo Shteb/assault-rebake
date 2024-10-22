@@ -11,6 +11,8 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Barricade: Done
 - Bastion: Done
 - Berserker: Done
-- Bombard: No rebake
+- Bombard: **No rebake**
 - Breacher: Done
+- Cataphract: **No rebake**
+- Demolisher: WIP
 - All others not yet worked on.
