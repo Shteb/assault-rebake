@@ -291,7 +291,7 @@
     "val": 1
   }]
 },{
-  "id": "npcf_guardian_aegis",
+  "id": "npc-rebake_npcf_guardian_aegis",
   "name": "GUARDIAN",
   "origin": {
     "type": "Class",
@@ -303,7 +303,7 @@
   "effect": "Allied characters can use the Aegis for hard cover.",
   "tags": []
 },{
-  "id": "npcf_ring_of_fire_aegis",
+  "id": "npc-rebake_npcf_ring_of_fire_aegis",
   "name": "RING OF FIRE",
   "origin": {
     "type": "Class",
@@ -315,7 +315,7 @@
   "effect": "Any hostile characters that start their turn inside the area affected by the Defense Net or that enter it for the first time in a round take 2 heat and become Shredded until they leave the area.",
   "tags": []
 },{
-  "id": "npcf_ha_blackwall_system_aegis",
+  "id": "npc-rebake_npcf_ha_blackwall_system_aegis",
   "name": "HA BLACKWALL SYSTEM",
   "origin": {
     "type": "Class",

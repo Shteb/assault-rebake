@@ -43,7 +43,7 @@
     "name": "Aegis",
     "info": {
         "flavor": "",
-        "tactics": ""
+        "tactics": "Aegises are tough and defensive support units. They are most effective when positioned so that their Defense Net can cover as many allies as possible, as the Aegis itself is slow-moving and can't reposition quickly. They can also protect their allies from the effects of Impaired and Slowed while being immune to those conditions themselves."
     },
     "stats": {
         "armor": [2,2,2],
@@ -62,10 +62,15 @@
         "activations": [1, 1, 1]
     },
     "base_features": [
-        "assault-rebake_npcf_weapon_heavy_assault"
+        "npc-rebake_npcf_light_laser_aegis",
+        "npc-rebake_npcf_defense_net_aegis",
+        "npc-rebake_npcf_regenerative_shielding_aegis"
     ],
     "optional_features": [
-        "assault-rebake_npcf_trait_rank_discipline"
+        "npc-rebake_npcf_focused_shielding_aegis",
+        "npc-rebake_npcf_guardian_aegis",
+        "npc-rebake_npcf_ring_of_fire_aegis",
+        "npc-rebake_npcf_ha_blackwall_system_aegis"
     ],
     "tables": [],
     "clocks": [],
