@@ -507,4 +507,106 @@
         ],
         "power": 100
     },
+    {
+        "id": "npc-rebake_npcc_barricade",
+        "name": "BARRICADE",
+        "role": "controller",
+        "info": {
+            "flavor": "Veld Systems’ Keeper Pattern 5 is a common guard mech made famous after the platform’s performance during the Battle of Sing Rama Sing. During the battle, Audrey Reimaus of the Seraphs’ Company used a Keeper P5 to singlehandedly secure Rama City’s main uplift tower, thus guaranteeing an evacuation corridor for the city’s civilian population.",
+            "tactics": "Barricades are at their best when locking down fast-moving targets that rely on their mobility. They can also use Mobile Printer to create hard cover for allies (or for themselves) or to block off portions of the map."
+        },
+        "stats": {
+            "armor": [
+                1,
+                1,
+                1
+            ],
+            "hp": [
+                14,
+                18,
+                22
+            ],
+            "evade": [
+                6,
+                7,
+                8
+            ],
+            "edef": [
+                9,
+                11,
+                13
+            ],
+            "heatcap": [
+                10,
+                10,
+                10
+            ],
+            "speed": [
+                3,
+                3,
+                4
+            ],
+            "sensor": [
+                15,
+                15,
+                15
+            ],
+            "save": [
+                12,
+                15,
+                18
+            ],
+            "hull": [
+                0,
+                1,
+                2
+            ],
+            "agility": [
+                -2,
+                -2,
+                -2
+            ],
+            "systems": [
+                1,
+                1,
+                2
+            ],
+            "engineering": [
+                3,
+                4,
+                5
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_graviton_lance_barricade",
+            "npc-rebake_npcf_mobile_printer_barricade",
+            "npc-rebake_npcf_drag_down_barricade",
+            "npc-rebake_npcf_bulwark_mods_barricade"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_spike_barrier_barricade",
+            "npc-rebake_npcf_extrudite_barricade",
+            "npc-rebake_npcf_extruding_printer_barricade",
+            "npc-rebake_npcf_seismic_repulsor_barricade",
+            "npc-rebake_npcf_hunger_pursuit_limpets_barricade",
+            "npc-rebake_npcf_titan_snare_drone_barricade"
+        ],
+        "power": 100
+    },
 ]

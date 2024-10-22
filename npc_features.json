@@ -959,4 +959,211 @@
       }
     ]
   },
+  {
+    "id": "npc-rebake_npcf_graviton_lance_barricade",
+    "name": "GRAVITON LANCE",
+    "origin": {
+      "type": "Class",
+      "name": "BARRICADE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "At T2–3, this weapon can make two attacks at once, hitting one character twice or two characters once.",
+    "tags": [],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "on_hit": "Target is Slowed until the end of their next turn."
+  },
+  {
+    "id": "npc-rebake_npcf_mobile_printer_barricade",
+    "name": "MOBILE PRINTER",
+    "origin": {
+      "type": "Class",
+      "name": "BARRICADE",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Barricade prints a Size 2 cube in a free area within Range 3. The cube provides hard cover and is a single object with 20 HP and Evasion 5. The Barricade can only have one cube deployed at a time; if a new one is deployed, the first one dissolves.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_drag_down_barricade",
+    "name": "DRAG DOWN",
+    "origin": {
+      "type": "Class",
+      "name": "BARRICADE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Barricade makes a tech attack against a character within Sensors. On a success, they take 2 AP Energy damage per space that they voluntarily move until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_bulwark_mods_barricade",
+    "name": "BULWARK MODS",
+    "origin": {
+      "type": "Class",
+      "name": "BARRICADE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Barricade ignores difficult terrain and dangerous terrain.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_spike_barrier_barricade",
+    "name": "SPIKE BARRIER",
+    "origin": {
+      "type": "Class",
+      "name": "BARRICADE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The cube printed by Mobile Printer is covered in piercing spikes; the first time in a round any charactermoves adjacent to it, that character takes 2/3/4 AP kinetic damage and must pass an Agility save or lose all their remaining movement as though they had become Engaged.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_extrudite_barricade",
+    "name": "EXTRUDITE",
+    "origin": {
+      "type": "Class",
+      "name": "BARRICADE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Barricade can print two separate cubes at a time with Mobile Printer instead of one, and cubes no longer dissolve when new ones are printed. Replace \"Mobile Printer\" with \"Extruding Printer\".",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_extruding_printer_barricade",
+    "name": "EXTRUDING PRINTER",
+    "origin": {
+      "type": "Class",
+      "name": "BARRICADE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Barricade prints 2 Size 2 cubes in free areas within Range 3. The cubes provides hard cover and are each single objects with 20 HP and Evasion 5.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_seismic_repulsor_barricade",
+    "name": "SEISMIC REPULSOR",
+    "origin": {
+      "type": "Class",
+      "name": "BARRICADE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Barricade emits a seismic pulse from one of its printed cubes, creating a Burst 3 area around it. Allnon-flying characters within that area must pass a Hull save or be knocked 3 spaces back from the cube and knocked Prone. Allied characters affected this way (including the Barricade itself) are not knocked Prone. The cube is then destroyed.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_hunger_pursuit_limpets_barricade",
+    "name": "HUNGER/PURSUIT LIMPETS",
+    "origin": {
+      "type": "Class",
+      "name": "BARRICADE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Barricade rapidly prints and deploys a field of tiny, mobile mines in a free Size 4 area adjacent to them. The affected area becomes difficult terrain; additionally, hostile characters that enter the area forthe first time in a round or start their turn there must pass a Systems save or be Slowed until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_titan_snare_drone_barricade",
+    "name": "TITAN-SNARE DRONE",
+    "origin": {
+      "type": "Class",
+      "name": "BARRICADE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Snare Drone (Size 1/2, HP {5/8/10}, Evasion {10/12/14}, E-Defense {10/12/14}, Tags: Drone)<br>This drone can be printed and deployed to any free adjacent space. When hostile characters move into or start their turn within Range 3 of the drone, it emits a pulse, and they become Immobilized until thedrone is destroyed.",
+    "tags": [
+      {
+        "id": "tg_drone"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
 ]
