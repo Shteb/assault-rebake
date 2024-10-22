@@ -2,7 +2,7 @@
 An unpacked LCP containing the playtest versions of Kai's NPC rebakes. For more info, please search the Pilot.net Discord for his pdfs.
 ### Convention & Format
 All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for example.
-## Current Progress: 45%
+## Current Progress: 50%
 - Assault: Done
 - Aegis: Done
 - Ace: Done
@@ -14,7 +14,5 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Bombard: **No rebake**
 - Breacher: Done
 - Cataphract: **No rebake**
-- Demolisher: WIP
+- Demolisher: Done
 - All others not yet worked on.
-
-This is a Test

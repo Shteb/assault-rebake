@@ -927,9 +927,9 @@
                 2
             ],
             "hp": [
-                15,
                 20,
-                25
+                25,
+                30
             ],
             "evade": [
                 6,
@@ -938,8 +938,8 @@
             ],
             "edef": [
                 7,
-                7,
-                7
+                8,
+                9
             ],
             "heatcap": [
                 8,
@@ -964,7 +964,7 @@
             "hull": [
                 3,
                 4,
-                6
+                5
             ],
             "agility": [
                 -2,
@@ -999,17 +999,17 @@
             ]
         },
         "base_features": [
-            "npcf_demolition_hammer_demolisher",
-            "npcf_dig_in_demolisher",
-            "npcf_shock_armor_demolisher",
-            "npcf_heavy_frame_demolisher"
+            "npc-rebake_npcf_demolition_hammer_demolisher",
+            "npc-rebake_npcf_earthshatter_demolisher",
+            "npc-rebake_npcf_shock_armor_demolisher",
+            "npc-rebake_npcf_heavy_frame_demolisher"
         ],
         "optional_features": [
-            "npcf_broad_sweep_haft_demolisher",
-            "npcf_kinetic_compensation_demolisher",
-            "npcf_concussion_missiles_demolisher",
-            "npcf_seismic_destroyer_demolisher",
-            "npcf_sap_demolisher"
+            "npc-rebake_npcf_jet_propulsion_demolisher",
+            "npc-rebake_npcf_kinetic_compensation_demolisher",
+            "npc-rebake_npcf_seismic_destroyer_demolisher",
+            "npc-rebake_npcf_seismic_destroyer_demolisher",
+            "npc-rebake_npcf_drag_cables_demolisher"
         ],
         "power": 100
     },

@@ -1729,4 +1729,208 @@
     "effect": "When using Breach Ram, the Breacher may also attack any character in their path with the Dual Shotguns. The Dual Shotguns only make a single attack against each character this way (rather than making two attacks at once), and these attacks deal half damage on hit.",
     "tags": []
   },
+  {
+    "id": "npc-rebake_npcf_demolition_hammer_demolisher",
+    "name": "DEMOLITION HAMMER",
+    "origin": {
+      "type": "Class",
+      "name": "DEMOLISHER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_ap"
+      },
+      {
+        "id": "tg_knockback",
+        "val": 3
+      }
+    ],
+    "weapon_type": "Superheavy Melee",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      -1,
+      -1,
+      -1
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          12,
+          14,
+          16
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "on_hit": "Targets must succeed on a Hull save or be Stunned until the end of their next turn."
+  },
+  {
+    "id": "npc-rebake_npcf_earthshatter_demolisher",
+    "name": "EARTHSHATTER",
+    "origin": {
+      "type": "Class",
+      "name": "DEMOLISHER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "On Attack: The Demolisher deals 10/20/30 AP kinetic damage to an object or piece of terrain within Range 2, if there is one. Hit or miss, place a Size 1 piece of terrain that grants hard cover in a free space adjacent to your target. The terrain has 10 HP and Evasion 5.",
+    "tags": [
+      {
+        "id": "tg_thrown",
+        "val": 5
+      },
+      {
+        "id": "tg_knockback",
+        "val": 3
+      }
+    ],
+    "weapon_type": "Heavy Melee",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_shock_armor_demolisher",
+    "name": "SHOCK ARMOR",
+    "origin": {
+      "type": "Class",
+      "name": "DEMOLISHER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Demolisher has Resistance to damage from melee weapons.",
+    "resistance": [
+      "Melee"
+    ],
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_heavy_frame_demolisher",
+    "name": "HEAVY FRAME",
+    "origin": {
+      "type": "Class",
+      "name": "DEMOLISHER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Demolisher can’t be pushed, pulled, knocked Prone, or knocked back by smaller characters.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_jet_propulsion_demolisher",
+    "name": "JET PROPULSION",
+    "origin": {
+      "type": "Class",
+      "name": "DEMOLISHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Whenever the Demolisher makes an attack with the Demolition Hammer, it may take 4 heat to move 4 spaces in a straight line directly towards the target before the attack.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_kinetic_compensation_demolisher",
+    "name": "KINETIC COMPENSATION",
+    "origin": {
+      "type": "Class",
+      "name": "DEMOLISHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Each time the Demolisher misses with the Demolition Hammer, they gain +1 Accuracy on all subsequent attacks with it until they hit. This Accuracy can be gained multiple times and stacks.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_seismic_destroyer_demolisher",
+    "name": "SEISMIC DESTROYER",
+    "origin": {
+      "type": "Class",
+      "name": "DEMOLISHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Unless they can fly, all characters in a Cone 5 area pass an Agility save or be knocked Prone. All objects and terrain within this area takes 10/20/30 AP kinetic damage; if any terrain or objects are destroyed this way, all affected characters also automatically take 4/6/8 kinetic damage.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_seismic_destroyer_demolisher",
+    "name": "HULLCRACKER",
+    "origin": {
+      "type": "Class",
+      "name": "DEMOLISHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Demolisher chooses a character within Range 2: they must pass a Hull save or be Immobilzed and Shredded until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_drag_cables_demolisher",
+    "name": "DRAG CABLES",
+    "origin": {
+      "type": "Class",
+      "name": "DEMOLISHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Demolisher chooses a character within Range 5; that character must pass a Hull save or become embedded with high-tensile cable anchors. If the target is Stunned, they automatically fail this save. While these anchors are embedded, neither the target nor the Demolisher can move more than 5 spacesaway from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can activate this system again and force an embedded character to pass another Hull save or be pulled adjacent to the Demolisher.<br>An embedded character can remove the cables on a hit with a melee attack against Evasion 10. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target.",
+    "tags": []
+  },
 ]
