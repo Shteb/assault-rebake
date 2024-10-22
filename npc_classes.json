@@ -811,4 +811,105 @@
         ],
         "power": 100
     },
+    {
+        "id": "npc-rebake_npcc_breacher",
+        "name": "BREACHER",
+        "role": "striker",
+        "info": {
+            "flavor": "Notoriously effective in boarding operations, the Campbell Orbital Dynamics C-O MkIII is often seen in the arsenals of suborbital planetary defense forces and their pirate counterparts. Officially, the CO designation is an abbreviation of “CombatOrbital”, but unofficially, the CO3 goes by a different name: the “Can Opener”, inspired by the callsign of Valeria Rojas-Sarnik, one of the most storied CO3 pilots.",
+            "tactics": "Breachers pack low accuracy shotguns that can nonetheless deal significant burst damage. They work best against targets with low Evasion or when they can gain Accuracy by attacking Pronetargets or those with Lock On. They also pose a significant threat to heavily protected targets benefiting from Armor and Resistance (who often tend to have low Evasion as well), as Break Armor can strip those defenses away until the effect is cleared."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                18,
+                20,
+                22
+            ],
+            "evade": [
+                9,
+                11,
+                13
+            ],
+            "edef": [
+                7,
+                8,
+                9
+            ],
+            "heatcap": [
+                7,
+                7,
+                7
+            ],
+            "speed": [
+                3,
+                3,
+                4
+            ],
+            "sensor": [
+                5,
+                5,
+                5
+            ],
+            "save": [
+                11,
+                13,
+                15
+            ],
+            "hull": [
+                2,
+                3,
+                4
+            ],
+            "agility": [
+                0,
+                0,
+                0
+            ],
+            "systems": [
+                -1,
+                -1,
+                -1
+            ],
+            "engineering": [
+                1,
+                2,
+                3
+            ],
+            "size": [
+                [
+                    2
+                ],
+                [
+                    2
+                ],
+                [
+                    2
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_dual_shotguns_breacher",
+            "npc-rebake_npcf_breach_ram_breacher",
+            "npc-rebake_npcf_break_armor_breacher",
+            "npc-rebake_npcf_ram_plating_breacher"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_follower_count_breacher",
+            "npc-rebake_npcf_thermal_charge_breacher",
+            "npc-rebake_npcf_painmaker_breacher",
+            "npc-rebake_npcf_fragmentation_shells_breacher",
+            "npc-rebake_npcf_breach_and_clear_breacher"
+        ],
+        "power": 100
+    },
 ]
