@@ -2,7 +2,7 @@
 An unpacked LCP containing the playtest versions of Kai's NPC rebakes. For more info, please search the Pilot.net Discord for his pdfs.
 ### Convention & Format
 All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for example.
-## Current Progress: 35%
+## Current Progress: 40%
 - Assault: Done
 - Aegis: Done
 - Ace: Done
@@ -10,4 +10,5 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Assassin: Done
 - Barricade: Done
 - Bastion: Done
+- Berserker: Done
 - All others not yet worked on.

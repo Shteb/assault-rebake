@@ -610,7 +610,7 @@
         "power": 100
     },
     {
-        "id": "npcc_bastion",
+        "id": "npc-rebake_npcc_bastion",
         "name": "BASTION",
         "role": "defender",
         "info": {
@@ -707,6 +707,107 @@
             "npc-rebake_npcf_fearless_defender_bastion",
             "npc-rebake_npcf_deathcounter_bastion",
             "npc-rebake_npcf_stack_up_bastion"
+        ],
+        "power": 100
+    },
+    {
+        "id": "npc-rebake_npcc_berserker",
+        "name": "BERSERKER",
+        "role": "striker",
+        "info": {
+            "flavor": "Berserker mechs are built to take advantage of advanced heat-cycling systems that allow them to shunt heat - as it is generated - into pure offensive force, increasing their weapon output by orders of magnitude. The archetype, best-known for its use by Gen’Dal Merlos’s Knights of Imminent Destruction, is preferred by pure combat-focus organizations, PMCs, and deniable-asset corps in established states.",
+            "tactics": "Berserkers are ferocious melee units that are very scary up close. Their potential is greatest when they can charge into an enemy with Avalanche Charge and follow up with another attack with the Chain Axe. Though Stampede Defense is powerful, due to their terrible Heat Cap and E-Defense,Berserkers are vulnerable to tech attacks. Aggression can be a double-edged sword, making them dangerous both to friend and foe alike, and canny opponents will seek to exploit this."
+        },
+        "stats": {
+            "armor": [
+                1,
+                1,
+                1
+            ],
+            "hp": [
+                12,
+                16,
+                20
+            ],
+            "evade": [
+                8,
+                9,
+                10
+            ],
+            "edef": [
+                6,
+                6,
+                6
+            ],
+            "heatcap": [
+                6,
+                6,
+                6
+            ],
+            "speed": [
+                5,
+                5,
+                5
+            ],
+            "sensor": [
+                5,
+                5,
+                5
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                3,
+                4,
+                5
+            ],
+            "agility": [
+                2,
+                3,
+                4
+            ],
+            "systems": [
+                -2,
+                -2,
+                -2
+            ],
+            "engineering": [
+                -1,
+                -1,
+                -1
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_chain_axe_berserker",
+            "npc-rebake_npcf_stampede_defense_berserker",
+            "npc-rebake_npcf_aggression_berserker",
+            "npc-rebake_npcf_avalanche_charge_berserker"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_juggernaut_berserker",
+            "npc-rebake_npcf_harpoon_cannon_berserker",
+            "npc-rebake_npcf_retribution_berserker",
+            "npc-rebake_npcf_headhunter_berserker",
+            "npc-rebake_npcf_overdrive_servos_berserker"
         ],
         "power": 100
     },

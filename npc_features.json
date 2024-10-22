@@ -1362,4 +1362,179 @@
     "effect": "When the Bastion takes its standard move or Boosts, an adjacent allied character can choose to move with them, mirroring their movement. This allied character's movement ignores engagement and does not provoke reactions. Each allied character can only move a number of spaces this way each round equal to their Speed.",
     "tags": []
   },
+  {
+    "id": "npc-rebake_npcf_chain_axe_berserker",
+    "name": "CHAIN AXE",
+    "origin": {
+      "type": "Class",
+      "name": "BERSERKER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "On Critical Hit: Target becomes Shredded until the end of their next turn.",
+    "tags": [],
+    "weapon_type": "Heavy Melee",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          7,
+          9,
+          11
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_stampede_defense_berserker",
+    "name": "STAMPEDE DEFENSE",
+    "origin": {
+      "type": "Class",
+      "name": "BERSERKER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Berserker has Resistance to all damage unless they are Impaired, Stunned, Immobilized, Shredded, Slowed or Exposed.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_aggression_berserker",
+    "name": "AGGRESSION",
+    "origin": {
+      "type": "Class",
+      "name": "BERSERKER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "After taking damage for the first time each round, the Berserker must immediately attack a random adjacent character, hostile or allied, with the Chain Axe. This attack happens even if the Berserker is reduced to 0 HP.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_avalanche_charge_berserker",
+    "name": "AVALANCHE CHARGE",
+    "origin": {
+      "type": "Class",
+      "name": "BERSERKER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Berserker moves spaces equal to their Speed in a straight line, ignoring reactions and engagement, then attacks a random adjacent character – hostile or allied — with the Chain Axe.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_juggernaut_berserker",
+    "name": "JUGGERNAUT",
+    "origin": {
+      "type": "Class",
+      "name": "BERSERKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Berserker uses Avalanche Charge, all characters adjacent to the path they follow or adjacent to their final position – hostile and allied – must succeed on a Hull save or be knocked Prone.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_harpoon_cannon_berserker",
+    "name": "HARPOON CANNON",
+    "origin": {
+      "type": "Class",
+      "name": "BERSERKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Main CQB",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": "Targets of smaller or equal Size to the Berserker are pulled adjacent to them in a straight line,or as close as possible. If they’re larger, the Berserker is pulled adjacent to them instead. If this ends with the Berserker adjacent to the target, the Berserker Grapples them."
+  },
+  {
+    "id": "npc-rebake_npcf_retribution_berserker",
+    "name": "RETRIBUTION",
+    "origin": {
+      "type": "Class",
+      "name": "BERSERKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever the Berserker takes damage, their next attack deals +1d6 bonus damage. This bonus damage is lost when the Berserker attacks, or at the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_headhunter_berserker",
+    "name": "HEADHUNTER",
+    "origin": {
+      "type": "Class",
+      "name": "BERSERKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever the Berserker attacks a target that is Grappled, Immobilized, Stunned, or Prone with the Chain Axe, they become Shredded on hit rather than on critical hit.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_overdrive_servos_berserker",
+    "name": "OVERDRIVE SERVOS",
+    "origin": {
+      "type": "Class",
+      "name": "BERSERKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Berserker counts as Size 3 for Ram and Grapple, and they deal 3/4/5 kinetic damage on hit with Ram and Grapple.",
+    "tags": []
+  },
 ]
