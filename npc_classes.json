@@ -403,4 +403,108 @@
         ],
         "power": 100
     },
+    {
+        "id": "npc-rebake_npcc_assassin",
+        "name": "ASSASSIN",
+        "role": "striker",
+        "info": {
+            "flavor": "Assassins tend towards agility, damage, and speed. These pilots sacrifice comfort for efficiency, stripping out everything from life-support to comms systems and replacing them with increased processing power and stealth capabilities. Assassins work alone or in small groups, piloting their small, sleek mechs through near-impenetrable terrain to catch their targets off-guard.",
+            "tactics": "Assassins are true experts at punishing single characters. Use Assassin's Mark to choose a target, and then make the most of the Assassin’s high speed and Leap to close the distance. Assassin's Mark gives Resistance to the marked character's damage, but can't be swapped until the marked character is destroyed, so consider this when selecting targets. Without optional systems like the “Devil's Cough\" Shotgun, Assassins only have access to melee attacks and are fairly vulnerable to sustained damage."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                15,
+                18,
+                20
+            ],
+            "evade": [
+                12,
+                15,
+                17
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                7,
+                7,
+                7
+            ],
+            "speed": [
+                6,
+                7,
+                8
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                0,
+                1,
+                1
+            ],
+            "agility": [
+                2,
+                3,
+                6
+            ],
+            "systems": [
+                1,
+                1,
+                2
+            ],
+            "engineering": [
+                -1,
+                0,
+                0
+            ],
+            "size": [
+                [
+                    0.5,
+                    1
+                ],
+                [
+                    0.5,
+                    1
+                ],
+                [
+                    0.5,
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_kai_bioplating_assassin",
+            "npc-rebake_npcf_heated_blade_assassin",
+            "npc-rebake_npcf_assassins_mark_assassin",
+            "npc-rebake_npcf_leap_assassin"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_devils_cough_shotgun_assassin",
+            "npc-rebake_npcf_spinning_kick_assassin",
+            "npc-rebake_npcf_shroud_projector_assassin",
+            "npc-rebake_npcf_explosive_knives_assassin",
+            "npc-rebake_npcf_transfix_assassin"
+        ],
+        "power": 100
+    },
 ]

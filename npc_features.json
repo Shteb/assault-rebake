@@ -739,4 +739,224 @@
     ],
     "trigger": "An enemy character in line of sight moves."
   },
+  {
+    "id": "npc-rebake_npcf_kai_bioplating_assassin",
+    "name": "KAI BIOPLATING",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Assassin gains +1 Accuracy on all Agility checks; additionally, they climb and swim at normal speed, ignore difficult terrain, and, when making a standard move, can jump horizontally up to their Speed and vertically up to half their Speed (in any combination).",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_heated_blade_assassin",
+    "name": "HEATED BLADE",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Deals double damage to Prone, Shredded, Immobilized, or Stunned targets.",
+    "tags": [],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [
+      2,
+      3,
+      4
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_assassins_mark_assassin",
+    "name": "ASSASSIN’S MARK",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Assassin chooses a character in line of sight. For the rest of the scene, these effects apply:<ul><li>It has Resistance to that target’s damage.</li><li>Damage it deals to that target cannot be reduced.</li><li>It gains +1 Accuracy on all saves forced by that target.</li></ul><br>The Assassin can only choose a new target if the current target is destroyed.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_leap_assassin",
+    "name": "LEAP",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Assassin flies 6 spaces in any direction but must land on a surface. When they land, characters adjacent to the Assassin must succeed on an Agility save or be knocked Prone.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_devils_cough_shotgun_assassin",
+    "name": "“DEVIL’S COUGH” SHOTGUN",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 2
+      },
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "weapon_type": "Heavy CQB",
+    "attack_bonus": [
+      0,
+      1,
+      2
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          10,
+          15,
+          20
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 3
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      },
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_spinning_kick_assassin",
+    "name": "SPINNING KICK",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Assassin chooses a character next to them: they must pass a Hull save or be pushed 4 spaces away from the Assassin and knocked Prone.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_shroud_projector_assassin",
+    "name": "SHROUD PROJECTOR",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Assassin sets off a charge, creating a Burst 3 concealing shroud. The Assassin gains soft coverwithin the affected area, and characters other than the Assassin fully inside or outside the area cannot draw line of sight into or out of the area. Characters partially within the area are not affected. The Heated Blade deals double damage to characters inside this area (as though they were Prone etc). This effect lasts until the end of the Assassin’s next turn, or until the Assassin uses this system again.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_explosive_knives_assassin",
+    "name": "EXPLOSIVE KNIVES",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Assassin throws an explosive knife at a character within Range 5, making a ranged attack at +2/+4/+6. On a hit, the knife embeds itself in the target and explodes at the end of their next turn, dealing 4/6/8 explosive damage in a Burst 1 area and forcing the struck target to pass a Hull save or become Shredded until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_transfix_assassin",
+    "name": "TRANSFIX",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Assassin jams their blade into a vital part of an adjacent character: that character must pass an Engineering save or become Stunned. While Stunned this way, the Assassin becomes Immobilized.This effect lasts until the Assassin and the target are no longer adjacent or until the target takes structure damage.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ]
+  },
 ]
