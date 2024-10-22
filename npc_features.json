@@ -1933,4 +1933,186 @@
     "effect": "The Demolisher chooses a character within Range 5; that character must pass a Hull save or become embedded with high-tensile cable anchors. If the target is Stunned, they automatically fail this save. While these anchors are embedded, neither the target nor the Demolisher can move more than 5 spacesaway from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can activate this system again and force an embedded character to pass another Hull save or be pulled adjacent to the Demolisher.<br>An embedded character can remove the cables on a hit with a melee attack against Evasion 10. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target.",
     "tags": []
   },
+  {
+    "id": "npc-rebake_npcf_flamethrower_pyro",
+    "name": "FLAMETHROWER",
+    "origin": {
+      "type": "Class",
+      "name": "PYRO",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon deals double Burn to characters that already have any Burn.",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 4
+      }
+    ],
+    "weapon_type": "Heavy CQB",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Burn",
+        "damage": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_firebreak_shield_pyro",
+    "name": "FIREBREAK SHIELD",
+    "origin": {
+      "type": "Class",
+      "name": "PYRO",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "At the end of the Pyro's turn, they create a Line 5 wall of flame, 4 spaces high, in free spaces within Range 3 and line of sight. This wall doesn't block line of sight, but provides soft cover; when an attackis made against a character benefiting from this cover, roll 1d6. On a 4+, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take 2/3/4 burn. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is Stunned, and its effect doesn't stack with Invisible.",
+    "tags": [
+      {
+        "id": "tg_shield"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_explosive_vent_pyro",
+    "name": "EXPLOSIVE VENT",
+    "origin": {
+      "type": "Class",
+      "name": "PYRO",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Pyro clears all heat. All characters within Burst 2 must pass an Agility save or take heat equal to half the amount the Pyro cleared and be knocked Prone.",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_insulated_pyro",
+    "name": "INSULATED",
+    "origin": {
+      "type": "Class",
+      "name": "PYRO",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Pyro has Immunity to Burn.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_napalm_bomb_pyro",
+    "name": "NAPALM BOMB",
+    "origin": {
+      "type": "Class",
+      "name": "PYRO",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Pyro launches a napalm canister that erupts in a Blast 1 curtain of flame within Range 5. All characters within this area must pass an Agility save or take 2/3/4 burn and 2/3/4 heat. The Pyro may instead target a free area with this Blast; if they do, it creates a burning patch on the ground that lasts until this system is used again. Characters that start their turn at least partially within the area or move into it for the first time in a round must pass an Agility save or take 2/3/4 burn and 2/3/4 heat.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": "5"
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_unshielded_reactor_pyro",
+    "name": "UNSHIELDED REACTOR",
+    "origin": {
+      "type": "Class",
+      "name": "PYRO",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Characters that start their turn within Range 3 of the Pyro or who move into Range 3 of them for the first time in a round take 2/3/4 heat, and they make all checks to clear burn with +1 Difficulty as long as they remain within 3 spaces of the Pyro.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_superhot_pyro",
+    "name": "SUPERHOT",
+    "origin": {
+      "type": "Class",
+      "name": "PYRO",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Pyro gains Resistance to all damage from the attack. The attacker must pass an Engineering save or take {2/4/6} Burn.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": "4"
+      }
+    ],
+    "trigger": "The Pyro takes damage from a melee attack."
+  },
+  {
+    "id": "npc-rebake_npcf_explosive_jet_pyro",
+    "name": "EXPLOSIVE JET",
+    "origin": {
+      "type": "Class",
+      "name": "PYRO",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Hostile characters within Burst 2 must pass a Hull save or be knocked back outside of the area and knocked Prone. The Pyro then flies 5 spaces in any direction, but must land after completing that move. If the Pyro is in the Danger Zone, the Hull save is made with +1 Difficulty and this system's Recharge rolls automatically succeed.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_lingering_flames_pyro",
+    "name": "LINGERING FLAMES",
+    "origin": {
+      "type": "Class",
+      "name": "PYRO",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Pyro attacks with the Flamethrower, flames continue to burn in 3 free spaces of their choice within the affected area. When characters start their turn in one of these spaces or enter one for the first time in a round, they take 2/3/4 burn. These spaces last until the end of the scene, or until the Pyro attacks with the Flamethrower.",
+    "tags": []
+  },
 ]

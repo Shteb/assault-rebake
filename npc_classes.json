@@ -1013,4 +1013,105 @@
         ],
         "power": 100
     },
+    {
+        "id": "npcc_pyro",
+        "name": "PYRO",
+        "role": "defender",
+        "info": {
+            "flavor": "First popularized in the wake of the Hercynian Crisis by the lancer Flama and their aptly named Devil Corps, Pyro frames are reviled across the galaxy as the embodiment of the pure destructive power held by militarized states and corpro-states. Their use is common within organizations for which the ends justify the means. Pyros are well-armored, and better insulated than most chassis of similar gross weight, designed to manage incredible internal heat while projecting volatile mixes of chemicals and flame toward their enemies. Pyros are often used in urban and jungle warfare, where they can be used to root out entrenched defenders.",
+            "tactics": "Pyros are slow, resilient defenders that deny areas through a combination of heat and burn, and are especially threatening against characters already suffering from burn. Position Firebreakwhere it can protect the most allies from incoming attacks while also threatening to deal burn to anyonewho crosses it, allowing the Pyro to follow up with a powerful attack from their Flamethrower."
+        },
+        "stats": {
+            "armor": [
+                3,
+                3,
+                3
+            ],
+            "hp": [
+                10,
+                13,
+                16
+            ],
+            "evade": [
+                8,
+                9,
+                10
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                12,
+                12,
+                12
+            ],
+            "speed": [
+                2,
+                2,
+                2
+            ],
+            "sensor": [
+                8,
+                8,
+                8
+            ],
+            "save": [
+                11,
+                13,
+                15
+            ],
+            "hull": [
+                1,
+                2,
+                3
+            ],
+            "agility": [
+                -1,
+                -1,
+                -1
+            ],
+            "systems": [
+                -1,
+                -1,
+                -1
+            ],
+            "engineering": [
+                3,
+                4,
+                5
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_flamethrower_pyro",
+            "npc-rebake_npcf_firebreak_shield_pyro",
+            "npc-rebake_npcf_explosive_vent_pyro",
+            "npc-rebake_npcf_insulated_pyro"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_napalm_bomb_pyro",
+            "npc-rebake_npcf_unshielded_reactor_pyro",
+            "npc-rebake_npcf_superhot_pyro",
+            "npc-rebake_npcf_explosive_jet_pyro",
+            "npc-rebake_npcf_lingering_flames_pyro"
+        ],
+        "power": 100
+    },
 ]
