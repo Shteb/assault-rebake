@@ -1,27 +1,90 @@
-[{
-        "id": "rebake_npc_classes_assault",
+[
+    {
+        "id": "npc-rebake_npc_classes_assault",
         "name": "Assault",
         "info": {
             "flavor": "Assault mechs are the most common primary battle frames found throughout the galaxy. Fitted with a heavy rifle, a sidearm, and a suite of systems that enhance movement, targeting, and defensibility, they are straightforward, reliable, and hardy combatants. The pilots of Assault mechs are also the cheapest to train and outfit, but that doesn’t make them any less dangerous.",
             "tactics": "The Assault is a straightforward, damage-dealing striker that emphasizes the importance of taking cover. Equipped to do good damage at decent range, they want to flank their opponents or drive them out of cover in order to maximize their effectiveness. <strong>Hunker Down</strong> can increase their survivability, but leaves them less able to maneuver in return."
         },
         "stats": {
-            "armor": [1, 1, 1],
-            "hp": [15, 18, 21],
-            "evade": [8, 10, 12],
-            "edef": [8, 9, 10],
-            "heatcap": [8, 8, 8],
-            "speed": [4, 4, 4],
-            "sensor": [10, 10, 10],
-            "save": [10, 12, 14],
-            "hull": [1, 2, 3],
-            "agility": [1, 2, 3],
-            "systems": [1, 2, 3],
-            "engineering": [1, 2, 3],
-            "size": [[1], [1], [1]],
-            "activations": [1, 1, 1]
+            "armor": [
+                1,
+                1,
+                1
+            ],
+            "hp": [
+                15,
+                18,
+                21
+            ],
+            "evade": [
+                8,
+                10,
+                12
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                8,
+                8,
+                8
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                1,
+                2,
+                3
+            ],
+            "agility": [
+                1,
+                2,
+                3
+            ],
+            "systems": [
+                1,
+                2,
+                3
+            ],
+            "engineering": [
+                1,
+                2,
+                3
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
         },
-		"base_features": [
+        "base_features": [
             "assault-rebake_npcf_weapon_heavy_assault",
             "assault-rebake_npcf_weapon_combat_knife",
             "assault-rebake_npcf_trait_hunker_down"
@@ -37,43 +100,206 @@
         "clocks": [],
         "role": "striker",
         "power": 100
-},
-{
-    "id": "rebake_npc_classes_aegis",
-    "name": "Aegis",
-    "info": {
-        "flavor": "",
-        "tactics": "Aegises are tough and defensive support units. They are most effective when positioned so that their Defense Net can cover as many allies as possible, as the Aegis itself is slow-moving and can't reposition quickly. They can also protect their allies from the effects of Impaired and Slowed while being immune to those conditions themselves."
     },
-    "stats": {
-        "armor": [2,2,2],
-        "hp": [14,16,18],
-        "evade": [7,8,9],
-        "edef": [10,12,14],
-        "heatcap": [10,10,10],
-        "speed": [3,3,3],
-        "sensor": [10, 10, 10],
-        "save": [10, 12, 14],
-        "hull": [0,0,0],
-        "agility": [-2,-2,-2],
-        "systems": [2,3,4],
-        "engineering": [2,3,4],
-        "size": [[1], [1], [1]],
-        "activations": [1, 1, 1]
+    {
+        "id": "rebake_npc_classes_aegis",
+        "name": "Aegis",
+        "info": {
+            "flavor": "",
+            "tactics": "Aegises are tough and defensive support units. They are most effective when positioned so that their Defense Net can cover as many allies as possible, as the Aegis itself is slow-moving and can't reposition quickly. They can also protect their allies from the effects of Impaired and Slowed while being immune to those conditions themselves."
+        },
+        "stats": {
+            "armor": [
+                2,
+                2,
+                2
+            ],
+            "hp": [
+                14,
+                16,
+                18
+            ],
+            "evade": [
+                7,
+                8,
+                9
+            ],
+            "edef": [
+                10,
+                12,
+                14
+            ],
+            "heatcap": [
+                10,
+                10,
+                10
+            ],
+            "speed": [
+                3,
+                3,
+                3
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                0,
+                0,
+                0
+            ],
+            "agility": [
+                -2,
+                -2,
+                -2
+            ],
+            "systems": [
+                2,
+                3,
+                4
+            ],
+            "engineering": [
+                2,
+                3,
+                4
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_light_laser_aegis",
+            "npc-rebake_npcf_defense_net_aegis",
+            "npc-rebake_npcf_regenerative_shielding_aegis"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_focused_shielding_aegis",
+            "npc-rebake_npcf_guardian_aegis",
+            "npc-rebake_npcf_ring_of_fire_aegis",
+            "npc-rebake_npcf_ha_blackwall_system_aegis"
+        ],
+        "tables": [],
+        "clocks": [],
+        "role": "support",
+        "power": 100
     },
-    "base_features": [
-        "npc-rebake_npcf_light_laser_aegis",
-        "npc-rebake_npcf_defense_net_aegis",
-        "npc-rebake_npcf_regenerative_shielding_aegis"
-    ],
-    "optional_features": [
-        "npc-rebake_npcf_focused_shielding_aegis",
-        "npc-rebake_npcf_guardian_aegis",
-        "npc-rebake_npcf_ring_of_fire_aegis",
-        "npc-rebake_npcf_ha_blackwall_system_aegis"
-    ],
-    "tables": [],
-    "clocks": [],
-    "role": "support",
-    "power": 100
-}]
+    {
+        "id": "npcc_ace",
+        "name": "ACE",
+        "role": "striker",
+        "info": {
+            "flavor": "The first person to embody the “Ace” archetype was Aisling Jensen, an auxiliary pilot active during the liberation of Verdana. Knights of the chassis and sky, Aces like Aisling throw their mechs into battle with high-speed strafing runs, agile maneuvers, and reckless feats of daring. Cocky and self-assured, Aces relish a good duel.",
+            "tactics": "Aces are very fast and reactive strikers that can use Barrel Roll to mitigate dangerous or high damage attacks. This is most effective against heavy weapons. Attacking from the air means many of their attacks will be able to more easily draw line of sight and fire around cover, allowing them to dealconsistent damage, and they have weapons and abilities that benefit from Lock On such as their Missile Launcher. Relatively low HP makes Aces vulnerable to things like Reliable damage, and Barrel Roll can be disrupted by abilities such as tech attacks that cause conditions like Slowed."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                10,
+                12,
+                14
+            ],
+            "evade": [
+                12,
+                15,
+                18
+            ],
+            "edef": [
+                8,
+                8,
+                10
+            ],
+            "heatcap": [
+                8,
+                8,
+                8
+            ],
+            "speed": [
+                5,
+                6,
+                7
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                -2,
+                -2,
+                -2
+            ],
+            "agility": [
+                3,
+                4,
+                6
+            ],
+            "systems": [
+                1,
+                2,
+                3
+            ],
+            "engineering": [
+                0,
+                1,
+                1
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_ssc_flight_system_ace",
+            "npc-rebake_npcf_missile_launcher_ace",
+            "npc-rebake_npcf_barrel_roll_ace"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_strafe_ace",
+            "npc-rebake_npcf_missile_swarm_ace",
+            "npc-rebake_npcf_full_throttle_ace",
+            "npc-rebake_npcf_countermeasures_ace",
+            "npc-rebake_npcf_emergency_jettison_ace"
+        ],
+        "power": 100
+    },
+]

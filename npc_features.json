@@ -10,8 +10,7 @@
     "locked": false,
     "type": "Weapon",
     "effect": "This weapon gains <strong>+1 Accuracy</strong> against targets that do not have <strong>cover.</strong>",
-    "tags": [
-    ],
+    "tags": [],
     "weapon_type": "Heavy Rifle",
     "attack_bonus": [
       0,
@@ -45,8 +44,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "tags": [
-    ],
+    "tags": [],
     "weapon_type": "Auxiliary Melee",
     "attack_bonus": [
       1,
@@ -69,7 +67,8 @@
         "val": 1
       }
     ]
-},{
+  },
+  {
     "id": "npc-rebake_npcf_trait_hunker_down",
     "name": "HUNKER DOWN",
     "origin": {
@@ -87,7 +86,8 @@
       }
     ],
     "trigger": "An attack hits the Assault, but damage hasn't been rolled yet."
-},{
+  },
+  {
     "id": "npc-rebake_npcf_trait_rank_discipline",
     "name": "RANK DISCIPLINE",
     "origin": {
@@ -98,9 +98,9 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Assault gains <strong>+1 Accuracy</strong> on all attacks, checks, and saves while adjacent to at least one allied character with the <strong>Mech</strong> tag.",
-    "tags": [
-    ]
-},{
+    "tags": []
+  },
+  {
     "id": "npc-rebake_npcf_weapon_underslung_grenade",
     "name": "UNDERSLUNG GRENADE LAUNCER",
     "origin": {
@@ -111,7 +111,8 @@
     "locked": false,
     "type": "Weapon",
     "effect": "The Assault gains <strong>Resistance to all damage from the attack</strong>, but becomes <strong>Slowed</strong> until the end of its next turn.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_knockback",
         "val": 2
       },
@@ -139,12 +140,14 @@
       {
         "type": "Range",
         "val": 10
-      },{
+      },
+      {
         "type": "Blast",
         "val": 1
       }
     ]
-},{
+  },
+  {
     "id": "npc-rebake_npcf_system_micromissile_barrage",
     "name": "MICRO-MISSILE BARRAGE",
     "origin": {
@@ -155,7 +158,8 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Assault launches a <strong>Line 10</strong> volley of micro-missiles. All characters within the affected area must succeed on a <strong>Hull</strong> save or take {6/8/10} e explosive damage. On a successful save, they take half damage.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_recharge",
         "val": 6
       },
@@ -163,7 +167,8 @@
         "id": "tg_full_action"
       }
     ]
-},{
+  },
+  {
     "id": "npc-rebake_npcf_trait_flank_and_fix",
     "name": "FLANK AND FIX",
     "origin": {
@@ -181,7 +186,8 @@
       }
     ],
     "trigger": "A character who doesn't have cover from the Assault is successfully attacked by an allied character."
-},{
+  },
+  {
     "id": "npc-rebake_npcf_trait_stormtrooper",
     "name": "STORMTROOPER",
     "origin": {
@@ -192,145 +198,349 @@
     "locked": false,
     "type": "Trait",
     "effect": "<strong>Hunker Down</strong> no longer causes the Assault to become <strong>Slowed</strong>. Whenever the Assault uses <strong>Hunker Down</strong>, they may also move up to their <strong>Speed</strong> as part of the reaction.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_light_laser_aegis",
+    "name": "LIGHT LASER",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "type": "Burn",
+        "damage": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_defense_net_aegis",
+    "name": "DEFENSE NET",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a Burst 2 area. While active, the Aegis is Immobilized, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive +2 Difficulty and cannot result in critical hits; whenever an attack receiving this Difficulty misses, the Aegis takes 2 heat. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain Immunity to Impaired and Slowed, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a protocol or is destroyed. If the Aegis exceeds their Heat Cap, becomes Stunned, or becomes Jammed while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.",
     "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_shield"
+      },
+      {
+        "id": "tg_full_action"
+      }
     ]
-},
-{
-  "id": "npc-rebake_npcf_light_laser_aegis",
-  "name": "LIGHT LASER",
-  "origin": {
-    "type": "Class",
-    "name": "AEGIS",
-    "base": true
   },
-  "locked": false,
-  "type": "Weapon",
-  "effect": "",
-  "tags": [],
-  "weapon_type": "Main Cannon",
-  "attack_bonus": [
-    1,
-    2,
-    3
-  ],
-  "damage": [{
-      "type": "Energy",
-      "damage": [
-        3,
-        3,
-        3
-      ]
+  {
+    "id": "npc-rebake_npcf_regenerative_shielding_aegis",
+    "name": "REGENERATIVE SHIELDING",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": true
     },
-    {
-      "type": "Burn",
-      "damage": [
-        2,
-        3,
-        4
-      ]
-    }
-  ],
-  "range": [{
-    "type": "Range",
-    "val": 8
-  }],
-  "on_hit": ""
-},
-{
-  "id": "npc-rebake_npcf_defense_net_aegis",
-  "name": "DEFENSE NET",
-  "origin": {
-    "type": "Class",
-    "name": "AEGIS",
-    "base": true
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Aegis has Immunity to Impaired and Slowed and can’t be critically hit.",
+    "immunity": [
+      "Impaired",
+      "Slowed",
+      "Critical Hits"
+    ],
+    "tags": []
   },
-  "locked": false,
-  "type": "System",
-  "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a Burst 2 area. While active, the Aegis is Immobilized, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive +2 Difficulty and cannot result in critical hits; whenever an attack receiving this Difficulty misses, the Aegis takes 2 heat. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain Immunity to Impaired and Slowed, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a protocol or is destroyed. If the Aegis exceeds their Heat Cap, becomes Stunned, or becomes Jammed while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.",
-  "tags": [{
-      "id": "tg_recharge",
-      "val": 4
+  {
+    "id": "npc-rebake_npcf_focused_shielding_aegis",
+    "name": "FOCUSED SHIELDING",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": false
     },
-    {
-      "id": "tg_shield"
+    "locked": false,
+    "type": "Trait",
+    "effect": "Trigger: An allied character within your Defense Net area is hit by a ranged or melee attack.<br>Effect: That character gains resistance to all damage from the attack, then the Defense Net is deactivated.",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_guardian_aegis",
+    "name": "GUARDIAN",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": false
     },
-    {
-      "id": "tg_full_action"
-    }
-  ]
-},
-{
-  "id": "npc-rebake_npcf_regenerative_shielding_aegis",
-  "name": "REGENERATIVE SHIELDING",
-  "origin": {
-    "type": "Class",
-    "name": "AEGIS",
-    "base": true
+    "locked": false,
+    "type": "Trait",
+    "effect": "Allied characters can use the Aegis for hard cover.",
+    "tags": []
   },
-  "locked": false,
-  "type": "Trait",
-  "effect": "The Aegis has Immunity to Impaired and Slowed and can’t be critically hit.",
-  "immunity": ["Impaired", "Slowed", "Critical Hits"],
-  "tags": []
-},
-{
-  "id": "npc-rebake_npcf_focused_shielding_aegis",
-  "name": "FOCUSED SHIELDING",
-  "origin": {
-    "type": "Class",
-    "name": "AEGIS",
-    "base": false
-  },
-  "locked": false,
-  "type": "Trait",
-  "effect": "Trigger: An allied character within your Defense Net area is hit by a ranged or melee attack.<br>Effect: That character gains resistance to all damage from the attack, then the Defense Net is deactivated.",
-  "tags": [      {
-    "id": "tg_reaction"
-  },      {
-    "id": "tg_round",
-    "val": 1
-  }]
-},{
-  "id": "npc-rebake_npcf_guardian_aegis",
-  "name": "GUARDIAN",
-  "origin": {
-    "type": "Class",
-    "name": "AEGIS",
-    "base": false
-  },
-  "locked": false,
-  "type": "Trait",
-  "effect": "Allied characters can use the Aegis for hard cover.",
-  "tags": []
-},{
-  "id": "npc-rebake_npcf_ring_of_fire_aegis",
-  "name": "RING OF FIRE",
-  "origin": {
-    "type": "Class",
-    "name": "AEGIS",
-    "base": false
-  },
-  "locked": false,
-  "type": "Trait",
-  "effect": "Any hostile characters that start their turn inside the area affected by the Defense Net or that enter it for the first time in a round take 2 heat and become Shredded until they leave the area.",
-  "tags": []
-},{
-  "id": "npc-rebake_npcf_ha_blackwall_system_aegis",
-  "name": "HA BLACKWALL SYSTEM",
-  "origin": {
-    "type": "Class",
-    "name": "AEGIS",
-    "base": false
-  },
-  "locked": false,
-  "type": "System",
-  "effect": "As a full action, the Aegis generates a pitch-black wall of blinkspace 5 spaces high covering a line10 area starting within range 5. All spaces must be free. The wall blocks line of sight, effects or attacks and provides hard cover. Characters that start their turn in the wall or who enter it on their turn roll 1d6. On a 4+ they are removed from play until the end of their next turn, when they reappear in a free space of their choice in Range 10 of the wall. If there are no free spaces, they return when a space becomes free. The wall lasts until the Aegis ends it as a quick action, or is destroyed. When it ends, characters remaining in blinkspace reappear.",
-  "tags": [{
-      "id": "tg_limited",
-      "val": 1
+  {
+    "id": "npc-rebake_npcf_ring_of_fire_aegis",
+    "name": "RING OF FIRE",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": false
     },
-    {
-      "id": "tg_full_action"
-    }
-  ]
-},]
+    "locked": false,
+    "type": "Trait",
+    "effect": "Any hostile characters that start their turn inside the area affected by the Defense Net or that enter it for the first time in a round take 2 heat and become Shredded until they leave the area.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_ha_blackwall_system_aegis",
+    "name": "HA BLACKWALL SYSTEM",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "As a full action, the Aegis generates a pitch-black wall of blinkspace 5 spaces high covering a line10 area starting within range 5. All spaces must be free. The wall blocks line of sight, effects or attacks and provides hard cover. Characters that start their turn in the wall or who enter it on their turn roll 1d6. On a 4+ they are removed from play until the end of their next turn, when they reappear in a free space of their choice in Range 10 of the wall. If there are no free spaces, they return when a space becomes free. The wall lasts until the Aegis ends it as a quick action, or is destroyed. When it ends, characters remaining in blinkspace reappear.",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_ssc_flight_system_ace",
+    "name": "SSC FLIGHT SYSTEM",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ace can count any or all of their movement as flying.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_missile_launcher_ace",
+    "name": "MISSILE LAUNCHER",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Attacks made with this weapon against targets that have Lock On ignore cover.",
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "weapon_type": "Main Launcher",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_barrel_roll_ace",
+    "name": "BARREL ROLL",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Ace performs a barrel roll, flying 6 spaces in any direction and causing the attack to miss. This movement ignores engagement and does not provoke reactions. This reaction can't be used if the Ace can't move (e.g. if it's Slowed or Immobilized).",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "A melee or ranged attack hits the Ace."
+  },
+  {
+    "id": "npc-rebake_npcf_strafe_ace",
+    "name": "STRAFE",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "1/round, the Ace can fly spaces equal to their Speed in any direction, automatically dealing 3/4/5 kinetic damage to one character below or adjacent to the path taken, plus any number of additional characters below or adjacent to the path taken who have Lock On.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_missile_swarm_ace",
+    "name": "MISSILE SWARM",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon deals double damage to characters with Lock On, and doesn’t affect allied characters.",
+    "tags": [
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "weapon_type": "Main Launcher",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Burst",
+        "val": 5
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_full_throttle_ace",
+    "name": "FULL THROTTLE",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Ace moves 10 spaces in any direction and gains soft cover until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "trigger": "An enemy character in line of sight moves."
+  },
+  {
+    "id": "npc-rebake_npcf_countermeasures_ace",
+    "name": "COUNTERMEASURES",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Whenever the Ace would gain a condition from a hostile character, it may spend a charge from this system to ignore that condition. The Ace then takes 4 heat, and the character that inflicted that condition gains Lock On.",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": "1"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_emergency_jettison_ace",
+    "name": "EMERGENCY JETTISON",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever the Ace is destroyed, it instead moves up to its Speed and immediately lands, remaining at 1 HP. The SSC Flight System is then permanently destroyed, and all of the Ace's other systems and traits are disabled. If the SSC Flight System is already destroyed, this trait has no effect.",
+    "tags": []
+  },
+]

@@ -1,6 +1,9 @@
 # Kai's NPC Rebake LCP
 An unpacked LCP containing the playtest versions of Kai's NPC rebakes. For more info, please search the Pilot.net Discord for his pdfs.
-## Current Progress: 5%
+### Convention & Format
+All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for example.
+## Current Progress: 15%
 - Assault: Done
 - Aegis: Done
+- Ace: Done
 - All others not yet worked on.
