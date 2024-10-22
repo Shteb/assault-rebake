@@ -543,4 +543,200 @@
     "effect": "Whenever the Ace is destroyed, it instead moves up to its Speed and immediately lands, remaining at 1 HP. The SSC Flight System is then permanently destroyed, and all of the Ace's other systems and traits are disabled. If the SSC Flight System is already destroyed, this trait has no effect.",
     "tags": []
   },
+  {
+    "id": "npc-rebake_npcf_light_machine_gun_archer",
+    "name": "LIGHT MACHINE GUN",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": "{3/4/5}"
+      }
+    ],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_suppress_archer",
+    "name": "SUPPRESS",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Archer chooses a target within line of sight and Range 10: they become Impaired and the Archer gains the Moving Target reaction.<br>his effect lasts until the Archer uses Moving Target; the target damages the Archer or leaves the Archer’s line of sight; the Archer is Stunned, Jammed, or destroyed; the Archer chooses a new target for this action; or, the Archer ends it as a free action.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": ""
+  },
+  {
+    "id": "npc-rebake_npcf_moving_target_archer",
+    "name": "MOVING TARGET",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Archer makes an attack against them with the Light Machine Gun. This attack interrupts and resolves before the triggering movement",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "The Archer’s Suppress target starts to move."
+  },
+  {
+    "id": "npc-rebake_npcf_covering_fire_archer",
+    "name": "COVERING FIRE",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Archer creates a Blast 3 area within Range 10 and line of sight, and gains the Got Your Backreaction. This area lasts until the end of the Archer's next turn or until the Archer creates a new area, and this reaction can be taken as many times per round as it is triggered.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_got_your_back_archer",
+    "name": "GOT YOUR BACK",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Archer may attack that character with the Light Machine Gun.",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "A character in the Covering Fire area makes an attack."
+  },
+  {
+    "id": "npc-rebake_npcf_impending_threat_archer",
+    "name": "IMPENDING THREAT",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Moving Target's trigger now includes the target taking any action that does not target the Archer",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_flush_out_archer",
+    "name": "FLUSH OUT",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Archer chooses a character within Range 10: that character must either move their Speed in a direction of the Archer's choice, or allow the Archer to attack them with the Light Machine Gun. This movement ignores engagement and does not provoke reactions.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_blinding_shells_archer",
+    "name": "BLINDING SHELLS",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "After the Archer makes a successful attack, they may force their target to pass an Engineering save. Ona failure, the target only has line of sight to adjacent spaces until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_fire_and_maneuver_archer",
+    "name": "FIRE AND MANEUVER",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Archer may Boost. If they end this movement within Range 10 and line of sight of the triggering character, that character takes 3/4/5 kinetic damage.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "An enemy character in line of sight moves."
+  },
 ]

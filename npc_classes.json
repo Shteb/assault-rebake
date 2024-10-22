@@ -102,7 +102,7 @@
         "power": 100
     },
     {
-        "id": "rebake_npc_classes_aegis",
+        "id": "npc-rebake_classes_aegis",
         "name": "Aegis",
         "info": {
             "flavor": "",
@@ -299,6 +299,107 @@
             "npc-rebake_npcf_full_throttle_ace",
             "npc-rebake_npcf_countermeasures_ace",
             "npc-rebake_npcf_emergency_jettison_ace"
+        ],
+        "power": 100
+    },
+    {
+        "id": "npc-rebake_npcc_archer",
+        "name": "ARCHER",
+        "role": "controller",
+        "info": {
+            "flavor": "The basis of the Archer archetype, Ursa Major’s Gatekeeper Key-II, was popularized by Ichabod Carden’s heroic actions in the Battle of Terramoto. Archer-archetype mechs sacrifice armor for powerful targeting and superpositional maneuvering systems, making them especially popular with pilots who prefer to have control over the precise destination of each shot.",
+            "tactics": "Archers excel at inflicting “choice punishment” on their enemies – they make characters choose between taking certain actions or letting the Archer attack them. Use Archers to lock down mobile or hard-hitting PCs or to cover for more vulnerable allies. Keep in mind that Archers are vulnerable to having their ability to use reactions disabled, such as being Jammed or Grappled."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                1
+            ],
+            "hp": [
+                16,
+                18,
+                20
+            ],
+            "evade": [
+                8,
+                10,
+                12
+            ],
+            "edef": [
+                8,
+                10,
+                12
+            ],
+            "heatcap": [
+                8,
+                8,
+                8
+            ],
+            "speed": [
+                5,
+                5,
+                6
+            ],
+            "sensor": [
+                15,
+                15,
+                15
+            ],
+            "save": [
+                11,
+                13,
+                16
+            ],
+            "hull": [
+                -1,
+                -1,
+                -1
+            ],
+            "agility": [
+                2,
+                3,
+                4
+            ],
+            "systems": [
+                2,
+                3,
+                4
+            ],
+            "engineering": [
+                -1,
+                -1,
+                -1
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_light_machine_gun_archer",
+            "npc-rebake_npcf_suppress_archer",
+            "npc-rebake_npcf_moving_target_archer"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_covering_fire_archer",
+            "npc-rebake_npcf_got_your_back_archer",
+            "npc-rebake_npcf_impending_threat_archer",
+            "npc-rebake_npcf_flush_out_archer",
+            "npc-rebake_npcf_blinding_shells_archer",
+            "npc-rebake_npcf_fire_and_maneuver_archer"
         ],
         "power": 100
     },
