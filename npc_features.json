@@ -1166,4 +1166,200 @@
       }
     ]
   },
+  {
+    "id": "npc-rebake_npcf_rotary_grenade_launcher_bastion",
+    "name": "ROTARY GRENADE LAUNCHER",
+    "origin": {
+      "type": "Class",
+      "name": "BASTION",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "An adjacent allied character can spend a quick action to reload this weapon.",
+    "tags": [
+      {
+        "id": "tg_arcing"
+      },
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "weapon_type": "Main Launcher",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_heavy_assault_shield_bastion",
+    "name": "HEAVY ASSAULT SHIELD",
+    "origin": {
+      "type": "Class",
+      "name": "BASTION",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 1
+      }
+    ],
+    "weapon_type": "Heavy Melee",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": "Target must pass a Hull save or be knocked Prone."
+  },
+  {
+    "id": "npc-rebake_npcf_friendly_interdiction_bastion",
+    "name": "FRIENDLY INTERDICTION",
+    "origin": {
+      "type": "Class",
+      "name": "BASTION",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Bastion and one allied character adjacent to it gain Resistance to all damage dealt by one characterwithin line of sight. The Bastion may choose a new allied character or a new character to gain Resistance from as a protocol. The allied character loses Resistance if they break adjacency.",
+    "tags": [
+      {
+        "id": "tg_protocol"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_guardian_bastion",
+    "name": "GUARDIAN",
+    "origin": {
+      "type": "Class",
+      "name": "BASTION",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Allied characters can use the Bastion for hard cover.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_near_threat_denial_system_bastion",
+    "name": "NEAR-THREAT DENIAL SYSTEM",
+    "origin": {
+      "type": "Class",
+      "name": "BASTION",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When characters within Range 3 attack the Bastion or a character being protected by Friendly Interdiction, they take 2/3/4 AP explosive damage before rolling.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_siege_guardian_bastion",
+    "name": "SIEGE GUARDIAN",
+    "origin": {
+      "type": "Class",
+      "name": "BASTION",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Allied characters gain Resistance to damage from Blast, Burst, Line, and Cone attacks while they’re adjacent to the Bastion.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_fearless_defender_bastion",
+    "name": "FEARLESS DEFENDER",
+    "origin": {
+      "type": "Class",
+      "name": "BASTION",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Bastion moves to a space adjacent to the triggering character and takes the damage instead. The Bastion may then immediately use Friendly Interdiction on the triggering character.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "An allied character in range 5 of the Bastion takes damage, and the Bastion isn’t Immobilized, Slowed, Stunned or otherwise cannot move."
+  },
+  {
+    "id": "npc-rebake_npcf_deathcounter_bastion",
+    "name": "DEATHCOUNTER",
+    "origin": {
+      "type": "Class",
+      "name": "BASTION",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Bastion is wreathed in a crackling energy field visible to all characters. The first time the Bastion issuccessfully hit by a ranged or melee attack each round, all damage is reduced to 0, after which the field visibly dissipates until the start of the next round.",
+    "tags": [
+      {
+        "id": "tg_shield"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_stack_up_bastion",
+    "name": "STACK UP",
+    "origin": {
+      "type": "Class",
+      "name": "BASTION",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Bastion takes its standard move or Boosts, an adjacent allied character can choose to move with them, mirroring their movement. This allied character's movement ignores engagement and does not provoke reactions. Each allied character can only move a number of spaces this way each round equal to their Speed.",
+    "tags": []
+  },
 ]

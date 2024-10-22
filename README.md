@@ -9,4 +9,5 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Archer: Done
 - Assassin: Done
 - Barricade: Done
+- Bastion: Done
 - All others not yet worked on.

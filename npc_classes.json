@@ -609,4 +609,105 @@
         ],
         "power": 100
     },
+    {
+        "id": "npcc_bastion",
+        "name": "BASTION",
+        "role": "defender",
+        "info": {
+            "flavor": "Bastions trade the pure defensive edge of Aegis-archetype mechs for greater mobility. They blend area-denial offensive capabilities with hardened defense systems and advanced communication suites. These mechs are favorites of many strong squadron commanders. The efficacy of the pairing was best displayed by the actions of Zander Reeves, a field-promoted auxiliary officer, during engagements with the “Space Between” interstellar pirate guild in the Dromeda system.",
+            "tactics": "Bastions are hardy defenders that use their bulk and size to protect themselves and nearby allies. Use Friendly Interdiction to defend against distant enemies, like artillery and snipers, or to set up favorable engagements at closer range. Bastions (and their wards) are vulnerable to Knockback and forced movement, as these effects break many of their abilities"
+        },
+        "stats": {
+            "armor": [
+                3,
+                3,
+                4
+            ],
+            "hp": [
+                10,
+                12,
+                14
+            ],
+            "evade": [
+                8,
+                10,
+                12
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                8,
+                10,
+                12
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                5,
+                5,
+                5
+            ],
+            "save": [
+                8,
+                10,
+                12
+            ],
+            "hull": [
+                2,
+                4,
+                6
+            ],
+            "agility": [
+                -3,
+                -3,
+                -3
+            ],
+            "systems": [
+                0,
+                0,
+                0
+            ],
+            "engineering": [
+                2,
+                3,
+                4
+            ],
+            "size": [
+                [
+                    2
+                ],
+                [
+                    2
+                ],
+                [
+                    2
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_rotary_grenade_launcher_bastion",
+            "npc-rebake_npcf_heavy_assault_shield_bastion",
+            "npc-rebake_npcf_friendly_interdiction_bastion",
+            "npc-rebake_npcf_guardian_bastion"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_near_threat_denial_system_bastion",
+            "npc-rebake_npcf_siege_guardian_bastion",
+            "npc-rebake_npcf_fearless_defender_bastion",
+            "npc-rebake_npcf_deathcounter_bastion",
+            "npc-rebake_npcf_stack_up_bastion"
+        ],
+        "power": 100
+    },
 ]
