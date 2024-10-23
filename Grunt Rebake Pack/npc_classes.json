@@ -1,0 +1,378 @@
+[
+    {
+        "id": "grunt-rebake_gruntc_artillery",
+        "name": "ARTILLERY GRUNT",
+        "role": "artillery",
+        "info": {
+            "flavor": "",
+            "tactics": " Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                1,
+                1,
+                1
+            ],
+            "evade": [
+                8,
+                9,
+                10
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                1,
+                1,
+                1
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                -1,
+                0,
+                1
+            ],
+            "agility": [
+                -1,
+                0,
+                1
+            ],
+            "systems": [
+                -1,
+                0,
+                1
+            ],
+            "engineering": [
+                -1,
+                0,
+                1
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npcf_flamethrower_pyro",
+        ],
+        "optional_features": [
+            "npcf_unshielded_reactor_pyro",
+        ],
+        "power": 100
+    },
+    {
+        "id": "grunt-rebake_gruntc_artillery",
+        "name": "ARTILLERY GRUNT",
+        "role": "artillery",
+        "info": {
+            "flavor": "",
+            "tactics": " Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                1,
+                1,
+                1
+            ],
+            "evade": [
+                8,
+                9,
+                10
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                1,
+                1,
+                1
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                -1,
+                0,
+                1
+            ],
+            "agility": [
+                -1,
+                0,
+                1
+            ],
+            "systems": [
+                -1,
+                0,
+                1
+            ],
+            "engineering": [
+                -1,
+                0,
+                1
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npcf_flamethrower_pyro",
+        ],
+        "optional_features": [
+            "npcf_unshielded_reactor_pyro",
+        ],
+        "power": 100
+    },
+    {
+        "id": "grunt-rebake_gruntc_artillery",
+        "name": "ARTILLERY GRUNT",
+        "role": "artillery",
+        "info": {
+            "flavor": "",
+            "tactics": " Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                1,
+                1,
+                1
+            ],
+            "evade": [
+                8,
+                9,
+                10
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                1,
+                1,
+                1
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                -1,
+                0,
+                1
+            ],
+            "agility": [
+                -1,
+                0,
+                1
+            ],
+            "systems": [
+                -1,
+                0,
+                1
+            ],
+            "engineering": [
+                -1,
+                0,
+                1
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npcf_flamethrower_pyro",
+        ],
+        "optional_features": [
+            "npcf_unshielded_reactor_pyro",
+        ],
+        "power": 100
+    },
+    {
+        "id": "grunt-rebake_gruntc_artillery",
+        "name": "ARTILLERY GRUNT",
+        "role": "artillery",
+        "info": {
+            "flavor": "",
+            "tactics": " Grunts are a step above cannon fodder. They typically take to the field in mass-produced or stock mechs—trained for discipline rather than excellence. Grunts may not be threats on their own, but in a group, they become an overwhelming mass of bodies and projectiles that threatens even the most powerful enemies."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                1,
+                1,
+                1
+            ],
+            "evade": [
+                8,
+                9,
+                10
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                1,
+                1,
+                1
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                -1,
+                0,
+                1
+            ],
+            "agility": [
+                -1,
+                0,
+                1
+            ],
+            "systems": [
+                -1,
+                0,
+                1
+            ],
+            "engineering": [
+                -1,
+                0,
+                1
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npcf_flamethrower_pyro",
+        ],
+        "optional_features": [
+            "npcf_unshielded_reactor_pyro",
+        ],
+        "power": 100
+    },
+]
