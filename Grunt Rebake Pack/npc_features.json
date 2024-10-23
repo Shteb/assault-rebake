@@ -1,0 +1,166 @@
+[
+    {
+        "id": "grunt-rebake_gruntf_artillery_type_artillery",
+        "name": "ARTILLERY TYPE",
+        "origin": {
+            "type": "Class",
+            "name": "ARTILLERY GRUNT",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "Choose either the DMR or Shoulder Mortar weapon.",
+        "tags": []
+    },
+    {
+        "id": "grunt-rebake_gruntf_dmr_artillery",
+        "name": "DMR",
+        "origin": {
+            "type": "Class",
+            "name": "ARTILLERY GRUNT",
+            "base": false
+        },
+        "locked": false,
+        "type": "Weapon",
+        "effect": "This weapon gains AP against targets with Lock On.",
+        "tags": [
+            {
+                "id": "tg_ordnance"
+            }
+        ],
+        "weapon_type": "Main Rifle",
+        "attack_bonus": [
+            0
+        ],
+        "accuracy": [
+            1
+        ],
+        "damage": [
+            {
+                "type": "kinetic",
+                "damage": [
+                    6,
+                    7,
+                    8
+                ]
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": 15
+            }
+        ],
+        "on_hit": ""
+    },
+    {
+        "id": "grunt-rebake_gruntf_shoulder_mortar_artillery",
+        "name": "SHOULER MORTAR",
+        "origin": {
+            "type": "Class",
+            "name": "ARTILLERY GRUNT",
+            "base": false
+        },
+        "locked": false,
+        "type": "Weapon",
+        "effect": "Targets with Lock On hit by this weapon take +2 bonus damage.",
+        "tags": [
+            {
+                "id": "tg_ordnance"
+            },
+            {
+                "id": "tg_arcing"
+            }
+        ],
+        "weapon_type": "Main Cannon",
+        "attack_bonus": [
+            1,
+            2,
+            3
+        ],
+        "accuracy": [
+            -1
+        ],
+        "damage": [
+            {
+                "type": "kinetic",
+                "damage": [
+                    6,
+                    7,
+                    8
+                ]
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": 15
+            },
+            {
+                "type": "Blast",
+                "val": 1
+            }
+        ],
+        "on_hit": ""
+    },
+    {
+        "id": "grunt-rebake_gruntf_survival_pistol_artillery",
+        "name": "SURVIVAL PISTOL",
+        "origin": {
+            "type": "Class",
+            "name": "ARTILLERY GRUNT",
+            "base": true
+        },
+        "locked": false,
+        "type": "Weapon",
+        "effect": "Before or after attacking with this weapon (including as a reaction), the Artillery-Type may move 2 spaces. This movement ignores engagement and doesn't provoke reactions.",
+        "tags": [
+            {
+                "id": "tg_ordnance"
+            },
+            {
+                "id": "tg_arcing"
+            }
+        ],
+        "weapon_type": "Auxiliary CQB",
+        "attack_bonus": [
+            1,
+            2,
+            3
+        ],
+        "damage": [
+            {
+                "type": "kinetic",
+                "damage": [
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": 5
+            },
+            {
+                "type": "Threat",
+                "val": 3
+            }
+        ],
+        "on_hit": ""
+    },
+    {
+        "id": "grunt-rebake_gruntf_reflex_targeting_artillery",
+        "name": "REFLEX TARGETING",
+        "origin": {
+            "type": "Class",
+            "name": "ARTILLERY GRUNT",
+            "base": true
+        },
+        "locked": false,
+        "type": "Trait",
+        "effect": "The Artillery-Type has +5 Sensors, and may take the Lock On and Search actions before attacking with Ordnance weapons.",
+        "tags": []
+    },
+]
