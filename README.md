@@ -24,6 +24,10 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Operator: **No rebake**
 - Priest: **No rebake**
 - Pyro: Done
+- Sentinel: WIP (SkydivingSnake)
+- Sniper: **No rebake**
+- Specter: Done
+- Support: **No rebake**
 - All others not yet worked on.
 ### Templates
 Kai's Grunt rebake will be included due to it functioning more like a class. The Veteran rebake will not as it's designed to function with base NPCs and is therefore incompatible with the NPC rebakes.
