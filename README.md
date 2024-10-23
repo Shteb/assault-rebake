@@ -24,7 +24,9 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Operator: **No rebake**
 - Priest: **No rebake**
 - Pyro: Done
-- Sentinel: WIP (SkydivingSnake)
+- Scout: WIP
+- Seeder: **No rebake**
+- Sentinel: Done
 - Sniper: **No rebake**
 - Specter: Done
 - Support: **No rebake**

@@ -2307,4 +2307,202 @@
     ],
     "on_hit": ""
   },
+  {
+    "id": "npc-rebake_npcf_combat_shotgun_sentinel",
+    "name": "COMBAT SHOTGUN",
+    "origin": {
+      "type": "Class",
+      "name": "SENTINEL",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [{
+      "id": "tg_reliable",
+      "val": "{2/3/4}"
+    }],
+    "weapon_type": "Main CQB",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [{
+      "type": "kinetic",
+      "damage": [
+        6,
+        8,
+        10
+      ]
+    }],
+    "range": [{
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_retractable_sword_sentinel",
+    "name": "RETRACTABLE SWORD",
+    "origin": {
+      "type": "Class",
+      "name": "SENTINEL",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [{
+      "type": "kinetic",
+      "damage": [
+        4,
+        5,
+        6
+      ]
+    }],
+    "range": [{
+      "type": "Threat",
+      "val": 1
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_eye_of_midnight_sentinel",
+    "name": "EYE OF MIDNIGHT",
+    "origin": {
+      "type": "Class",
+      "name": "SENTINEL",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Sentinel becomes Slowed, but can take the Overwatch reaction 1/turn instead of 1/round. Additionally, they may attack with Overwatch using the Combat Shotgun when hostile characters enter, leave, or exit spaces within their Threat no matter whether they started their movement there. Once activated, this effect lasts until it is deactivated as a quick action.",
+    "tags": [{
+      "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npc-rebake_npcf_guardian_sentinel",
+    "name": "GUARDIAN",
+    "origin": {
+      "type": "Class",
+      "name": "SENTINEL",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Allied characters can use the Sentinel for hard cover.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_punisher_ammunition_sentinel",
+    "name": "PUNISHER AMMUNITION",
+    "origin": {
+      "type": "Class",
+      "name": "SENTINEL",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Characters damaged by the Sentinel’s Overwatch attacks also become Slowed until the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_bodyguard_sentinel",
+    "name": "BODYGUARD",
+    "origin": {
+      "type": "Class",
+      "name": "SENTINEL",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Sentinel chooses an allied character within Range 5 as their ward and gains the Reflexive Blow reaction, which can be taken as many times per round as it is triggered",
+    "tags": [{
+        "id": "tg_protocol"
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": ""
+  },
+  {
+    "id": "npc-rebake_npcf_reflexive_blow_sentinel",
+    "name": "REFLEXIVE BLOW",
+    "origin": {
+      "type": "Class",
+      "name": "SENTINEL",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Sentinel may move their Speed towards their ward by the most direct route possible, then attack the inciting character with Overwatch. This reaction interrupts and resolves before the triggering action, ignores engagement, and doesn’t provoke reactions.",
+    "tags": [{
+      "id": "tg_reaction"
+    }],
+    "trigger": "Someone attacks the Sentinel’s ward."
+  },
+  {
+    "id": "npc-rebake_npcf_wrath_lock_sentinel",
+    "name": "WRATH-LOCK",
+    "origin": {
+      "type": "Class",
+      "name": "SENTINEL",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Sentinel may boost towards the triggering character, and the triggering character gains Lock On.",
+    "tags": [{
+      "id": "tg_reaction"
+    },
+    {
+      "id": "tg_round",
+      "val": 1
+    }],
+    "trigger": "A hostile character in line of sight moves."
+  },
+  {
+    "id": "npc-rebake_npcf_impaler_sentinel",
+    "name": "IMPALER",
+    "origin": {
+      "type": "Class",
+      "name": "SENTINEL",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When the Sentinel hits with Overwatch, their target must pass a Hull save or become Immobilized and Jammed until the end of their next turn.",
+    "tags": [{
+      "id": "tg_round",
+      "val": 1
+    }]
+  },
+  {
+    "id": "npc-rebake_npcf_marker_shells_sentinel",
+    "name": "MARKER SHELLS",
+    "origin": {
+      "type": "Class",
+      "name": "SENTINEL",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Characters damaged by the Sentinel's Combat Shotgun (including Reliable damage) gain a Sentinel's Mark. Whenever the Sentinel makes an Overwatch attack against a marked character, they gain +1 Accuracy and ignore Invisible. All Sentinel's Marks are cleared at the start of the Sentinel's turn.",
+    "tags": []
+  },
   ]

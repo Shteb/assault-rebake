@@ -1215,4 +1215,106 @@
         ],
         "power": 100
       },
+      {
+        "id": "npc-rebake_npcc_sentinel",
+        "name": "SENTINEL",
+        "role": "defender",
+        "info": {
+          "flavor": "Sentinel archetypes are typically employed as guards and escorts, often in the retinues of commanders or posted in defense of artillery. These mechs and their pilots employ advanced suites of technology to ensure their wards stay alive and operational, even if that costs their own chassis – or lives. Unlike the heavier Bastion archetypes, Sentinels are quick and light: they practice active defense, preemptively striking with suites of advanced technical, systemic, and direct weaponry to protect their charges.",
+          "tactics": "Sentinels are 'punishment' defenders that focus on establishing dangerous zones of Overwatch to protect allies and lock down areas on the map. They are fairly short-range attackers, relying on positioning to get the most from their kit, and don't have the means to directly mitigate or redirect damage the way other defenders do"
+        },
+        "stats": {
+          "armor": [
+            1,
+            1,
+            1
+          ],
+          "hp": [
+            16,
+            20,
+            24
+          ],
+          "evade": [
+            8,
+            11,
+            13
+          ],
+          "edef": [
+            8,
+            11,
+            13
+          ],
+          "heatcap": [
+            8,
+            8,
+            8
+          ],
+          "speed": [
+            4,
+            4,
+            5
+          ],
+          "sensor": [
+            10,
+            10,
+            10
+          ],
+          "save": [
+            10,
+            12,
+            14
+          ],
+          "hull": [
+            2,
+            3,
+            4
+          ],
+          "agility": [
+            1,
+            2,
+            3
+          ],
+          "systems": [
+            1,
+            2,
+            3
+          ],
+          "engineering": [
+            1,
+            2,
+            3
+          ],
+          "size": [
+            [
+              2
+            ],
+            [
+              2
+            ],
+            [
+              2
+            ]
+          ],
+          "activations": [
+            1,
+            1,
+            1
+          ]
+        },
+        "base_features": [
+          "npc-rebake_npcf_combat_shotgun_sentinel",
+          "npc-rebake_npcf_retractable_sword_sentinel",
+          "npc-rebake_npcf_eye_of_midnight_sentinel",
+          "npc-rebake_npcf_guardian_sentinel"
+        ],
+        "optional_features": [
+          "npc-rebake_npcf_punisher_ammunition_sentinel",
+          "npc-rebake_npcf_bodyguard_sentinel",
+          "npc-rebake_npcf_reflexive_blow_sentinel",
+          "npc-rebake_npcf_wrath_lock_sentinel",
+          "npc-rebake_npcf_impaler_sentinel",
+          "npc-rebake_npcf_marker_shells_sentinel"
+        ],
+        "power": 100
+      },
 ]
