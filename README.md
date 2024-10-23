@@ -2,7 +2,8 @@
 An unpacked LCP containing the playtest versions of Kai's NPC rebakes. For more info, please search the Pilot.net Discord for his pdfs.
 ### Convention & Format
 All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for example.
-## Current Progress: 45%
+## Current Progress: 55%
+### Classes & Features
 - Assault: Done
 - Aegis: Done
 - Ace: Done
@@ -14,10 +15,19 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Bombard: **No rebake**
 - Breacher: Done
 - Cataphract: **No rebake**
-- Demolisher: WIP (Shtebb)
+- Demolisher: Done
+- Engineer: **No rebake**
+- Goliath: **No rebake**
+- Hive: **No rebake**
+- Hornet: **No rebake**
+- Mirage: **No rebake**
+- Operator: **No rebake**
+- Priest: **No rebake**
+- Pyro: Done
 - Sentinel: WIP (SkydivingSnake)
 - Sniper: **No rebake**
 - Specter: Done
 - Support: **No rebake**
-- Witch: **No rebake**
-All others not yet worked on.
+- All others not yet worked on.
+### Templates
+Kai's Grunt rebake will be included due to it functioning more like a class. The Veteran rebake will not as it's designed to function with base NPCs and is therefore incompatible with the NPC rebakes.
