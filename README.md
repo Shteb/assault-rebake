@@ -3,6 +3,7 @@ An unpacked LCP containing the playtest versions of Kai's NPC rebakes. For more 
 ### Convention & Format
 All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for example.
 ## Current Progress: 55%
+### Classes & Features
 - Assault: Done
 - Aegis: Done
 - Ace: Done
@@ -24,3 +25,5 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Priest: **No rebake**
 - Pyro: Done
 - All others not yet worked on.
+### Templates
+- Veteran: Not began yet
