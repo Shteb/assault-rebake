@@ -1013,4 +1013,105 @@
         ],
         "power": 100
     },
+    {
+        "id": "npc-rebake_npcc_specter",
+        "name": "SPECTER",
+        "role": "striker",
+        "info": {
+          "flavor": "The principle behind the development of Specter-archetype mechs is a simple one: not being hit is better than the strongest armor. Specters employ cutting-edge optical-electronic camouflage to vanish from the battlefield and enemy scans. They flicker in and out of vision, confusing the eye and the radar. That’s what makes them so deadly, though their weapons certainly help.",
+          "tactics": "Specters are mobile strikers that shine against foes that make the mistake of being caught alone. Use Prowl along with their high Speed to get them across the front lines so they can find vulnerable solo targets, like snipers and artillery. Specters are permanently Invisible, which is key to their survivability; they aren’t very resilient, but they can Hide any time, provided their Tactical Cloak isn't disabled."
+        },
+        "stats": {
+          "armor": [
+            0,
+            0,
+            0
+          ],
+          "hp": [
+            10,
+            10,
+            10
+          ],
+          "evade": [
+            10,
+            14,
+            18
+          ],
+          "edef": [
+            8,
+            10,
+            12
+          ],
+          "heatcap": [
+            7,
+            7,
+            7
+          ],
+          "speed": [
+            4,
+            5,
+            6
+          ],
+          "sensor": [
+            5,
+            5,
+            5
+          ],
+          "save": [
+            10,
+            12,
+            14
+          ],
+          "hull": [
+            -2,
+            -2,
+            -2
+          ],
+          "agility": [
+            3,
+            4,
+            5
+          ],
+          "systems": [
+            1,
+            2,
+            3
+          ],
+          "engineering": [
+            0,
+            1,
+            1
+          ],
+          "size": [
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [
+              1
+            ]
+          ],
+          "activations": [
+            1,
+            1,
+            1
+          ]
+        },
+        "base_features": [
+          "npc-rebake_npcf_monowire_sword_specter",
+          "npc-rebake_npcf_prowl_specter",
+          "npc-rebake_npcf_tactical_cloak_specter",
+          "npc-rebake_npcf_hunt_specter"
+        ],
+        "optional_features": [
+          "npc-rebake_npcf_step_specter",
+          "npc-rebake_npcf_drain_systems_specter",
+          "npc-rebake_npcf_lure_specter",
+          "npc-rebake_npcf_ghostride_specter",
+          "npc-rebake_npcf_machine_pistol_specter"
+        ],
+        "power": 100
+      },
 ]

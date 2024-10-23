@@ -14,7 +14,10 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Bombard: **No rebake**
 - Breacher: Done
 - Cataphract: **No rebake**
-- Demolisher: WIP
-- All others not yet worked on.
-
-This is a Test
+- Demolisher: WIP (Shtebb)
+- Sentinel: WIP (SkydivingSnake)
+- Sniper: **No rebake**
+- Specter: Done
+- Support: **No rebake**
+- Witch: **No rebake**
+All others not yet worked on.
