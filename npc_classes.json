@@ -1115,206 +1115,300 @@
         "power": 100
     },
     {
+        "id": "npc-rebake_npcc_ronin",
+        "name": "RONIN",
+        "role": "striker",
+        "info": {
+            "flavor": "Ronin frames differ from those favored by Berserkers and Demolishers in that they aren’t retrofitted or improvised for creative tactical applications – they are purpose-built to excel in melee combat by boutique fabricators. Although they are seen as somewhat antique by many commentators, the rise of stasis- and mag-based defensive technologies has made Ronins more viable in modern combat.<br>Ronin are common among both martial cultures and performance-combat firms, where their superb melee abilities elevate them above the competition. They see less use in cultures that have a preference for ranged combat, but there is a certain prestige accorded to pilots who adopt ancient weapons and survive to do it again. The mythic lancer Susanoo elevated this archetype to legendary status when she endorsed the GRAMtech Strike-1 chassis, which she piloted alongside numerous Albatross wings during the Neo-Celestine Disappointment.",
+            "tactics": "Ronins are straightfoward, deadly melee strikers that excel against targets that rely on ranged firepower. Rebound and Counter-Ballistic Suite make it dangerous for enemies to attack Ronins with ranged weapons, but they have no particular defenses against melee or tech attacks, nor do they have any way around things such as Armor or Resistance."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                18,
+                20,
+                22
+            ],
+            "evade": [
+                10,
+                13,
+                16
+            ],
+            "edef": [
+                7,
+                8,
+                9
+            ],
+            "heatcap": [
+                7,
+                7,
+                7
+            ],
+            "speed": [
+                5,
+                5,
+                6
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                13,
+                15
+            ],
+            "hull": [
+                1,
+                2,
+                3
+            ],
+            "agility": [
+                2,
+                3,
+                4
+            ],
+            "systems": [
+                -1,
+                -1,
+                -1
+            ],
+            "engineering": [
+                -1,
+                -1,
+                -1
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npcf_carbon_fiber_sword_ronin",
+        ],
+        "optional_features": [
+            "npcf_charged_slash_ronin",
+        ],
+        "power": 100
+    },
+    {
         "id": "npc-rebake_npcc_specter",
         "name": "SPECTER",
         "role": "striker",
         "info": {
-          "flavor": "The principle behind the development of Specter-archetype mechs is a simple one: not being hit is better than the strongest armor. Specters employ cutting-edge optical-electronic camouflage to vanish from the battlefield and enemy scans. They flicker in and out of vision, confusing the eye and the radar. That’s what makes them so deadly, though their weapons certainly help.",
-          "tactics": "Specters are mobile strikers that shine against foes that make the mistake of being caught alone. Use Prowl along with their high Speed to get them across the front lines so they can find vulnerable solo targets, like snipers and artillery. Specters are permanently Invisible, which is key to their survivability; they aren’t very resilient, but they can Hide any time, provided their Tactical Cloak isn't disabled."
+            "flavor": "The principle behind the development of Specter-archetype mechs is a simple one: not being hit is better than the strongest armor. Specters employ cutting-edge optical-electronic camouflage to vanish from the battlefield and enemy scans. They flicker in and out of vision, confusing the eye and the radar. That’s what makes them so deadly, though their weapons certainly help.",
+            "tactics": "Specters are mobile strikers that shine against foes that make the mistake of being caught alone. Use Prowl along with their high Speed to get them across the front lines so they can find vulnerable solo targets, like snipers and artillery. Specters are permanently Invisible, which is key to their survivability; they aren’t very resilient, but they can Hide any time, provided their Tactical Cloak isn't disabled."
         },
         "stats": {
-          "armor": [
-            0,
-            0,
-            0
-          ],
-          "hp": [
-            10,
-            10,
-            10
-          ],
-          "evade": [
-            10,
-            14,
-            18
-          ],
-          "edef": [
-            8,
-            10,
-            12
-          ],
-          "heatcap": [
-            7,
-            7,
-            7
-          ],
-          "speed": [
-            4,
-            5,
-            6
-          ],
-          "sensor": [
-            5,
-            5,
-            5
-          ],
-          "save": [
-            10,
-            12,
-            14
-          ],
-          "hull": [
-            -2,
-            -2,
-            -2
-          ],
-          "agility": [
-            3,
-            4,
-            5
-          ],
-          "systems": [
-            1,
-            2,
-            3
-          ],
-          "engineering": [
-            0,
-            1,
-            1
-          ],
-          "size": [
-            [
-              1
+            "armor": [
+                0,
+                0,
+                0
             ],
-            [
-              1
+            "hp": [
+                10,
+                10,
+                10
             ],
-            [
-              1
+            "evade": [
+                10,
+                14,
+                18
+            ],
+            "edef": [
+                8,
+                10,
+                12
+            ],
+            "heatcap": [
+                7,
+                7,
+                7
+            ],
+            "speed": [
+                4,
+                5,
+                6
+            ],
+            "sensor": [
+                5,
+                5,
+                5
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                -2,
+                -2,
+                -2
+            ],
+            "agility": [
+                3,
+                4,
+                5
+            ],
+            "systems": [
+                1,
+                2,
+                3
+            ],
+            "engineering": [
+                0,
+                1,
+                1
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
             ]
-          ],
-          "activations": [
-            1,
-            1,
-            1
-          ]
         },
         "base_features": [
-          "npc-rebake_npcf_monowire_sword_specter",
-          "npc-rebake_npcf_prowl_specter",
-          "npc-rebake_npcf_tactical_cloak_specter",
-          "npc-rebake_npcf_hunt_specter"
+            "npc-rebake_npcf_monowire_sword_specter",
+            "npc-rebake_npcf_prowl_specter",
+            "npc-rebake_npcf_tactical_cloak_specter",
+            "npc-rebake_npcf_hunt_specter"
         ],
         "optional_features": [
-          "npc-rebake_npcf_step_specter",
-          "npc-rebake_npcf_drain_systems_specter",
-          "npc-rebake_npcf_lure_specter",
-          "npc-rebake_npcf_ghostride_specter",
-          "npc-rebake_npcf_machine_pistol_specter"
+            "npc-rebake_npcf_step_specter",
+            "npc-rebake_npcf_drain_systems_specter",
+            "npc-rebake_npcf_lure_specter",
+            "npc-rebake_npcf_ghostride_specter",
+            "npc-rebake_npcf_machine_pistol_specter"
         ],
         "power": 100
-      },
-      {
+    },
+    {
         "id": "npc-rebake_npcc_sentinel",
         "name": "SENTINEL",
         "role": "defender",
         "info": {
-          "flavor": "Sentinel archetypes are typically employed as guards and escorts, often in the retinues of commanders or posted in defense of artillery. These mechs and their pilots employ advanced suites of technology to ensure their wards stay alive and operational, even if that costs their own chassis – or lives. Unlike the heavier Bastion archetypes, Sentinels are quick and light: they practice active defense, preemptively striking with suites of advanced technical, systemic, and direct weaponry to protect their charges.",
-          "tactics": "Sentinels are 'punishment' defenders that focus on establishing dangerous zones of Overwatch to protect allies and lock down areas on the map. They are fairly short-range attackers, relying on positioning to get the most from their kit, and don't have the means to directly mitigate or redirect damage the way other defenders do"
+            "flavor": "Sentinel archetypes are typically employed as guards and escorts, often in the retinues of commanders or posted in defense of artillery. These mechs and their pilots employ advanced suites of technology to ensure their wards stay alive and operational, even if that costs their own chassis – or lives. Unlike the heavier Bastion archetypes, Sentinels are quick and light: they practice active defense, preemptively striking with suites of advanced technical, systemic, and direct weaponry to protect their charges.",
+            "tactics": "Sentinels are 'punishment' defenders that focus on establishing dangerous zones of Overwatch to protect allies and lock down areas on the map. They are fairly short-range attackers, relying on positioning to get the most from their kit, and don't have the means to directly mitigate or redirect damage the way other defenders do"
         },
         "stats": {
-          "armor": [
-            1,
-            1,
-            1
-          ],
-          "hp": [
-            16,
-            20,
-            24
-          ],
-          "evade": [
-            8,
-            11,
-            13
-          ],
-          "edef": [
-            8,
-            11,
-            13
-          ],
-          "heatcap": [
-            8,
-            8,
-            8
-          ],
-          "speed": [
-            4,
-            4,
-            5
-          ],
-          "sensor": [
-            10,
-            10,
-            10
-          ],
-          "save": [
-            10,
-            12,
-            14
-          ],
-          "hull": [
-            2,
-            3,
-            4
-          ],
-          "agility": [
-            1,
-            2,
-            3
-          ],
-          "systems": [
-            1,
-            2,
-            3
-          ],
-          "engineering": [
-            1,
-            2,
-            3
-          ],
-          "size": [
-            [
-              2
+            "armor": [
+                1,
+                1,
+                1
             ],
-            [
-              2
+            "hp": [
+                16,
+                20,
+                24
             ],
-            [
-              2
+            "evade": [
+                8,
+                11,
+                13
+            ],
+            "edef": [
+                8,
+                11,
+                13
+            ],
+            "heatcap": [
+                8,
+                8,
+                8
+            ],
+            "speed": [
+                4,
+                4,
+                5
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                2,
+                3,
+                4
+            ],
+            "agility": [
+                1,
+                2,
+                3
+            ],
+            "systems": [
+                1,
+                2,
+                3
+            ],
+            "engineering": [
+                1,
+                2,
+                3
+            ],
+            "size": [
+                [
+                    2
+                ],
+                [
+                    2
+                ],
+                [
+                    2
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
             ]
-          ],
-          "activations": [
-            1,
-            1,
-            1
-          ]
         },
         "base_features": [
-          "npc-rebake_npcf_combat_shotgun_sentinel",
-          "npc-rebake_npcf_retractable_sword_sentinel",
-          "npc-rebake_npcf_eye_of_midnight_sentinel",
-          "npc-rebake_npcf_guardian_sentinel"
+            "npc-rebake_npcf_combat_shotgun_sentinel",
+            "npc-rebake_npcf_retractable_sword_sentinel",
+            "npc-rebake_npcf_eye_of_midnight_sentinel",
+            "npc-rebake_npcf_guardian_sentinel"
         ],
         "optional_features": [
-          "npc-rebake_npcf_punisher_ammunition_sentinel",
-          "npc-rebake_npcf_bodyguard_sentinel",
-          "npc-rebake_npcf_reflexive_blow_sentinel",
-          "npc-rebake_npcf_wrath_lock_sentinel",
-          "npc-rebake_npcf_impaler_sentinel",
-          "npc-rebake_npcf_marker_shells_sentinel"
+            "npc-rebake_npcf_punisher_ammunition_sentinel",
+            "npc-rebake_npcf_bodyguard_sentinel",
+            "npc-rebake_npcf_reflexive_blow_sentinel",
+            "npc-rebake_npcf_wrath_lock_sentinel",
+            "npc-rebake_npcf_impaler_sentinel",
+            "npc-rebake_npcf_marker_shells_sentinel"
         ],
         "power": 100
-      },
+    },
 ]

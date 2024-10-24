@@ -2116,36 +2116,106 @@
     "tags": []
   },
   {
-    "id":"npc-rebake_npcf_monowire_sword_specter",
-    "name":"MONOWIRE SWORD",
+    "id": "npc-rebake_npcf_carbon_fiber_sword_ronin",
+    "name": "CARBON FIBER SWORD",
     "origin": {
-      "type":"Class",
-      "name":"SPECTER",
+      "type": "Class",
+      "name": "RONIN",
       "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "On Critical Hits: Deal +1d6 Kinetic damage.<br>At T2, this weapon can make two attacks at a time, targeting either the same character or two different ones. At T3, it can make three attacks at a time.",
+    "tags": [],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          6,
+          8,
+          10
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
   },
-  "locked": false,
-  "type": "Weapon",
-  "effect": "Armor is doubled against this weapon.",
-  "tags": [],
-  "weapon_type": "Main Melee",
-  "attack_bonus": [
-    2,
-    4,
-    6
-  ],
-  "damage": [{
-    "type": "kinetic",
-    "damage":[
-      5,
-      6,
-      7
-    ]
-  }],
-  "range": [{
-    "type": "Threat",
-    "val": 2
-  }],
-  "on_hit": ""
+  {
+    "id": "npc-rebake_npcf_rebound_ronin",
+    "name": "REBOUND",
+    "origin": {
+      "type": "Class",
+      "name": "RONIN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "They roll 1d6: on 4+, they gain Resistance to damage from that attack, and the attacker must repeat the attack against themselves. On 3 or less, the Ronin may Boost towards the triggering attacker.",
+    "tags": [
+      {
+        "id": "tg_shield"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "The Ronin takes damage from a ranged attack."
+  },
+  {
+    "id": "npc-rebake_npcf_monowire_sword_specter",
+    "name": "MONOWIRE SWORD",
+    "origin": {
+      "type": "Class",
+      "name": "SPECTER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Armor is doubled against this weapon.",
+    "tags": [],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
   },
   {
     "id": "npc-rebake_npcf_prowl_specter",
@@ -2158,9 +2228,11 @@
     "locked": false,
     "type": "System",
     "effect": "The Specter moves spaces equal to Speed, then becomes Hidden. This movement ignores engagement and doesn’t provoke reactions.",
-    "tags": [{
-      "id": "tg_quick_action"
-    }]
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
   },
   {
     "id": "npc-rebake_npcf_tactical_cloak_specter",
@@ -2199,7 +2271,8 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Specter teleports to a free space within line of sight and range 50.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_recharge",
         "val": 5
       },
@@ -2219,9 +2292,11 @@
     "locked": false,
     "type": "Tech",
     "effect": "The Specter makes a tech attack against an adjacent character. On a success, the target becomes Stunned. This effect lasts until a character other than the Specter starts their turn adjacent to the target or moves adjacent to the target.",
-    "tags": [{
-      "id": "tg_full_tech"
-    }],
+    "tags": [
+      {
+        "id": "tg_full_tech"
+      }
+    ],
     "tech_type": "Full",
     "attack_bonus": [
       2,
@@ -2240,13 +2315,15 @@
     "locked": false,
     "type": "Tech",
     "effect": "The Specter makes a tech attack against a character within sensors. On a success, that character must choose: move their Speed towards the Specter, or become Slowed and Impaired until the end of their next turn.",
-    "tags": [{
-      "id": "tg_quick_tech"
-    },
-    {
-      "id": "tg_recharge",
-      "val": 4
-    }],
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 4
+      }
+    ],
     "tech_type": "Quick",
     "attack_bonus": [
       1,
@@ -2265,7 +2342,8 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Specter becomes Intangible until the start of their next turn and moves spaces equal to their Speed. At the start of their next turn, their next attack with the Monowire Sword gains +1 Accuracy and deals +1d6 bonus damage on a critical hit. This bonus damage is not doubled.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_full_action"
       }
     ]
@@ -2288,15 +2366,18 @@
       4,
       6
     ],
-    "damage": [{
-      "type": "kinetic",
-      "damage": [
-        3,
-        4,
-        5
-      ]
-    }],
-    "range": [{
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "range": [
+      {
         "type": "Range",
         "val": 5
       },
@@ -2318,25 +2399,30 @@
     "locked": false,
     "type": "Weapon",
     "effect": "",
-    "tags": [{
-      "id": "tg_reliable",
-      "val": "{2/3/4}"
-    }],
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": "{2/3/4}"
+      }
+    ],
     "weapon_type": "Main CQB",
     "attack_bonus": [
       1,
       2,
       3
     ],
-    "damage": [{
-      "type": "kinetic",
-      "damage": [
-        6,
-        8,
-        10
-      ]
-    }],
-    "range": [{
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          6,
+          8,
+          10
+        ]
+      }
+    ],
+    "range": [
+      {
         "type": "Range",
         "val": 5
       },
@@ -2365,18 +2451,22 @@
       4,
       6
     ],
-    "damage": [{
-      "type": "kinetic",
-      "damage": [
-        4,
-        5,
-        6
-      ]
-    }],
-    "range": [{
-      "type": "Threat",
-      "val": 1
-    }],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
     "on_hit": ""
   },
   {
@@ -2390,9 +2480,11 @@
     "locked": false,
     "type": "System",
     "effect": "The Sentinel becomes Slowed, but can take the Overwatch reaction 1/turn instead of 1/round. Additionally, they may attack with Overwatch using the Combat Shotgun when hostile characters enter, leave, or exit spaces within their Threat no matter whether they started their movement there. Once activated, this effect lasts until it is deactivated as a quick action.",
-    "tags": [{
-      "id": "tg_quick_action"
-    }]
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
   },
   {
     "id": "npc-rebake_npcf_guardian_sentinel",
@@ -2431,7 +2523,8 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Sentinel chooses an allied character within Range 5 as their ward and gains the Reflexive Blow reaction, which can be taken as many times per round as it is triggered",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_protocol"
       },
       {
@@ -2451,9 +2544,11 @@
     "locked": false,
     "type": "Reaction",
     "effect": "The Sentinel may move their Speed towards their ward by the most direct route possible, then attack the inciting character with Overwatch. This reaction interrupts and resolves before the triggering action, ignores engagement, and doesn’t provoke reactions.",
-    "tags": [{
-      "id": "tg_reaction"
-    }],
+    "tags": [
+      {
+        "id": "tg_reaction"
+      }
+    ],
     "trigger": "Someone attacks the Sentinel’s ward."
   },
   {
@@ -2467,13 +2562,15 @@
     "locked": false,
     "type": "Reaction",
     "effect": "The Sentinel may boost towards the triggering character, and the triggering character gains Lock On.",
-    "tags": [{
-      "id": "tg_reaction"
-    },
-    {
-      "id": "tg_round",
-      "val": 1
-    }],
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
     "trigger": "A hostile character in line of sight moves."
   },
   {
@@ -2487,10 +2584,12 @@
     "locked": false,
     "type": "System",
     "effect": "When the Sentinel hits with Overwatch, their target must pass a Hull save or become Immobilized and Jammed until the end of their next turn.",
-    "tags": [{
-      "id": "tg_round",
-      "val": 1
-    }]
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ]
   },
   {
     "id": "npc-rebake_npcf_marker_shells_sentinel",
@@ -2505,4 +2604,4 @@
     "effect": "Characters damaged by the Sentinel's Combat Shotgun (including Reliable damage) gain a Sentinel's Mark. Whenever the Sentinel makes an Overwatch attack against a marked character, they gain +1 Accuracy and ignore Invisible. All Sentinel's Marks are cleared at the start of the Sentinel's turn.",
     "tags": []
   },
-  ]
+]
