@@ -334,6 +334,22 @@
     "tags": []
   },
   {
+    "id": "npc-rebake_npcf_remote_projector_aegis",
+    "name": "REMOTE PROJECTOR",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Aegis activates Defense Net, it may choose a free space within Range 10 and generate a Burst 2 area centered on that space instead. All other effects of Defense Net remain the same while this remote field is active (e.g. the Aegis is Immobilized, etc).",
+    "tags": [{
+      "id": "tg_recharge",
+      "val": 5
+    }]
+  },
+  {
     "id": "npc-rebake_npcf_ha_blackwall_system_aegis",
     "name": "HA BLACKWALL SYSTEM",
     "origin": {
@@ -622,6 +638,19 @@
       }
     ],
     "trigger": "The Archer’s Suppress target starts to move."
+  },
+  {
+    "id": "npc-rebake_npcf_superior_sentinel_archer",
+    "name": "SUPERIOR SENTINEL",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Archer gains +1 Accuracy on all attacks made as reactions (e.g., Overwatch).",
+    "tags": []
   },
   {
     "id": "npc-rebake_npcf_covering_fire_archer",
@@ -1342,7 +1371,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Bastion is wreathed in a crackling energy field visible to all characters. The first time the Bastion issuccessfully hit by a ranged or melee attack each round, all damage is reduced to 0, after which the field visibly dissipates until the start of the next round.",
+    "effect": "The Bastion is wreathed in a crackling energy field visible to all characters. The first time the Bastion is successfully hit by a ranged or melee attack each round, all damage is reduced to 0, after which the field visibly dissipates until the start of the next round.",
     "tags": [
       {
         "id": "tg_shield"
@@ -2869,7 +2898,7 @@
     ]
   },
   {
-    "id": "npc-rebake_npcf_step_specter",
+    "id": "npc-rebake_npcf_ghostride_specter",
     "name": "GHOSTRIDE",
     "origin": {
       "type": "Class",
