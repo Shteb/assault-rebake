@@ -2182,6 +2182,160 @@
     "trigger": "The Ronin takes damage from a ranged attack."
   },
   {
+    "id": "npc-rebake_npcf_thermal_lance_scourer",
+    "name": "THERMAL LANCE",
+    "origin": {
+      "type": "Class",
+      "name": "SCOURER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [{
+      "id": "tg_heat_self",
+      "val": 4
+    }],
+    "weapon_type": "Heavy Cannon",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "damage": [{
+      "type": "Energy",
+      "damage": [
+        6,
+        8,
+        10
+      ]
+    }],
+    "range": [{
+      "type": "Range",
+      "val": 8
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_focus_down_scourer",
+    "name": "FOCUS DOWN",
+    "origin": {
+      "type": "Class",
+      "name": "SCOURER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Scourer hits with the Thermal Lance, targets take {5/6/7} Burn if they were also successfully hit with the Thermal Lance in the previous round.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_cooling_module_scourer",
+    "name": "COOLING MODULE",
+    "origin": {
+      "type": "Class",
+      "name": "SCOURER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "At the start of their turn, the Scourer clears all heat if they haven’t moved – including involuntary movement – since the end of their previous turn.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_ablative_shielding_scourer",
+    "name": "ABLATIVE SHIELDING",
+    "origin": {
+      "type": "Class",
+      "name": "SCOURER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Scourer has Resistance to Energy damage.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_supercharged_scourer",
+    "name": "SUPERCHARGED",
+    "origin": {
+      "type": "Class",
+      "name": "SCOURER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Characters affected by Focus Down are also Shredded and Slowed until the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_emergency_vent_scourer",
+    "name": "EMERGENCY VENT",
+    "origin": {
+      "type": "Class",
+      "name": "SCOURER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When the Scourer exceeds their Heat Cap, becomes Jammed, or becomes Stunned, they become Invisible until the start of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_pulse_laser_scourer",
+    "name": "PULSE LASER",
+    "origin": {
+      "type": "Class",
+      "name": "SCOURER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Scourer makes an attack with the Thermal Lance, they can attack two targets at a time, dealing half damage on hit. This trait automatically Recharges whenever Cooling Module activates.",
+    "tags": [{
+      "id": "tg_recharge",
+      "val": 6
+    }]
+  },
+  {
+    "id": "npc-rebake_npcf_melt_scourer",
+    "name": "MELT",
+    "origin": {
+      "type": "Class",
+      "name": "SCOURER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Scourer makes a ranged attack against an object, deployable or Drone within Range 10, dealing 20 AP energy damage on a success. On hit, all characters within a Burst 2 radius of the target are splashed with molten slag, and count as being successfully hit with the Thermal Lance.",
+    "tags": [{
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  }, 
+  {
+    "id": "npc-rebake_npcf_thermal_overload_scourer",
+    "name": "THERMAL OVERLOAD",
+    "origin": {
+      "type": "Class",
+      "name": "SCOURER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "If the Cooling Module does not activate at the start of the Scourer's turn, the Thermal Lance gains +4 Range, and on hit all other characters in a Burst 1 area around the target take {3/4/5} burn.",
+    "tags": []
+  },
+  {
     "id": "npc-rebake_npcf_marker_rifle_scout",
     "name": "MARKER RIFLE",
     "origin": {

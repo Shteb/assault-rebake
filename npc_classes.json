@@ -1209,7 +1209,108 @@
         "power": 100
     },
     {
-        "id": "npcc_scout",
+        "id": "npc-rebake_npcc_scourer",
+        "name": "SCOURER",
+        "role": "striker",
+        "info": {
+          "flavor": "Scourer-class mechs are distinctive for carrying deadly Energy damage weapons powered by massive-output recursive power plants. These mechs are found across the galaxy in specialist roles, supporting conventional ground troops with powerful beam attacks that stop electronic threats as easily as they stop enemy soldiers.",
+          "tactics": "Scourers deal a great deal of damage when they focus on single targets, attacking them multiple times. They can be used to crack tough or slow moving opponents very easily. However, they are much less effective when forced to switch targets, and need to remain still in order to repeatedly fire their Thermal Lance without overheating."
+        },
+        "stats": {
+          "armor": [
+            2,
+            2,
+            2
+          ],
+          "hp": [
+            10,
+            13,
+            16
+          ],
+          "evade": [
+            8,
+            9,
+            10
+          ],
+          "edef": [
+            8,
+            9,
+            10
+          ],
+          "heatcap": [
+            8,
+            10,
+            12
+          ],
+          "speed": [
+            4,
+            4,
+            4
+          ],
+          "sensor": [
+            8,
+            8,
+            8
+          ],
+          "save": [
+            10,
+            12,
+            14
+          ],
+          "hull": [
+            1,
+            2,
+            3
+          ],
+          "agility": [
+            0,
+            0,
+            0
+          ],
+          "systems": [
+            0,
+            0,
+            0
+          ],
+          "engineering": [
+            2,
+            3,
+            4
+          ],
+          "size": [
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [
+              1
+            ]
+          ],
+          "activations": [
+            1,
+            1,
+            1
+          ]
+        },
+        "base_features": [
+          "npc-rebake_npcf_thermal_lance_scourer",
+          "npc-rebake_npcf_focus_down_scourer",
+          "npc-rebake_npcf_cooling_module_scourer",
+          "npc-rebake_npcf_ablative_shielding_scourer"
+        ],
+        "optional_features": [
+          "npc-rebake_npcf_supercharged_scourer",
+          "npc-rebake_npcf_emergency_vent_scourer",
+          "npc-rebake_npcf_pulse_laser_scourer",
+          "npc-rebake_npcf_melt_scourer",
+          "npc-rebake_npcf-thermal_overload_scourer"
+        ],
+        "power": 100
+      },
+    {
+        "id": "npc-rebake_npcc_scout",
         "name": "SCOUT",
         "role": "support",
         "info": {
