@@ -2182,6 +2182,173 @@
     "trigger": "The Ronin takes damage from a ranged attack."
   },
   {
+    "id": "npc-rebake_npcf_marker_rifle_scout",
+    "name": "MARKER RIFLE",
+    "origin": {
+      "type": "Class",
+      "name": "SCOUT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [{
+      "id": "tg_smart"
+    }],
+    "weapon_type": "Main Rifle",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "damage": [],
+    "range": [{
+      "type": "Range",
+      "val": 15
+    }],
+    "on_hit": "Target receives Lock On, and they become Shredded until the end of their next turn."
+  },
+  {
+    "id": "npc-rebake_npcf_sight_scout",
+    "name": "SIGHT",
+    "origin": {
+      "type": "Class",
+      "name": "SCOUT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Scout ignores Hidden and Invisible.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_rebound_scan_scout",
+    "name": "REBOUND SCAN",
+    "origin": {
+      "type": "Class",
+      "name": "SCOUT",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Scout makes a tech attack against a target in Sensors. On a success, the target and all hostile characters within Range 3 of the target lose Hidden and Invisible and can't regain either status or benefit from any cover until the start of the Scout's next turn.",
+    "tags": [{
+      "id": "tg_quick_tech"
+    },
+    {
+      "id": "tg_recharge",
+      "val": 4
+    }],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "npc-rebake_npcf_cloaking_field_scout",
+    "name": "CLOAKING FIELD",
+    "origin": {
+      "type": "Class",
+      "name": "SCOUT",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Scout generates a Burst 3 cloaking field that lasts until the end of their next turn. The Scout and allied characters within the affected area are Invisible, but the Scout is Immobilized while it is active.",
+    "tags": [{
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_spotter_scout",
+    "name": "SPOTTER",
+    "origin": {
+      "type": "Class",
+      "name": "SCOUT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "While adjacent to the Scout, allied characters gain +1 Accuracy on all attack rolls.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_scout_drone_scout",
+    "name": "SCOUT DRONE",
+    "origin": {
+      "type": "Class",
+      "name": "SCOUT",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Scout Drone (Size 1/2, HP {5/8/10}, Evasion 10, E- Defense 10, Tags: Drone)<br>The Scout deploys the drone to a free space within Sensors The drone creates a Burst 2 perimeter, within which characters cannot become Invisible or Hide, and lose those conditions if they have them. The Scout and all allied characters also gain +1 Accuracy when attacking characters within the affected area. The drone can be deployed to a new location as a protocol.",
+    "tags": [{
+        "id": "tg_drone"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_orbital_strike_scout",
+    "name": "ORBITAL STRIKE",
+    "origin": {
+      "type": "Class",
+      "name": "SCOUT",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Scout chooses a space on the ground, within line of sight and range 20; all characters know that it has been chosen. The Scout calls in an orbital bombardment that hits at the end of the next round, creating a Burst 2 explosion. Characters in the affected area must make Agility saves. On a fail, they take {12/16/20} Energy damage and are knocked Prone. On a pass, they take half damage and remain standing.",
+    "tags": [{
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_expose_weakness_scout",
+    "name": "EXPOSE WEAKNESS",
+    "origin": {
+      "type": "Class",
+      "name": "SCOUT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Characters that are successfully attacked with the Marker Rifle gain a Scout's Mark. Only one character can be marked this way at a time, and marking another character clears any marks from the last one. The next time an ally successfully hits a character with a Scout's Mark, they may consume the mark to choose one of the following:<ul><li>The Target takes +1d6 bonus damage.</li><li>The target is knocked Prone.</li><li>The target only has line of sight to adjacent spaces until the end of their next turn</li><ul>",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_pathfinder_scout",
+    "name": "PATHFINDER",
+    "origin": {
+      "type": "Class",
+      "name": "SCOUT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "1/round, whenever the Scout successfully attacks with the Marker Rifle, an allied character within Sensors and line of sight can move up to their Speed as a reaction.",
+    "tags": []
+  },
+  {
     "id": "npc-rebake_npcf_monowire_sword_specter",
     "name": "MONOWIRE SWORD",
     "origin": {

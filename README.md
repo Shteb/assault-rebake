@@ -26,7 +26,8 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Pyro: Done
 - Rainmaker: **No rebake**
 - Ronin: Stebb WIP
-- Scout: WIP
+- Scourer: Snake WIP
+- Scout: Done
 - Seeder: **No rebake**
 - Sentinel: Done
 - Sniper: **No rebake**

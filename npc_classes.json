@@ -1209,6 +1209,109 @@
         "power": 100
     },
     {
+        "id": "npcc_scout",
+        "name": "SCOUT",
+        "role": "support",
+        "info": {
+          "flavor": "The most devastating mechanized-warfare strategies call for the active, close, and aggressive application of orbital, atmospheric, and terrestrial fire-support. Enter Scout-class mechs and their pilots. Using advanced targeting systems, Scouts are equal parts tactical coordinator and artillery commander, working with allies to map the battlescape and accurately place direct-targeted and autonomous fire.",
+          "tactics": " Scouts are support mechs designed to increase the damage dealt by their allies. They deal no damage themselves, but Marker Rifle assists allies in hitting and damaging priority targets and Rebound Scan prevents enemies from hiding or benefiting from being Invisible. Like most support mechs, Scouts aren’t especially resilient on their own, but Cloaking Field can help keep them and their allies alive"
+        },
+        "stats": {
+          "armor": [
+            0,
+            0,
+            0
+          ],
+          "hp": [
+            8,
+            8,
+            8
+          ],
+          "evade": [
+            12,
+            15,
+            18
+          ],
+          "edef": [
+            10,
+            13,
+            16
+          ],
+          "heatcap": [
+            6,
+            6,
+            6
+          ],
+          "speed": [
+            6,
+            7,
+            8
+          ],
+          "sensor": [
+            20,
+            20,
+            20
+          ],
+          "save": [
+            11,
+            13,
+            15
+          ],
+          "hull": [
+            -2,
+            -2,
+            -2
+          ],
+          "agility": [
+            2,
+            4,
+            5
+          ],
+          "systems": [
+            3,
+            4,
+            5
+          ],
+          "engineering": [
+            -1,
+            -1,
+            -1
+          ],
+          "size": [
+            [
+              0.5,
+              1
+            ],
+            [
+              0.5,
+              1
+            ],
+            [
+              0.5,
+              1
+            ]
+          ],
+          "activations": [
+            1,
+            1,
+            1
+          ]
+        },
+        "base_features": [
+          "npc-rebake_npcf_marker_rifle_scout",
+          "npc-rebake_npcf_sight_scout",
+          "npc-rebake_npcf_rebound_scan_scout",
+          "npc-rebake_npcf_cloaking_field_scout"
+        ],
+        "optional_features": [
+          "npc-rebake_npcf_spotter_scout",
+          "npc-rebake_scout_drone_scout","npc-rebake_npcf_orbital_strike_scout",
+          "npc-rebake_npcf_expose_weakness_scout",
+          "npc-rebake_npcf_rebake_scout"
+        ],
+        "power": 100
+      },   
+    {
         "id": "npc-rebake_npcc_specter",
         "name": "SPECTER",
         "role": "striker",
