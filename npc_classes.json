@@ -1305,7 +1305,7 @@
           "npc-rebake_npcf_emergency_vent_scourer",
           "npc-rebake_npcf_pulse_laser_scourer",
           "npc-rebake_npcf_melt_scourer",
-          "npc-rebake_npcf-thermal_overload_scourer"
+          "npc-rebake_npcf_thermal_overload_scourer"
         ],
         "power": 100
       },
@@ -1406,9 +1406,10 @@
         ],
         "optional_features": [
           "npc-rebake_npcf_spotter_scout",
-          "npc-rebake_scout_drone_scout","npc-rebake_npcf_orbital_strike_scout",
+          "npc-rebake_npcf_scout_drone_scout",
+          "npc-rebake_npcf_orbital_strike_scout",
           "npc-rebake_npcf_expose_weakness_scout",
-          "npc-rebake_npcf_rebake_scout"
+          "npc-rebake_npcf_pathfinder_scout"
         ],
         "power": 100
       },
