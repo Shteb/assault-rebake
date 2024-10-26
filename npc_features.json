@@ -2349,213 +2349,6 @@
     "tags": []
   },
   {
-    "id": "npc-rebake_npcf_monowire_sword_specter",
-    "name": "MONOWIRE SWORD",
-    "origin": {
-      "type": "Class",
-      "name": "SPECTER",
-      "base": true
-    },
-    "locked": false,
-    "type": "Weapon",
-    "effect": "Armor is doubled against this weapon.",
-    "tags": [],
-    "weapon_type": "Main Melee",
-    "attack_bonus": [
-      2,
-      4,
-      6
-    ],
-    "damage": [
-      {
-        "type": "kinetic",
-        "damage": [
-          5,
-          6,
-          7
-        ]
-      }
-    ],
-    "range": [
-      {
-        "type": "Threat",
-        "val": 2
-      }
-    ],
-    "on_hit": ""
-  },
-  {
-    "id": "npc-rebake_npcf_prowl_specter",
-    "name": "PROWL",
-    "origin": {
-      "type": "Class",
-      "name": "SPECTER",
-      "base": true
-    },
-    "locked": false,
-    "type": "System",
-    "effect": "The Specter moves spaces equal to Speed, then becomes Hidden. This movement ignores engagement and doesn’t provoke reactions.",
-    "tags": [
-      {
-        "id": "tg_quick_action"
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_tactical_cloak_specter",
-    "name": "TACTICAL CLOAK",
-    "origin": {
-      "type": "Class",
-      "name": "SPECTER",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Specter is permanently Invisible. As a Full Action, a character can engage in a contested Systems check with the Specter to attempt to disable their cloak; all characters are aware of this. The Specter must be within their Sensors for them to attempt this check. If they succeed, the Specter takes 4 heat and this trait is disabled until the end of their next turn. If they fail, that character gains Lock On.",
-    "tags": []
-  },
-  {
-    "id": "npc-rebake_npcf_hunt_specter",
-    "name": "HUNT",
-    "origin": {
-      "type": "Class",
-      "name": "SPECTER",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Monowire Sword deals double damage when no other characters are adjacent to the target.",
-    "tags": []
-  },
-  {
-    "id": "npc-rebake_npcf_step_specter",
-    "name": "STEP",
-    "origin": {
-      "type": "Class",
-      "name": "SPECTER",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Specter teleports to a free space within line of sight and range 50.",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 5
-      },
-      {
-        "id": "tg_quick_action"
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_drain_systems_specter",
-    "name": "DRAIN SYSTEMS",
-    "origin": {
-      "type": "Class",
-      "name": "SPECTER",
-      "base": false
-    },
-    "locked": false,
-    "type": "Tech",
-    "effect": "The Specter makes a tech attack against an adjacent character. On a success, the target becomes Stunned. This effect lasts until a character other than the Specter starts their turn adjacent to the target or moves adjacent to the target.",
-    "tags": [
-      {
-        "id": "tg_full_tech"
-      }
-    ],
-    "tech_type": "Full",
-    "attack_bonus": [
-      2,
-      4,
-      6
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_lure_specter",
-    "name": "LURE",
-    "origin": {
-      "type": "Class",
-      "name": "SPECTER",
-      "base": false
-    },
-    "locked": false,
-    "type": "Tech",
-    "effect": "The Specter makes a tech attack against a character within sensors. On a success, that character must choose: move their Speed towards the Specter, or become Slowed and Impaired until the end of their next turn.",
-    "tags": [
-      {
-        "id": "tg_quick_tech"
-      },
-      {
-        "id": "tg_recharge",
-        "val": 4
-      }
-    ],
-    "tech_type": "Quick",
-    "attack_bonus": [
-      1,
-      2,
-      3
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_step_specter",
-    "name": "GHOSTRIDE",
-    "origin": {
-      "type": "Class",
-      "name": "SPECTER",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Specter becomes Intangible until the start of their next turn and moves spaces equal to their Speed. At the start of their next turn, their next attack with the Monowire Sword gains +1 Accuracy and deals +1d6 bonus damage on a critical hit. This bonus damage is not doubled.",
-    "tags": [
-      {
-        "id": "tg_full_action"
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_machine_pistol_specter",
-    "name": "MACHINE PISTOL",
-    "origin": {
-      "type": "Class",
-      "name": "SPECTER",
-      "base": false
-    },
-    "locked": false,
-    "type": "Weapon",
-    "effect": "The Specter can move 2 spaces in any direction before or after attacking with this weapon. This movement ignores engagement and doesn't provoke reactions.",
-    "tags": [],
-    "weapon_type": "Auxiliary CQB",
-    "attack_bonus": [
-      2,
-      4,
-      6
-    ],
-    "damage": [
-      {
-        "type": "kinetic",
-        "damage": [
-          3,
-          4,
-          5
-        ]
-      }
-    ],
-    "range": [
-      {
-        "type": "Range",
-        "val": 5
-      },
-      {
-        "type": "Threat",
-        "val": 3
-      }
-    ],
-    "on_hit": ""
-  },
-  {
     "id": "npc-rebake_npcf_combat_shotgun_sentinel",
     "name": "COMBAT SHOTGUN",
     "origin": {
@@ -2771,4 +2564,211 @@
     "effect": "Characters damaged by the Sentinel's Combat Shotgun (including Reliable damage) gain a Sentinel's Mark. Whenever the Sentinel makes an Overwatch attack against a marked character, they gain +1 Accuracy and ignore Invisible. All Sentinel's Marks are cleared at the start of the Sentinel's turn.",
     "tags": []
   },
+  {
+    "id": "npc-rebake_npcf_monowire_sword_specter",
+    "name": "MONOWIRE SWORD",
+    "origin": {
+      "type": "Class",
+      "name": "SPECTER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Armor is doubled against this weapon.",
+    "tags": [],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_prowl_specter",
+    "name": "PROWL",
+    "origin": {
+      "type": "Class",
+      "name": "SPECTER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Specter moves spaces equal to Speed, then becomes Hidden. This movement ignores engagement and doesn’t provoke reactions.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_tactical_cloak_specter",
+    "name": "TACTICAL CLOAK",
+    "origin": {
+      "type": "Class",
+      "name": "SPECTER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Specter is permanently Invisible. As a Full Action, a character can engage in a contested Systems check with the Specter to attempt to disable their cloak; all characters are aware of this. The Specter must be within their Sensors for them to attempt this check. If they succeed, the Specter takes 4 heat and this trait is disabled until the end of their next turn. If they fail, that character gains Lock On.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_hunt_specter",
+    "name": "HUNT",
+    "origin": {
+      "type": "Class",
+      "name": "SPECTER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Monowire Sword deals double damage when no other characters are adjacent to the target.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_step_specter",
+    "name": "STEP",
+    "origin": {
+      "type": "Class",
+      "name": "SPECTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Specter teleports to a free space within line of sight and range 50.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_drain_systems_specter",
+    "name": "DRAIN SYSTEMS",
+    "origin": {
+      "type": "Class",
+      "name": "SPECTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Specter makes a tech attack against an adjacent character. On a success, the target becomes Stunned. This effect lasts until a character other than the Specter starts their turn adjacent to the target or moves adjacent to the target.",
+    "tags": [
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "tech_type": "Full",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_lure_specter",
+    "name": "LURE",
+    "origin": {
+      "type": "Class",
+      "name": "SPECTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Specter makes a tech attack against a character within sensors. On a success, that character must choose: move their Speed towards the Specter, or become Slowed and Impaired until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 4
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_step_specter",
+    "name": "GHOSTRIDE",
+    "origin": {
+      "type": "Class",
+      "name": "SPECTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Specter becomes Intangible until the start of their next turn and moves spaces equal to their Speed. At the start of their next turn, their next attack with the Monowire Sword gains +1 Accuracy and deals +1d6 bonus damage on a critical hit. This bonus damage is not doubled.",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_machine_pistol_specter",
+    "name": "MACHINE PISTOL",
+    "origin": {
+      "type": "Class",
+      "name": "SPECTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "The Specter can move 2 spaces in any direction before or after attacking with this weapon. This movement ignores engagement and doesn't provoke reactions.",
+    "tags": [],
+    "weapon_type": "Auxiliary CQB",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  }
 ]
