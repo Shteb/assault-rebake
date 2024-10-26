@@ -85,16 +85,16 @@
             ]
         },
         "base_features": [
-            "assault-rebake_npcf_weapon_heavy_assault",
-            "assault-rebake_npcf_weapon_combat_knife",
-            "assault-rebake_npcf_trait_hunker_down"
+            "npc-rebake_npcf_weapon_heavy_assault",
+            "npc-rebake_npcf_weapon_combat_knife",
+            "npc-rebake_npcf_trait_hunker_down"
         ],
         "optional_features": [
-            "assault-rebake_npcf_trait_rank_discipline",
-            "assault-rebake_npcf_weapon_underslung_grenade",
-            "assault-rebake_npcf_system_micromissile_barrage",
-            "assault-rebake_npcf_trait_flank_and_fix",
-            "assault-rebake_npcf_trait_stormtrooper"
+            "npc-rebake_npcf_trait_rank_discipline",
+            "npc-rebake_npcf_weapon_underslung_grenade",
+            "npc-rebake_npcf_system_micromissile_barrage",
+            "npc-rebake_npcf_trait_flank_and_fix",
+            "npc-rebake_npcf_trait_stormtrooper"
         ],
         "tables": [],
         "clocks": [],
