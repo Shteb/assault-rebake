@@ -1,9 +1,15 @@
 # Kai's NPC Rebake LCP
 An unpacked LCP containing the playtest versions of Kai's NPC rebakes. For more info, please search the Pilot.net Discord for his pdfs.
+
+Each folder is intended to be rezipped and renamed to an LCP individually. Step by step, that would be:
+- Select contents of either the "Grunt Rebake" folder or the "NPC Rebake" folder. *Do not select the folder itself*.
+- Right click and select "Add to "folder-name.zip"
+- Change the file extension to .lcp
+  - Similar instructions will work for other non-Winrar compression programs
 ### Convention & Format
 All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for example.
-## Current Progress: 85%
-### Classes & Features
+# Current Progress: 100%
+## Classes & Features
 - Assault: Done
 - Aegis: Done
 - Ace: Done
@@ -33,8 +39,8 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Sniper: **No rebake**
 - Specter: Done
 - Support: **No rebake**
-- Grunts:
-  - Artillery: Done
+## Grunt Progress
+- Artillery: Done
 - All others not yet worked on.
 ### Templates
 Kai's Grunt rebake will be included due to it functioning more like a class. The Veteran rebake will not as it's designed to function with base NPCs and is therefore incompatible with the NPC rebakes.

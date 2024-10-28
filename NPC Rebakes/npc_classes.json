@@ -1202,10 +1202,16 @@
             ]
         },
         "base_features": [
-            "npcf_carbon_fiber_sword_ronin",
+            "npc-rebake_npcf_carbon_fiber_sword_ronin",
+            "npc-rebake_npcf_rebound_ronin",
+            "npc-rebake_npcf_counter-ballistic_suite_ronin"
         ],
         "optional_features": [
-            "npcf_charged_slash_ronin",
+            "npc-rebake_npcf_chaff_launchers_ronin",
+            "npc-rebake_npcf_instinct_mode_ronin",
+            "npc-rebake_npcf_mag_field_ronin",
+            "npc-rebake_npcf_charged_slash_ronin",
+            "npc-rebake_npcf_extended_blade_ronin"
         ],
         "power": 100
     },
@@ -1214,207 +1220,207 @@
         "name": "SCOURER",
         "role": "striker",
         "info": {
-          "flavor": "Scourer-class mechs are distinctive for carrying deadly Energy damage weapons powered by massive-output recursive power plants. These mechs are found across the galaxy in specialist roles, supporting conventional ground troops with powerful beam attacks that stop electronic threats as easily as they stop enemy soldiers.",
-          "tactics": "Scourers deal a great deal of damage when they focus on single targets, attacking them multiple times. They can be used to crack tough or slow moving opponents very easily. However, they are much less effective when forced to switch targets, and need to remain still in order to repeatedly fire their Thermal Lance without overheating."
+            "flavor": "Scourer-class mechs are distinctive for carrying deadly Energy damage weapons powered by massive-output recursive power plants. These mechs are found across the galaxy in specialist roles, supporting conventional ground troops with powerful beam attacks that stop electronic threats as easily as they stop enemy soldiers.",
+            "tactics": "Scourers deal a great deal of damage when they focus on single targets, attacking them multiple times. They can be used to crack tough or slow moving opponents very easily. However, they are much less effective when forced to switch targets, and need to remain still in order to repeatedly fire their Thermal Lance without overheating."
         },
         "stats": {
-          "armor": [
-            2,
-            2,
-            2
-          ],
-          "hp": [
-            10,
-            13,
-            16
-          ],
-          "evade": [
-            8,
-            9,
-            10
-          ],
-          "edef": [
-            8,
-            9,
-            10
-          ],
-          "heatcap": [
-            8,
-            10,
-            12
-          ],
-          "speed": [
-            4,
-            4,
-            4
-          ],
-          "sensor": [
-            8,
-            8,
-            8
-          ],
-          "save": [
-            10,
-            12,
-            14
-          ],
-          "hull": [
-            1,
-            2,
-            3
-          ],
-          "agility": [
-            0,
-            0,
-            0
-          ],
-          "systems": [
-            0,
-            0,
-            0
-          ],
-          "engineering": [
-            2,
-            3,
-            4
-          ],
-          "size": [
-            [
-              1
+            "armor": [
+                2,
+                2,
+                2
             ],
-            [
-              1
+            "hp": [
+                10,
+                13,
+                16
             ],
-            [
-              1
+            "evade": [
+                8,
+                9,
+                10
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                8,
+                10,
+                12
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                8,
+                8,
+                8
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                1,
+                2,
+                3
+            ],
+            "agility": [
+                0,
+                0,
+                0
+            ],
+            "systems": [
+                0,
+                0,
+                0
+            ],
+            "engineering": [
+                2,
+                3,
+                4
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
             ]
-          ],
-          "activations": [
-            1,
-            1,
-            1
-          ]
         },
         "base_features": [
-          "npc-rebake_npcf_thermal_lance_scourer",
-          "npc-rebake_npcf_focus_down_scourer",
-          "npc-rebake_npcf_cooling_module_scourer",
-          "npc-rebake_npcf_ablative_shielding_scourer"
+            "npc-rebake_npcf_thermal_lance_scourer",
+            "npc-rebake_npcf_focus_down_scourer",
+            "npc-rebake_npcf_cooling_module_scourer",
+            "npc-rebake_npcf_ablative_shielding_scourer"
         ],
         "optional_features": [
-          "npc-rebake_npcf_supercharged_scourer",
-          "npc-rebake_npcf_emergency_vent_scourer",
-          "npc-rebake_npcf_pulse_laser_scourer",
-          "npc-rebake_npcf_melt_scourer",
-          "npc-rebake_npcf_thermal_overload_scourer"
+            "npc-rebake_npcf_supercharged_scourer",
+            "npc-rebake_npcf_emergency_vent_scourer",
+            "npc-rebake_npcf_pulse_laser_scourer",
+            "npc-rebake_npcf_melt_scourer",
+            "npc-rebake_npcf_thermal_overload_scourer"
         ],
         "power": 100
-      },
+    },
     {
         "id": "npc-rebake_npcc_scout",
         "name": "SCOUT",
         "role": "support",
         "info": {
-          "flavor": "The most devastating mechanized-warfare strategies call for the active, close, and aggressive application of orbital, atmospheric, and terrestrial fire-support. Enter Scout-class mechs and their pilots. Using advanced targeting systems, Scouts are equal parts tactical coordinator and artillery commander, working with allies to map the battlescape and accurately place direct-targeted and autonomous fire.",
-          "tactics": " Scouts are support mechs designed to increase the damage dealt by their allies. They deal no damage themselves, but Marker Rifle assists allies in hitting and damaging priority targets and Rebound Scan prevents enemies from hiding or benefiting from being Invisible. Like most support mechs, Scouts aren’t especially resilient on their own, but Cloaking Field can help keep them and their allies alive"
+            "flavor": "The most devastating mechanized-warfare strategies call for the active, close, and aggressive application of orbital, atmospheric, and terrestrial fire-support. Enter Scout-class mechs and their pilots. Using advanced targeting systems, Scouts are equal parts tactical coordinator and artillery commander, working with allies to map the battlescape and accurately place direct-targeted and autonomous fire.",
+            "tactics": " Scouts are support mechs designed to increase the damage dealt by their allies. They deal no damage themselves, but Marker Rifle assists allies in hitting and damaging priority targets and Rebound Scan prevents enemies from hiding or benefiting from being Invisible. Like most support mechs, Scouts aren’t especially resilient on their own, but Cloaking Field can help keep them and their allies alive"
         },
         "stats": {
-          "armor": [
-            0,
-            0,
-            0
-          ],
-          "hp": [
-            8,
-            8,
-            8
-          ],
-          "evade": [
-            12,
-            15,
-            18
-          ],
-          "edef": [
-            10,
-            13,
-            16
-          ],
-          "heatcap": [
-            6,
-            6,
-            6
-          ],
-          "speed": [
-            6,
-            7,
-            8
-          ],
-          "sensor": [
-            20,
-            20,
-            20
-          ],
-          "save": [
-            11,
-            13,
-            15
-          ],
-          "hull": [
-            -2,
-            -2,
-            -2
-          ],
-          "agility": [
-            2,
-            4,
-            5
-          ],
-          "systems": [
-            3,
-            4,
-            5
-          ],
-          "engineering": [
-            -1,
-            -1,
-            -1
-          ],
-          "size": [
-            [
-              0.5,
-              1
+            "armor": [
+                0,
+                0,
+                0
             ],
-            [
-              0.5,
-              1
+            "hp": [
+                8,
+                8,
+                8
             ],
-            [
-              0.5,
-              1
+            "evade": [
+                12,
+                15,
+                18
+            ],
+            "edef": [
+                10,
+                13,
+                16
+            ],
+            "heatcap": [
+                6,
+                6,
+                6
+            ],
+            "speed": [
+                6,
+                7,
+                8
+            ],
+            "sensor": [
+                20,
+                20,
+                20
+            ],
+            "save": [
+                11,
+                13,
+                15
+            ],
+            "hull": [
+                -2,
+                -2,
+                -2
+            ],
+            "agility": [
+                2,
+                4,
+                5
+            ],
+            "systems": [
+                3,
+                4,
+                5
+            ],
+            "engineering": [
+                -1,
+                -1,
+                -1
+            ],
+            "size": [
+                [
+                    0.5,
+                    1
+                ],
+                [
+                    0.5,
+                    1
+                ],
+                [
+                    0.5,
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
             ]
-          ],
-          "activations": [
-            1,
-            1,
-            1
-          ]
         },
         "base_features": [
-          "npc-rebake_npcf_marker_rifle_scout",
-          "npc-rebake_npcf_sight_scout",
-          "npc-rebake_npcf_rebound_scan_scout",
-          "npc-rebake_npcf_cloaking_field_scout"
+            "npc-rebake_npcf_marker_rifle_scout",
+            "npc-rebake_npcf_sight_scout",
+            "npc-rebake_npcf_rebound_scan_scout",
+            "npc-rebake_npcf_cloaking_field_scout"
         ],
         "optional_features": [
-          "npc-rebake_npcf_spotter_scout",
-          "npc-rebake_npcf_scout_drone_scout",
-          "npc-rebake_npcf_orbital_strike_scout",
-          "npc-rebake_npcf_expose_weakness_scout",
-          "npc-rebake_npcf_pathfinder_scout"
+            "npc-rebake_npcf_spotter_scout",
+            "npc-rebake_npcf_scout_drone_scout",
+            "npc-rebake_npcf_orbital_strike_scout",
+            "npc-rebake_npcf_expose_weakness_scout",
+            "npc-rebake_npcf_pathfinder_scout"
         ],
         "power": 100
-      },
-      {
+    },
+    {
         "id": "npc-rebake_npcc_sentinel",
         "name": "SENTINEL",
         "role": "defender",
@@ -1515,7 +1521,7 @@
             "npc-rebake_npcf_marker_shells_sentinel"
         ],
         "power": 100
-    },   
+    },
     {
         "id": "npc-rebake_npcc_specter",
         "name": "SPECTER",
