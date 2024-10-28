@@ -8,39 +8,39 @@ Each folder is intended to be rezipped and renamed to an LCP individually. Step 
   - Similar instructions will work for other non-Winrar compression programs
 ### Convention & Format
 All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for example.
-# Current Progress: 100%
-## Classes & Features
-- Assault: Done
-- Aegis: Done
-- Ace: Done
-- Archer: Done
-- Assassin: Done
-- Barricade: Done
-- Bastion: Done
-- Berserker: Done
-- Bombard: **No rebake**
-- Breacher: Done
-- Cataphract: **No rebake**
-- Demolisher: Done
-- Engineer: **No rebake**
-- Goliath: **No rebake**
-- Hive: **No rebake**
-- Hornet: **No rebake**
-- Mirage: **No rebake**
-- Operator: **No rebake**
-- Priest: **No rebake**
-- Pyro: Done
-- Rainmaker: **No rebake**
-- Ronin: Stebb WIP
-- Scourer: Done
-- Scout: Done
-- Seeder: **No rebake**
-- Sentinel: Done
-- Sniper: **No rebake**
-- Specter: Done
-- Support: **No rebake**
-## Grunt Progress
-- Artillery: Done
+
+# Classes & Features: 100% Up to date
+- Assault: __Done__
+- Aegis: __Done__
+- Ace: __Done__
+- Archer: __Done__
+- Assassin: __Done__
+- Barricade: __Done__
+- Bastion: __Done__
+- Berserker: __Done__
+- Bombard: ***No rebake***
+- Breacher: __Done__
+- Cataphract: ***No rebake***
+- Demolisher: __Done__
+- Engineer: ***No rebake***
+- Goliath: ***No rebake***
+- Hive: ***No rebake***
+- Hornet: ***No rebake***
+- Mirage: ***No rebake***
+- Operator: ***No rebake***
+- Priest: ***No rebake***
+- Pyro: __Done__
+- Rainmaker: ***No rebake***
+- Ronin: __Done__
+- Scourer: __Done__
+- Scout: __Done__
+- Seeder: ***No rebake***
+- Sentinel: __Done__
+- Sniper: ***No rebake***
+- Specter: __Done__
+- Support: ***No rebake***
+## Grunt Progress: 20%
+- Artillery: __Done__
 - All others not yet worked on.
 ### Templates
 Kai's Grunt rebake will be included due to it functioning more like a class. The Veteran rebake will not as it's designed to function with base NPCs and is therefore incompatible with the NPC rebakes.
