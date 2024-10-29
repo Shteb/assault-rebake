@@ -1,7 +1,7 @@
 {
   "name": "Kai's NPC Rebake",
   "author": "Stebb & SkydivingSnake",
-  "description": "Packaging Kai Tave's NPC rework into an LCP format.",
+  "description": "Draft release of Kai Tave's NPC Rebakes.",
   "item_prefix": "npc-rebake",
   "version": "1.0.0",
   "image_url": "",
