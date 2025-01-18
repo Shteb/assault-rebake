@@ -9,7 +9,7 @@ Each folder is intended to be rezipped and renamed to an LCP individually. Step 
 ### Convention & Format
 All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for example.
 
-# Classes & Features: 100% Up to date
+# Classes & Features: 100% Up to date as of 18/01/2025
 - Assault: __Done__
 - Aegis: __Done__
 - Ace: __Done__
@@ -34,7 +34,7 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Ronin: __Done__
 - Scourer: __Done__
 - Scout: __Done__
-- Seeder: ***No rebake***
+- Seeder: __Done__
 - Sentinel: __Done__
 - Sniper: ***No rebake***
 - Specter: __Done__

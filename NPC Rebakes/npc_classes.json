@@ -1421,6 +1421,106 @@
         "power": 100
     },
     {
+        "id": "npc-rebake_npcc_seeder",
+        "name": "SEEDER",
+        "role": "controller",
+        "info": {
+            "flavor": "Seeder-archetype mechs are sappers, adept at deploying defensive nets of mines and traps. Laden with ordnance and bristling with sensor suites, Seeders operate in small teams: together, they blanket battlefields in traps and pitfalls, planting mines and other area-denial systems to guide the enemy into kill-boxes.",
+            "tactics": "Seeders specialize in area denial, controlling enemy movement with their mines. Since Seeders can place mines each turn, they can quickly turn part of the battlefield into a mess when left to their own devices. Allied characters dont trigger Seeders mines until the Seeder is destroyed, but are affected by them if they’re caught in the explosion. Seeders have a variety of mine types at their disposal, allowing them to set up traps tailored to their enemies' weaknesses."
+        },
+        "stats": {
+            "armor": [
+                2,
+                2,
+                2
+            ],
+            "hp": [
+                12,
+                14,
+                16
+            ],
+            "evade": [
+                7,
+                8,
+                9
+            ],
+            "edef": [
+                10,
+                11,
+                12
+            ],
+            "heatcap": [
+                8,
+                8,
+                8
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                15,
+                15,
+                15
+            ],
+            "save": [
+                12,
+                15,
+                18
+            ],
+            "hull": [
+                0,
+                1,
+                2
+            ],
+            "agility": [
+                0,
+                0,
+                0
+            ],
+            "systems": [
+                2,
+                3,
+                4
+            ],
+            "engineering": [
+                0,
+                0,
+                0
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_grav_grenade_launcher_seeder",
+            "npc-rebake_npcf_lay_mines_seeder",
+            "npc-rebake_npcf_safety_net_seeder"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_grav_spike_seeder",
+            "npc-rebake_npcf_FASCAM_seeder",
+            "npc-rebake_npcf_speed_deployer_seeder",
+            "npc-rebake_npcf_hopping_mines_seeder",
+            "npc-rebake_npcf_last_line_seeder"
+        ],
+        "power": 100
+    },
+    {
         "id": "npc-rebake_npcc_sentinel",
         "name": "SENTINEL",
         "role": "defender",
