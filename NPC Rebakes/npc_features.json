@@ -1000,7 +1000,6 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "At T2–3, this weapon can make two attacks at once, hitting one character twice or two characters once.",
     "tags": [],
     "weapon_type": "Main Cannon",
     "attack_bonus": [
@@ -2156,7 +2155,6 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "On Critical Hits: Deal +1d6 Kinetic damage.<br>At T2, this weapon can make two attacks at a time, targeting either the same character or two different ones. At T3, it can make three attacks at a time.",
     "tags": [],
     "weapon_type": "Main Melee",
     "attack_bonus": [
