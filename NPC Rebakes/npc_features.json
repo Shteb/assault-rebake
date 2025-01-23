@@ -2026,7 +2026,7 @@
     "tags": []
   },
   {
-    "id": "npcf_self_erasure_operator",
+    "id": "npc-rebake-npcf_self_erasure_operator",
     "name": "SELF-ERASURE",
     "origin": {
       "type": "Class",
@@ -2035,7 +2035,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Operator’s is destroyed, it immediately self-immolates in a wave of superheated plasma. All characters adjacent to the Operator when this takes place must succeed on an Agility save or take {4/6/8} Energy damage and rendered only able to draw line of sight to adjacent spaces until the end of their next turn. On a success, they take half damage only. This mech is then removed from the battlefield – it is utterly annihilated.",
+    "effect": "When the Operator is destroyed, it immediately self-immolates in a wave of superheated plasma. All characters adjacent to the Operator when this takes place must succeed on an Agility save or take {4/6/8} Energy damage and rendered only able to draw line of sight to adjacent spaces until the end of their next. On a success, they take half damage only. This mech is then removed from the battlefield – it is utterly annihilated.",
     "tags": []
   },
   {
