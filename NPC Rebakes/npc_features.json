@@ -2039,6 +2039,98 @@
     "tags": []
   },
   {
+    "id": "npc-rebake-npcf_telefrag_operator",
+    "name": "TELEFRAG",
+    "origin": {
+      "type": "Class",
+      "name": "OPERATOR",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Operator teleports into a space occupied by another character within line of sight and range 15. The target must succeed on an Agility save or take {4/5/6} AP Energy damage and become Jammed and Shredded until the end of their next turn. On a successful save, they take half damage only. Succeed or fail, the Operator takes 1d6 AP Energy damage and then teleports to a new space within Range 5.",
+    "tags": [{
+      "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npc-rebake-npcf_overload_shot_operator",
+    "name": "OVERLOAD SHOT",
+    "origin": {
+      "type": "Class",
+      "name": "OPERATOR",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Operator makes an attack with the Raptor Plasma Rifle, treating its Range as Line 10.",
+    "tags": [{
+      "id": "tg_recharge",
+      "val": 5
+      },
+      {
+      "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake-npcf_fade_generator_operator",
+    "name": "FADE GENERATOR",
+    "origin": {
+      "type": "Class",
+      "name": "OPERATOR",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Operator teleports to a space within Range 2. They may choose to teleport further taking 1d6 heat and adding that many additonal spaces to the movement.",
+    "tags": [{
+      "id": "tg_round",
+      "val": 1
+    },
+    {
+      "id": "tg_reaction"
+    }
+  ],
+  "trigger": "The Operator takes damage from a ranged or melee attack."
+},
+{
+  "id": "npc-rebake-npcf_singularity_grenade_operator",
+  "name": "SINGULARITY GRENADE",
+  "origin": {
+    "type": "Class",
+    "name": "OPERATOR",
+    "base": false
+  },
+  "locked": false,
+  "type": "System",
+  "effect": "The Operator may expend a charge to throw a grenade to a space within Range 5. Characters in the Blast 2 energy pulse (excluding the Operator) must pass a Systems save or be teleported 2 spaces in a direction of the Operator's choice and treat the Operator as Invisible until the end of their next turn.<Br>The Operator then teleports their Speed.",
+  "tags": [{
+      "id": "tg_grenade"
+    },
+    {
+      "id": "tg_limited",
+      "val": 1
+    },
+    {
+      "id": "tg_quick_action"
+    }
+  ]
+},
+{
+  "id": "npc-rebake-npcf_deniable_asset_operator",
+  "name": "DENIABLE ASSET",
+  "origin": {
+    "type": "Class",
+    "name": "OPERATOR",
+    "base": false
+  },
+  "locked": false,
+  "type": "Trait",
+  "effect": "Self Erasure now deals {6/8/10} damage (half on a successful save), and when the Operator is destroyed they may immediately teleport their Speed as a Reaction before self-immolating.",
+  "tags": []
+},
+  {
     "id": "npc-rebake_npcf_flamethrower_pyro",
     "name": "FLAMETHROWER",
     "origin": {
