@@ -1,7 +1,7 @@
 [
     {
         "id": "npc-rebake_npc_classes_assault",
-        "name": "ASSAULT",
+        "name": "ASSAULT [K]",
         "info": {
             "flavor": "Assault mechs are the most common primary battle frames found throughout the galaxy. Fitted with a heavy rifle, a sidearm, and a suite of systems that enhance movement, targeting, and defensibility, they are straightforward, reliable, and hardy combatants. The pilots of Assault mechs are also the cheapest to train and outfit, but that doesn’t make them any less dangerous.",
             "tactics": "The Assault is a straightforward, damage-dealing striker that emphasizes the importance of taking cover. Equipped to do good damage at decent range, they want to flank their opponents or drive them out of cover in order to maximize their effectiveness. <strong>Hunker Down</strong> can increase their survivability, but leaves them less able to maneuver in return."
@@ -103,7 +103,7 @@
     },
     {
         "id": "npc-rebake_classes_aegis",
-        "name": "AEGIS",
+        "name": "AEGIS [K]",
         "info": {
             "flavor": "",
             "tactics": "Aegises are tough and defensive support units. They are most effective when positioned so that their Defense Net can cover as many allies as possible, as the Aegis itself is slow-moving and can't reposition quickly. They can also protect their allies from the effects of Impaired and Slowed while being immune to those conditions themselves."
@@ -205,7 +205,7 @@
     },
     {
         "id": "npcc_ace",
-        "name": "ACE",
+        "name": "ACE [K]",
         "role": "striker",
         "info": {
             "flavor": "The first person to embody the “Ace” archetype was Aisling Jensen, an auxiliary pilot active during the liberation of Verdana. Knights of the chassis and sky, Aces like Aisling throw their mechs into battle with high-speed strafing runs, agile maneuvers, and reckless feats of daring. Cocky and self-assured, Aces relish a good duel.",
@@ -305,7 +305,7 @@
     },
     {
         "id": "npc-rebake_npcc_archer",
-        "name": "ARCHER",
+        "name": "ARCHER [K]",
         "role": "controller",
         "info": {
             "flavor": "The basis of the Archer archetype, Ursa Major’s Gatekeeper Key-II, was popularized by Ichabod Carden’s heroic actions in the Battle of Terramoto. Archer-archetype mechs sacrifice armor for powerful targeting and superpositional maneuvering systems, making them especially popular with pilots who prefer to have control over the precise destination of each shot.",
@@ -406,7 +406,7 @@
     },
     {
         "id": "npc-rebake_npcc_assassin",
-        "name": "ASSASSIN",
+        "name": "ASSASSIN [K]",
         "role": "striker",
         "info": {
             "flavor": "Assassins tend towards agility, damage, and speed. These pilots sacrifice comfort for efficiency, stripping out everything from life-support to comms systems and replacing them with increased processing power and stealth capabilities. Assassins work alone or in small groups, piloting their small, sleek mechs through near-impenetrable terrain to catch their targets off-guard.",
@@ -510,7 +510,7 @@
     },
     {
         "id": "npc-rebake_npcc_barricade",
-        "name": "BARRICADE",
+        "name": "BARRICADE [K]",
         "role": "controller",
         "info": {
             "flavor": "Veld Systems’ Keeper Pattern 5 is a common guard mech made famous after the platform’s performance during the Battle of Sing Rama Sing. During the battle, Audrey Reimaus of the Seraphs’ Company used a Keeper P5 to singlehandedly secure Rama City’s main uplift tower, thus guaranteeing an evacuation corridor for the city’s civilian population.",
@@ -612,7 +612,7 @@
     },
     {
         "id": "npc-rebake_npcc_bastion",
-        "name": "BASTION",
+        "name": "BASTION [K]",
         "role": "defender",
         "info": {
             "flavor": "Bastions trade the pure defensive edge of Aegis-archetype mechs for greater mobility. They blend area-denial offensive capabilities with hardened defense systems and advanced communication suites. These mechs are favorites of many strong squadron commanders. The efficacy of the pairing was best displayed by the actions of Zander Reeves, a field-promoted auxiliary officer, during engagements with the “Space Between” interstellar pirate guild in the Dromeda system.",
@@ -713,7 +713,7 @@
     },
     {
         "id": "npc-rebake_npcc_berserker",
-        "name": "BERSERKER",
+        "name": "BERSERKER [K]",
         "role": "striker",
         "info": {
             "flavor": "Berserker mechs are built to take advantage of advanced heat-cycling systems that allow them to shunt heat - as it is generated - into pure offensive force, increasing their weapon output by orders of magnitude. The archetype, best-known for its use by Gen’Dal Merlos’s Knights of Imminent Destruction, is preferred by pure combat-focus organizations, PMCs, and deniable-asset corps in established states.",
@@ -814,7 +814,7 @@
     },
     {
         "id": "npc-rebake_npcc_breacher",
-        "name": "BREACHER",
+        "name": "BREACHER [K]",
         "role": "striker",
         "info": {
             "flavor": "Notoriously effective in boarding operations, the Campbell Orbital Dynamics C-O MkIII is often seen in the arsenals of suborbital planetary defense forces and their pirate counterparts. Officially, the CO designation is an abbreviation of “CombatOrbital”, but unofficially, the CO3 goes by a different name: the “Can Opener”, inspired by the callsign of Valeria Rojas-Sarnik, one of the most storied CO3 pilots.",
@@ -915,7 +915,7 @@
     },
     {
         "id": "npc-rebake_npcc_demolisher",
-        "name": "DEMOLISHER",
+        "name": "DEMOLISHER [K]",
         "role": "defender",
         "info": {
             "flavor": "The lengthy siege of Jadigmora City saw the development of the first true Demolisher frames. Based on antique Berserker mechs, Demolishers swapped dramatic heat flows for more sustainable systems, improved hydraulic strength, and stabilizers for supermassive melee weapons. Demolisher pilots soon discovered a range of new applications for their concussion-wave ordnance. A lancer named Hayes Rothford and their NHP, Clarke, were the first pilot/co-pilot team to truly show the power of the platform, singlehandedly bringing down a siege frigate in low orbit.",
@@ -1016,7 +1016,7 @@
     },
     {
         "id": "npcc_pyro",
-        "name": "PYRO",
+        "name": "PYRO [K]",
         "role": "defender",
         "info": {
             "flavor": "First popularized in the wake of the Hercynian Crisis by the lancer Flama and their aptly named Devil Corps, Pyro frames are reviled across the galaxy as the embodiment of the pure destructive power held by militarized states and corpro-states. Their use is common within organizations for which the ends justify the means. Pyros are well-armored, and better insulated than most chassis of similar gross weight, designed to manage incredible internal heat while projecting volatile mixes of chemicals and flame toward their enemies. Pyros are often used in urban and jungle warfare, where they can be used to root out entrenched defenders.",
@@ -1117,7 +1117,7 @@
     },
     {
         "id": "npc-rebake_npcc_ronin",
-        "name": "RONIN",
+        "name": "RONIN [K]",
         "role": "striker",
         "info": {
             "flavor": "Ronin frames differ from those favored by Berserkers and Demolishers in that they aren’t retrofitted or improvised for creative tactical applications – they are purpose-built to excel in melee combat by boutique fabricators. Although they are seen as somewhat antique by many commentators, the rise of stasis- and mag-based defensive technologies has made Ronins more viable in modern combat.<br>Ronin are common among both martial cultures and performance-combat firms, where their superb melee abilities elevate them above the competition. They see less use in cultures that have a preference for ranged combat, but there is a certain prestige accorded to pilots who adopt ancient weapons and survive to do it again. The mythic lancer Susanoo elevated this archetype to legendary status when she endorsed the GRAMtech Strike-1 chassis, which she piloted alongside numerous Albatross wings during the Neo-Celestine Disappointment.",
@@ -1217,7 +1217,7 @@
     },
     {
         "id": "npc-rebake_npcc_scourer",
-        "name": "SCOURER",
+        "name": "SCOURER [K]",
         "role": "striker",
         "info": {
             "flavor": "Scourer-class mechs are distinctive for carrying deadly Energy damage weapons powered by massive-output recursive power plants. These mechs are found across the galaxy in specialist roles, supporting conventional ground troops with powerful beam attacks that stop electronic threats as easily as they stop enemy soldiers.",
@@ -1318,7 +1318,7 @@
     },
     {
         "id": "npc-rebake_npcc_scout",
-        "name": "SCOUT",
+        "name": "SCOUT [K]",
         "role": "support",
         "info": {
             "flavor": "The most devastating mechanized-warfare strategies call for the active, close, and aggressive application of orbital, atmospheric, and terrestrial fire-support. Enter Scout-class mechs and their pilots. Using advanced targeting systems, Scouts are equal parts tactical coordinator and artillery commander, working with allies to map the battlescape and accurately place direct-targeted and autonomous fire.",
@@ -1422,7 +1422,7 @@
     },
     {
         "id": "npc-rebake_npcc_seeder",
-        "name": "SEEDER",
+        "name": "SEEDER [K]",
         "role": "controller",
         "info": {
             "flavor": "Seeder-archetype mechs are sappers, adept at deploying defensive nets of mines and traps. Laden with ordnance and bristling with sensor suites, Seeders operate in small teams: together, they blanket battlefields in traps and pitfalls, planting mines and other area-denial systems to guide the enemy into kill-boxes.",
@@ -1522,7 +1522,7 @@
     },
     {
         "id": "npc-rebake_npcc_sentinel",
-        "name": "SENTINEL",
+        "name": "SENTINEL [K]",
         "role": "defender",
         "info": {
             "flavor": "Sentinel archetypes are typically employed as guards and escorts, often in the retinues of commanders or posted in defense of artillery. These mechs and their pilots employ advanced suites of technology to ensure their wards stay alive and operational, even if that costs their own chassis – or lives. Unlike the heavier Bastion archetypes, Sentinels are quick and light: they practice active defense, preemptively striking with suites of advanced technical, systemic, and direct weaponry to protect their charges.",
@@ -1624,7 +1624,7 @@
     },
     {
         "id": "npc-rebake_npcc_specter",
-        "name": "SPECTER",
+        "name": "SPECTER [K]",
         "role": "striker",
         "info": {
             "flavor": "The principle behind the development of Specter-archetype mechs is a simple one: not being hit is better than the strongest armor. Specters employ cutting-edge optical-electronic camouflage to vanish from the battlefield and enemy scans. They flicker in and out of vision, confusing the eye and the radar. That’s what makes them so deadly, though their weapons certainly help.",
