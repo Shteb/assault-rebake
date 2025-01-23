@@ -10,7 +10,9 @@ Each folder is intended to be rezipped and renamed to an LCP individually. Step 
 All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for examples.
 All classes are being named "(DEFAULT_CLASS_NAME) [K]". See existing rebakes for examples.
 
-### When Updating
+### When making changes
+- Bump version in manifest. Version incrementing follows [Major Release].[Class Added].[Fixes]
+- Update Readme with progress.
 
 # Classes & Features: 95% Up to date as of 23/01/2025
 
