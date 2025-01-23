@@ -9,7 +9,7 @@ Each folder is intended to be rezipped and renamed to an LCP individually. Step 
 ### Convention & Format
 All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for example.
 
-# Classes & Features: 100% Up to date as of 23/01/2025
+# Classes & Features: 90% Up to date as of 23/01/2025
 - Assault: __Done__
 - Aegis: __Done__
 - Ace: __Done__
@@ -18,9 +18,9 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Barricade: __Done__
 - Bastion: __Done__
 - Berserker: __Done__
-- Bombard: ***No rebake***
+- Bombard: __TBD__
 - Breacher: __Done__
-- Cataphract: ***No rebake***
+- Cataphract: __TBD__
 - Demolisher: __Done__
 - Engineer: ***No rebake***
 - Goliath: ***No rebake***
