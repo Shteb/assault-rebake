@@ -1964,6 +1964,81 @@
     "tags": []
   },
   {
+    "id": "npc-rebake-npcf_raptor_plasma_rifle_operator",
+    "name": "RAPTOR PLASMA RIFLE",
+    "origin": {
+      "type": "Class",
+      "name": "OPERATOR",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "At T2, this weapon can make two attacks at a time, targeting either the same character or two different ones. At T3, it can make three attacks at a time.",
+    "tags": [{
+      "id": "tg_reliable",
+      "val": "{2/3/4}"
+    }
+    ],
+    "weapon_type": "Heavy Rifle",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [{
+      "type": "Energy",
+      "damage": [
+        6,
+        8,
+        10
+      ]
+    }],
+    "range": [{
+      "type": "Range",
+      "val": 10
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake-npcf_trace_drive_operator",
+    "name": "TRACE DRIVE",
+    "origin": {
+      "type": "Class",
+      "name": "OPERATOR",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Operator teleports when they make their standard move. Whenever the Operator exceeds their Heat Cap, this system is disabled until the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake-npcf_strike_and_fade_operator",
+    "name": "STRIKE AND FADE",
+    "origin": {
+      "type": "Class",
+      "name": "OPERATOR",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever the Operator teleports during their turn before making any attacks, they gain +1 Accuracy on all attacks with the Raptor Plasma Rifle until the end of their turn. Whenever the Operator teleports during their turn after making any attacks, all attacks against them recieve +1 Difficulty until the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "npcf_self_erasure_operator",
+    "name": "SELF-ERASURE",
+    "origin": {
+      "type": "Class",
+      "name": "OPERATOR",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Operator’s is destroyed, it immediately self-immolates in a wave of superheated plasma. All characters adjacent to the Operator when this takes place must succeed on an Agility save or take {4/6/8} Energy damage and rendered only able to draw line of sight to adjacent spaces until the end of their next turn. On a success, they take half damage only. This mech is then removed from the battlefield – it is utterly annihilated.",
+    "tags": []
+  },
+  {
     "id": "npc-rebake_npcf_flamethrower_pyro",
     "name": "FLAMETHROWER",
     "origin": {
