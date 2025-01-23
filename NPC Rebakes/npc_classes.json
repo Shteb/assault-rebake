@@ -1015,7 +1015,108 @@
         "power": 100
     },
     {
-        "id": "npcc_pyro",
+        "id": "npc-rebake_npcc_operator",
+        "name": "OPERATOR [K]",
+        "role": "artillery",
+        "info": {
+          "flavor": "Operators are known-unknowns, rarely encountered on the front lines, but this should not be mistaken for fragility. Operators are dangerous and deadly in every way. Like their mechs, Operators’ bodies are loaded with the most advanced tech available. When they die in combat, it’s not unknown for their bodies – and their mechs — to self-immolate, rendering any technology and data into ash.",
+          "tactics": "Operators are elite and extremely mobile artillery mechs. They aren’t particularly hardy, nor is their Raptor Plasma Rifle especially long-ranged compared to other artillery units, but the incredible mobility offered by their Trace Drive allows them to teleport around the battlefield at will. This allows them to quickly move into range, shoot, then move away, darting around the outskirts of fights and teleporting to advantageous positions, such as on top of obstructions or terrain, into cover, and anywhere else they can line up an effective shot."
+        },
+        "stats": {
+          "armor": [
+            0,
+            0,
+            0
+          ],
+          "hp": [
+            10,
+            12,
+            14
+          ],
+          "evade": [
+            10,
+            12,
+            12
+          ],
+          "edef": [
+            10,
+            14,
+            14
+          ],
+          "heatcap": [
+            7,
+            7,
+            7
+          ],
+          "speed": [
+            5,
+            5,
+            5
+          ],
+          "sensor": [
+            10,
+            10,
+            10
+          ],
+          "save": [
+            11,
+            13,
+            15
+          ],
+          "hull": [
+            2,
+            3,
+            4
+          ],
+          "agility": [
+            2,
+            3,
+            4
+          ],
+          "systems": [
+            2,
+            3,
+            4
+          ],
+          "engineering": [
+            2,
+            3,
+            4
+          ],
+          "size": [
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [
+              1
+            ]
+          ],
+          "activations": [
+            1,
+            1,
+            1
+          ]
+        },
+        "base_features": [
+          "npc-rebake_npcf_raptor_plasma_rifle_operator",
+          "npc-rebake_npcf_trace_drive_operator",
+          "npc-rebake_npcf_strike_and_fade_operator",
+          "npc-rebake_npcf_self_erasure_operator"
+        ],
+        "optional_features": [
+          "npc-rebake_npcf_telefrag_operator",
+          "npc-rebake_npcf_overload_shot_operator",
+          "npc-rebake_npcf_fade_generator_operator",
+          "npc-rebake_npcf_singularity_grenade_operator",
+          "npc-rebake_npcf_deniable_asset_operator"
+        ],
+        "power": 100
+      },
+    {
+        "id": "npc-rebake_npcc_pyro",
         "name": "PYRO [K]",
         "role": "defender",
         "info": {
