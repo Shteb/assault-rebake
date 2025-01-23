@@ -10,37 +10,42 @@ Each folder is intended to be rezipped and renamed to an LCP individually. Step 
 All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for example.
 
 # Classes & Features: 90% Up to date as of 23/01/2025
-- Assault: __Done__
-- Aegis: __Done__
-- Ace: __Done__
-- Archer: __Done__
-- Assassin: __Done__
-- Barricade: __Done__
-- Bastion: __Done__
-- Berserker: __Done__
-- Bombard: __TBD__
-- Breacher: __Done__
-- Cataphract: __TBD__
-- Demolisher: __Done__
-- Engineer: ***No rebake***
-- Goliath: ***No rebake***
-- Hive: ***No rebake***
-- Hornet: ***No rebake***
-- Mirage: ***No rebake***
-- Operator: __Done__
-- Priest: ***No rebake***
-- Pyro: __Done__
-- Rainmaker: ***No rebake***
-- Ronin: __Done__
-- Scourer: __Done__
-- Scout: __Done__
-- Seeder: __Done__
-- Sentinel: __Done__
-- Sniper: ***No rebake***
-- Specter: __Done__
-- Support: ***No rebake***
+
+| Class | Status |
+| ------ | :------: |
+Assault | Done
+Ace | Done
+Archer | Done
+Assassin | Done
+Assault: | Done
+Barricade | Done
+Bastion | Done
+Berserker | Done
+Bombard: | <ins>**TBD**</ins>
+Breacher | Done
+Cataphract | <ins>**TBD**</ins>
+Demolisher | Done
+Engineer | n/a
+Goliath | n/a
+Hive | n/a
+Hornet | n/a
+Mirage | n/a
+Operator | Done
+Priest | n/a
+Pyro | Done
+Rainmaker | n/a
+Ronin | Done
+Scourer | Done
+Scout | Done
+Seeder | Done
+Sentinel | Done
+Sniper | n/a
+Specter | Done
+Support | n/a
 ## Grunt Progress: 20%
-- Artillery: __Done__
+| Class | Status |
+| ------ | :------: |
+Artillery | Done
 - All others not yet worked on.
 ### Templates
 Kai's Grunt rebake will be included due to it functioning more like a class. The Veteran rebake will not as it's designed to function with base NPCs and is therefore incompatible with the NPC rebakes.
