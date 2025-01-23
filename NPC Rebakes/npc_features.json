@@ -2123,7 +2123,7 @@
     ]
   },
   {
-    "id": "npc-rebake_npcf_seismic_destroyer_demolisher",
+    "id": "npc-rebake_npcf_hullcracker_demolisher",
     "name": "HULLCRACKER",
     "origin": {
       "type": "Class",

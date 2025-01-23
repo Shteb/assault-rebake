@@ -914,6 +914,107 @@
         "power": 100
     },
     {
+        "id": "npc-rebake_npcc_cataphract",
+        "name": "CATAPHRACT",
+        "role": "striker",
+        "info": {
+            "flavor": "Cataphract squadrons are made up of rapid-strike mechs that emphasize mobility, shock, and tenacity; it follows, then, that Cataphract archetypes are feared across the galaxy for their ability to overwhelm defenses in moments. There are few things more terrifying (or inspiring) than a squadron of Cataphracts punching through a static battle line, heavy cannons and point-defense weapons wiping out previously immovable defenders. The flagship Cataphract-class chassis is the Sine Die Systems END-44, an angular beast of a mech outfitted with SDS’s fearsome Ram Cannon. The enduring popularity of the chassis can be attributed to the success of Catherine “C-80” Need, who made their name piloting an END-44 to victory in the defense of Carina-Proximal.",
+            "tactics": "Cataphracts are mobile \"linebreaker\" strikers that can pull formations apart. Trample allows them to move through enemies and get them to the rear lines, where they can use Impale to drag vulnerable targets into disadvantageous positions. Position Cataphracts so that they are closer to individual hostile characters, as Point-Defense Shield doesn’t work if several enemies are an equal distance away. Note that Cataphracts still provoke reactions when they move, so use their abilities carefully."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                16,
+                18,
+                20
+            ],
+            "evade": [
+                10,
+                11,
+                12
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                6,
+                7,
+                8
+            ],
+            "speed": [
+                8,
+                8,
+                8
+            ],
+            "sensor": [
+                5,
+                5,
+                5
+            ],
+            "save": [
+                12,
+                14,
+                16
+            ],
+            "hull": [
+                1,
+                2,
+                3
+            ],
+            "agility": [
+                0,
+                3,
+                4
+            ],
+            "systems": [
+                0,
+                0,
+                0
+            ],
+            "engineering": [
+                0,
+                0,
+                0
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_ram_cannon_cataphract",
+            "npc-rebake_npcf_trample_cataphract",
+            "npc-rebake_npcf_impale_cataphract",
+            "npc-rebake_npcf_point_defense_shield_cataphract"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_electrified_lasso_cataphract",
+            "npc-rebake_npcf_lance_shot_cataphract",
+            "npc-rebake_npcf_electromagnetic_bola_cataphract",
+            "npc-rebake_npcf_charge_cataphract",
+            "npc-rebake_npcf_capacitor_discharge_cataphract"
+        ],
+        "power": 100
+    },
+    {
         "id": "npc-rebake_npcc_demolisher",
         "name": "DEMOLISHER [K]",
         "role": "defender",
@@ -1009,7 +1110,7 @@
             "npc-rebake_npcf_jet_propulsion_demolisher",
             "npc-rebake_npcf_kinetic_compensation_demolisher",
             "npc-rebake_npcf_seismic_destroyer_demolisher",
-            "npc-rebake_npcf_seismic_destroyer_demolisher",
+            "npc-rebake_npcf_hullcracker_demolisher",
             "npc-rebake_npcf_drag_cables_demolisher"
         ],
         "power": 100
@@ -1019,102 +1120,102 @@
         "name": "OPERATOR [K]",
         "role": "artillery",
         "info": {
-          "flavor": "Operators are known-unknowns, rarely encountered on the front lines, but this should not be mistaken for fragility. Operators are dangerous and deadly in every way. Like their mechs, Operators’ bodies are loaded with the most advanced tech available. When they die in combat, it’s not unknown for their bodies – and their mechs — to self-immolate, rendering any technology and data into ash.",
-          "tactics": "Operators are elite and extremely mobile artillery mechs. They aren’t particularly hardy, nor is their Raptor Plasma Rifle especially long-ranged compared to other artillery units, but the incredible mobility offered by their Trace Drive allows them to teleport around the battlefield at will. This allows them to quickly move into range, shoot, then move away, darting around the outskirts of fights and teleporting to advantageous positions, such as on top of obstructions or terrain, into cover, and anywhere else they can line up an effective shot."
+            "flavor": "Operators are known-unknowns, rarely encountered on the front lines, but this should not be mistaken for fragility. Operators are dangerous and deadly in every way. Like their mechs, Operators’ bodies are loaded with the most advanced tech available. When they die in combat, it’s not unknown for their bodies – and their mechs — to self-immolate, rendering any technology and data into ash.",
+            "tactics": "Operators are elite and extremely mobile artillery mechs. They aren’t particularly hardy, nor is their Raptor Plasma Rifle especially long-ranged compared to other artillery units, but the incredible mobility offered by their Trace Drive allows them to teleport around the battlefield at will. This allows them to quickly move into range, shoot, then move away, darting around the outskirts of fights and teleporting to advantageous positions, such as on top of obstructions or terrain, into cover, and anywhere else they can line up an effective shot."
         },
         "stats": {
-          "armor": [
-            0,
-            0,
-            0
-          ],
-          "hp": [
-            10,
-            12,
-            14
-          ],
-          "evade": [
-            10,
-            12,
-            12
-          ],
-          "edef": [
-            10,
-            14,
-            14
-          ],
-          "heatcap": [
-            7,
-            7,
-            7
-          ],
-          "speed": [
-            5,
-            5,
-            5
-          ],
-          "sensor": [
-            10,
-            10,
-            10
-          ],
-          "save": [
-            11,
-            13,
-            15
-          ],
-          "hull": [
-            2,
-            3,
-            4
-          ],
-          "agility": [
-            2,
-            3,
-            4
-          ],
-          "systems": [
-            2,
-            3,
-            4
-          ],
-          "engineering": [
-            2,
-            3,
-            4
-          ],
-          "size": [
-            [
-              1
+            "armor": [
+                0,
+                0,
+                0
             ],
-            [
-              1
+            "hp": [
+                10,
+                12,
+                14
             ],
-            [
-              1
+            "evade": [
+                10,
+                12,
+                12
+            ],
+            "edef": [
+                10,
+                14,
+                14
+            ],
+            "heatcap": [
+                7,
+                7,
+                7
+            ],
+            "speed": [
+                5,
+                5,
+                5
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                11,
+                13,
+                15
+            ],
+            "hull": [
+                2,
+                3,
+                4
+            ],
+            "agility": [
+                2,
+                3,
+                4
+            ],
+            "systems": [
+                2,
+                3,
+                4
+            ],
+            "engineering": [
+                2,
+                3,
+                4
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
             ]
-          ],
-          "activations": [
-            1,
-            1,
-            1
-          ]
         },
         "base_features": [
-          "npc-rebake_npcf_raptor_plasma_rifle_operator",
-          "npc-rebake_npcf_trace_drive_operator",
-          "npc-rebake_npcf_strike_and_fade_operator",
-          "npc-rebake_npcf_self_erasure_operator"
+            "npc-rebake_npcf_raptor_plasma_rifle_operator",
+            "npc-rebake_npcf_trace_drive_operator",
+            "npc-rebake_npcf_strike_and_fade_operator",
+            "npc-rebake_npcf_self_erasure_operator"
         ],
         "optional_features": [
-          "npc-rebake_npcf_telefrag_operator",
-          "npc-rebake_npcf_overload_shot_operator",
-          "npc-rebake_npcf_fade_generator_operator",
-          "npc-rebake_npcf_singularity_grenade_operator",
-          "npc-rebake_npcf_deniable_asset_operator"
+            "npc-rebake_npcf_telefrag_operator",
+            "npc-rebake_npcf_overload_shot_operator",
+            "npc-rebake_npcf_fade_generator_operator",
+            "npc-rebake_npcf_singularity_grenade_operator",
+            "npc-rebake_npcf_deniable_asset_operator"
         ],
         "power": 100
-      },
+    },
     {
         "id": "npc-rebake_npcc_pyro",
         "name": "PYRO [K]",
