@@ -7,9 +7,14 @@ Each folder is intended to be rezipped and renamed to an LCP individually. Step 
 - Change the file extension to .lcp
   - Similar instructions will work for other non-Winrar compression programs
 ### Convention & Format
-All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for example.
+All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for examples.
+All classes are being named "(DEFAULT_CLASS_NAME) [K]". See existing rebakes for examples.
 
-# Classes & Features: 90% Up to date as of 23/01/2025
+### When making changes
+- Bump version in manifest. Version incrementing follows [Major Release].[Class Added].[Fixes]
+- Update Readme with progress.
+
+# Classes & Features: 95% Up to date as of 23/01/2025
 
 | Class | Status |
 | ------ | :------: |
@@ -23,7 +28,7 @@ Bastion | Done
 Berserker | Done
 Bombard: | <ins>**TBD**</ins>
 Breacher | Done
-Cataphract | <ins>**TBD**</ins>
+Cataphract | Done
 Demolisher | Done
 Engineer | n/a
 Goliath | n/a

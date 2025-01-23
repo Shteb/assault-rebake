@@ -1760,6 +1760,199 @@
     "tags": []
   },
   {
+    "id": "npc-rebake_npcf_ram_cannon_cataphract",
+    "name": "RAM CANNON",
+    "origin": {
+      "type": "Class",
+      "name": "CATAPHRACT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This lance can be used as either a ranged or melee weapon, but not both in the same turn. When used as a ranged weapon, Critical Hits cause the target to become Impaired until the end of their next turn. When used as a melee weapon, it gains Knockback 2.",
+    "tags": [],
+    "weapon_type": "Heavy Melee/Heavy Cannon",
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "accuracy": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          5,
+          7,
+          9
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_trample_cataphract",
+    "name": "TRAMPLE",
+    "origin": {
+      "type": "Class",
+      "name": "CATAPHRACT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Cataphract ignores engagement and can pass through – but not stop in – spaces occupied by other characters, 1/turn dealing 2/3/4 kinetic damage to those characters.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_impale_cataphract",
+    "name": "IMPALE",
+    "origin": {
+      "type": "Class",
+      "name": "CATAPHRACT",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Cataphract moves up to 8 spaces in a straight line. Pick a character that the Cataphract passed through or ended adjacent to; they must pass a Hull save. On a failure, they are grappled by the Cataphract and pulled with the Cataphract to the end of their movement. On Critical Hit with the Ram Cannon, this system automatically Recharges.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_point_defense_shield_cataphract",
+    "name": "POINT-DEFENSE SHIELD",
+    "origin": {
+      "type": "Class",
+      "name": "CATAPHRACT",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Cataphract has Resistance to all damage from the closest hostile character. If multiple characters are equally close, this effect does not apply.",
+    "tags": [
+      {
+        "id": "tg_shield"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_electrified_lasso_cataphract",
+    "name": "ELECTRIFIED LASSO",
+    "origin": {
+      "type": "Class",
+      "name": "CATAPHRACT",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "A character in line of sight and Range 5 must make a Hull save. On a failure, they take 2/3/4 heat andare pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_lance_shot_cataphract",
+    "name": "LANCE SHOT",
+    "origin": {
+      "type": "Class",
+      "name": "CATAPHRACT",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Cataphract fires a piercing lance in a Line 5 path. All characters within the affected area must pass a Hull save or be knocked back 3 spaces. Any character that collides with an obstruction or another character also becomes Immobilized until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_electromagnetic_bola_cataphract",
+    "name": "ELECTROMAGNETIC BOLA",
+    "origin": {
+      "type": "Class",
+      "name": "CATAPHRACT",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "A flying character in Range 10 must pass an Agility save. On a failure, they are pulled 3 spaces, land immediately, and become Immobilized until the end of their next turn. This counts as falling but without damage.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_charge_cataphract",
+    "name": "CHARGE",
+    "origin": {
+      "type": "Class",
+      "name": "CATAPHRACT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Cataphract moves spaces equal to their Speed in a straight line, ignoring reactions and engagement, then attacks a target within Range with the Ram Cannon.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_capacitor_discharge_cataphract",
+    "name": "CAPACITOR DISCHARGE",
+    "origin": {
+      "type": "Class",
+      "name": "CATAPHRACT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "As long as the Cataphract isn't Slowed or Jammed, whenever characters make melee attacks against them, they take 2/3/4 heat before rolling.",
+    "tags": []
+  },
+  {
     "id": "npc-rebake_npcf_demolition_hammer_demolisher",
     "name": "DEMOLITION HAMMER",
     "origin": {
@@ -1930,7 +2123,7 @@
     ]
   },
   {
-    "id": "npc-rebake_npcf_seismic_destroyer_demolisher",
+    "id": "npc-rebake_npcf_hullcracker_demolisher",
     "name": "HULLCRACKER",
     "origin": {
       "type": "Class",
@@ -1974,10 +2167,11 @@
     "locked": false,
     "type": "Weapon",
     "effect": "",
-    "tags": [{
-      "id": "tg_reliable",
-      "val": "{2/3/4}"
-    }
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": "{2/3/4}"
+      }
     ],
     "weapon_type": "Heavy Rifle",
     "attack_bonus": [
@@ -1985,18 +2179,22 @@
       2,
       3
     ],
-    "damage": [{
-      "type": "Energy",
-      "damage": [
-        6,
-        8,
-        10
-      ]
-    }],
-    "range": [{
-      "type": "Range",
-      "val": 10
-    }],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          6,
+          8,
+          10
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
     "on_hit": ""
   },
   {
@@ -2049,13 +2247,15 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Operator teleports into a space occupied by another character within line of sight and range 15. The target must succeed on an Agility save or take {4/5/6} AP Energy damage and become Jammed and Shredded until the end of their next turn. On a successful save, they take half damage only. Succeed or fail, the Operator takes 1d6 AP Energy damage and then teleports to a new space within Range 5.",
-    "tags": [{
-      "id": "tg_quick_action"
-    },
-    {
-      "id": "tg_recharge",
-      "val": 6
-      }]
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ]
   },
   {
     "id": "npc-rebake_npcf_overload_shot_operator",
@@ -2068,12 +2268,13 @@
     "locked": false,
     "type": "System",
     "effect": "The Operator makes an attack with the Raptor Plasma Rifle, treating its Range as Line 10.",
-    "tags": [{
-      "id": "tg_recharge",
-      "val": 5
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
       },
       {
-      "id": "tg_full_action"
+        "id": "tg_full_action"
       }
     ]
   },
@@ -2088,52 +2289,54 @@
     "locked": false,
     "type": "System",
     "effect": "The Operator teleports to a space within Range 2. They may choose to teleport further taking 1d6 heat and adding that many additonal spaces to the movement.",
-    "tags": [{
-      "id": "tg_round",
-      "val": 1
-    },
-    {
-      "id": "tg_reaction"
-    }
-  ],
-  "trigger": "The Operator takes damage from a ranged or melee attack."
-},
-{
-  "id": "npc-rebake_npcf_singularity_grenade_operator",
-  "name": "SINGULARITY GRENADE",
-  "origin": {
-    "type": "Class",
-    "name": "OPERATOR",
-    "base": false
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "The Operator takes damage from a ranged or melee attack."
   },
-  "locked": false,
-  "type": "System",
-  "effect": "The Operator may expend a charge to throw a grenade to a space within Range 5. Characters in the Blast 2 energy pulse (excluding the Operator) must pass a Systems save or be teleported 2 spaces in a direction of the Operator's choice and treat the Operator as Invisible until the end of their next turn.<Br>The Operator then teleports their Speed.",
-  "tags": [{
-      "id": "tg_grenade"
+  {
+    "id": "npc-rebake_npcf_singularity_grenade_operator",
+    "name": "SINGULARITY GRENADE",
+    "origin": {
+      "type": "Class",
+      "name": "OPERATOR",
+      "base": false
     },
-    {
-      "id": "tg_limited",
-      "val": 1
-    },
-    {
-      "id": "tg_quick_action"
-    }
-  ]
-},
-{
-  "id": "npc-rebake_npcf_deniable_asset_operator",
-  "name": "DENIABLE ASSET",
-  "origin": {
-    "type": "Class",
-    "name": "OPERATOR",
-    "base": false
+    "locked": false,
+    "type": "System",
+    "effect": "The Operator may expend a charge to throw a grenade to a space within Range 5. Characters in the Blast 2 energy pulse (excluding the Operator) must pass a Systems save or be teleported 2 spaces in a direction of the Operator's choice and treat the Operator as Invisible until the end of their next turn.<Br>The Operator then teleports their Speed.",
+    "tags": [
+      {
+        "id": "tg_grenade"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
   },
-  "locked": false,
-  "type": "Trait",
-  "effect": "Self Erasure now deals {6/8/10} damage (half on a successful save), and when the Operator is destroyed they may immediately teleport their Speed as a Reaction before self-immolating.",
-  "tags": []
-},
+  {
+    "id": "npc-rebake_npcf_deniable_asset_operator",
+    "name": "DENIABLE ASSET",
+    "origin": {
+      "type": "Class",
+      "name": "OPERATOR",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Self Erasure now deals {6/8/10} damage (half on a successful save), and when the Operator is destroyed they may immediately teleport their Speed as a Reaction before self-immolating.",
+    "tags": []
+  },
   {
     "id": "npc-rebake_npcf_flamethrower_pyro",
     "name": "FLAMETHROWER",
