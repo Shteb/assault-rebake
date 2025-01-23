@@ -1973,7 +1973,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "At T2, this weapon can make two attacks at a time, targeting either the same character or two different ones. At T3, it can make three attacks at a time.",
+    "effect": "",
     "tags": [{
       "id": "tg_reliable",
       "val": "{2/3/4}"
@@ -2051,7 +2051,11 @@
     "effect": "The Operator teleports into a space occupied by another character within line of sight and range 15. The target must succeed on an Agility save or take {4/5/6} AP Energy damage and become Jammed and Shredded until the end of their next turn. On a successful save, they take half damage only. Succeed or fail, the Operator takes 1d6 AP Energy damage and then teleports to a new space within Range 5.",
     "tags": [{
       "id": "tg_quick_action"
-    }]
+    },
+    {
+      "id": "tg_recharge",
+      "val": 6
+      }]
   },
   {
     "id": "npc-rebake_npcf_overload_shot_operator",
