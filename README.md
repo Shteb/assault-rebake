@@ -27,7 +27,7 @@ All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes 
 - Hive: ***No rebake***
 - Hornet: ***No rebake***
 - Mirage: ***No rebake***
-- Operator: ***No rebake***
+- Operator: __WIP__
 - Priest: ***No rebake***
 - Pyro: __Done__
 - Rainmaker: ***No rebake***
