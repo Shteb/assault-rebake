@@ -12,8 +12,10 @@ jobs:
         runs-on: ubuntu-latest
         defaults:
             run:
-                working-directory: ./NPC\ Rebakes
+                working-directory: NPC\ Rebakes
         steps:
+            - name: ls cwd
+              run: ls
             - name: bump the lcp_manifest version
               run:  |
                 lcp_manifest.json
