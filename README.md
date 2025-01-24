@@ -1,5 +1,5 @@
 # Kai's NPC Rebake LCP
-An unpacked LCP containing the playtest versions of Kai's NPC rebakes. For more info, please search the Pilot.net Discord for his pdfs.
+An project to LCP-ify the playtest versions of Kai's NPC rebakes. For more info, please search the Pilot.net Discord for his pdfs.
 
 Each folder is intended to be rezipped and renamed to an LCP individually. Step by step, that would be:
 - Select contents of either the "Grunt Rebake" folder or the "NPC Rebake" folder. *Do not select the folder itself*.
