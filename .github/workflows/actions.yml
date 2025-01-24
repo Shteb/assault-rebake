@@ -14,8 +14,8 @@ jobs:
         #     run:
         #         working-directory: NPC\ Rebakes
         steps:
-            - name: ls cwd
-              run: ls
+            - name: pwd
+              run: pwd
             - name: bump the lcp_manifest version
               run:  |
                 lcp_manifest.json
