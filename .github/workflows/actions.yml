@@ -1,0 +1,28 @@
+name: LCP bundler
+
+on: 
+    release:
+        types: [created]
+
+permissions:
+    contents: write
+
+jobs:
+    bundle-lcp:
+        runs-on: ubuntu-latest
+        defaults:
+            run:
+                working-directory: ./NPC\ Rebakes
+        steps:
+            - name: bump the lcp_manifest version
+              run:  |
+                lcp_manifest.json
+                jq '.version |= ${{ github.event.release.tag_name }}'
+            - name: zip up the LCP
+              run: |
+                zip -r "kais-npc-rebakes-${{ github.event.release.tag_name }}.lcp" *.json
+            - name: upload LCP to release
+              env:
+                GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: |
+                gh release upload --clobber ${{ github.event.release.tag_name }} *.lcp
