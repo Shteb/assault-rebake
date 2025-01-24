@@ -9,12 +9,13 @@ Each folder is intended to be rezipped and renamed to an LCP individually. Step 
 ### Convention & Format
 All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for examples.
 All classes are being named "(DEFAULT_CLASS_NAME) [K]". See existing rebakes for examples.
+Insert classes and their features into their respective 
 
 ### When making changes
 - Bump version in manifest. Version incrementing follows [Major Release].[Class Added].[Fixes]
 - Update Readme with progress.
 
-# Classes & Features: 95% Up to date as of 23/01/2025
+# Classes & Features: 100% Up to date as of 23/01/2025
 
 | Class | Status |
 | ------ | :------: |
@@ -26,7 +27,7 @@ Assault: | Done
 Barricade | Done
 Bastion | Done
 Berserker | Done
-Bombard: | <ins>**TBD**</ins>
+Bombard: | Done
 Breacher | Done
 Cataphract | Done
 Demolisher | Done

@@ -1568,6 +1568,186 @@
     "tags": []
   },
   {
+    "id": "npc-rebake_npcf_bombard_cannon_bombard",
+    "name": "BOMBARD CANNON",
+    "origin": {
+      "type": "Class",
+      "name": "BOMBARD",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_arcing"
+      },
+      {
+        "id": "tg_ordnance"
+      }
+    ],
+    "weapon_type": "Superheavy Cannon",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "accuracy": [
+      -1,
+      -1,
+      -1
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          5,
+          7,
+          9
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 25
+      },
+      {
+        "type": "Blast",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_cluster_munitions_bombard",
+    "name": "CLUSTER MUNITIONS",
+    "origin": {
+      "type": "Class",
+      "name": "BOMBARD",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Bombard’s attacks deal +2/+3/+4 damage to all characters for each targeted character beyond the first.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_earthshaker_shells_bombard",
+    "name": "EARTHSHAKER SHELLS",
+    "origin": {
+      "type": "Class",
+      "name": "BOMBARD",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When attacking with the Bombard Cannon, the Bombard may also fire a special earthshaker shell. In addition to any damage, all characters within the Blast must pass a Hull save or be knocked Prone. Debris or broken earth is thrown up by the impact, creating two Size 1 segments of hard cover in free spaces within Range 5 of the targeted space. The Bombard Cannon must then be reloaded before it can be used again (as though it was Loading) unless three or more characters were targeted by this attack.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_siege_armor_bombard",
+    "name": "SIEGE ARMOR",
+    "origin": {
+      "type": "Class",
+      "name": "BOMBARD",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Bombard has Resistance to all damage from attacks that originate beyond range 3.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_high_impact_shells_bombard",
+    "name": "HIGH-IMPACT SHELLS",
+    "origin": {
+      "type": "Class",
+      "name": "BOMBARD",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When attacking with the Bombard Cannon, the Bombard may fire a special high-impact shell. On hit, characters are knocked back 3 spaces either directly away from the Bombard or away from the center of the Blast. The Bombard Cannon must then be reloaded before it can be used again (as though it was Loading) unless three or more characters were targeted by this attack. Only one type of special shell can be fired at a time.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_bunker_buster_bombard",
+    "name": "BUNKER BUSTER",
+    "origin": {
+      "type": "Class",
+      "name": "BOMBARD",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When attacking with the Bombard Cannon, the Bombard may fire a special bunker buster shell. The Bombard Cannon automatically deals 10/20/30 AP explosive damage to all objects and terrain in the affected area, and the area within the Blast also becomes difficult terrain. The Bombard Cannon must then be reloaded before it can be used again (as though it was Loading) unless three or more characters were targeted by this attack. Only one type of special shell can be fired at a time.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_flare_drone_bombard",
+    "name": "FLARE DRONE",
+    "origin": {
+      "type": "Class",
+      "name": "BOMBARD",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Flare Drone (Size 1/2, HP {10/20/30}, Evasion 10, E-Defense 10, Tags: Drone)<br>This drone can be deployed to a space within line of sight and Range 25, where it hovers in place and begins projecting bright light in a Burst 2 area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose Invisible and Hidden, and cannot Hide or turn Invisible within the area. Additionally, the Bombard gains +1 Accuracy to attacks against characters within the affected area (including the drone itself). The Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates.",
+    "tags": [
+      {
+        "id": "tg_drone"
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_high-angle_fire_bombard",
+    "name": "HIGH-ANGLE FIRE",
+    "origin": {
+      "type": "Class",
+      "name": "BOMBARD",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Bombard may prepare a delayed, high-angle shot with the Bombard Cannon. Choose a Blast 3 area, which becomes visible to all characters; the Bombard then makes an attack at the end of the next round with the Bombard Cannon, after all characters have acted, against every target within the area.",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_counterbattery_suite_bombard",
+    "name": "COUNTERBATTERY SUITE",
+    "origin": {
+      "type": "Class",
+      "name": "BOMBARD",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The triggering character gains Lock On. This reaction can't be used against characters within Range 3 of the Bombard.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "A hostile character makes an attack against the Bombard."
+  },
+  {
     "id": "npc-rebake_npcf_dual_shotguns_breacher",
     "name": "DUAL SHOTGUNS",
     "origin": {
