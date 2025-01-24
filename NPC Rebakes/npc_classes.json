@@ -813,6 +813,107 @@
         "power": 100
     },
     {
+        "id": "npc-rebake_npcc_bombard",
+        "name": "BOMBARD [K]",
+        "role": "artillery",
+        "info": {
+            "flavor": "Alta All-Theater Ballistics’ archetypal Bombard chassis and their licensed facsimiles are a common sight in flashpoints across the galaxy. Built for staying power across long-uptime deployments, Bombard-type mechs are an accessible solution for armed forces looking to quickly deploy artillery to a theater. Chassis configured to the parameters of this class are usually positioned in fortified positions miles behind the line; one especially asymmetrical deployment strategy involves placing Bombard batteries above the theater of operations – typically on a local moon, locked-orbit natural satellite, or on a purpose-built orbital platform. From their vantage point, the battery can then rain shells down upon the world below, far removed from the dangers of combat.",
+            "tactics": "Bombards are very long-range artillery mechs designed to punish characters that stay close together to take advantage of adjacency bonuses. They are relatively fragile up close, but resilient at a distance thanks to Siege Armor, so place them far back to maximize their effectiveness. Cluster Munitions adds cumulative damage based on the number of targeted characters within the area, which can include drones and even allies as well."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                12,
+                14,
+                16
+            ],
+            "evade": [
+                7,
+                8,
+                9
+            ],
+            "edef": [
+                12,
+                14,
+                16
+            ],
+            "heatcap": [
+                8,
+                8,
+                8
+            ],
+            "speed": [
+                2,
+                2,
+                2
+            ],
+            "sensor": [
+                15,
+                15,
+                15
+            ],
+            "save": [
+                11,
+                13,
+                15
+            ],
+            "hull": [
+                0,
+                0,
+                0
+            ],
+            "agility": [
+                -1,
+                -1,
+                -1
+            ],
+            "systems": [
+                1,
+                2,
+                3
+            ],
+            "engineering": [
+                2,
+                3,
+                4
+            ],
+            "size": [
+                [
+                    2
+                ],
+                [
+                    2
+                ],
+                [
+                    2
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_bombard_cannon_bombard",
+            "npc-rebake_npcf_cluster_munitions_bombard",
+            "npc-rebake_npcf_earthshaker_shells_bombard",
+            "npc-rebake_npcf_siege_armor_bombard"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_high_impact_shells_bombard",
+            "npc-rebake_npcf_bunker_buster_bombard",
+            "npc-rebake_npcf_flare_drone_bombard",
+            "npc-rebake_npcf_high-angle_fire_bombard",
+            "npc-rebake_npcf_counterbattery_suite_bombard"
+        ],
+        "power": 100
+    },
+    {
         "id": "npc-rebake_npcc_breacher",
         "name": "BREACHER [K]",
         "role": "striker",
