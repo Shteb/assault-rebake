@@ -10,9 +10,9 @@ permissions:
 jobs:
     bundle-lcp:
         runs-on: ubuntu-latest
-        defaults:
-            run:
-                working-directory: NPC\ Rebakes
+        # defaults:
+        #     run:
+        #         working-directory: NPC\ Rebakes
         steps:
             - name: ls cwd
               run: ls
