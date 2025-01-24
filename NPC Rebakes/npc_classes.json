@@ -2025,5 +2025,10 @@
             "npc-rebake_npcf_machine_pistol_specter"
         ],
         "power": 100
+    },
+    {
+        "id": "npc-rebake_npcc_support",
+        "name": "SUPPORT [K]",
+        "role": "support"
     }
 ]
