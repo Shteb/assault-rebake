@@ -8,8 +8,8 @@ Each folder is intended to be rezipped and renamed to an LCP individually. Step 
   - Similar instructions will work for other non-Winrar compression programs
 ### Convention & Format
 All ids are being named as "npc-rebake_(DEFAULT_ID_HERE)". See existing rebakes for examples.
-All classes are being named "(DEFAULT_CLASS_NAME) [K]". See existing rebakes for examples.
-Insert classes and their features into their respective 
+All Classes are being named "(DEFAULT_CLASS_NAME) [K]". See existing rebakes for examples.
+Classes and features are organised by Class alphabetically, then by feature as they appear in the PDFs.
 
 ### When making changes
 - Bump version in manifest. Version incrementing follows [Major Release].[Class Added].[Fixes]
