@@ -2480,7 +2480,7 @@
     "origin": {
       "type": "Class",
       "name": "HIVE",
-      "base": true
+      "base": false
     },
     "locked": false,
     "type": "Tech",
