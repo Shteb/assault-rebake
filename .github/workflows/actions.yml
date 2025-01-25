@@ -19,7 +19,7 @@ jobs:
               run: pwd
             - name: bump the lcp_manifest version
               run:  
-                cp lcp_manifest.json.tmp
+                cp lcp_manifest.json lcp_manifest.json.tmp
                 cat lcp_manifest.json
                 jq '.version |= ${{ github.event.release.tag_name }}' > lcp_manifest.json
                 rm lcp_manifest.json.tmp
