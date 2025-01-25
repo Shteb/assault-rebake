@@ -15,43 +15,46 @@ Classes and features are organised by Class alphabetically, then by feature as t
 - Bump version in manifest. Version incrementing follows [Major Release].[Class Added].[Fixes]
 - Update Readme with progress.
 
-# Classes & Features: 100% Up to date as of 23/01/2025
+# Classes & Features: 91% Up to date as of 25/01/2025
 
 | Class | Status |
 | ------ | :------: |
-Assault | Done
-Ace | Done
-Archer | Done
-Assassin | Done
-Assault: | Done
-Barricade | Done
-Bastion | Done
-Berserker | Done
-Bombard: | Done
-Breacher | Done
-Cataphract | Done
-Demolisher | Done
+Assault | ✓
+Ace | ✓
+Archer | ✓
+Assassin | ✓
+Assault: | ✓
+Barricade | ✓
+Bastion | ✓
+Berserker | ✓
+Bombard: | ✓
+Breacher | ✓
+Cataphract | ✓
+Demolisher | ✓
 Engineer | n/a
 Goliath | n/a
-Hive | n/a
+Hive | <ins>WIP</ins>
 Hornet | n/a
 Mirage | n/a
-Operator | Done
+Operator | ✓
 Priest | n/a
-Pyro | Done
+Pyro | ✓
 Rainmaker | n/a
-Ronin | Done
-Scourer | Done
-Scout | Done
-Seeder | Done
-Sentinel | Done
+Ronin | ✓
+Scourer | ✓
+Scout | ✓
+Seeder | ✓
+Sentinel | ✓
 Sniper | n/a
-Specter | Done
-Support | n/a
+Specter | ✓
+Support | <ins>WIP</ins>
 ## Grunt Progress: 20%
 | Class | Status |
 | ------ | :------: |
-Artillery | Done
-- All others not yet worked on.
+Artillery | ✓
+Controller | x
+Defender | x
+Striker | x
+Support | x
 ### Templates
 Kai's Grunt rebake will be included due to it functioning more like a class. The Veteran rebake will not as it's designed to function with base NPCs and is therefore incompatible with the NPC rebakes.
