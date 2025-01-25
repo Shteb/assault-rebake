@@ -10,16 +10,18 @@ permissions:
 jobs:
     bundle-lcp:
         runs-on: ubuntu-latest
-        # defaults:
-        #     run:
-        #         working-directory: NPC\ Rebakes
+        defaults:
+            run:
+                working-directory: 'NPC Rebakes'
         steps:
             - name: pwd
               run: pwd
             - name: bump the lcp_manifest version
-              run:  |
-                lcp_manifest.json
-                jq '.version |= ${{ github.event.release.tag_name }}'
+              run:  
+                cp lcp_manifest.json.tmp
+                cat lcp_manifest.json
+                jq '.version |= ${{ github.event.release.tag_name }}' > lcp_manifest.json
+                rm lcp_manifest.json.tmp
             - name: zip up the LCP
               run: |
                 zip -r "kais-npc-rebakes-${{ github.event.release.tag_name }}.lcp" *.json
