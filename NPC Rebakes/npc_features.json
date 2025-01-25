@@ -3786,5 +3786,59 @@
       }
     ],
     "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_sealant_gun_support",
+    "name": "SEALANT GUN",
+    "origin": {
+      "type": "Class",
+      "name": "SUPPORT",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Support chooses a character within line of sight and <strong>Range 5</strong>, allied or hostile:<ul><li><strong>Allied:</strong> The target clears all <strong>burn</strong>, but becomes <strong>Slowed</strong> until the end of their next turn.</li><li><strong>Hostile:</strong> The target must pass an <strong>Agility</strong> save or become <strong>Slowed</strong> until the end of their next turn. Succeed of fail, a <strong>Burst 1</strong> area around them becomes <strong>difficult terrain</strong> for the rest of the scene.</li></ul>",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_restock_drone_support",
+    "name": "RESTOCK DRONE",
+    "origin": {
+      "type": "Class",
+      "name": "SUPPORT",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Restock Drone (Size 1/2, HP {5/8/10}, Evasion 10, E-Defense 10, Tags: Drone)<br>This drone can be deployed hovering in a space within <strong>Range 5</strong>. The next time an allied character moves through or next to the drone, it clamps on and discharges its reserves, letting them either regain {5/6/10} <strong>HP</strong> or reload one <strong>Loading</strong> weapon.",
+    "tags": [
+      {
+        "id": "tg_drone"
+      },
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_nano-repair_cloud_support",
+    "name": "NANO-REPAIR CLOUD",
+    "origin": {
+      "type": "Class",
+      "name": "SUPPORT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "While they are adjacent to the Support, allied characters roll twice on all saves and mech skill checks and choose the higher result.",
+    "tags": []
   }
 ]
