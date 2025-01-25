@@ -157,7 +157,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Assault launches a <strong>Line 10</strong> volley of micro-missiles. All characters within the affected area must succeed on a <strong>Hull</strong> save or take {6/8/10} e explosive damage. On a successful save, they take half damage.",
+    "effect": "The Assault launches a <strong>Line 10</strong> volley of micro-missiles. All characters within the affected area must succeed on a <strong>Hull</strong> save or take {6/8/10} explosive damage. On a successful save, they take half damage.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -295,8 +295,8 @@
       "base": false
     },
     "locked": false,
-    "type": "Trait",
-    "effect": "Trigger: An allied character within your Defense Net area is hit by a ranged or melee attack.<br>Effect: That character gains resistance to all damage from the attack, then the Defense Net is deactivated.",
+    "type": "Reaction",
+    "effect": "That character gains resistance to all damage from the attack, then the Defense Net is deactivated.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -305,7 +305,8 @@
         "id": "tg_round",
         "val": 1
       }
-    ]
+    ],
+  "trigger": "An allied character within your Defense Net area is hit by a ranged or melee attack."
   },
   {
     "id": "npc-rebake_npcf_guardian_aegis",
