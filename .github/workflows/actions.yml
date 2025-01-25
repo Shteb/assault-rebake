@@ -2,7 +2,7 @@ name: LCP bundler
 
 on: 
     release:
-        types: [created, published]
+        types: [published]
 
 permissions:
     contents: write
@@ -12,14 +12,18 @@ jobs:
         runs-on: ubuntu-latest
         defaults:
             run:
-                working-directory: NPC\ Rebakes
+                working-directory: 'NPC Rebakes'
         steps:
-            - name: ls cwd
-              run: ls
+            - uses: actions/checkout@v4
+            - name: pwd
+              run: pwd
             - name: bump the lcp_manifest version
-              run:  |
-                lcp_manifest.json
-                jq '.version |= ${{ github.event.release.tag_name }}'
+              run:  
+                touch lcp_manifest.json.tmp
+                cp lcp_manifest.json lcp_manifest.json.tmp
+                cat lcp_manifest.json
+                jq '.version |= ${{ github.event.release.tag_name }}' > lcp_manifest.json
+                rm lcp_manifest.json.tmp
             - name: zip up the LCP
               run: |
                 zip -r "kais-npc-rebakes-${{ github.event.release.tag_name }}.lcp" *.json
