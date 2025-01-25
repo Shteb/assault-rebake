@@ -2337,6 +2337,168 @@
     "tags": []
   },
   {
+    "id": "npc-rebake_npcf_hunter_killer_nexus_hive",
+    "name": "HUNTER-KILLER NEXUS",
+    "origin": {
+      "type": "Class",
+      "name": "HIVE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [{
+        "id": "tg_smart"
+      },
+      {
+        "id": "tg_seeking"
+      }
+    ],
+    "weapon_type": "Main Nexus",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [{
+      "type": "Burn",
+      "damage": [
+        2,
+        3,
+        4
+      ]
+    }],
+    "range": [{
+      "type": "Range",
+      "val": 10
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_razor_swarm_hive",
+    "name": "RAZOR SWARM",
+    "origin": {
+      "type": "Class",
+      "name": "HIVE",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Hive deploys a Blast 1 razor swarm in a free area within Sensors. Allied characters gain soft cover as long as they are at least partially within the affected area. Hostile characters start their turn at least partially within the area or move into it for the first time in a round take {2/3/4} Burn. At the start of the Hive's turn, they may move the Razor Swarm up to 2 spaces in any direction, including into spaces occupied by other characters. Only a single Razor Swarm may be deployed at a time, and if a new one is deployed (or the Hive is destroyed) the old one is destroyed.",
+    "tags": [{
+        "id": "tg_drone"
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_drone_barrage_hive",
+    "name": "DRONE BARRAGE",
+    "origin": {
+      "type": "Class",
+      "name": "HIVE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Hive makes a tech attack against a character within Sensors. On a success, the target chooses one: they become Immobilized and Impaired until the end of their next turn, or they immediately move up to 4 spaces in a direction chosen by the Hive. This movement ignores engagement and does not provoke reactions.",
+    "tags": [{
+      "id": "tg_quick_tech"
+    }],
+    "tech_type": "Quick",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_driving_swarm_hive",
+    "name": "DRIVING SWARM",
+    "origin": {
+      "type": "Class",
+      "name": "HIVE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever characters take Burn from a Razor Swarm, they must pass a Systems save or immediately move 4 spaces in a direction chosen by the Hive after taking damage. This movement ignores engagement and does not provoke reactions.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_harrier_maniple_hive",
+    "name": "HARRIER MANIPLE",
+    "origin": {
+      "type": "Class",
+      "name": "HIVE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Hive releases a swarm of tiny drones and makes a tech attack against a hostile character within Sensors. On a success, the Hive pushes the target up to 2 spaces in a direction of their choice and the drones create a swarming Burst 2 area centered around them that lasts until the end of their next turn. All other hostile characters that start their turn at least partially within the area or move into it for the first time in a round take {2/3/4} Burn. This counts as taking Burn from a Razor Swarm.",
+    "tags": [{
+      "id": "tg_quick_tech"
+    }],
+    "tech_type": "Quick",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_solipsis_swarm_cloud_hive",
+    "name": "SOLIPSIS SWARM",
+    "origin": {
+      "type": "Class",
+      "name": "HIVE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "At the start of their turn, characters within Range 3 of the Hive take {2/3/4} Burn. This counts as taking Burn from a Razor Swarm.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_electro_nanite_payloads_hive",
+    "name": "ELECTRO-NANITE PAYLOADS",
+    "origin": {
+      "type": "Class",
+      "name": "HIVE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Until the end of their next turn, any character that takes Burn from the Hive or a Razor Swarm makes all checks and saves at +1 Difficulty, and all Tech Attacks are made against them with +1 Accuracy. This effect of this trait does not stack.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_command_override_hive",
+    "name": "COMMAND OVERRIDE",
+    "origin": {
+      "type": "Class",
+      "name": "HIVE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Hive chooses up to three Drones within Sensors (including those belonging to other characters) and moves them 3 spaces in any direction. Then all characters adjacent to any of those Drones must pass a Systems save or take {2/3/4} Burn and gain Lock On. This counts as taking Burn from a Razor Swarm.",
+    "tags": [{
+      "id": "tg_quick_tech"
+    },
+    {
+      "id": "tg_heat_self",
+      "val": 4
+    },
+    {
+      "id": "tg_recharge",
+      "val": 5
+    }],
+    "tech_type": "Quick"
+  },
+  {
     "id": "npc-rebake_npcf_raptor_plasma_rifle_operator",
     "name": "RAPTOR PLASMA RIFLE",
     "origin": {
