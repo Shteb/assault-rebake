@@ -2450,7 +2450,7 @@
     ]
   },
   {
-    "id": "npc-rebake_npcf_solipsis_swarm_cloud_hive",
+    "id": "npc-rebake_npcf_solipsis_swarm_hive",
     "name": "SOLIPSIS SWARM",
     "origin": {
       "type": "Class",

@@ -1310,7 +1310,7 @@
         "optional_features": [
           "npc-rebake_npcf_driving_swarm_hive",
           "npc-rebake_npcf_harrier_maniple_hive",
-          "npc-rebake_npcf_solipsis_swarm_cloud_hive",
+          "npc-rebake_npcf_solipsis_swarm_hive",
           "npc-rebake_npcf_electro_nanite_payloads_hive",
           "npc-rebake_npcf_command_override_hive"
         ],
