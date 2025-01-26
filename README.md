@@ -15,7 +15,7 @@ Classes and features are organised by Class alphabetically, then by feature as t
 - Bump version in manifest. Version incrementing follows [Major Release].[Class Added].[Fixes]
 - Update Readme with progress.
 
-# Classes & Features: 91% Up to date as of 25/01/2025
+# Classes & Features: 100% Up to date as of 25/01/2025
 
 | Class | Status |
 | ------ | :------: |
