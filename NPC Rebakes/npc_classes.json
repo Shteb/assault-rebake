@@ -2125,5 +2125,53 @@
             "npc-rebake_npcf_machine_pistol_specter"
         ],
         "power": 100
+    },
+    {
+        "id": "npc-rebake_npcc_support",
+        "name": "SUPPORT [K]",
+        "role": "support",
+        "info": {
+            "flavor": "",
+            "tactics": "Supports are bulky mechs that can't deal any damage, but have access to powerful <strong>HP</strong> restoration and <strong>Condition</strong>-clearing effects. Despite their resilience, they have no way to defend themselves and need to remain close to their allies in order to be effective. <b>Restock Drones</b> are vulnerable to being destroyed before they can be used by allies, so be sure to deploy them carefully to ensure they aren't wasted."
+        },
+        "stats": {
+            "armor": [
+                1, 1, 1
+            ],
+            "hp": [
+                15, 18, 22
+            ],
+            "evade": [
+                8, 10, 12
+            ],
+            "edef": [8, 10, 12],
+            "heatcap": [8, 8, 8],
+            "speed": [5, 5, 5],
+            "sensor": [10, 10, 10],
+            "save": [10, 12, 14],
+            "hull": [1, 1, 1],
+            "agility": [-2, -2, -2],
+            "systems": [0, 1, 2],
+            "engineering": [2, 4, 6],
+            "size": [
+                [2], [2], [2]
+            ],
+            "activations": [
+                1, 1, 1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_sealant_gun_support",
+            "npc-rebake_npcf_restock_drone_support",
+            "npc-rebake_npcf_nano-repair_cloud_support"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_desant_hardpoints_support",
+            "npc-rebake_npcf_remote_cloud_support",
+            "npc-rebake_npcf_remote_reboot_support",
+            "npc-rebake_npcf_empowered_cloud_support",
+            "npc-rebake_npcf_latch_drone_support"
+        ],
+        "power": 100
     }
 ]
