@@ -1694,7 +1694,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Flare Drone (Size 1/2, HP {10/20/30}, Evasion 10, E-Defense 10, Tags: Drone)<br>This drone can be deployed to a space within line of sight and Range 25, where it hovers in place and begins projecting bright light in a Burst 2 area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose Invisible and Hidden, and cannot Hide or turn Invisible within the area. Additionally, the Bombard gains +1 Accuracy to attacks against characters within the affected area (including the drone itself). The Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates.",
+    "effect": "Flare Drone (Size 1/2, HP {10/20/30}, Evasion {10/10/10}, E-Defense {10/10/10}, Tags: Drone)<br>This drone can be deployed to a space within line of sight and Range 25, where it hovers in place and begins projecting bright light in a Burst 2 area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose Invisible and Hidden, and cannot Hide or turn Invisible within the area. Additionally, the Bombard gains +1 Accuracy to attacks against characters within the affected area (including the drone itself). The Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates.",
     "tags": [
       {
         "id": "tg_drone"
@@ -3136,7 +3136,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Scout Drone (Size 1/2, HP {5/8/10}, Evasion 10, E- Defense 10, Tags: Drone)<br>The Scout deploys the drone to a free space within Sensors The drone creates a Burst 2 perimeter, within which characters cannot become Invisible or Hide, and lose those conditions if they have them. The Scout and all allied characters also gain +1 Accuracy when attacking characters within the affected area. The drone can be deployed to a new location as a protocol.",
+    "effect": "Scout Drone (Size 1/2, HP {5/8/10}, Evasion {10/10/10}, E- Defense {10/10/10}, Tags: Drone)<br>The Scout deploys the drone to a free space within Sensors The drone creates a Burst 2 perimeter, within which characters cannot become Invisible or Hide, and lose those conditions if they have them. The Scout and all allied characters also gain +1 Accuracy when attacking characters within the affected area. The drone can be deployed to a new location as a protocol.",
     "tags": [
       {
         "id": "tg_drone"
@@ -3814,7 +3814,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Restock Drone (Size 1/2, HP {5/8/10}, Evasion 10, E-Defense 10, Tags: Drone)<br>This drone can be deployed hovering in a space within <strong>Range 5</strong>. The next time an allied character moves through or next to the drone, it clamps on and discharges its reserves, letting them either regain {5/6/10} <strong>HP</strong> or reload one <strong>Loading</strong> weapon.",
+    "effect": "Restock Drone (Size 1/2, HP {5/8/10}, Evasion {10/10/10}, E-Defense {10/10/10}, Tags: Drone)<br>This drone can be deployed hovering in a space within <strong>Range 5</strong>. The next time an allied character moves through or next to the drone, it clamps on and discharges its reserves, letting them either regain {5/6/10} <strong>HP</strong> or reload one <strong>Loading</strong> weapon.",
     "tags": [
       {
         "id": "tg_drone"
@@ -3919,7 +3919,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Latch Drone (Size 1/2, HP {5/8/10}, Evasion 10, E-Defense 10, Tags: Drone)<br>This self-deploying drone clamps onto a character within <strong>Range 5</strong>, occupying the same space and moving with them. While the drone is attached, the target regains {5/8/10} HP at the start of each of their turns and gains <strong>+1 Accuracy</strong> on all checks, saves, and attacks. Enemies can target the drone with attacks. Only one <strong>Latch Drone</strong> can be deployed at a time, and if a new one is deployed, or the Support is destroyed, the old one disintegrates and is destroyed.",
+    "effect": "Latch Drone (Size 1/2, HP {5/8/10}, Evasion {10/10/10}, E-Defense {10/10/10}, Tags: Drone)<br>This self-deploying drone clamps onto a character within <strong>Range 5</strong>, occupying the same space and moving with them. While the drone is attached, the target regains {5/8/10} HP at the start of each of their turns and gains <strong>+1 Accuracy</strong> on all checks, saves, and attacks. Enemies can target the drone with attacks. Only one <strong>Latch Drone</strong> can be deployed at a time, and if a new one is deployed, or the Support is destroyed, the old one disintegrates and is destroyed.",
     "tags": [
       {
         "id": "tg_drone"
