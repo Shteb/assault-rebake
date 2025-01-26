@@ -33,7 +33,7 @@ Cataphract | ✓
 Demolisher | ✓
 Engineer | n/a
 Goliath | n/a
-Hive | <ins>WIP</ins>
+Hive | ✓
 Hornet | n/a
 Mirage | n/a
 Operator | ✓
@@ -47,7 +47,7 @@ Seeder | ✓
 Sentinel | ✓
 Sniper | n/a
 Specter | ✓
-Support | <ins>WIP</ins>
+Support | ✓
 ## Grunt Progress: 20%
 | Class | Status |
 | ------ | :------: |
