@@ -12,7 +12,6 @@ All Classes are being named "(DEFAULT_CLASS_NAME) [K]". See existing rebakes for
 Classes and features are organised by Class alphabetically, then by feature as they appear in the PDFs.
 
 ### When making changes
-- Bump version in manifest. Version incrementing follows [Major Release].[Class Added].[Fixes]
 - Update Readme with progress.
 
 # Classes & Features: 100% Up to date as of 25/01/2025
