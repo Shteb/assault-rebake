@@ -1221,101 +1221,101 @@
         "name": "HIVE [K]",
         "role": "controller",
         "info": {
-          "flavor": "In theory, drones and drone swarms developed after the Deimos Event are not too different from their older cousins: they establish a local omninetwork; fabricate and deploy a century or half-century of drones; and then coordinate them to achieve their objectives. Still, the complex handler–trainer relationships that allow pilots to segue between direct control and autonomous operation cause psychological trauma after a month of continuous drone operation. It is recommended that they cycle their paired hive nexus every two weeks.",
-          "tactics": "Hives use Razor Swarm to control the battlefield, granting soft cover to their allies and denying areas to their enemies. Deploy swarms and use Drone Barrage to lock down enemies, or move them into the range of swarms and allies."
+            "flavor": "In theory, drones and drone swarms developed after the Deimos Event are not too different from their older cousins: they establish a local omninetwork; fabricate and deploy a century or half-century of drones; and then coordinate them to achieve their objectives. Still, the complex handler–trainer relationships that allow pilots to segue between direct control and autonomous operation cause psychological trauma after a month of continuous drone operation. It is recommended that they cycle their paired hive nexus every two weeks.",
+            "tactics": "Hives use Razor Swarm to control the battlefield, granting soft cover to their allies and denying areas to their enemies. Deploy swarms and use Drone Barrage to lock down enemies, or move them into the range of swarms and allies."
         },
         "stats": {
-          "armor": [
-            0,
-            0,
-            0
-          ],
-          "hp": [
-            20,
-            22,
-            24
-          ],
-          "evade": [
-            8,
-            9,
-            10
-          ],
-          "edef": [
-            10,
-            12,
-            14
-          ],
-          "heatcap": [
-            8,
-            8,
-            8
-          ],
-          "speed": [
-            4,
-            4,
-            4
-          ],
-          "sensor": [
-            10,
-            10,
-            10
-          ],
-          "save": [
-            12,
-            14,
-            16
-          ],
-          "hull": [
-            -1,
-            -1,
-            -1
-          ],
-          "agility": [
-            0,
-            0,
-            0
-          ],
-          "systems": [
-            2,
-            2,
-            3
-          ],
-          "engineering": [
-            1,
-            2,
-            3
-          ],
-          "size": [
-            [
-              1
+            "armor": [
+                0,
+                0,
+                0
             ],
-            [
-              1
+            "hp": [
+                20,
+                22,
+                24
             ],
-            [
-              1
+            "evade": [
+                8,
+                9,
+                10
+            ],
+            "edef": [
+                10,
+                12,
+                14
+            ],
+            "heatcap": [
+                8,
+                8,
+                8
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                12,
+                14,
+                16
+            ],
+            "hull": [
+                -1,
+                -1,
+                -1
+            ],
+            "agility": [
+                0,
+                0,
+                0
+            ],
+            "systems": [
+                2,
+                2,
+                3
+            ],
+            "engineering": [
+                1,
+                2,
+                3
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
             ]
-          ],
-          "activations": [
-            1,
-            1,
-            1
-          ]
         },
         "base_features": [
-          "npc-rebake_npcf_hunter_killer_nexus_hive",
-          "npc-rebake_npcf_razor_swarm_hive",
-          "npc-rebake_npcf_drone_barrage_hive"
+            "npc-rebake_npcf_hunter_killer_nexus_hive",
+            "npc-rebake_npcf_razor_swarm_hive",
+            "npc-rebake_npcf_drone_barrage_hive"
         ],
         "optional_features": [
-          "npc-rebake_npcf_driving_swarm_hive",
-          "npc-rebake_npcf_harrier_maniple_hive",
-          "npc-rebake_npcf_solipsis_swarm_hive",
-          "npc-rebake_npcf_electro_nanite_payloads_hive",
-          "npc-rebake_npcf_command_override_hive"
+            "npc-rebake_npcf_driving_swarm_hive",
+            "npc-rebake_npcf_harrier_maniple_hive",
+            "npc-rebake_npcf_solipsis_swarm_hive",
+            "npc-rebake_npcf_electro_nanite_payloads_hive",
+            "npc-rebake_npcf_command_override_hive"
         ],
         "power": 100
-      },
+    },
     {
         "id": "npc-rebake_npcc_operator",
         "name": "OPERATOR [K]",
@@ -2131,33 +2131,85 @@
         "name": "SUPPORT [K]",
         "role": "support",
         "info": {
-            "flavor": "",
+            "flavor": "Support-archetype mechs keep their allies alive and operational with a broad library of immediate triage systems, from basic flash-weld plating through to shallow–medium structural reinforcement packs and whitewash nanite slurry. From the famed Laughter of a Solemn God, working the front lines of Boundary Garden’s battlefields, to the precision actions undertaken by the rogue-world hunters of ExtraSolar Acquisitions, Inc., the efficacy of Support-archetype mechs is unparalleled when mech teams need to stay alive longer than deployment.",
             "tactics": "Supports are bulky mechs that can't deal any damage, but have access to powerful <strong>HP</strong> restoration and <strong>Condition</strong>-clearing effects. Despite their resilience, they have no way to defend themselves and need to remain close to their allies in order to be effective. <b>Restock Drones</b> are vulnerable to being destroyed before they can be used by allies, so be sure to deploy them carefully to ensure they aren't wasted."
         },
         "stats": {
             "armor": [
-                1, 1, 1
+                1,
+                1,
+                1
             ],
             "hp": [
-                15, 18, 22
+                15,
+                18,
+                22
             ],
             "evade": [
-                8, 10, 12
+                8,
+                10,
+                12
             ],
-            "edef": [8, 10, 12],
-            "heatcap": [8, 8, 8],
-            "speed": [5, 5, 5],
-            "sensor": [10, 10, 10],
-            "save": [10, 12, 14],
-            "hull": [1, 1, 1],
-            "agility": [-2, -2, -2],
-            "systems": [0, 1, 2],
-            "engineering": [2, 4, 6],
+            "edef": [
+                8,
+                10,
+                12
+            ],
+            "heatcap": [
+                8,
+                8,
+                8
+            ],
+            "speed": [
+                5,
+                5,
+                5
+            ],
+            "sensor": [
+                10,
+                10,
+                10
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                1,
+                1,
+                1
+            ],
+            "agility": [
+                -2,
+                -2,
+                -2
+            ],
+            "systems": [
+                0,
+                1,
+                2
+            ],
+            "engineering": [
+                2,
+                4,
+                6
+            ],
             "size": [
-                [2], [2], [2]
+                [
+                    2
+                ],
+                [
+                    2
+                ],
+                [
+                    2
+                ]
             ],
             "activations": [
-                1, 1, 1
+                1,
+                1,
+                1
             ]
         },
         "base_features": [
