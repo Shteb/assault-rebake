@@ -254,7 +254,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a Burst 2 area. While active, the Aegis is Immobilized, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive +2 Difficulty and cannot result in critical hits; whenever an attack receiving this Difficulty misses, the Aegis takes 2 heat. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain Immunity to Impaired and Slowed, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a protocol or is destroyed. If the Aegis exceeds their Heat Cap, becomes Stunned, or becomes Jammed while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.",
+    "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a <strong>Burst 2</strong> area. While active, the Aegis is <strong>Immobilized</strong>, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive <strong>+2 Difficulty</strong> and cannot result in <strong>critical hits</strong>; whenever an attack receiving this <strong>Difficulty</strong> misses, the Aegis takes <strong>2 Heat</strong>. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Slowed</strong>, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a <strong>protocol</strong> or is destroyed. If the Aegis exceeds their <strong>Heat Cap</strong>, becomes <strong>Stunned</strong>, or becomes <strong>Jammed</strong> while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.",
     "tags": [
       {
         "id": "tg_shield"
@@ -274,7 +274,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Aegis has Immunity to Impaired and Slowed and can’t be critically hit.",
+    "effect": "The Aegis has <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Slowed</strong> and can’t be critically hit.",
     "immunity": [
       "Impaired",
       "Slowed",
@@ -292,7 +292,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "That character gains resistance to all damage from the attack, then the Defense Net is deactivated.",
+    "effect": "That character gains <strong>resistance to all damage from the attack</strong>, then the <strong>Defense Net</strong> is deactivated.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -302,7 +302,7 @@
         "val": 1
       }
     ],
-  "trigger": "An allied character within your Defense Net area is hit by a ranged or melee attack."
+  "trigger": "An allied character within your <strong>Defense Net</strong> area is hit by a ranged or melee attack."
   },
   {
     "id": "npc-rebake_npcf_guardian_aegis",
@@ -314,7 +314,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Allied characters can use the Aegis for hard cover.",
+    "effect": "Allied characters can use the Aegis for <strong>hard cover</strong>.",
     "tags": []
   },
   {
@@ -327,7 +327,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Any hostile characters that start their turn inside the area affected by the Defense Net or that enter it for the first time in a round take 2 heat and become Shredded until they leave the area.",
+    "effect": "Any hostile characters that start their turn inside the area affected by the <strong>Defense Net</strong> or that enter it for the first time in a round take <strong>2 Heat</strong> and become <strong>Shredded</strong> until they leave the area.",
     "tags": []
   },
   {
@@ -340,7 +340,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Aegis activates Defense Net, it may choose a free space within Range 10 and generate a Burst 2 area centered on that space instead. All other effects of Defense Net remain the same while this remote field is active (e.g. the Aegis is Immobilized, etc).",
+    "effect": "When the Aegis activates <strong>Defense Net</strong>, it may choose a free space within <strong>Range 10</strong> and generate a <strong>Burst 2</strong> area centered on that space instead. All other effects of <strong>Defense Net</strong> remain the same while this remote field is active (e.g. the Aegis is <strong>Immobilized</strong>, etc).",
     "tags": [
       {
         "id": "tg_recharge",
@@ -358,7 +358,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "As a full action, the Aegis generates a pitch-black wall of blinkspace 5 spaces high covering a line10 area starting within range 5. All spaces must be free. The wall blocks line of sight, effects or attacks and provides hard cover. Characters that start their turn in the wall or who enter it on their turn roll 1d6. On a 4+ they are removed from play until the end of their next turn, when they reappear in a free space of their choice in Range 10 of the wall. If there are no free spaces, they return when a space becomes free. The wall lasts until the Aegis ends it as a quick action, or is destroyed. When it ends, characters remaining in blinkspace reappear.",
+    "effect": "As a full action, the Aegis generates a pitch-black wall of blinkspace <strong>5 spaces high</strong> covering a <strong>Line 10</strong> area starting within <strong>Range 5</strong>. All spaces must be free. The wall blocks line of sight, effects or attacks and provides <strong>hard cover</strong>. Characters that start their turn in the wall or who enter it on their turn roll <strong>1d6</strong>. On a <strong>4+</strong> they are removed from play until the end of their next turn, when they reappear in a free space of their choice in Range 10 of the wall. If there are no free spaces, they return when a space becomes free. The wall lasts until the Aegis ends it as a <strong>quick action</strong>, or is destroyed. When it ends, characters remaining in blinkspace reappear.",
     "tags": [
       {
         "id": "tg_limited",
