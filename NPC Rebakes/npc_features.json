@@ -3626,7 +3626,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Sentinel becomes Slowed, but can take the Overwatch reaction 1/turn instead of 1/round. Additionally, they may attack with Overwatch using the Combat Shotgun when hostile characters enter, leave, or exit spaces within their Threat no matter whether they started their movement there. Once activated, this effect lasts until it is deactivated as a quick action.",
+    "effect": "The Sentinel becomes <strong>Slowed</strong>, but can take the <strong>Overwatch</strong> reaction <strong>1/turn</strong> instead of <strong>1/round</strong>. Additionally, they may attack with <strong>Overwatch</strong> using the <strong>Combat Shotgun</strong> when hostile characters enter, leave, or exit spaces within their <strong>Threat</strong> no matter whether they started their movement there. Once activated, this effect lasts until it is deactivated as a <strong>quick action</strong>.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -3643,7 +3643,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Allied characters can use the Sentinel for hard cover.",
+    "effect": "Allied characters can use the Sentinel for <strong>hard cover</strong>.",
     "tags": []
   },
   {
@@ -3656,7 +3656,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters damaged by the Sentinel’s Overwatch attacks also become Slowed until the end of their next turn.",
+    "effect": "Characters damaged by the Sentinel’s <strong>Overwatch</strong> attacks also become <strong>Slowed</strong> until the end of their next turn.",
     "tags": []
   },
   {
@@ -3669,7 +3669,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Sentinel chooses an allied character within Range 5 as their ward and gains the Reflexive Blow reaction, which can be taken as many times per round as it is triggered",
+    "effect": "The Sentinel chooses an allied character within <strong>Range 5</strong> as their ward and gains the <strong>Reflexive Blow</strong> reaction, which can be taken as many times per round as it is triggered",
     "tags": [
       {
         "id": "tg_protocol"
@@ -3690,7 +3690,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Sentinel may move their Speed towards their ward by the most direct route possible, then attack the inciting character with Overwatch. This reaction interrupts and resolves before the triggering action, ignores engagement, and doesn’t provoke reactions.",
+    "effect": "The Sentinel may move their <strong>Speed</strong> towards their ward by the most direct route possible, then attack the inciting character with <strong>Overwatch</strong>. This reaction interrupts and resolves before the triggering action, ignores engagement, and doesn’t provoke reactions.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -3708,7 +3708,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Sentinel may boost towards the triggering character, and the triggering character gains Lock On.",
+    "effect": "The Sentinel may <strong>Boost</strong> towards the triggering character, and the triggering character gains <strong>Lock On</strong>.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -3730,7 +3730,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When the Sentinel hits with Overwatch, their target must pass a Hull save or become Immobilized and Jammed until the end of their next turn.",
+    "effect": "When the Sentinel hits with <strong>Overwatch</strong>, their target must pass a <strong>Hull</strong> save or become <strong>Immobilized</strong> and <strong>Jammed</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_round",
@@ -3748,7 +3748,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters damaged by the Sentinel's Combat Shotgun (including Reliable damage) gain a Sentinel's Mark. Whenever the Sentinel makes an Overwatch attack against a marked character, they gain +1 Accuracy and ignore Invisible. All Sentinel's Marks are cleared at the start of the Sentinel's turn.",
+    "effect": "Characters damaged by the Sentinel's <strong>Combat Shotgun</strong> (including <strong>Reliable</strong> damage) gain a <strong>Sentinel's Mark</strong>. Whenever the Sentinel makes an <strong>Overwatch</strong> attack against a marked character, they gain <strong>+1 Accuracy</strong> and ignore <strong>Invisible</strong>. All <strong>Sentinel's Marks</strong> are cleared at the start of the Sentinel's turn.",
     "tags": []
   },
   {
