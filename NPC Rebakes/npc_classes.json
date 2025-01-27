@@ -204,7 +204,7 @@
         "power": 100
     },
     {
-        "id": "npcc_ace",
+        "id": "npc-rebake_npcc_ace",
         "name": "ACE [K]",
         "role": "striker",
         "info": {
