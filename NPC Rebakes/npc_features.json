@@ -458,7 +458,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "1/round, the Ace can fly spaces equal to their Speed in any direction, automatically dealing 3/4/5 kinetic damage to one character below or adjacent to the path taken, plus any number of additional characters below or adjacent to the path taken who have Lock On.",
+    "effect": "1/round, the Ace can fly spaces equal to their Speed in any direction, automatically dealing {3/4/5} kinetic damage to one character below or adjacent to the path taken, plus any number of additional characters below or adjacent to the path taken who have Lock On.",
     "tags": [
       {
         "id": "tg_quick_action"
