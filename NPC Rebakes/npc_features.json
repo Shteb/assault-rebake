@@ -2626,7 +2626,7 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Reaction",
     "effect": "The Operator teleports to a space within Range 2. They may choose to teleport further taking 1d6 heat and adding that many additonal spaces to the movement.",
     "tags": [
       {
