@@ -254,7 +254,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a <strong>Burst 2</strong> area. While active, the Aegis is <strong>Immobilized</strong>, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive <strong>+2 Difficulty</strong> and cannot result in <strong>critical hits</strong>; whenever an attack receiving this <strong>Difficulty</strong> misses, the Aegis takes <strong>2 Heat</strong>. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Slowed</strong>, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a <strong>protocol</strong> or is destroyed. If the Aegis exceeds their <strong>Heat Cap</strong>, becomes <strong>Stunned</strong>, or becomes <strong>Jammed</strong> while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.",
+    "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a Burst 2 area. While active, the Aegis is Immobilized, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive +2 Difficulty and cannot result in critical hits; whenever an attack receiving this Difficulty misses, the Aegis takes 2 heat. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain Immunity to Impaired and Slowed, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a protocol or is destroyed. If the Aegis exceeds their Heat Cap, becomes Stunned, or becomes Jammed while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.",
     "tags": [
       {
         "id": "tg_shield"
@@ -274,7 +274,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Aegis has <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Slowed</strong> and can’t be critically hit.",
+    "effect": "The Aegis has Immunity to Impaired and Slowed and can’t be critically hit.",
     "immunity": [
       "Impaired",
       "Slowed",
@@ -292,7 +292,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "That character gains <strong>resistance to all damage from the attack</strong>, then the <strong>Defense Net</strong> is deactivated.",
+    "effect": "That character gains resistance to all damage from the attack, then the Defense Net is deactivated.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -302,7 +302,7 @@
         "val": 1
       }
     ],
-  "trigger": "An allied character within your <strong>Defense Net</strong> area is hit by a ranged or melee attack."
+    "trigger": "An allied character within your Defense Net area is hit by a ranged or melee attack."
   },
   {
     "id": "npc-rebake_npcf_guardian_aegis",
@@ -314,7 +314,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Allied characters can use the Aegis for <strong>hard cover</strong>.",
+    "effect": "Allied characters can use the Aegis for hard cover.",
     "tags": []
   },
   {
@@ -327,7 +327,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Any hostile characters that start their turn inside the area affected by the <strong>Defense Net</strong> or that enter it for the first time in a round take <strong>2 Heat</strong> and become <strong>Shredded</strong> until they leave the area.",
+    "effect": "Any hostile characters that start their turn inside the area affected by the Defense Net or that enter it for the first time in a round take 2 heat and become Shredded until they leave the area.",
     "tags": []
   },
   {
@@ -340,7 +340,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Aegis activates <strong>Defense Net</strong>, it may choose a free space within <strong>Range 10</strong> and generate a <strong>Burst 2</strong> area centered on that space instead. All other effects of <strong>Defense Net</strong> remain the same while this remote field is active (e.g. the Aegis is <strong>Immobilized</strong>, etc).",
+    "effect": "When the Aegis activates Defense Net, it may choose a free space within Range 10 and generate a Burst 2 area centered on that space instead. All other effects of Defense Net remain the same while this remote field is active (e.g. the Aegis is Immobilized, etc).",
     "tags": [
       {
         "id": "tg_recharge",
@@ -358,7 +358,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "As a full action, the Aegis generates a pitch-black wall of blinkspace <strong>5 spaces high</strong> covering a <strong>Line 10</strong> area starting within <strong>Range 5</strong>. All spaces must be free. The wall blocks line of sight, effects or attacks and provides <strong>hard cover</strong>. Characters that start their turn in the wall or who enter it on their turn roll <strong>1d6</strong>. On a <strong>4+</strong> they are removed from play until the end of their next turn, when they reappear in a free space of their choice in Range 10 of the wall. If there are no free spaces, they return when a space becomes free. The wall lasts until the Aegis ends it as a <strong>quick action</strong>, or is destroyed. When it ends, characters remaining in blinkspace reappear.",
+    "effect": "As a full action, the Aegis generates a pitch-black wall of blinkspace 5 spaces high covering a line10 area starting within range 5. All spaces must be free. The wall blocks line of sight, effects or attacks and provides hard cover. Characters that start their turn in the wall or who enter it on their turn roll 1d6. On a 4+ they are removed from play until the end of their next turn, when they reappear in a free space of their choice in Range 10 of the wall. If there are no free spaces, they return when a space becomes free. The wall lasts until the Aegis ends it as a quick action, or is destroyed. When it ends, characters remaining in blinkspace reappear.",
     "tags": [
       {
         "id": "tg_limited",
@@ -2344,7 +2344,8 @@
     "locked": false,
     "type": "Weapon",
     "effect": "",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_smart"
       },
       {
@@ -2357,18 +2358,22 @@
       4,
       6
     ],
-    "damage": [{
-      "type": "Burn",
-      "damage": [
-        2,
-        3,
-        4
-      ]
-    }],
-    "range": [{
-      "type": "Range",
-      "val": 10
-    }],
+    "damage": [
+      {
+        "type": "Burn",
+        "damage": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
     "on_hit": ""
   },
   {
@@ -2382,7 +2387,8 @@
     "locked": false,
     "type": "System",
     "effect": "The Hive deploys a Blast 1 razor swarm in a free area within Sensors. Allied characters gain soft cover as long as they are at least partially within the affected area. Hostile characters start their turn at least partially within the area or move into it for the first time in a round take {2/3/4} Burn. At the start of the Hive's turn, they may move the Razor Swarm up to 2 spaces in any direction, including into spaces occupied by other characters. Only a single Razor Swarm may be deployed at a time, and if a new one is deployed (or the Hive is destroyed) the old one is destroyed.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_drone"
       },
       {
@@ -2401,9 +2407,11 @@
     "locked": false,
     "type": "Tech",
     "effect": "The Hive makes a tech attack against a character within Sensors. On a success, the target chooses one: they become Immobilized and Impaired until the end of their next turn, or they immediately move up to 4 spaces in a direction chosen by the Hive. This movement ignores engagement and does not provoke reactions.",
-    "tags": [{
-      "id": "tg_quick_tech"
-    }],
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
     "tech_type": "Quick",
     "attack_bonus": [
       2,
@@ -2435,9 +2443,11 @@
     "locked": false,
     "type": "Tech",
     "effect": "The Hive releases a swarm of tiny drones and makes a tech attack against a hostile character within Sensors. On a success, the Hive pushes the target up to 2 spaces in a direction of their choice and the drones create a swarming Burst 2 area centered around them that lasts until the end of their next turn. All other hostile characters that start their turn at least partially within the area or move into it for the first time in a round take {2/3/4} Burn. This counts as taking Burn from a Razor Swarm.",
-    "tags": [{
-      "id": "tg_quick_tech"
-    }],
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
     "tech_type": "Quick",
     "attack_bonus": [
       2,
@@ -2482,17 +2492,19 @@
     "locked": false,
     "type": "Tech",
     "effect": "The Hive chooses up to three Drones within Sensors (including those belonging to other characters) and moves them 3 spaces in any direction. Then all characters adjacent to any of those Drones must pass a Systems save or take {2/3/4} Burn and gain Lock On. This counts as taking Burn from a Razor Swarm.",
-    "tags": [{
-      "id": "tg_quick_tech"
-    },
-    {
-      "id": "tg_heat_self",
-      "val": 4
-    },
-    {
-      "id": "tg_recharge",
-      "val": 5
-    }],
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 4
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
     "tech_type": "Quick"
   },
   {
@@ -3749,7 +3761,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "Armor is doubled against this weapon.",
+    "effect": "<strong>Armor</strong> is doubled against this weapon.",
     "tags": [],
     "weapon_type": "Main Melee",
     "attack_bonus": [
@@ -3785,7 +3797,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Specter moves spaces equal to Speed, then becomes Hidden. This movement ignores engagement and doesn’t provoke reactions.",
+    "effect": "The Specter moves spaces equal to <strong>Speed</strong>, then becomes <strong>Hidden</strong>. This movement ignores engagement and doesn’t provoke reactions.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -3802,7 +3814,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Specter is permanently Invisible. As a Full Action, a character can engage in a contested Systems check with the Specter to attempt to disable their cloak; all characters are aware of this. The Specter must be within their Sensors for them to attempt this check. If they succeed, the Specter takes 4 heat and this trait is disabled until the end of their next turn. If they fail, that character gains Lock On.",
+    "effect": "The Specter is permanently <strong>Invisible</strong>. As a <strong>Full Action</strong>, a character can engage in a contested <strong>Systems</strong> check with the Specter to attempt to disable their cloak; all characters are aware of this. The Specter must be within their Sensors for them to attempt this check. If they succeed, the Specter takes <strong>4 heat</strong> and this trait is disabled until the end of their next turn. If they fail, that character gains <strong>Lock On</strong>.",
     "tags": []
   },
   {
@@ -3815,7 +3827,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Monowire Sword deals double damage when no other characters are adjacent to the target.",
+    "effect": "The <strong>Monowire Sword</strong> deals double damage when no other characters are adjacent to the target.",
     "tags": []
   },
   {
@@ -3828,7 +3840,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Specter teleports to a free space within line of sight and range 50.",
+    "effect": "The Specter <strong>teleports</strong> to a free space within line of sight and <strong>Range 50</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3849,7 +3861,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Specter makes a tech attack against an adjacent character. On a success, the target becomes Stunned. This effect lasts until a character other than the Specter starts their turn adjacent to the target or moves adjacent to the target.",
+    "effect": "The Specter makes a tech attack against an adjacent character. On a success, the target becomes <strong>Stunned</strong>. This effect lasts until a character other than the Specter starts their turn adjacent to the target or moves adjacent to the target.",
     "tags": [
       {
         "id": "tg_full_tech"
@@ -3872,7 +3884,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Specter makes a tech attack against a character within sensors. On a success, that character must choose: move their Speed towards the Specter, or become Slowed and Impaired until the end of their next turn.",
+    "effect": "The Specter makes a tech attack against a character within <strong>Sensors</strong>. On a success, that character must choose: move their <strong>Speed</strong> towards the Specter, or become <strong>Slowed</strong> and <strong>Impaired</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -3899,7 +3911,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Specter becomes Intangible until the start of their next turn and moves spaces equal to their Speed. At the start of their next turn, their next attack with the Monowire Sword gains +1 Accuracy and deals +1d6 bonus damage on a critical hit. This bonus damage is not doubled.",
+    "effect": "The Specter becomes <strong>Intangible</strong> until the start of their next turn and moves spaces equal to their <strong>Speed</strong>. At the start of their next turn, their next attack with the <strong>Monowire Sword</strong> gains <strong>+1 Accuracy</strong> and deals <strong>+1d6 bonus damage</strong> on a critical hit. This bonus damage is not doubled.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -3916,7 +3928,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "The Specter can move 2 spaces in any direction before or after attacking with this weapon. This movement ignores engagement and doesn't provoke reactions.",
+    "effect": "The Specter can move <strong>2 spaces</strong> in any direction before or after attacking with this weapon. This movement ignores engagement and doesn't provoke reactions.",
     "tags": [],
     "weapon_type": "Auxiliary CQB",
     "attack_bonus": [
@@ -4050,7 +4062,7 @@
         "id": "tg_full_action"
       },
       {
-        "id":"tg_recharge",
+        "id": "tg_recharge",
         "val": 6
       }
     ]
