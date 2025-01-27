@@ -12,10 +12,9 @@ All Classes are being named "(DEFAULT_CLASS_NAME) [K]". See existing rebakes for
 Classes and features are organised by Class alphabetically, then by feature as they appear in the PDFs.
 
 ### When making changes
-- Bump version in manifest. Version incrementing follows [Major Release].[Class Added].[Fixes]
 - Update Readme with progress.
 
-# Classes & Features: 91% Up to date as of 25/01/2025
+# Classes & Features: 100% Up to date as of 25/01/2025
 
 | Class | Status |
 | ------ | :------: |
@@ -33,7 +32,7 @@ Cataphract | ✓
 Demolisher | ✓
 Engineer | n/a
 Goliath | n/a
-Hive | <ins>WIP</ins>
+Hive | ✓
 Hornet | n/a
 Mirage | n/a
 Operator | ✓
@@ -47,7 +46,7 @@ Seeder | ✓
 Sentinel | ✓
 Sniper | n/a
 Specter | ✓
-Support | <ins>WIP</ins>
+Support | ✓
 ## Grunt Progress: 20%
 | Class | Status |
 | ------ | :------: |

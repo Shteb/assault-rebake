@@ -257,10 +257,6 @@
     "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a Burst 2 area. While active, the Aegis is Immobilized, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive +2 Difficulty and cannot result in critical hits; whenever an attack receiving this Difficulty misses, the Aegis takes 2 heat. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain Immunity to Impaired and Slowed, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a protocol or is destroyed. If the Aegis exceeds their Heat Cap, becomes Stunned, or becomes Jammed while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.",
     "tags": [
       {
-        "id": "tg_recharge",
-        "val": 4
-      },
-      {
         "id": "tg_shield"
       },
       {
@@ -2450,7 +2446,7 @@
     ]
   },
   {
-    "id": "npc-rebake_npcf_solipsis_swarm_cloud_hive",
+    "id": "npc-rebake_npcf_solipsis_swarm_hive",
     "name": "SOLIPSIS SWARM",
     "origin": {
       "type": "Class",
