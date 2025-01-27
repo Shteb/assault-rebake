@@ -3410,7 +3410,7 @@
         "val": 1
       }
     ],
-    "on_hit": "Targets are pulled 1 space in a direction of the Seeder's choice."
+    "on_hit": "Targets are pulled <strong>1 space</strong> in a direction of the Seeder's choice."
   },
   {
     "id": "npc-rebake_npcf_lay_mines_seeder",
@@ -3422,7 +3422,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Seeder deploys one of the mines below in a free space within Range 3. Once deployed, the Seeder’s mines detonate when a hostile character moves adjacent to them, creating a Burst 1 explosion that affects both allied and hostile characters.<ul><li>Sealant Mine: Characters in the area must pass a Hull save or become Immobilized until the end of their next turn, then Slowed until the end of their subsequent turn.</li><li>Explosive Mine: Characters in the area must pass an Agility save or take 8/12/16 explosive damage. On a success, they take half damage.</li><li>Shock Mine: Characters in the area must pass a Systems save or become Jammed until the end of their next turn, then Impaired until the end of their subsequent turn.</li><li>Thermite Mine: Characters in the area must pass an Engineering save or take 4/5/6 heat and have only line of sight to adjacent spaces until the end of their next turn. On a success, they take half heat only.</li></ul><br>The Seeder may have up to three mines deployed at a time; if they deploy another mine, one of their currently deployed mines of their choice disarms and deactivates. When the Seeder is destroyed, its deployed mines remain active, but now detonate whenever any character moves adjacent to them.",
+    "effect": "The Seeder deploys one of the mines below in a free space within <strong>Range 3</strong>. Once deployed, the Seeder’s mines detonate when a hostile character moves adjacent to them, creating a <strong>Burst 1</strong> explosion that affects both allied and hostile characters.<ul><li><strong>Sealant Mine</strong>: Characters in the area must pass a <strong>Hull</strong> save or become <strong>Immobilized</strong> until the end of their next turn, then <strong>Slowed</strong> until the end of their subsequent turn.</li><li><strong>Explosive Mine</strong>: Characters in the area must pass an <strong>Agility</strong> save or take <strong>8/12/16 explosive damage</strong>. On a success, they take <strong>half damage</strong>.</li><li><strong>Shock Mine</strong>: Characters in the area must pass a <strong>Systems</strong> save or become <strong>Jammed</strong> until the end of their next turn, then <strong>Impaired</strong> until the end of their subsequent turn.</li><li><strong>Thermite Mine</strong>: Characters in the area must pass an <strong>Engineering</strong> save or take 4/5/6 heat and have only line of sight to adjacent spaces until the end of their next turn. On a success, they take <strong>half heat only</strong>.</li></ul><br>The Seeder may have up to <strong>three mines</strong> deployed at a time; if they deploy another mine, one of their currently deployed mines of their choice disarms and deactivates. When the Seeder is destroyed, its deployed mines remain active, but now detonate whenever any character moves adjacent to them.",
     "tags": [
       {
         "id": "tg_mine"
@@ -3446,7 +3446,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Seeder never triggers or sets off Mines or other proximity-based systems unless it chooses to do so.",
+    "effect": "The Seeder never triggers or sets off <strong>Mines</strong> or other proximity-based systems unless it chooses to do so.",
     "tags": []
   },
   {
@@ -3459,7 +3459,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "A character within line of sight and Range 5 must succeed on a Systems save, or a grav spike attaches itself to them. The Seeder can detonate all grav spikes as a protocol, causing targets to automatically take 4/5/6 AP explosive damage and be pulled 3 spaces in a direction of their choice. Characters can remove a grav spike from themselves by passing a Systems save as a quick action.",
+    "effect": "A character within line of sight and <strong>Range 5</strong> must succeed on a <strong>Systems</strong> save, or a grav spike attaches itself to them. The Seeder can detonate all grav spikes as a <strong>protocol</strong>, causing targets to automatically take <strong>4/5/6 AP explosive damage</strong> and be pulled <strong>3 spaces</strong> in a direction of their choice. Characters can remove a grav spike from themselves by passing a <strong>Systems</strong> save as a <strong>quick action</strong>.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -3476,7 +3476,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Seeder launches a rocket which scatters a field of explosive micromines over a Blast 3 area within Sensors; this area can overlap with obstructions (like cover or terrain) when deployed, but not characters. Characters who enter this area or attempt to move while within it for the first time in a round must pass a Systems save or step on a mine, taking 5/6/7 explosive damage. Only one field of micromines can exist at a time, and if a new one is created, the previous one deactivates.",
+    "effect": "The Seeder launches a rocket which scatters a field of explosive micromines over a <strong>Blast 3</strong> area within <strong>Sensors</strong>; this area can overlap with obstructions (like cover or terrain) when deployed, but not characters. Characters who enter this area or attempt to move while within it for the first time in a round must pass a <strong>Systems</strong> save or step on a mine, taking <strong>5/6/7 explosive damage</strong>. Only one field of micromines can exist at a time, and if a new one is created, the previous one deactivates.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3497,7 +3497,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Lay Mines may now deploy up to three mines at a time instead of just one. If the Seeder deploys more than one mine at a time this way, this trait can't be used again until one of its mines detonates or is disarmed.",
+    "effect": "<strong>Lay Mines</strong> may now deploy up to <strong>three mines</strong> at a time instead of just one. If the Seeder deploys more than one mine at a time this way, this trait can't be used again until one of its mines detonates or is disarmed.",
     "tags": []
   },
   {
@@ -3510,7 +3510,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Mines deployed with Lay Mines also activate when hostile characters fly or move over or adjacent to them, up to 10 spaces high. The mines jump up to 10 spaces, detonating and affecting all characters within their area.",
+    "effect": "Mines deployed with <strong>Lay Mines</strong> also activate when hostile characters fly or move over or adjacent to them, up to <strong>10 spaces</strong> high. The mines jump up to <strong>10 spaces</strong>, detonating and affecting all characters within their area.",
     "tags": []
   },
   {
@@ -3523,7 +3523,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "Choose a mine that can be deployed with Lay Mines; the triggering character immediately detonates a hidden mine buried under the ground of that type. This reaction may still be used even if the Seeder is destroyed.<br>If a hostile character is aware of this trait (i.e. via Scan, or automatically when the Seeder is destroyed), they may attempt a contested Systems check against the Seeder as a quick action while the Seeder (or its wreck) is within Sensors. If that character succeeds, this trait is disabled. This check automatically succeeds against destroyed Seeders.",
+    "effect": "Choose a mine that can be deployed with <strong>Lay Mines</strong>; the triggering character immediately detonates a hidden mine buried under the ground of that type. This reaction may still be used even if the Seeder is destroyed.<br>If a hostile character is aware of this trait (i.e. via <strong>Scan</strong>, or automatically when the Seeder is destroyed), they may attempt a contested <strong>Systems</strong> check against the Seeder as a <strong>quick action</strong> while the Seeder (or its wreck) is within <strong>Sensors</strong>. If that character succeeds, this trait is disabled. This check automatically succeeds against destroyed Seeders.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -3533,7 +3533,7 @@
         "val": "1"
       }
     ],
-    "trigger": "A hostile character moves within Range 3 of the Seeder."
+    "trigger": "A hostile character moves within <strong>Range 3</strong> of the Seeder."
   },
   {
     "id": "npc-rebake_npcf_combat_shotgun_sentinel",
