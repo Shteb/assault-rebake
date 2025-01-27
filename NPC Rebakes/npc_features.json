@@ -3890,8 +3890,8 @@
     ]
   },
   {
-    "id": "npc-rebake_npcf_ghostride_specter",
-    "name": "GHOSTRIDE",
+    "id": "npc-rebake_npcf_ghostwalk_specter",
+    "name": "GHOSTWALK",
     "origin": {
       "type": "Class",
       "name": "SPECTER",

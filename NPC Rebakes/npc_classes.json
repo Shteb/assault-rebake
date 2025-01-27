@@ -2121,7 +2121,7 @@
             "npc-rebake_npcf_step_specter",
             "npc-rebake_npcf_drain_systems_specter",
             "npc-rebake_npcf_lure_specter",
-            "npc-rebake_npcf_ghostride_specter",
+            "npc-rebake_npcf_ghostwalk_specter",
             "npc-rebake_npcf_machine_pistol_specter"
         ],
         "power": 100
