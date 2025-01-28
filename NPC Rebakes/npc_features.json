@@ -2739,7 +2739,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "At the end of the Pyro's turn, they create a Line 5 wall of flame, 4 spaces high, in free spaces within Range 3 and line of sight. This wall doesn't block line of sight, but provides soft cover; when an attackis made against a character benefiting from this cover, roll 1d6. On a 4+, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take 2/3/4 burn. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is Stunned, and its effect doesn't stack with Invisible.",
+    "effect": "At the end of the Pyro's turn, they create a <strong>Line 5</strong> wall of flame, <strong>4 spaces high</strong>, in free spaces within <strong>Range 3</strong> and line of sight. This wall doesn't block line of sight, but provides <strong>soft cover</strong>; when an attackis made against a character benefiting from this cover, roll <strong>1d6</strong>. On a <strong>4+</strong>, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take <strong>{2/3/4} burn</strong>. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is <strong>Stunned</strong>, and its effect doesn't stack with <strong>Invisible</strong>.",
     "tags": [
       {
         "id": "tg_shield"
@@ -2756,7 +2756,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Pyro clears all heat. All characters within Burst 2 must pass an Agility save or take heat equal to half the amount the Pyro cleared and be knocked Prone.",
+    "effect": "The Pyro clears all <strong>Heat</strong>. All characters within <strong>Burst 2</strong> must pass an <strong>Agility</strong> save or take <strong>Heat</strong> equal to <strong>half the amount the Pyro cleared</strong> and be knocked <strong>Prone</strong>.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -2773,7 +2773,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Pyro has Immunity to Burn.",
+    "effect": "The Pyro has <strong>Immunity</strong> to <strong>Burn</strong>.",
     "tags": []
   },
   {
@@ -2786,7 +2786,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Pyro launches a napalm canister that erupts in a Blast 1 curtain of flame within Range 5. All characters within this area must pass an Agility save or take 2/3/4 burn and 2/3/4 heat. The Pyro may instead target a free area with this Blast; if they do, it creates a burning patch on the ground that lasts until this system is used again. Characters that start their turn at least partially within the area or move into it for the first time in a round must pass an Agility save or take 2/3/4 burn and 2/3/4 heat.",
+    "effect": "The Pyro launches a napalm canister that erupts in a <strong>Blast 1</strong> curtain of flame within Range 5. All characters within this area must pass an <strong>Agility</strong> save or take <strong>{2/3/4} Burn</strong> and <strong>{2/3/4} Heat</strong>. The Pyro may instead target a free area with this <strong>Blast</strong>; if they do, it creates a burning patch on the ground that lasts until this system is used again. Characters that start their turn at least partially within the area or move into it for the first time in a round must pass an <strong>Agility</strong> save or take <strong>{2/3/4} Burn</strong> and <strong>{2/3/4 Heat}</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2807,7 +2807,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters that start their turn within Range 3 of the Pyro or who move into Range 3 of them for the first time in a round take 2/3/4 heat, and they make all checks to clear burn with +1 Difficulty as long as they remain within 3 spaces of the Pyro.",
+    "effect": "Characters that start their turn within <strong>Range 3</strong> of the Pyro or who move into <strong>Range 3</strong> of them for the first time in a round take <strong>2/3/4 Heat</strong>, and they make all checks to clear <strong>Burn</strong> with <strong>+1 Difficulty</strong> as long as they remain within <strong>3 spaces</strong> of the Pyro.",
     "tags": []
   },
   {
@@ -2820,7 +2820,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Pyro gains Resistance to all damage from the attack. The attacker must pass an Engineering save or take {2/4/6} Burn.",
+    "effect": "The Pyro gains <strong>Resistance</strong> to all damage from the attack. The attacker must pass an <strong>Engineering</strong> save or take {3/4/5} <strong>Burn</strong>.",
     "tags": [
       {
         "id": "tg_round",
@@ -2846,7 +2846,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Hostile characters within Burst 2 must pass a Hull save or be knocked back outside of the area and knocked Prone. The Pyro then flies 5 spaces in any direction, but must land after completing that move. If the Pyro is in the Danger Zone, the Hull save is made with +1 Difficulty and this system's Recharge rolls automatically succeed.",
+    "effect": "Hostile characters within <strong>Burst 2</strong> must pass a <strong>Hull</strong> save or be knocked back outside of the area and knocked <strong>Prone</strong>. The Pyro then flies <strong>5 spaces</strong> in any direction, but must land after completing that move. If the Pyro is in the <strong>Danger Zone</strong>, the <strong>Hull</strong> save is made with <strong>+1 Difficulty</strong> and this system's <strong>Recharge</strong> rolls automatically succeed.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2867,7 +2867,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Pyro attacks with the Flamethrower, flames continue to burn in 3 free spaces of their choice within the affected area. When characters start their turn in one of these spaces or enter one for the first time in a round, they take 2/3/4 burn. These spaces last until the end of the scene, or until the Pyro attacks with the Flamethrower.",
+    "effect": "When the Pyro attacks with the <strong>Flamethrower</strong>, flames continue to Burn in <strong>3 free spaces</strong> of their choice within the affected area. When characters start their turn in one of these spaces or enter one for the first time in a round, they take <strong>{2/3/4} Burn</strong>. These spaces last until the end of the scene, or until the Pyro attacks with the <strong>Flamethrower</strong>.",
     "tags": []
   },
   {
