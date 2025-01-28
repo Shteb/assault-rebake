@@ -2920,7 +2920,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "They roll 1d6: on 4+, they gain Resistance to damage from that attack, and the attacker must repeat the attack against themselves. On 3 or less, the Ronin may Boost towards the triggering attacker.",
+    "effect": "They roll <strong>1d6</strong>: on <strong>4+</strong>, they gain <strong>Resistance</strong> to damage from that attack, and the attacker must repeat the attack against themselves. On <strong>3 or less</strong>, the Ronin may <strong>Boost</strong> towards the triggering attacker.",
     "tags": [
       {
         "id": "tg_shield"
@@ -2945,7 +2945,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever a character makes a ranged attack against the Ronin, that character gains a Ronin's Mark. Only one character at a time can have a Ronin's Mark; if a new mark is applied, any others are removed. When the Ronin makes a successful attack against a character using the Carbon Fiber Sword, it can consume the Ronin's Mark to deal +1d6 bonus damage.",
+    "effect": "Whenever a character makes a ranged attack against the Ronin, that character gains a <strong>Ronin's Mark</strong>. Only one character at a time can have a <strong>Ronin's Mark</strong>; if a new mark is applied, any others are removed. When the Ronin makes a successful attack against a character using the <strong>Carbon Fiber Sword</strong>, it can consume the <strong>Ronin's Mark</strong> to deal <strong>+1d6 bonus damage</strong>.",
     "tags": []
   },
   {
@@ -2958,7 +2958,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": " Ranged attacks against the Ronin while Engaged receive +2 Difficulty instead of +1 Difficulty, and the Ronin gains soft cover until the start of their next turn whenever they Boost.",
+    "effect": "Ranged attacks against the Ronin while <strong>Engaged</strong> receive <strong>+2 Difficulty</strong> instead of <strong>+1 Difficulty</strong>, and the Ronin gains <strong>soft cover</strong> until the start of their next turn whenever they <strong>Boost</strong>.",
     "tags": []
   },
   {
@@ -2971,7 +2971,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": " The Ronin enters a prepared stance, visible to everyone. Until the end of the Ronin’s next turn, the first time each turn that a hostile character in line of sight makes a ranged attack, as a reaction the Ronin may first Boost towards the triggering attacker and then make an attack against them with the Carbon Fiber Sword if they are within Range.",
+    "effect": " The Ronin enters a prepared stance, visible to everyone. Until the end of the Ronin’s next turn, the first time each turn that a hostile character in line of sight makes a ranged attack, as a <strong>reaction</strong> the Ronin may first <strong>Boost</strong> towards the triggering attacker and then make an attack against them with the <strong>Carbon Fiber Sword</strong> if they are within <strong>Range</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2992,7 +2992,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Ronin takes damage or effects from missed attacks (e.g. Reliable), they may choose a different character within Range 5 to also take the damage or effects.",
+    "effect": "Whenever the Ronin takes damage or effects from missed attacks (e.g. <strong>Reliable</strong>), they may choose a different character within <strong>Range 5</strong> to also take the damage or effects.",
     "tags": []
   },
   {
@@ -3005,7 +3005,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": " An adjacent character must pass an Agility save or choose: become Jammed until the end of their next turn, or the Ronin chooses one of their equipped weapons and they take half that weapon's damage from a ruptured magazine or power cell, then they become Impaired until the end of their next turn. On a success, they become Impaired until the end of their next turn only.",
+    "effect": " An adjacent character must pass an <strong>Agility</strong> save or choose: become <strong>Jammed</strong> until the end of their next turn, or the Ronin chooses one of their equipped weapons and they take half that weapon's damage from a ruptured magazine or power cell, then they become <strong>Impaired</strong> until the end of their next turn. On a success, they become <strong>Impaired</strong> until the end of their next turn only.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3026,7 +3026,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": " The Ronin’s Carbon Fiber Sword becomes Threat 3. The first time each turn that the Ronin performs a critical hit with it, all characters of their choice within Threat take 2/3/4 kinetic damage, excluding the target just attacked.",
+    "effect": " The Ronin’s <strong>Carbon Fiber Sword</strong> becomes <strong>Threat 3</strong>. The first time each turn that the Ronin performs a critical hit with it, all characters of their choice within <strong>Threat</strong> take <strong>{2/3/4} Kinetic damage</strong>, excluding the target just attacked.",
     "tags": []
   },
   {
