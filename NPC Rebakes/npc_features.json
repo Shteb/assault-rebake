@@ -3226,7 +3226,7 @@
         "val": 15
       }
     ],
-    "on_hit": "Target receives Lock On, and they become Shredded until the end of their next turn."
+    "on_hit": "Target receives <strong>Lock On</strong>, and they become <strong>Shredded</strong> until the end of their next turn."
   },
   {
     "id": "npc-rebake_npcf_sight_scout",
@@ -3238,7 +3238,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Scout ignores Hidden and Invisible.",
+    "effect": "The Scout ignores <strong>Hidden</strong> and <strong>Invisible</strong>.",
     "tags": []
   },
   {
@@ -3251,7 +3251,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Scout makes a tech attack against a target in Sensors. On a success, the target and all hostile characters within Range 3 of the target lose Hidden and Invisible and can't regain either status or benefit from any cover until the start of the Scout's next turn.",
+    "effect": "The Scout makes a tech attack against a target in Sensors. On a success, the target and all hostile characters within <strong>Range 3</strong> of the target lose <strong>Hidden</strong> and <strong>Invisible</strong> and can't regain either status or benefit from any cover until the start of the Scout's next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -3273,7 +3273,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Scout generates a Burst 3 cloaking field that lasts until the end of their next turn. The Scout and allied characters within the affected area are Invisible, but the Scout is Immobilized while it is active.",
+    "effect": "The Scout generates a <strong>Burst 3</strong> cloaking field that lasts until the end of their next turn. The Scout and allied characters within the affected area are <strong>Invisible</strong>, but the Scout is <strong>Immobilized</strong> while it is active.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3294,7 +3294,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "While adjacent to the Scout, allied characters gain +1 Accuracy on all attack rolls.",
+    "effect": "While adjacent to the Scout, allied characters gain <strong>+1 Accuracy</strong> on all attack rolls.",
     "tags": []
   },
   {
@@ -3307,7 +3307,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Scout Drone (Size 1/2, HP {5/8/10}, Evasion {10/10/10}, E- Defense {10/10/10}, Tags: Drone)<br>The Scout deploys the drone to a free space within Sensors The drone creates a Burst 2 perimeter, within which characters cannot become Invisible or Hide, and lose those conditions if they have them. The Scout and all allied characters also gain +1 Accuracy when attacking characters within the affected area. The drone can be deployed to a new location as a protocol.",
+    "effect": "<strong>Scout Drone</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {5/8/10}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags</strong>: Drone)<br>The Scout deploys the drone to a free space within <strong>Sensors</strong> The drone creates a <strong>Burst 2</strong> perimeter, within which characters cannot become <strong>Invisible</strong> or <strong>Hide</strong>, and lose those conditions if they have them. The Scout and all allied characters also gain <strong>+1 Accuracy</strong> when attacking characters within the affected area. The drone can be deployed to a new location as a protocol.",
     "tags": [
       {
         "id": "tg_drone"
@@ -3331,7 +3331,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Scout chooses a space on the ground, within line of sight and range 20; all characters know that it has been chosen. The Scout calls in an orbital bombardment that hits at the end of the next round, creating a Burst 2 explosion. Characters in the affected area must make Agility saves. On a fail, they take {12/16/20} Energy damage and are knocked Prone. On a pass, they take half damage and remain standing.",
+    "effect": "The Scout chooses a space on the ground, within line of sight and <strong>Range 20</strong>; all characters know that it has been chosen. The Scout calls in an orbital bombardment that hits at the end of the next round, creating a <strong>Burst 2</strong> explosion. Characters in the affected area must make <strong>Agility</strong> saves. On a fail, they take <strong>{12/16/20} Energy damage</strong> and are knocked <strong>Prone</strong>. On a pass, they take half damage and remain standing.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3352,7 +3352,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters that are successfully attacked with the Marker Rifle gain a Scout's Mark. Only one character can be marked this way at a time, and marking another character clears any marks from the last one. The next time an ally successfully hits a character with a Scout's Mark, they may consume the mark to choose one of the following:<ul><li>The Target takes +1d6 bonus damage.</li><li>The target is knocked Prone.</li><li>The target only has line of sight to adjacent spaces until the end of their next turn</li><ul>",
+    "effect": "Characters that are successfully attacked with the <strong>Marker Rifle</strong> gain a <strong>Scout's Mark</strong>. Only one character can be marked this way at a time, and marking another character clears any marks from the last one. The next time an ally successfully hits a character with a <strong>Scout's Mark</strong>, they may consume the mark to choose one of the following:<ul><li>The Target takes <strong>+1d6 bonus damage</strong>.</li><li>The target is knocked <strong>Prone</strong>.</li><li>The target only has line of sight to adjacent spaces until the end of their next turn</li><ul>",
     "tags": []
   },
   {
@@ -3365,7 +3365,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "1/round, whenever the Scout successfully attacks with the Marker Rifle, an allied character within Sensors and line of sight can move up to their Speed as a reaction.",
+    "effect": "<strong>1/round</strong>, whenever the Scout successfully attacks with the <strong>Marker Rifle</strong>, an allied character within <strong>Sensors</strong> and line of sight can move up to their <strong>Speed</strong> as a reaction.",
     "tags": []
   },
   {
