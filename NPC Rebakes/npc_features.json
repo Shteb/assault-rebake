@@ -2808,7 +2808,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Pyro gains Resistance to all damage from the attack. The attacker must pass an Engineering save or take {2/4/6} Burn.",
+    "effect": "The Pyro gains Resistance to all damage from the attack. The attacker must pass an Engineering save or take {3/4/5} Burn.",
     "tags": [
       {
         "id": "tg_round",
