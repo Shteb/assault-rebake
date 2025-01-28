@@ -3085,7 +3085,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Scourer hits with the Thermal Lance, targets take {5/6/7} Burn if they were also successfully hit with the Thermal Lance in the previous round.",
+    "effect": "When the Scourer hits with the <strong>Thermal Lance</strong>, targets take <strong>{5/6/7} Burn</strong> if they were also successfully hit with the <strong>Thermal Lance</strong> in the previous round.",
     "tags": []
   },
   {
@@ -3098,7 +3098,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "At the start of their turn, the Scourer clears all heat if they haven’t moved – including involuntary movement – since the end of their previous turn.",
+    "effect": "At the start of their turn, the Scourer <strong>clears all heat</strong> if they haven’t moved – including involuntary movement – since the end of their previous turn.",
     "tags": []
   },
   {
@@ -3111,7 +3111,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Scourer has Resistance to Energy damage.",
+    "effect": "The Scourer has <strong>Resistance</strong> to <strong>Energy damage</strong>.",
     "tags": []
   },
   {
@@ -3124,7 +3124,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters affected by Focus Down are also Shredded and Slowed until the end of their next turn.",
+    "effect": "Characters affected by <strong>Focus Down</strong> are also <strong>Shredded</strong> and <strong>Slowed</strong> until the end of their next turn.",
     "tags": []
   },
   {
@@ -3137,7 +3137,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When the Scourer exceeds their Heat Cap, becomes Jammed, or becomes Stunned, they become Invisible until the start of their next turn.",
+    "effect": "When the Scourer exceeds their <strong>Heat Cap</strong>, becomes <strong>Jammed</strong>, or becomes <strong>Stunned</strong>, they become <strong>Invisible</strong> until the start of their next turn.",
     "tags": []
   },
   {
@@ -3150,7 +3150,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Scourer makes an attack with the Thermal Lance, they can attack two targets at a time, dealing half damage on hit. This trait automatically Recharges whenever Cooling Module activates.",
+    "effect": "When the Scourer makes an attack with the <strong>Thermal Lance</strong>, they can attack two targets at a time, dealing half damage on hit. This trait automatically <strong>Recharges</strong> whenever <strong>Cooling Module</strong> activates.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3168,7 +3168,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Scourer makes a ranged attack against an object, deployable or Drone within Range 10, dealing 20 AP energy damage on a success. On hit, all characters within a Burst 2 radius of the target are splashed with molten slag, and count as being successfully hit with the Thermal Lance.",
+    "effect": "The Scourer makes a ranged attack against an object, deployable or <strong>Drone</strong> within <strong>Range 10</strong>, dealing <strong>20 AP Energy damage</strong> on a success. On hit, all characters within a <strong>Burst 2</strong> radius of the target are splashed with molten slag, and count as being successfully hit with the <strong>Thermal Lance</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3189,7 +3189,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "If the Cooling Module does not activate at the start of the Scourer's turn, the Thermal Lance gains +4 Range, and on hit all other characters in a Burst 1 area around the target take {3/4/5} burn.",
+    "effect": "If the <strong>Cooling Module</strong> does not activate at the start of the Scourer's turn, the <strong>Thermal Lance</strong> gains <strong>+4 Range</strong>, and on hit all other characters in a <strong>Burst 1</strong> area around the target take <strong>{3/4/5} burn</strong>.",
     "tags": []
   },
   {
