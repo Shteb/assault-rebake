@@ -2698,7 +2698,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "This weapon deals double Burn to characters that already have any Burn.",
+    "effect": "This weapon deals <strong>double Burn</strong> to characters that already have any <strong>Burn</strong>.",
     "tags": [
       {
         "id": "tg_heat_self",
