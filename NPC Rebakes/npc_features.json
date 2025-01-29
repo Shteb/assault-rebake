@@ -1754,7 +1754,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "This weapon can make two attacks at once, targeting either the same character or different ones. The final attack rolls for this weapon can never be affected by Accuracy.",
+    "effect": "This weapon can make two attacks at once, targeting either the same character or different ones. The final attack rolls for this weapon can never be affected by <strong>Accuracy</strong>.",
     "tags": [],
     "weapon_type": "Main CQB",
     "attack_bonus": [
@@ -1799,7 +1799,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Breacher moves up to 6 spaces in a straight line, ignoring engagement and passing through – but not stopping in – spaces occupied by other characters. Obstructions and objects in the Breacher’s path take 10/20/30 AP kinetic damage. The Breacher passes through any obstructions destroyed this way and continues moving until they have moved 6 spaces or fail to destroy an obstruction. Any characters in the Breacher’s path must succeed on an Agility save or be pushed out of the way as directly as possible and knocked Prone.",
+    "effect": "The Breacher moves up to <strong>6 spaces</strong> in a straight line, ignoring engagement and passing through – but not stopping in – spaces occupied by other characters. Obstructions and objects in the Breacher’s path take <strong>10/20/30 AP kinetic damage</strong>. The Breacher passes through any obstructions destroyed this way and continues moving until they have moved <strong>6 spaces</strong> or fail to destroy an obstruction. Any characters in the Breacher’s path must succeed on an <strong>Agility</strong> save or be pushed out of the way as directly as possible and knocked <strong>Prone</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1820,7 +1820,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters that are successfully attacked more than once in a turn by the Breacher’s Dual Shotguns become Shredded for the rest of the scene.",
+    "effect": "Characters that are successfully attacked more than once in a turn by the Breacher’s <strong>Dual Shotguns</strong> become <strong>Shredded</strong> for the rest of the scene.",
     "tags": []
   },
   {
@@ -1833,7 +1833,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Breacher gains +1 Accuracy to Ram.",
+    "effect": "The Breacher gains <strong>+1 Accuracy</strong> to Ram.",
     "tags": []
   },
   {
@@ -1846,7 +1846,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Breacher makes a tech attack against a character within Sensors. On a success, the Breacher gains +1 Accuracy on all attacks against their target, and may Boost once per turn as a free action so long asit moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target unless the Breacher takes 4 Heat to attempt this tech attack against a different target",
+    "effect": "The Breacher makes a tech attack against a character within <strong>Sensors</strong>. On a success, the Breacher gains <strong>+1 Accuracy</strong> on all attacks against their target, and may <strong>Boost</strong> once per turn as a <strong>free action</strong> so long asit moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target unless the Breacher takes <strong>4 Heat</strong> to attempt this tech attack against a different target",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -1874,7 +1874,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Breacher may expend a charge to throw a grenade to a space within Range 5. Characters in the ensuing Blast 1 explosion must pass an Agility save or take 2/3/4 Burn and become Shredded until the end of their next turn. Objects, terrain, and Deployables in the area automatically take 10/20/30 AP explosive damage; if any objects or terrain are destroyed this way, the Breacher may immediately move their Speed towards one of those spaces or as close as possible.",
+    "effect": "The Breacher may expend a charge to throw a grenade to a space within <strong>Range 5</strong>. Characters in the ensuing <strong>Blast 1</strong> explosion must pass an <strong>Agility</strong> save or take <strong>{2/3/4} Burn</strong> and become <strong>Shredded</strong> until the end of their next turn. Objects, terrain, and <strong>Deployables</strong> in the area automatically take <strong>{10/20/30} AP explosive damage</strong>; if any objects or terrain are destroyed this way, the Breacher may immediately move their <strong>Speed</strong> towards one of those spaces or as close as possible.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1898,7 +1898,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Breacher prepares a salvo of shells, becoming Slowed until the end of their next turn. This effect isvisible to everyone. During the Breacher's next turn, the next time they use the Dual Shotguns, they may make four attacks at once instead of two.",
+    "effect": "The Breacher prepares a salvo of shells, becoming <strong>Slowed</strong> until the end of their next turn. This effect isvisible to everyone. During the Breacher's next turn, the next time they use the <strong>Dual Shotguns</strong>, they may make four attacks at once instead of two.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -1915,7 +1915,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "1/round, when the Breacher makes a successful attack with the Dual Shotguns, a different character within Range 3 of the target takes 2/3/4 kinetic damage + bonus damage equal to the initial target's Armor.",
+    "effect": "<strong>1/round</strong>, when the Breacher makes a successful attack with the <strong>Dual Shotguns</strong>, a different character within <strong>Range 3</strong> of the target takes <strong>{2/3/4} kinetic damage</strong> + bonus damage equal to the initial target's <strong>Armor</strong>.",
     "tags": [
       {
         "id": "tg_round",
@@ -1933,7 +1933,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When using Breach Ram, the Breacher may also attack any character in their path with the Dual Shotguns. The Dual Shotguns only make a single attack against each character this way (rather than making two attacks at once), and these attacks deal half damage on hit.",
+    "effect": "When using <strong>Breach Ram</strong>, the Breacher may also attack any character in their path with the <strong>Dual Shotguns</strong>. The <strong>Dual Shotguns</strong> only make a single attack against each character this way (rather than making two attacks at once), and these attacks deal half damage on hit.",
     "tags": []
   },
   {
