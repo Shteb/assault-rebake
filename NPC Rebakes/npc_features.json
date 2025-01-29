@@ -661,7 +661,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Archer creates a Blast 3 area within Range 10 and line of sight, and gains the Got Your Backreaction. This area lasts until the end of the Archer's next turn or until the Archer creates a new area, and this Reaction can be taken as many times per round as it is triggered.",
+    "effect": "The Archer creates a Blast 3 area within Range 10 and line of sight, and gains the Got Your Back Reaction. This area lasts until the end of the Archer's next turn or until the Archer creates a new area, and this Reaction can be taken as many times per round as it is triggered.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1754,7 +1754,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "This weapon can make two attacks at once, targeting either the same character or different ones. The final attack rolls for this weapon can never be affected by Accuracy.",
+    "effect": "This weapon can make two attacks at once, targeting either the same character or different ones. The final attack rolls for this weapon can never be affected by <strong>Accuracy</strong>.",
     "tags": [],
     "weapon_type": "Main CQB",
     "attack_bonus": [
@@ -1799,7 +1799,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Breacher moves up to 6 spaces in a straight line, ignoring engagement and passing through – but not stopping in – spaces occupied by other characters. Obstructions and objects in the Breacher’s path take 10/20/30 AP kinetic damage. The Breacher passes through any obstructions destroyed this way and continues moving until they have moved 6 spaces or fail to destroy an obstruction. Any characters in the Breacher’s path must succeed on an Agility save or be pushed out of the way as directly as possible and knocked Prone.",
+    "effect": "The Breacher moves up to <strong>6 spaces</strong> in a straight line, ignoring engagement and passing through – but not stopping in – spaces occupied by other characters. Obstructions and objects in the Breacher’s path take <strong>10/20/30 AP kinetic damage</strong>. The Breacher passes through any obstructions destroyed this way and continues moving until they have moved <strong>6 spaces</strong> or fail to destroy an obstruction. Any characters in the Breacher’s path must succeed on an <strong>Agility</strong> save or be pushed out of the way as directly as possible and knocked <strong>Prone</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1820,7 +1820,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters that are successfully attacked more than once in a turn by the Breacher’s Dual Shotguns become Shredded for the rest of the scene.",
+    "effect": "Characters that are successfully attacked more than once in a turn by the Breacher’s <strong>Dual Shotguns</strong> become <strong>Shredded</strong> for the rest of the scene.",
     "tags": []
   },
   {
@@ -1833,7 +1833,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Breacher gains +1 Accuracy to Ram.",
+    "effect": "The Breacher gains <strong>+1 Accuracy</strong> to Ram.",
     "tags": []
   },
   {
@@ -1846,7 +1846,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Breacher makes a tech attack against a character within Sensors. On a success, the Breacher gains +1 Accuracy on all attacks against their target, and may Boost once per turn as a free action so long asit moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target unless the Breacher takes 4 Heat to attempt this tech attack against a different target",
+    "effect": "The Breacher makes a tech attack against a character within <strong>Sensors</strong>. On a success, the Breacher gains <strong>+1 Accuracy</strong> on all attacks against their target, and may <strong>Boost</strong> once per turn as a <strong>free action</strong> so long as it moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target unless the Breacher takes <strong>4 Heat</strong> to attempt this tech attack against a different target",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -1874,7 +1874,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Breacher may expend a charge to throw a grenade to a space within Range 5. Characters in the ensuing Blast 1 explosion must pass an Agility save or take 2/3/4 Burn and become Shredded until the end of their next turn. Objects, terrain, and Deployables in the area automatically take 10/20/30 AP explosive damage; if any objects or terrain are destroyed this way, the Breacher may immediately move their Speed towards one of those spaces or as close as possible.",
+    "effect": "The Breacher may expend a charge to throw a grenade to a space within <strong>Range 5</strong>. Characters in the ensuing <strong>Blast 1</strong> explosion must pass an <strong>Agility</strong> save or take <strong>{2/3/4} Burn</strong> and become <strong>Shredded</strong> until the end of their next turn. Objects, terrain, and <strong>Deployables</strong> in the area automatically take <strong>{10/20/30} AP explosive damage</strong>; if any objects or terrain are destroyed this way, the Breacher may immediately move their <strong>Speed</strong> towards one of those spaces or as close as possible.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1898,7 +1898,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Breacher prepares a salvo of shells, becoming Slowed until the end of their next turn. This effect isvisible to everyone. During the Breacher's next turn, the next time they use the Dual Shotguns, they may make four attacks at once instead of two.",
+    "effect": "The Breacher prepares a salvo of shells, becoming <strong>Slowed</strong> until the end of their next turn. This effect isvisible to everyone. During the Breacher's next turn, the next time they use the <strong>Dual Shotguns</strong>, they may make four attacks at once instead of two.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -1915,7 +1915,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "1/round, when the Breacher makes a successful attack with the Dual Shotguns, a different character within Range 3 of the target takes 2/3/4 kinetic damage + bonus damage equal to the initial target's Armor.",
+    "effect": "<strong>1/round</strong>, when the Breacher makes a successful attack with the <strong>Dual Shotguns</strong>, a different character within <strong>Range 3</strong> of the target takes <strong>{2/3/4} kinetic damage</strong> + bonus damage equal to the initial target's <strong>Armor</strong>.",
     "tags": [
       {
         "id": "tg_round",
@@ -1933,7 +1933,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When using Breach Ram, the Breacher may also attack any character in their path with the Dual Shotguns. The Dual Shotguns only make a single attack against each character this way (rather than making two attacks at once), and these attacks deal half damage on hit.",
+    "effect": "When using <strong>Breach Ram</strong>, the Breacher may also attack any character in their path with the <strong>Dual Shotguns</strong>. The <strong>Dual Shotguns</strong> only make a single attack against each character this way (rather than making two attacks at once), and these attacks deal half damage on hit.",
     "tags": []
   },
   {
@@ -1946,7 +1946,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "This lance can be used as either a ranged or melee weapon, but not both in the same turn. When used as a ranged weapon, Critical Hits cause the target to become Impaired until the end of their next turn. When used as a melee weapon, it gains Knockback 2.",
+    "effect": "This lance can be used as either a ranged or melee weapon, but not both in the same turn. When used as a ranged weapon, <strong>Critical Hits</strong> cause the target to become <strong>Impaired</strong> until the end of their next turn. When used as a melee weapon, it gains <strong>Knockback 2</strong>.",
     "tags": [],
     "weapon_type": "Heavy Melee/Heavy Cannon",
     "attack_bonus": [
@@ -1991,7 +1991,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Cataphract ignores engagement and can pass through – but not stop in – spaces occupied by other characters, 1/turn dealing 2/3/4 kinetic damage to those characters.",
+    "effect": "The Cataphract ignores engagement and can pass through – but not stop in – spaces occupied by other characters, 1/turn dealing <strong>{2/3/4} kinetic damage</strong> to those characters.",
     "tags": []
   },
   {
@@ -2004,7 +2004,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Cataphract moves up to 8 spaces in a straight line. Pick a character that the Cataphract passed through or ended adjacent to; they must pass a Hull save. On a failure, they are grappled by the Cataphract and pulled with the Cataphract to the end of their movement. On Critical Hit with the Ram Cannon, this system automatically Recharges.",
+    "effect": "The Cataphract moves up to <strong>8 spaces</strong> in a straight line. Pick a character that the Cataphract passed through or ended adjacent to; they must pass a <strong>Hull</strong> save. On a failure, they are <strong>grappled</strong> by the Cataphract and pulled with the Cataphract to the end of their movement. On <strong>Critical Hit</strong> with the <strong>Ram Cannon</strong>, this system automatically <strong>Recharges</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2025,7 +2025,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Cataphract has Resistance to all damage from the closest hostile character. If multiple characters are equally close, this effect does not apply.",
+    "effect": "The Cataphract has <strong>Resistance</strong> to all damage from the closest hostile character. If multiple characters are equally close, this effect does not apply.",
     "tags": [
       {
         "id": "tg_shield"
@@ -2042,7 +2042,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "A character in line of sight and Range 5 must make a Hull save. On a failure, they take 2/3/4 Heat andare pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them.",
+    "effect": "A character in line of sight and <strong>Range 5</strong> must make a <strong>Hull</strong> save. On a failure, they take {2/3/4} Heat and are pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -2063,7 +2063,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Cataphract fires a piercing lance in a Line 5 path. All characters within the affected area must pass a Hull save or be knocked back 3 spaces. Any character that collides with an obstruction or another character also becomes Immobilized until the end of their next turn.",
+    "effect": "The Cataphract fires a piercing lance in a <strong>Line 5</strong> path. All characters within the affected area must pass a <strong>Hull</strong> save or be knocked back <strong>3 spaces</strong>. Any character that collides with an obstruction or another character also becomes <strong>Immobilized</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2084,7 +2084,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "A flying character in Range 10 must pass an Agility save. On a failure, they are pulled 3 spaces, land immediately, and become Immobilized until the end of their next turn. This counts as falling but without damage.",
+    "effect": "A flying character in <strong>Range 10</strong> must pass an Agility save. On a failure, they are pulled <strong>3 spaces</strong>, land immediately, and become <strong>Immobilized</strong> until the end of their next turn. This counts as falling but without damage.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2105,7 +2105,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Cataphract moves spaces equal to their Speed in a straight line, ignoring reactions and engagement, then attacks a target within Range with the Ram Cannon.",
+    "effect": "The Cataphract moves spaces equal to their <strong>Speed</strong> in a straight line, ignoring <strong>reactions</strong> and engagement, then attacks a target within <strong>Range</strong> with the <strong>Ram Cannon</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2126,7 +2126,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "As long as the Cataphract isn't Slowed or Jammed, whenever characters make melee attacks against them, they take 2/3/4 Heat before rolling.",
+    "effect": "As long as the Cataphract isn't <strong>Slowed</strong> or <strong>Jammed</strong>, whenever characters make melee attacks against them, they take <strong>{2/3/4} Heat</strong> before rolling.",
     "tags": []
   },
   {
@@ -2176,7 +2176,7 @@
         "val": 2
       }
     ],
-    "on_hit": "Targets must succeed on a Hull save or be Stunned until the end of their next turn."
+    "on_hit": "Targets must succeed on a <strong>Hull</strong> save or be <strong>Stunned</strong> until the end of their next turn."
   },
   {
     "id": "npc-rebake_npcf_earthshatter_demolisher",
@@ -2188,7 +2188,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "On Attack: The Demolisher deals 10/20/30 AP kinetic damage to an object or piece of terrain within Range 2, if there is one. Hit or miss, place a Size 1 piece of terrain that grants hard cover in a free space adjacent to your target. The terrain has 10 HP and Evasion 5.",
+    "effect": "<strong>On Attack</strong>: The Demolisher deals <strong>10/20/30 AP kinetic damage</strong> to an object or piece of terrain within <strong>Range 2</strong>, if there is one. Hit or miss, place a <strong>Size 1</strong> piece of terrain that grants <strong>hard cover</strong> in a free space adjacent to your target. The terrain has <strong>10 HP</strong> and <strong>Evasion 5</strong>.",
     "tags": [
       {
         "id": "tg_thrown",
@@ -2233,7 +2233,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Demolisher has Resistance to damage from melee weapons.",
+    "effect": "The Demolisher has <strong>Resistance to damage from melee weapons</strong>.",
     "resistance": [
       "Melee"
     ],
@@ -2249,7 +2249,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Demolisher can’t be pushed, pulled, knocked Prone, or knocked back by smaller characters.",
+    "effect": "The Demolisher can’t be pushed, pulled, knocked <strong>Prone</strong>, or knocked back by smaller characters.",
     "tags": []
   },
   {
@@ -2262,7 +2262,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Whenever the Demolisher makes an attack with the Demolition Hammer, it may take 4 Heat to move 4 spaces in a straight line directly towards the target before the attack.",
+    "effect": "Whenever the Demolisher makes an attack with the <strong>Demolition Hammer</strong>, it may take <strong>4 Heat</strong> to move <strong>4 spaces</strong> in a straight line directly towards the target before the attack.",
     "tags": []
   },
   {
@@ -2275,7 +2275,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Each time the Demolisher misses with the Demolition Hammer, they gain +1 Accuracy on all subsequent attacks with it until they hit. This Accuracy can be gained multiple times and stacks.",
+    "effect": "Each time the Demolisher misses with the <strong>Demolition Hammer</strong>, they gain <strong>+1 Accuracy</strong> on all subsequent attacks with it until they hit. This <strong>Accuracy</strong> can be gained multiple times and stacks.",
     "tags": []
   },
   {
@@ -2288,7 +2288,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Unless they can fly, all characters in a Cone 5 area pass an Agility save or be knocked Prone. All objects and terrain within this area takes 10/20/30 AP kinetic damage; if any terrain or objects are destroyed this way, all affected characters also automatically take 4/6/8 kinetic damage.",
+    "effect": "Unless they can fly, all characters in a <strong>Cone 5</strong> area pass an <strong>Agility</strong> save or be knocked <strong>Prone</strong>. All objects and terrain within this area takes <strong>{10/20/30} AP kinetic damage</strong>; if any terrain or objects are destroyed this way, all affected characters also automatically take <strong>{4/6/8} kinetic damage</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2309,7 +2309,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Demolisher chooses a character within Range 2: they must pass a Hull save or be Immobilzed and Shredded until the end of their next turn.",
+    "effect": "The Demolisher chooses a character within <strong>Range 2</strong>: they must pass a <strong>Hull</strong> save or be <strong>Immobilzed</strong> and <strong>Shredded</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2330,7 +2330,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Demolisher chooses a character within Range 5; that character must pass a Hull save or become embedded with high-tensile cable anchors. If the target is Stunned, they automatically fail this save. While these anchors are embedded, neither the target nor the Demolisher can move more than 5 spacesaway from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can activate this system again and force an embedded character to pass another Hull save or be pulled adjacent to the Demolisher.<br>An embedded character can remove the cables on a hit with a melee attack against Evasion 10. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target.",
+    "effect": "The Demolisher chooses a character within <strong>Range 5</strong>; that character must pass a <strong>Hull</strong> save or become embedded with high-tensile cable anchors. If the target is Stunned, they automatically fail this save. While these anchors are embedded, neither the target nor the Demolisher can move more than <strong>5 spaces</strong> away from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can activate this system again and force an embedded character to pass another <strong>Hull</strong> save or be pulled adjacent to the Demolisher.<br>An embedded character can remove the cables on a hit with a <strong>melee attack</strong> against <strong>Evasion 10</strong>. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target.",
     "tags": []
   },
   {
@@ -2386,7 +2386,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Hive deploys a Blast 1 razor swarm in a free area within Sensors. Allied characters gain soft cover as long as they are at least partially within the affected area. Hostile characters start their turn at least partially within the area or move into it for the first time in a round take {2/3/4} Burn. At the start of the Hive's turn, they may move the Razor Swarm up to 2 spaces in any direction, including into spaces occupied by other characters. Only a single Razor Swarm may be deployed at a time, and if a new one is deployed (or the Hive is destroyed) the old one is destroyed.",
+    "effect": "The Hive deploys a <strong>Blast 1</strong> razor swarm in a free area within <strong>Sensors</strong>. Allied characters gain <strong>soft cover</strong> as long as they are at least partially within the affected area. Hostile characters start their turn at least partially within the area or move into it for the first time in a round take <strong>{2/3/4} Burn</strong>. At the start of the Hive's turn, they may move the <strong>Razor Swarm</strong> up to <strong>2 spaces</strong> in any direction, including into spaces occupied by other characters. Only a single <strong>Razor Swarm</strong> may be deployed at a time, and if a new one is deployed (or the Hive is destroyed) the old one is destroyed.",
     "tags": [
       {
         "id": "tg_drone"
@@ -2406,7 +2406,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Hive makes a tech attack against a character within Sensors. On a success, the target chooses one: they become Immobilized and Impaired until the end of their next turn, or they immediately move up to 4 spaces in a direction chosen by the Hive. This movement ignores engagement and does not provoke reactions.",
+    "effect": "The Hive makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target chooses one: they become <strong>Immobilized</strong> and <strong>Impaired</strong> until the end of their next turn, or they immediately move up to <strong>4 spaces</strong> in a direction chosen by the Hive. This movement ignores engagement and does not provoke <strong>reactions</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -2429,7 +2429,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever characters take Burn from a Razor Swarm, they must pass a Systems save or immediately move 4 spaces in a direction chosen by the Hive after taking damage. This movement ignores engagement and does not provoke reactions.",
+    "effect": "Whenever characters take <strong>Burn</strong> from a <strong>Razor Swarm</strong>, they must pass a <strong>Systems</strong> save or immediately move <strong>4 spaces</strong> in a direction chosen by the Hive after taking damage. This movement ignores engagement and does not provoke <strong>reactions</strong>.",
     "tags": []
   },
   {
@@ -2442,7 +2442,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Hive releases a swarm of tiny drones and makes a tech attack against a hostile character within Sensors. On a success, the Hive pushes the target up to 2 spaces in a direction of their choice and the drones create a swarming Burst 2 area centered around them that lasts until the end of their next turn. All other hostile characters that start their turn at least partially within the area or move into it for the first time in a round take {2/3/4} Burn. This counts as taking Burn from a Razor Swarm.",
+    "effect": "The Hive releases a swarm of tiny drones and makes a tech attack against a hostile character within <strong>Sensors</strong>. On a success, the Hive pushes the target up to <strong>2 spaces</strong> in a direction of their choice and the drones create a swarming <strong>Burst 2</strong> area centered around them that lasts until the end of their next turn. All other hostile characters that start their turn at least partially within the area or move into it for the first time in a round take <strong>{2/3/4} Burn</strong>. This counts as taking <strong>Burn</strong> from a <strong>Razor Swarm</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -2465,7 +2465,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "At the start of their turn, characters within Range 3 of the Hive take {2/3/4} Burn. This counts as taking Burn from a Razor Swarm.",
+    "effect": "At the start of their turn, characters within <strong>Range 3</strong> of the Hive take <strong>{2/3/4} Burn</strong>. This counts as taking <strong>Burn</strong> from a <strong>Razor Swarm</strong>.",
     "tags": []
   },
   {
@@ -2478,7 +2478,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Until the end of their next turn, any character that takes Burn from the Hive or a Razor Swarm makes all checks and saves at +1 Difficulty, and all Tech Attacks are made against them with +1 Accuracy. This effect of this trait does not stack.",
+    "effect": "Until the end of their next turn, any character that takes <strong>Burn</strong> from the Hive or a <strong>Razor Swarm</strong> makes all checks and saves at <strong>+1 Difficulty</strong>, and all Tech Attacks are made against them with <strong>+1 Accuracy</strong>. This effect of this trait does not stack.",
     "tags": []
   },
   {
@@ -2491,7 +2491,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Hive chooses up to three Drones within Sensors (including those belonging to other characters) and moves them 3 spaces in any direction. Then all characters adjacent to any of those Drones must pass a Systems save or take {2/3/4} Burn and gain Lock On. This counts as taking Burn from a Razor Swarm.",
+    "effect": "The Hive chooses up to three <strong>Drones</strong> within <strong>Sensors</strong> (including those belonging to other characters) and moves them <strong>3 spaces</strong> in any direction. Then all characters adjacent to any of those <strong>Drones</strong> must pass a <strong>Systems</strong> save or take <strong>{2/3/4} Burn</strong> and gain <strong>Lock On</strong>. This counts as taking <strong>Burn</strong> from a <strong>Razor Swarm</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -2558,7 +2558,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Operator teleports when they make their standard move. Whenever the Operator exceeds their Heat Cap, this system is disabled until the end of their next turn.",
+    "effect": "The Operator <strong>teleports</strong> when they make their standard move. Whenever the Operator exceeds their <strong>Heat Cap</strong>, this system is disabled until the end of their next turn.",
     "tags": []
   },
   {
@@ -2571,7 +2571,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Operator teleports during their turn before making any attacks, they gain +1 Accuracy on all attacks with the Raptor Plasma Rifle until the end of their turn. Whenever the Operator teleports during their turn after making any attacks, all attacks against them recieve +1 Difficulty until the end of their next turn.",
+    "effect": "Whenever the Operator <strong>teleports</strong> during their turn before making any attacks, they gain <strong>+1 Accuracy</strong> on all attacks with the <strong>Raptor Plasma Rifle</strong> until the end of their turn. Whenever the Operator <strong>teleports</strong> during their turn after making any attacks, all attacks against them recieve <strong>+1 Difficulty</strong> until the end of their next turn.",
     "tags": []
   },
   {
@@ -2584,7 +2584,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Operator is destroyed, it immediately self-immolates in a wave of superheated plasma. All characters adjacent to the Operator when this takes place must succeed on an Agility save or take {4/6/8} Energy damage and rendered only able to draw line of sight to adjacent spaces until the end of their next. On a success, they take half damage only. This mech is then removed from the battlefield – it is utterly annihilated.",
+    "effect": "When the Operator is destroyed, it immediately self-immolates in a wave of superheated plasma. All characters adjacent to the Operator when this takes place must succeed on an <strong>Agility</strong> save or take <strong>{4/6/8} Energy damage</strong> and rendered only able to draw line of sight to adjacent spaces until the end of their next. On a success, they take half damage only. This mech is then removed from the battlefield – it is utterly annihilated.",
     "tags": []
   },
   {
@@ -2597,7 +2597,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Operator teleports into a space occupied by another character within line of sight and range 15. The target must succeed on an Agility save or take {4/5/6} AP Energy damage and become Jammed and Shredded until the end of their next turn. On a successful save, they take half damage only. Succeed or fail, the Operator takes 1d6 AP Energy damage and then teleports to a new space within Range 5.",
+    "effect": "The Operator <strong>teleports</strong> into a space occupied by another character within line of sight and <strong>range 15</strong>. The target must succeed on an <strong>Agility</strong> save or take <strong>{4/5/6} AP Energy damage</strong> and become <strong>Jammed</strong> and <strong>Shredded</strong> until the end of their next turn. On a successful save, they take half damage only. Succeed or fail, the Operator takes <strong>1d6 AP Energy damage</strong> and then <strong>teleports</strong> to a new space within <strong>Range 5</strong>.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -2618,7 +2618,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Operator makes an attack with the Raptor Plasma Rifle, treating its Range as Line 10.",
+    "effect": "The Operator makes an attack with the <strong>Raptor Plasma Rifle</strong>, treating its <strong>Range</strong> as <strong>Line 10</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2638,8 +2638,8 @@
       "base": false
     },
     "locked": false,
-    "type": "Reaction",
-    "effect": "The Operator teleports to a space within Range 2. They may choose to teleport further taking 1d6 Heat and adding that many additonal spaces to the movement.",
+    "type": "System",
+    "effect": "The Operator teleports to a space within <strong>Range 2</strong>. They may choose to teleport further taking <strong>1d6 Heat</strong> and adding that many additonal spaces to the movement.",
     "tags": [
       {
         "id": "tg_round",
@@ -2661,7 +2661,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Operator may expend a charge to throw a grenade to a space within Range 5. Characters in the Blast 2 energy pulse (excluding the Operator) must pass a Systems save or be teleported 2 spaces in a direction of the Operator's choice and treat the Operator as Invisible until the end of their next turn.<Br>The Operator then teleports their Speed.",
+    "effect": "The Operator may expend a charge to throw a grenade to a space within <strong>Range 5</strong>. Characters in the <strong>Blast 2</strong> energy pulse (excluding the Operator) must pass a <strong>Systems</strong> save or be <strong>teleported 2 spaces</strong> in a direction of the Operator's choice and treat the Operator as <strong>Invisible</strong> until the end of their next turn.<Br>The Operator then <strong>teleports</strong> their <strong>Speed</strong>.",
     "tags": [
       {
         "id": "tg_grenade"
@@ -2685,7 +2685,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Self Erasure now deals {6/8/10} damage (half on a successful save), and when the Operator is destroyed they may immediately teleport their Speed as a Reaction before self-immolating.",
+    "effect": "Self Erasure now deals <strong>{6/8/10} damage</strong> (half on a successful save), and when the Operator is destroyed they may immediately <strong>teleport</strong> their <strong>Speed</strong> as a <strong>Reaction</strong> before self-immolating.",
     "tags": []
   },
   {
@@ -2698,7 +2698,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "This weapon deals double Burn to characters that already have any Burn.",
+    "effect": "This weapon deals <strong>double Burn</strong> to characters that already have any <strong>Burn</strong>.",
     "tags": [
       {
         "id": "tg_heat_self",
@@ -2739,7 +2739,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "At the end of the Pyro's turn, they create a Line 5 wall of flame, 4 spaces high, in free spaces within Range 3 and line of sight. This wall doesn't block line of sight, but provides soft cover; when an attackis made against a character benefiting from this cover, roll 1d6. On a 4+, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take 2/3/4 Burn. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is Stunned, and its effect doesn't stack with Invisible.",
+    "effect": "At the end of the Pyro's turn, they create a <strong>Line 5</strong> wall of flame, <strong>4 spaces high</strong>, in free spaces within <strong>Range 3</strong> and line of sight. This wall doesn't block line of sight, but provides <strong>soft cover</strong>; when an attackis made against a character benefiting from this cover, roll <strong>1d6</strong>. On a <strong>4+</strong>, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take <strong>{2/3/4} Burn</strong>. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is <strong>Stunned</strong>, and its effect doesn't stack with <strong>Invisible</strong>.",
     "tags": [
       {
         "id": "tg_shield"
@@ -2756,7 +2756,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Pyro clears all Heat. All characters within Burst 2 must pass an Agility save or take Heat equal to half the amount the Pyro cleared and be knocked Prone.",
+    "effect": "The Pyro clears all <strong>Heat</strong>. All characters within <strong>Burst 2</strong> must pass an <strong>Agility</strong> save or take <strong>Heat</strong> equal to <strong>half the amount the Pyro cleared</strong> and be knocked <strong>Prone</strong>.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -2773,7 +2773,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Pyro has Immunity to Burn.",
+    "effect": "The Pyro has <strong>Immunity</strong> to <strong>Burn</strong>.",
     "tags": []
   },
   {
@@ -2786,7 +2786,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Pyro launches a napalm canister that erupts in a Blast 1 curtain of flame within Range 5. All characters within this area must pass an Agility save or take 2/3/4 Burn and 2/3/4 Heat. The Pyro may instead target a free area with this Blast; if they do, it creates a burning patch on the ground that lasts until this system is used again. Characters that start their turn at least partially within the area or move into it for the first time in a round must pass an Agility save or take 2/3/4 Burn and 2/3/4 Heat.",
+    "effect": "The Pyro launches a napalm canister that erupts in a <strong>Blast 1</strong> curtain of flame within Range 5. All characters within this area must pass an <strong>Agility</strong> save or take <strong>{2/3/4} Burn</strong> and <strong>{2/3/4} Heat</strong>. The Pyro may instead target a free area with this <strong>Blast</strong>; if they do, it creates a burning patch on the ground that lasts until this system is used again. Characters that start their turn at least partially within the area or move into it for the first time in a round must pass an <strong>Agility</strong> save or take <strong>{2/3/4} Burn</strong> and <strong>{2/3/4 Heat}</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2807,7 +2807,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters that start their turn within Range 3 of the Pyro or who move into Range 3 of them for the first time in a round take 2/3/4 Heat, and they make all checks to clear Burn with +1 Difficulty as long as they remain within 3 spaces of the Pyro.",
+    "effect": "Characters that start their turn within <strong>Range 3</strong> of the Pyro or who move into <strong>Range 3</strong> of them for the first time in a round take <strong>2/3/4 Heat</strong>, and they make all checks to clear <strong>Burn</strong> with <strong>+1 Difficulty</strong> as long as they remain within <strong>3 spaces</strong> of the Pyro.",
     "tags": []
   },
   {
@@ -2820,7 +2820,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Pyro gains Resistance to all damage from the attack. The attacker must pass an Engineering save or take {3/4/5} Burn.",
+    "effect": "The Pyro gains <strong>Resistance</strong> to all damage from the attack. The attacker must pass an <strong>Engineering</strong> save or take {3/4/5} <strong>Burn</strong>.",
     "tags": [
       {
         "id": "tg_round",
@@ -2846,7 +2846,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Hostile characters within Burst 2 must pass a Hull save or be knocked back outside of the area and knocked Prone. The Pyro then flies 5 spaces in any direction, but must land after completing that move. If the Pyro is in the Danger Zone, the Hull save is made with +1 Difficulty and this system's Recharge rolls automatically succeed.",
+    "effect": "Hostile characters within <strong>Burst 2</strong> must pass a <strong>Hull</strong> save or be knocked back outside of the area and knocked <strong>Prone</strong>. The Pyro then flies <strong>5 spaces</strong> in any direction, but must land after completing that move. If the Pyro is in the <strong>Danger Zone</strong>, the <strong>Hull</strong> save is made with <strong>+1 Difficulty</strong> and this system's <strong>Recharge</strong> rolls automatically succeed.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2867,7 +2867,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Pyro attacks with the Flamethrower, flames continue to Burn in 3 free spaces of their choice within the affected area. When characters start their turn in one of these spaces or enter one for the first time in a round, they take 2/3/4 Burn. These spaces last until the end of the scene, or until the Pyro attacks with the Flamethrower.",
+    "effect": "When the Pyro attacks with the <strong>Flamethrower</strong>, flames continue to Burn in <strong>3 free spaces</strong> of their choice within the affected area. When characters start their turn in one of these spaces or enter one for the first time in a round, they take <strong>{2/3/4} Burn</strong>. These spaces last until the end of the scene, or until the Pyro attacks with the <strong>Flamethrower</strong>.",
     "tags": []
   },
   {
@@ -2920,7 +2920,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "They roll 1d6: on 4+, they gain Resistance to damage from that attack, and the attacker must repeat the attack against themselves. On 3 or less, the Ronin may Boost towards the triggering attacker.",
+    "effect": "They roll <strong>1d6</strong>: on <strong>4+</strong>, they gain <strong>Resistance</strong> to damage from that attack, and the attacker must repeat the attack against themselves. On <strong>3 or less</strong>, the Ronin may <strong>Boost</strong> towards the triggering attacker.",
     "tags": [
       {
         "id": "tg_shield"
@@ -2945,7 +2945,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever a character makes a ranged attack against the Ronin, that character gains a Ronin's Mark. Only one character at a time can have a Ronin's Mark; if a new mark is applied, any others are removed. When the Ronin makes a successful attack against a character using the Carbon Fiber Sword, it can consume the Ronin's Mark to deal +1d6 bonus damage.",
+    "effect": "Whenever a character makes a ranged attack against the Ronin, that character gains a <strong>Ronin's Mark</strong>. Only one character at a time can have a <strong>Ronin's Mark</strong>; if a new mark is applied, any others are removed. When the Ronin makes a successful attack against a character using the <strong>Carbon Fiber Sword</strong>, it can consume the <strong>Ronin's Mark</strong> to deal <strong>+1d6 bonus damage</strong>.",
     "tags": []
   },
   {
@@ -2958,7 +2958,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": " Ranged attacks against the Ronin while Engaged receive +2 Difficulty instead of +1 Difficulty, and the Ronin gains soft cover until the start of their next turn whenever they Boost.",
+    "effect": "Ranged attacks against the Ronin while <strong>Engaged</strong> receive <strong>+2 Difficulty</strong> instead of <strong>+1 Difficulty</strong>, and the Ronin gains <strong>soft cover</strong> until the start of their next turn whenever they <strong>Boost</strong>.",
     "tags": []
   },
   {
@@ -2971,7 +2971,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": " The Ronin enters a prepared stance, visible to everyone. Until the end of the Ronin’s next turn, the first time each turn that a hostile character in line of sight makes a ranged attack, as a Reaction the Ronin may first Boost towards the triggering attacker and then make an attack against them with the Carbon Fiber Sword if they are within Range.",
+    "effect": " The Ronin enters a prepared stance, visible to everyone. Until the end of the Ronin’s next turn, the first time each turn that a hostile character in line of sight makes a ranged attack, as a <strong>reaction</strong> the Ronin may first <strong>Boost</strong> towards the triggering attacker and then make an attack against them with the <strong>Carbon Fiber Sword</strong> if they are within <strong>Range</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2992,7 +2992,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Ronin takes damage or effects from missed attacks (e.g. Reliable), they may choose a different character within Range 5 to also take the damage or effects.",
+    "effect": "Whenever the Ronin takes damage or effects from missed attacks (e.g. <strong>Reliable</strong>), they may choose a different character within <strong>Range 5</strong> to also take the damage or effects.",
     "tags": []
   },
   {
@@ -3005,7 +3005,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": " An adjacent character must pass an Agility save or choose: become Jammed until the end of their next turn, or the Ronin chooses one of their equipped weapons and they take half that weapon's damage from a ruptured magazine or power cell, then they become Impaired until the end of their next turn. On a success, they become Impaired until the end of their next turn only.",
+    "effect": " An adjacent character must pass an <strong>Agility</strong> save or choose: become <strong>Jammed</strong> until the end of their next turn, or the Ronin chooses one of their equipped weapons and they take half that weapon's damage from a ruptured magazine or power cell, then they become <strong>Impaired</strong> until the end of their next turn. On a success, they become <strong>Impaired</strong> until the end of their next turn only.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3026,7 +3026,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": " The Ronin’s Carbon Fiber Sword becomes Threat 3. The first time each turn that the Ronin performs a critical hit with it, all characters of their choice within Threat take 2/3/4 kinetic damage, excluding the target just attacked.",
+    "effect": " The Ronin’s <strong>Carbon Fiber Sword</strong> becomes <strong>Threat 3</strong>. The first time each turn that the Ronin performs a critical hit with it, all characters of their choice within <strong>Threat</strong> take <strong>{2/3/4} Kinetic damage</strong>, excluding the target just attacked.",
     "tags": []
   },
   {
@@ -3085,7 +3085,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Scourer hits with the Thermal Lance, targets take {5/6/7} Burn if they were also successfully hit with the Thermal Lance in the previous round.",
+    "effect": "When the Scourer hits with the <strong>Thermal Lance</strong>, targets take <strong>{5/6/7} Burn</strong> if they were also successfully hit with the <strong>Thermal Lance</strong> in the previous round.",
     "tags": []
   },
   {
@@ -3098,7 +3098,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "At the start of their turn, the Scourer clears all Heat if they haven’t moved – including involuntary movement – since the end of their previous turn.",
+    "effect": "At the start of their turn, the Scourer <strong>clears all Heat</strong> if they haven’t moved – including involuntary movement – since the end of their previous turn.",
     "tags": []
   },
   {
@@ -3111,7 +3111,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Scourer has Resistance to Energy damage.",
+    "effect": "The Scourer has <strong>Resistance</strong> to <strong>Energy damage</strong>.",
     "tags": []
   },
   {
@@ -3124,7 +3124,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters affected by Focus Down are also Shredded and Slowed until the end of their next turn.",
+    "effect": "Characters affected by <strong>Focus Down</strong> are also <strong>Shredded</strong> and <strong>Slowed</strong> until the end of their next turn.",
     "tags": []
   },
   {
@@ -3137,7 +3137,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When the Scourer exceeds their Heat Cap, becomes Jammed, or becomes Stunned, they become Invisible until the start of their next turn.",
+    "effect": "When the Scourer exceeds their <strong>Heat Cap</strong>, becomes <strong>Jammed</strong>, or becomes <strong>Stunned</strong>, they become <strong>Invisible</strong> until the start of their next turn.",
     "tags": []
   },
   {
@@ -3150,7 +3150,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Scourer makes an attack with the Thermal Lance, they can attack two targets at a time, dealing half damage on hit. This trait automatically Recharges whenever Cooling Module activates.",
+    "effect": "When the Scourer makes an attack with the <strong>Thermal Lance</strong>, they can attack two targets at a time, dealing half damage on hit. This trait automatically <strong>Recharges</strong> whenever <strong>Cooling Module</strong> activates.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3168,7 +3168,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Scourer makes a ranged attack against an object, deployable or Drone within Range 10, dealing 20 AP energy damage on a success. On hit, all characters within a Burst 2 radius of the target are splashed with molten slag, and count as being successfully hit with the Thermal Lance.",
+    "effect": "The Scourer makes a ranged attack against an object, deployable or <strong>Drone</strong> within <strong>Range 10</strong>, dealing <strong>20 AP Energy damage</strong> on a success. On hit, all characters within a <strong>Burst 2</strong> radius of the target are splashed with molten slag, and count as being successfully hit with the <strong>Thermal Lance</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3189,7 +3189,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "If the Cooling Module does not activate at the start of the Scourer's turn, the Thermal Lance gains +4 Range, and on hit all other characters in a Burst 1 area around the target take {3/4/5} Burn.",
+    "effect": "If the <strong>Cooling Module</strong> does not activate at the start of the Scourer's turn, the <strong>Thermal Lance</strong> gains <strong>+4 Range</strong>, and on hit all other characters in a <strong>Burst 1</strong> area around the target take <strong>{3/4/5} Burn</strong>.",
     "tags": []
   },
   {
@@ -3226,7 +3226,7 @@
         "val": 15
       }
     ],
-    "on_hit": "Target receives Lock On, and they become Shredded until the end of their next turn."
+    "on_hit": "Target receives <strong>Lock On</strong>, and they become <strong>Shredded</strong> until the end of their next turn."
   },
   {
     "id": "npc-rebake_npcf_sight_scout",
@@ -3238,7 +3238,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Scout ignores Hidden and Invisible.",
+    "effect": "The Scout ignores <strong>Hidden</strong> and <strong>Invisible</strong>.",
     "tags": []
   },
   {
@@ -3251,7 +3251,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Scout makes a tech attack against a target in Sensors. On a success, the target and all hostile characters within Range 3 of the target lose Hidden and Invisible and can't regain either status or benefit from any cover until the start of the Scout's next turn.",
+    "effect": "The Scout makes a tech attack against a target in Sensors. On a success, the target and all hostile characters within <strong>Range 3</strong> of the target lose <strong>Hidden</strong> and <strong>Invisible</strong> and can't regain either status or benefit from any cover until the start of the Scout's next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -3273,7 +3273,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Scout generates a Burst 3 cloaking field that lasts until the end of their next turn. The Scout and allied characters within the affected area are Invisible, but the Scout is Immobilized while it is active.",
+    "effect": "The Scout generates a <strong>Burst 3</strong> cloaking field that lasts until the end of their next turn. The Scout and allied characters within the affected area are <strong>Invisible</strong>, but the Scout is <strong>Immobilized</strong> while it is active.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3294,7 +3294,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "While adjacent to the Scout, allied characters gain +1 Accuracy on all attack rolls.",
+    "effect": "While adjacent to the Scout, allied characters gain <strong>+1 Accuracy</strong> on all attack rolls.",
     "tags": []
   },
   {
@@ -3307,7 +3307,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Scout Drone (Size 1/2, HP {5/8/10}, Evasion {10/10/10}, E- Defense {10/10/10}, Tags: Drone)<br>The Scout deploys the drone to a free space within Sensors The drone creates a Burst 2 perimeter, within which characters cannot become Invisible or Hide, and lose those conditions if they have them. The Scout and all allied characters also gain +1 Accuracy when attacking characters within the affected area. The drone can be deployed to a new location as a protocol.",
+    "effect": "<strong>Scout Drone</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {5/8/10}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags</strong>: Drone)<br>The Scout deploys the drone to a free space within <strong>Sensors</strong> The drone creates a <strong>Burst 2</strong> perimeter, within which characters cannot become <strong>Invisible</strong> or <strong>Hide</strong>, and lose those conditions if they have them. The Scout and all allied characters also gain <strong>+1 Accuracy</strong> when attacking characters within the affected area. The drone can be deployed to a new location as a protocol.",
     "tags": [
       {
         "id": "tg_drone"
@@ -3331,7 +3331,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Scout chooses a space on the ground, within line of sight and range 20; all characters know that it has been chosen. The Scout calls in an orbital bombardment that hits at the end of the next round, creating a Burst 2 explosion. Characters in the affected area must make Agility saves. On a fail, they take {12/16/20} Energy damage and are knocked Prone. On a pass, they take half damage and remain standing.",
+    "effect": "The Scout chooses a space on the ground, within line of sight and <strong>Range 20</strong>; all characters know that it has been chosen. The Scout calls in an orbital bombardment that hits at the end of the next round, creating a <strong>Burst 2</strong> explosion. Characters in the affected area must make <strong>Agility</strong> saves. On a fail, they take <strong>{12/16/20} Energy damage</strong> and are knocked <strong>Prone</strong>. On a pass, they take half damage and remain standing.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3352,7 +3352,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters that are successfully attacked with the Marker Rifle gain a Scout's Mark. Only one character can be marked this way at a time, and marking another character clears any marks from the last one. The next time an ally successfully hits a character with a Scout's Mark, they may consume the mark to choose one of the following:<ul><li>The Target takes +1d6 bonus damage.</li><li>The target is knocked Prone.</li><li>The target only has line of sight to adjacent spaces until the end of their next turn</li><ul>",
+    "effect": "Characters that are successfully attacked with the <strong>Marker Rifle</strong> gain a <strong>Scout's Mark</strong>. Only one character can be marked this way at a time, and marking another character clears any marks from the last one. The next time an ally successfully hits a character with a <strong>Scout's Mark</strong>, they may consume the mark to choose one of the following:<ul><li>The Target takes <strong>+1d6 bonus damage</strong>.</li><li>The target is knocked <strong>Prone</strong>.</li><li>The target only has line of sight to adjacent spaces until the end of their next turn</li><ul>",
     "tags": []
   },
   {
@@ -3365,7 +3365,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "1/round, whenever the Scout successfully attacks with the Marker Rifle, an allied character within Sensors and line of sight can move up to their Speed as a Reaction.",
+    "effect": "<strong>1/round</strong>, whenever the Scout successfully attacks with the <strong>Marker Rifle</strong>, an allied character within <strong>Sensors</strong> and line of sight can move up to their <strong>Speed</strong> as a Reaction.",
     "tags": []
   },
   {
@@ -3410,7 +3410,7 @@
         "val": 1
       }
     ],
-    "on_hit": "Targets are pulled 1 space in a direction of the Seeder's choice."
+    "on_hit": "Targets are pulled <strong>1 space</strong> in a direction of the Seeder's choice."
   },
   {
     "id": "npc-rebake_npcf_lay_mines_seeder",
@@ -3422,7 +3422,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Seeder deploys one of the mines below in a free space within Range 3. Once deployed, the Seeder’s mines detonate when a hostile character moves adjacent to them, creating a Burst 1 explosion that affects both allied and hostile characters.<ul><li>Sealant Mine: Characters in the area must pass a Hull save or become Immobilized until the end of their next turn, then Slowed until the end of their subsequent turn.</li><li>Explosive Mine: Characters in the area must pass an Agility save or take 8/12/16 explosive damage. On a success, they take half damage.</li><li>Shock Mine: Characters in the area must pass a Systems save or become Jammed until the end of their next turn, then Impaired until the end of their subsequent turn.</li><li>Thermite Mine: Characters in the area must pass an Engineering save or take 4/5/6 Heat and have only line of sight to adjacent spaces until the end of their next turn. On a success, they take half Heat only.</li></ul><br>The Seeder may have up to three mines deployed at a time; if they deploy another mine, one of their currently deployed mines of their choice disarms and deactivates. When the Seeder is destroyed, its deployed mines remain active, but now detonate whenever any character moves adjacent to them.",
+    "effect": "The Seeder deploys one of the mines below in a free space within <strong>Range 3</strong>. Once deployed, the Seeder’s mines detonate when a hostile character moves adjacent to them, creating a <strong>Burst 1</strong> explosion that affects both allied and hostile characters.<ul><li><strong>Sealant Mine</strong>: Characters in the area must pass a <strong>Hull</strong> save or become <strong>Immobilized</strong> until the end of their next turn, then <strong>Slowed</strong> until the end of their subsequent turn.</li><li><strong>Explosive Mine</strong>: Characters in the area must pass an <strong>Agility</strong> save or take <strong>8/12/16 explosive damage</strong>. On a success, they take <strong>half damage</strong>.</li><li><strong>Shock Mine</strong>: Characters in the area must pass a <strong>Systems</strong> save or become <strong>Jammed</strong> until the end of their next turn, then <strong>Impaired</strong> until the end of their subsequent turn.</li><li><strong>Thermite Mine</strong>: Characters in the area must pass an <strong>Engineering</strong> save or take 4/5/6 Heat and have only line of sight to adjacent spaces until the end of their next turn. On a success, they take <strong>half Heat only</strong>.</li></ul><br>The Seeder may have up to <strong>three mines</strong> deployed at a time; if they deploy another mine, one of their currently deployed mines of their choice disarms and deactivates. When the Seeder is destroyed, its deployed mines remain active, but now detonate whenever any character moves adjacent to them.",
     "tags": [
       {
         "id": "tg_mine"
@@ -3446,7 +3446,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Seeder never triggers or sets off Mines or other proximity-based systems unless it chooses to do so.",
+    "effect": "The Seeder never triggers or sets off <strong>Mines</strong> or other proximity-based systems unless it chooses to do so.",
     "tags": []
   },
   {
@@ -3459,7 +3459,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "A character within line of sight and Range 5 must succeed on a Systems save, or a grav spike attaches itself to them. The Seeder can detonate all grav spikes as a protocol, causing targets to automatically take 4/5/6 AP explosive damage and be pulled 3 spaces in a direction of their choice. Characters can remove a grav spike from themselves by passing a Systems save as a quick action.",
+    "effect": "A character within line of sight and <strong>Range 5</strong> must succeed on a <strong>Systems</strong> save, or a grav spike attaches itself to them. The Seeder can detonate all grav spikes as a <strong>protocol</strong>, causing targets to automatically take <strong>4/5/6 AP explosive damage</strong> and be pulled <strong>3 spaces</strong> in a direction of their choice. Characters can remove a grav spike from themselves by passing a <strong>Systems</strong> save as a <strong>quick action</strong>.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -3476,7 +3476,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Seeder launches a rocket which scatters a field of explosive micromines over a Blast 3 area within Sensors; this area can overlap with obstructions (like cover or terrain) when deployed, but not characters. Characters who enter this area or attempt to move while within it for the first time in a round must pass a Systems save or step on a mine, taking 5/6/7 explosive damage. Only one field of micromines can exist at a time, and if a new one is created, the previous one deactivates.",
+    "effect": "The Seeder launches a rocket which scatters a field of explosive micromines over a <strong>Blast 3</strong> area within <strong>Sensors</strong>; this area can overlap with obstructions (like cover or terrain) when deployed, but not characters. Characters who enter this area or attempt to move while within it for the first time in a round must pass a <strong>Systems</strong> save or step on a mine, taking <strong>5/6/7 explosive damage</strong>. Only one field of micromines can exist at a time, and if a new one is created, the previous one deactivates.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3497,7 +3497,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Lay Mines may now deploy up to three mines at a time instead of just one. If the Seeder deploys more than one mine at a time this way, this trait can't be used again until one of its mines detonates or is disarmed.",
+    "effect": "<strong>Lay Mines</strong> may now deploy up to <strong>three mines</strong> at a time instead of just one. If the Seeder deploys more than one mine at a time this way, this trait can't be used again until one of its mines detonates or is disarmed.",
     "tags": []
   },
   {
@@ -3510,7 +3510,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Mines deployed with Lay Mines also activate when hostile characters fly or move over or adjacent to them, up to 10 spaces high. The mines jump up to 10 spaces, detonating and affecting all characters within their area.",
+    "effect": "Mines deployed with <strong>Lay Mines</strong> also activate when hostile characters fly or move over or adjacent to them, up to <strong>10 spaces</strong> high. The mines jump up to <strong>10 spaces</strong>, detonating and affecting all characters within their area.",
     "tags": []
   },
   {
@@ -3523,7 +3523,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "Choose a mine that can be deployed with Lay Mines; the triggering character immediately detonates a hidden mine buried under the ground of that type. This Reaction may still be used even if the Seeder is destroyed.<br>If a hostile character is aware of this trait (i.e. via Scan, or automatically when the Seeder is destroyed), they may attempt a contested Systems check against the Seeder as a quick action while the Seeder (or its wreck) is within Sensors. If that character succeeds, this trait is disabled. This check automatically succeeds against destroyed Seeders.",
+    "effect": "Choose a mine that can be deployed with <strong>Lay Mines</strong>; the triggering character immediately detonates a hidden mine buried under the ground of that type. This Reaction may still be used even if the Seeder is destroyed.<br>If a hostile character is aware of this trait (i.e. via <strong>Scan</strong>, or automatically when the Seeder is destroyed), they may attempt a contested <strong>Systems</strong> check against the Seeder as a <strong>quick action</strong> while the Seeder (or its wreck) is within <strong>Sensors</strong>. If that character succeeds, this trait is disabled. This check automatically succeeds against destroyed Seeders.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -3533,7 +3533,7 @@
         "val": "1"
       }
     ],
-    "trigger": "A hostile character moves within Range 3 of the Seeder."
+    "trigger": "A hostile character moves within <strong>Range 3</strong> of the Seeder."
   },
   {
     "id": "npc-rebake_npcf_combat_shotgun_sentinel",
@@ -3626,7 +3626,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Sentinel becomes Slowed, but can take the Overwatch Reaction 1/turn instead of 1/round. Additionally, they may attack with Overwatch using the Combat Shotgun when hostile characters enter, leave, or exit spaces within their Threat no matter whether they started their movement there. Once activated, this effect lasts until it is deactivated as a quick action.",
+    "effect": "The Sentinel becomes <strong>Slowed</strong>, but can take the <strong>Overwatch</strong> Reaction <strong>1/turn</strong> instead of <strong>1/round</strong>. Additionally, they may attack with <strong>Overwatch</strong> using the <strong>Combat Shotgun</strong> when hostile characters enter, leave, or exit spaces within their <strong>Threat</strong> no matter whether they started their movement there. Once activated, this effect lasts until it is deactivated as a <strong>quick action</strong>.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -3643,7 +3643,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Allied characters can use the Sentinel for hard cover.",
+    "effect": "Allied characters can use the Sentinel for <strong>hard cover</strong>.",
     "tags": []
   },
   {
@@ -3656,7 +3656,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters damaged by the Sentinel’s Overwatch attacks also become Slowed until the end of their next turn.",
+    "effect": "Characters damaged by the Sentinel’s <strong>Overwatch</strong> attacks also become <strong>Slowed</strong> until the end of their next turn.",
     "tags": []
   },
   {
@@ -3669,7 +3669,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Sentinel chooses an allied character within Range 5 as their ward and gains the Reflexive Blow Reaction, which can be taken as many times per round as it is triggered",
+    "effect": "The Sentinel chooses an allied character within <strong>Range 5</strong> as their ward and gains the <strong>Reflexive Blow</strong> Reaction, which can be taken as many times per round as it is triggered",
     "tags": [
       {
         "id": "tg_protocol"
@@ -3690,7 +3690,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Sentinel may move their Speed towards their ward by the most direct route possible, then attack the inciting character with Overwatch. This Reaction interrupts and resolves before the triggering action, ignores engagement, and doesn’t provoke reactions.",
+    "effect": "The Sentinel may move their <strong>Speed</strong> towards their ward by the most direct route possible, then attack the inciting character with <strong>Overwatch</strong>. This Reaction interrupts and resolves before the triggering action, ignores engagement, and doesn’t provoke reactions.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -3708,7 +3708,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Sentinel may boost towards the triggering character, and the triggering character gains Lock On.",
+    "effect": "The Sentinel may <strong>Boost</strong> towards the triggering character, and the triggering character gains <strong>Lock On</strong>.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -3730,7 +3730,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When the Sentinel hits with Overwatch, their target must pass a Hull save or become Immobilized and Jammed until the end of their next turn.",
+    "effect": "When the Sentinel hits with <strong>Overwatch</strong>, their target must pass a <strong>Hull</strong> save or become <strong>Immobilized</strong> and <strong>Jammed</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_round",
@@ -3748,7 +3748,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Characters damaged by the Sentinel's Combat Shotgun (including Reliable damage) gain a Sentinel's Mark. Whenever the Sentinel makes an Overwatch attack against a marked character, they gain +1 Accuracy and ignore Invisible. All Sentinel's Marks are cleared at the start of the Sentinel's turn.",
+    "effect": "Characters damaged by the Sentinel's <strong>Combat Shotgun</strong> (including <strong>Reliable</strong> damage) gain a <strong>Sentinel's Mark</strong>. Whenever the Sentinel makes an <strong>Overwatch</strong> attack against a marked character, they gain <strong>+1 Accuracy</strong> and ignore <strong>Invisible</strong>. All <strong>Sentinel's Marks</strong> are cleared at the start of the Sentinel's turn.",
     "tags": []
   },
   {
@@ -3761,7 +3761,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "Armor is doubled against this weapon.",
+    "effect": "<strong>Armor</strong> is doubled against this weapon.",
     "tags": [],
     "weapon_type": "Main Melee",
     "attack_bonus": [
@@ -3797,7 +3797,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Specter moves spaces equal to Speed, then becomes Hidden. This movement ignores engagement and doesn’t provoke reactions.",
+    "effect": "The Specter moves spaces equal to <strong>Speed</strong>, then becomes <strong>Hidden</strong>. This movement ignores engagement and doesn’t provoke reactions.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -3814,7 +3814,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Specter is permanently Invisible. As a Full Action, a character can engage in a contested Systems check with the Specter to attempt to disable their cloak; all characters are aware of this. The Specter must be within their Sensors for them to attempt this check. If they succeed, the Specter takes 4 Heat and this trait is disabled until the end of their next turn. If they fail, that character gains Lock On.",
+    "effect": "The Specter is permanently <strong>Invisible</strong>. As a <strong>Full Action</strong>, a character can engage in a contested <strong>Systems</strong> check with the Specter to attempt to disable their cloak; all characters are aware of this. The Specter must be within their Sensors for them to attempt this check. If they succeed, the Specter takes <strong>4 Heat</strong> and this trait is disabled until the end of their next turn. If they fail, that character gains <strong>Lock On</strong>.",
     "tags": []
   },
   {
@@ -3827,7 +3827,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Monowire Sword deals double damage when no other characters are adjacent to the target.",
+    "effect": "The <strong>Monowire Sword</strong> deals double damage when no other characters are adjacent to the target.",
     "tags": []
   },
   {
@@ -3840,7 +3840,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Specter teleports to a free space within line of sight and range 50.",
+    "effect": "The Specter <strong>teleports</strong> to a free space within line of sight and <strong>Range 50</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3861,7 +3861,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Specter makes a tech attack against an adjacent character. On a success, the target becomes Stunned. This effect lasts until a character other than the Specter starts their turn adjacent to the target or moves adjacent to the target.",
+    "effect": "The Specter makes a tech attack against an adjacent character. On a success, the target becomes <strong>Stunned</strong>. This effect lasts until a character other than the Specter starts their turn adjacent to the target or moves adjacent to the target.",
     "tags": [
       {
         "id": "tg_full_tech"
@@ -3884,7 +3884,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Specter makes a tech attack against a character within sensors. On a success, that character must choose: move their Speed towards the Specter, or become Slowed and Impaired until the end of their next turn.",
+    "effect": "The Specter makes a tech attack against a character within <strong>Sensors</strong>. On a success, that character must choose: move their <strong>Speed</strong> towards the Specter, or become <strong>Slowed</strong> and <strong>Impaired</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -3911,7 +3911,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Specter becomes Intangible until the start of their next turn and moves spaces equal to their Speed. At the start of their next turn, their next attack with the Monowire Sword gains +1 Accuracy and deals +1d6 bonus damage on a critical hit. This bonus damage is not doubled.",
+    "effect": "The Specter becomes <strong>Intangible</strong> until the start of their next turn and moves spaces equal to their <strong>Speed</strong>. At the start of their next turn, their next attack with the <strong>Monowire Sword</strong> gains <strong>+1 Accuracy</strong> and deals <strong>+1d6 bonus damage</strong> on a critical hit. This bonus damage is not doubled.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -3928,7 +3928,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "The Specter can move 2 spaces in any direction before or after attacking with this weapon. This movement ignores engagement and doesn't provoke reactions.",
+    "effect": "The Specter can move <strong>2 spaces</strong> in any direction before or after attacking with this weapon. This movement ignores engagement and doesn't provoke reactions.",
     "tags": [],
     "weapon_type": "Auxiliary CQB",
     "attack_bonus": [
@@ -3968,7 +3968,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Support chooses a character within line of sight and <strong>Range 5</strong>, allied or hostile:<ul><li><strong>Allied:</strong> The target clears all <strong>burn</strong>, but becomes <strong>Slowed</strong> until the end of their next turn.</li><li><strong>Hostile:</strong> The target must pass an <strong>Agility</strong> save or become <strong>Slowed</strong> until the end of their next turn. Succeed of fail, a <strong>Burst 1</strong> area around them becomes <strong>difficult terrain</strong> for the rest of the scene.</li></ul>",
+    "effect": "The Support chooses a character within line of sight and <strong>Range 5</strong>, allied or hostile:<ul><li><strong>Allied:</strong> The target clears all <strong>Burn</strong>, but becomes <strong>Slowed</strong> until the end of their next turn.</li><li><strong>Hostile:</strong> The target must pass an <strong>Agility</strong> save or become <strong>Slowed</strong> until the end of their next turn. Succeed of fail, a <strong>Burst 1</strong> area around them becomes <strong>difficult terrain</strong> for the rest of the scene.</li></ul>",
     "tags": [
       {
         "id": "tg_quick_action"
