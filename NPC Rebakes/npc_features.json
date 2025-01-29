@@ -1946,7 +1946,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "This lance can be used as either a ranged or melee weapon, but not both in the same turn. When used as a ranged weapon, Critical Hits cause the target to become Impaired until the end of their next turn. When used as a melee weapon, it gains Knockback 2.",
+    "effect": "This lance can be used as either a ranged or melee weapon, but not both in the same turn. When used as a ranged weapon, <strong>Critical Hits</strong> cause the target to become <strong>Impaired</strong> until the end of their next turn. When used as a melee weapon, it gains <strong>Knockback 2</strong>.",
     "tags": [],
     "weapon_type": "Heavy Melee/Heavy Cannon",
     "attack_bonus": [
@@ -1991,7 +1991,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Cataphract ignores engagement and can pass through – but not stop in – spaces occupied by other characters, 1/turn dealing 2/3/4 kinetic damage to those characters.",
+    "effect": "The Cataphract ignores engagement and can pass through – but not stop in – spaces occupied by other characters, 1/turn dealing <strong>{2/3/4} kinetic damage</strong> to those characters.",
     "tags": []
   },
   {
@@ -2004,7 +2004,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Cataphract moves up to 8 spaces in a straight line. Pick a character that the Cataphract passed through or ended adjacent to; they must pass a Hull save. On a failure, they are grappled by the Cataphract and pulled with the Cataphract to the end of their movement. On Critical Hit with the Ram Cannon, this system automatically Recharges.",
+    "effect": "The Cataphract moves up to <strong>8 spaces</strong> in a straight line. Pick a character that the Cataphract passed through or ended adjacent to; they must pass a <strong>Hull</strong> save. On a failure, they are <strong>grappled</strong> by the Cataphract and pulled with the Cataphract to the end of their movement. On <strong>Critical Hit</strong> with the <strong>Ram Cannon</strong>, this system automatically <strong>Recharges</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2025,7 +2025,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Cataphract has Resistance to all damage from the closest hostile character. If multiple characters are equally close, this effect does not apply.",
+    "effect": "The Cataphract has <strong>Resistance</strong> to all damage from the closest hostile character. If multiple characters are equally close, this effect does not apply.",
     "tags": [
       {
         "id": "tg_shield"
@@ -2042,7 +2042,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "A character in line of sight and Range 5 must make a Hull save. On a failure, they take 2/3/4 Heat andare pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them.",
+    "effect": "A character in line of sight and <strong>Range 5</strong> must make a <strong>Hull</strong> save. On a failure, they take {2/3/4} Heat andare pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -2063,7 +2063,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Cataphract fires a piercing lance in a Line 5 path. All characters within the affected area must pass a Hull save or be knocked back 3 spaces. Any character that collides with an obstruction or another character also becomes Immobilized until the end of their next turn.",
+    "effect": "The Cataphract fires a piercing lance in a <strong>Line 5</strong> path. All characters within the affected area must pass a <strong>Hull</strong> save or be knocked back <strong>3 spaces</strong>. Any character that collides with an obstruction or another character also becomes <strong>Immobilized</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2084,7 +2084,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "A flying character in Range 10 must pass an Agility save. On a failure, they are pulled 3 spaces, land immediately, and become Immobilized until the end of their next turn. This counts as falling but without damage.",
+    "effect": "A flying character in <strong>Range 10</strong> must pass an Agility save. On a failure, they are pulled <strong>3 spaces</strong>, land immediately, and become <strong>Immobilized</strong> until the end of their next turn. This counts as falling but without damage.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2105,7 +2105,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Cataphract moves spaces equal to their Speed in a straight line, ignoring reactions and engagement, then attacks a target within Range with the Ram Cannon.",
+    "effect": "The Cataphract moves spaces equal to their <strong>Speed</strong> in a straight line, ignoring <strong>reactions</strong> and engagement, then attacks a target within <strong>Range</strong> with the <strong>Ram Cannon</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2126,7 +2126,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "As long as the Cataphract isn't Slowed or Jammed, whenever characters make melee attacks against them, they take 2/3/4 Heat before rolling.",
+    "effect": "As long as the Cataphract isn't <strong>Slowed</strong> or <strong>Jammed</strong>, whenever characters make melee attacks against them, they take <strong>{2/3/4} Heat</strong> before rolling.",
     "tags": []
   },
   {
