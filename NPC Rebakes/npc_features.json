@@ -2042,7 +2042,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "A character in line of sight and <strong>Range 5</strong> must make a <strong>Hull</strong> save. On a failure, they take {2/3/4} Heat andare pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them.",
+    "effect": "A character in line of sight and <strong>Range 5</strong> must make a <strong>Hull</strong> save. On a failure, they take {2/3/4} Heat and are pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them.",
     "tags": [
       {
         "id": "tg_quick_action"
