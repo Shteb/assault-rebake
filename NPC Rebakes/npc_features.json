@@ -197,7 +197,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Hunker Down</strong> no longer causes the Assault to become <strong>Slowed</strong>. Whenever the Assault uses <strong>Hunker Down</strong>, they may also move up to their <strong>Speed</strong> as part of the reaction.",
+    "effect": "<strong>Hunker Down</strong> no longer causes the Assault to become <strong>Slowed</strong>. Whenever the Assault uses <strong>Hunker Down</strong>, they may also move up to their <strong>Speed</strong> as part of the Reaction.",
     "tags": []
   },
   {
@@ -254,7 +254,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a Burst 2 area. While active, the Aegis is Immobilized, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive +2 Difficulty and cannot result in critical hits; whenever an attack receiving this Difficulty misses, the Aegis takes 2 heat. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain Immunity to Impaired and Slowed, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a protocol or is destroyed. If the Aegis exceeds their Heat Cap, becomes Stunned, or becomes Jammed while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.",
+    "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a Burst 2 area. While active, the Aegis is Immobilized, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive +2 Difficulty and cannot result in critical hits; whenever an attack receiving this Difficulty misses, the Aegis takes 2 Heat. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain Immunity to Impaired and Slowed, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a protocol or is destroyed. If the Aegis exceeds their Heat Cap, becomes Stunned, or becomes Jammed while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.",
     "tags": [
       {
         "id": "tg_shield"
@@ -327,7 +327,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Any hostile characters that start their turn inside the area affected by the Defense Net or that enter it for the first time in a round take 2 heat and become Shredded until they leave the area.",
+    "effect": "Any hostile characters that start their turn inside the area affected by the Defense Net or that enter it for the first time in a round take 2 Heat and become Shredded until they leave the area.",
     "tags": []
   },
   {
@@ -436,7 +436,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Ace performs a barrel roll, flying 6 spaces in any direction and causing the attack to miss. This movement ignores engagement and does not provoke reactions. This reaction can't be used if the Ace can't move (e.g. if it's Slowed or Immobilized).",
+    "effect": "The Ace performs a barrel roll, flying 6 spaces in any direction and causing the attack to miss. This movement ignores engagement and does not provoke reactions. This Reaction can't be used if the Ace can't move (e.g. if it's Slowed or Immobilized).",
     "tags": [
       {
         "id": "tg_recharge",
@@ -537,7 +537,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Whenever the Ace would gain a condition from a hostile character, it may spend a charge from this system to ignore that condition. The Ace then takes 4 heat, and the character that inflicted that condition gains Lock On.",
+    "effect": "Whenever the Ace would gain a condition from a hostile character, it may spend a charge from this system to ignore that condition. The Ace then takes 4 Heat, and the character that inflicted that condition gains Lock On.",
     "tags": [
       {
         "id": "tg_limited",
@@ -609,7 +609,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Archer chooses a target within line of sight and Range 10: they become Impaired and the Archer gains the Moving Target reaction.<br>his effect lasts until the Archer uses Moving Target; the target damages the Archer or leaves the Archer’s line of sight; the Archer is Stunned, Jammed, or destroyed; the Archer chooses a new target for this action; or, the Archer ends it as a free action.",
+    "effect": "The Archer chooses a target within line of sight and Range 10: they become Impaired and the Archer gains the Moving Target Reaction.<br>his effect lasts until the Archer uses Moving Target; the target damages the Archer or leaves the Archer’s line of sight; the Archer is Stunned, Jammed, or destroyed; the Archer chooses a new target for this action; or, the Archer ends it as a free action.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -661,7 +661,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Archer creates a Blast 3 area within Range 10 and line of sight, and gains the Got Your Backreaction. This area lasts until the end of the Archer's next turn or until the Archer creates a new area, and this reaction can be taken as many times per round as it is triggered.",
+    "effect": "The Archer creates a Blast 3 area within Range 10 and line of sight, and gains the Got Your Back Reaction. This area lasts until the end of the Archer's next turn or until the Archer creates a new area, and this Reaction can be taken as many times per round as it is triggered.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1732,7 +1732,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The triggering character gains Lock On. This reaction can't be used against characters within Range 3 of the Bombard.",
+    "effect": "The triggering character gains Lock On. This Reaction can't be used against characters within Range 3 of the Bombard.",
     "tags": [
       {
         "id": "tg_round",
@@ -1846,7 +1846,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Breacher makes a tech attack against a character within Sensors. On a success, the Breacher gains +1 Accuracy on all attacks against their target, and may Boost once per turn as a free action so long asit moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target unless the Breacher takes 4 heat to attempt this tech attack against a different target",
+    "effect": "The Breacher makes a tech attack against a character within Sensors. On a success, the Breacher gains +1 Accuracy on all attacks against their target, and may Boost once per turn as a free action so long asit moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target unless the Breacher takes 4 Heat to attempt this tech attack against a different target",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -2042,7 +2042,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "A character in line of sight and Range 5 must make a Hull save. On a failure, they take 2/3/4 heat andare pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them.",
+    "effect": "A character in line of sight and Range 5 must make a Hull save. On a failure, they take 2/3/4 Heat andare pulled as close as possible to the Cataphract; if they become adjacent, the Cataphract automatically grapples them.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -2126,7 +2126,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "As long as the Cataphract isn't Slowed or Jammed, whenever characters make melee attacks against them, they take 2/3/4 heat before rolling.",
+    "effect": "As long as the Cataphract isn't Slowed or Jammed, whenever characters make melee attacks against them, they take 2/3/4 Heat before rolling.",
     "tags": []
   },
   {
@@ -2262,7 +2262,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Whenever the Demolisher makes an attack with the <strong>Demolition Hammer</strong>, it may take <strong>4 heat</strong> to move <strong>4 spaces</strong> in a straight line directly towards the target before the attack.",
+    "effect": "Whenever the Demolisher makes an attack with the <strong>Demolition Hammer</strong>, it may take <strong>4 Heat</strong> to move <strong>4 spaces</strong> in a straight line directly towards the target before the attack.",
     "tags": []
   },
   {
@@ -2639,7 +2639,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Operator teleports to a space within <strong>Range 2</strong>. They may choose to teleport further taking <strong>1d6 heat</strong> and adding that many additonal spaces to the movement.",
+    "effect": "The Operator teleports to a space within <strong>Range 2</strong>. They may choose to teleport further taking <strong>1d6 Heat</strong> and adding that many additonal spaces to the movement.",
     "tags": [
       {
         "id": "tg_round",
@@ -2739,7 +2739,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "At the end of the Pyro's turn, they create a <strong>Line 5</strong> wall of flame, <strong>4 spaces high</strong>, in free spaces within <strong>Range 3</strong> and line of sight. This wall doesn't block line of sight, but provides <strong>soft cover</strong>; when an attackis made against a character benefiting from this cover, roll <strong>1d6</strong>. On a <strong>4+</strong>, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take <strong>{2/3/4} burn</strong>. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is <strong>Stunned</strong>, and its effect doesn't stack with <strong>Invisible</strong>.",
+    "effect": "At the end of the Pyro's turn, they create a <strong>Line 5</strong> wall of flame, <strong>4 spaces high</strong>, in free spaces within <strong>Range 3</strong> and line of sight. This wall doesn't block line of sight, but provides <strong>soft cover</strong>; when an attackis made against a character benefiting from this cover, roll <strong>1d6</strong>. On a <strong>4+</strong>, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take <strong>{2/3/4} Burn</strong>. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is <strong>Stunned</strong>, and its effect doesn't stack with <strong>Invisible</strong>.",
     "tags": [
       {
         "id": "tg_shield"
@@ -3098,7 +3098,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "At the start of their turn, the Scourer <strong>clears all heat</strong> if they haven’t moved – including involuntary movement – since the end of their previous turn.",
+    "effect": "At the start of their turn, the Scourer <strong>clears all Heat</strong> if they haven’t moved – including involuntary movement – since the end of their previous turn.",
     "tags": []
   },
   {
@@ -3189,7 +3189,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "If the <strong>Cooling Module</strong> does not activate at the start of the Scourer's turn, the <strong>Thermal Lance</strong> gains <strong>+4 Range</strong>, and on hit all other characters in a <strong>Burst 1</strong> area around the target take <strong>{3/4/5} burn</strong>.",
+    "effect": "If the <strong>Cooling Module</strong> does not activate at the start of the Scourer's turn, the <strong>Thermal Lance</strong> gains <strong>+4 Range</strong>, and on hit all other characters in a <strong>Burst 1</strong> area around the target take <strong>{3/4/5} Burn</strong>.",
     "tags": []
   },
   {
@@ -3365,7 +3365,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>1/round</strong>, whenever the Scout successfully attacks with the <strong>Marker Rifle</strong>, an allied character within <strong>Sensors</strong> and line of sight can move up to their <strong>Speed</strong> as a reaction.",
+    "effect": "<strong>1/round</strong>, whenever the Scout successfully attacks with the <strong>Marker Rifle</strong>, an allied character within <strong>Sensors</strong> and line of sight can move up to their <strong>Speed</strong> as a Reaction.",
     "tags": []
   },
   {
@@ -3422,7 +3422,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Seeder deploys one of the mines below in a free space within <strong>Range 3</strong>. Once deployed, the Seeder’s mines detonate when a hostile character moves adjacent to them, creating a <strong>Burst 1</strong> explosion that affects both allied and hostile characters.<ul><li><strong>Sealant Mine</strong>: Characters in the area must pass a <strong>Hull</strong> save or become <strong>Immobilized</strong> until the end of their next turn, then <strong>Slowed</strong> until the end of their subsequent turn.</li><li><strong>Explosive Mine</strong>: Characters in the area must pass an <strong>Agility</strong> save or take <strong>8/12/16 explosive damage</strong>. On a success, they take <strong>half damage</strong>.</li><li><strong>Shock Mine</strong>: Characters in the area must pass a <strong>Systems</strong> save or become <strong>Jammed</strong> until the end of their next turn, then <strong>Impaired</strong> until the end of their subsequent turn.</li><li><strong>Thermite Mine</strong>: Characters in the area must pass an <strong>Engineering</strong> save or take 4/5/6 heat and have only line of sight to adjacent spaces until the end of their next turn. On a success, they take <strong>half heat only</strong>.</li></ul><br>The Seeder may have up to <strong>three mines</strong> deployed at a time; if they deploy another mine, one of their currently deployed mines of their choice disarms and deactivates. When the Seeder is destroyed, its deployed mines remain active, but now detonate whenever any character moves adjacent to them.",
+    "effect": "The Seeder deploys one of the mines below in a free space within <strong>Range 3</strong>. Once deployed, the Seeder’s mines detonate when a hostile character moves adjacent to them, creating a <strong>Burst 1</strong> explosion that affects both allied and hostile characters.<ul><li><strong>Sealant Mine</strong>: Characters in the area must pass a <strong>Hull</strong> save or become <strong>Immobilized</strong> until the end of their next turn, then <strong>Slowed</strong> until the end of their subsequent turn.</li><li><strong>Explosive Mine</strong>: Characters in the area must pass an <strong>Agility</strong> save or take <strong>8/12/16 explosive damage</strong>. On a success, they take <strong>half damage</strong>.</li><li><strong>Shock Mine</strong>: Characters in the area must pass a <strong>Systems</strong> save or become <strong>Jammed</strong> until the end of their next turn, then <strong>Impaired</strong> until the end of their subsequent turn.</li><li><strong>Thermite Mine</strong>: Characters in the area must pass an <strong>Engineering</strong> save or take 4/5/6 Heat and have only line of sight to adjacent spaces until the end of their next turn. On a success, they take <strong>half Heat only</strong>.</li></ul><br>The Seeder may have up to <strong>three mines</strong> deployed at a time; if they deploy another mine, one of their currently deployed mines of their choice disarms and deactivates. When the Seeder is destroyed, its deployed mines remain active, but now detonate whenever any character moves adjacent to them.",
     "tags": [
       {
         "id": "tg_mine"
@@ -3523,7 +3523,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "Choose a mine that can be deployed with <strong>Lay Mines</strong>; the triggering character immediately detonates a hidden mine buried under the ground of that type. This reaction may still be used even if the Seeder is destroyed.<br>If a hostile character is aware of this trait (i.e. via <strong>Scan</strong>, or automatically when the Seeder is destroyed), they may attempt a contested <strong>Systems</strong> check against the Seeder as a <strong>quick action</strong> while the Seeder (or its wreck) is within <strong>Sensors</strong>. If that character succeeds, this trait is disabled. This check automatically succeeds against destroyed Seeders.",
+    "effect": "Choose a mine that can be deployed with <strong>Lay Mines</strong>; the triggering character immediately detonates a hidden mine buried under the ground of that type. This Reaction may still be used even if the Seeder is destroyed.<br>If a hostile character is aware of this trait (i.e. via <strong>Scan</strong>, or automatically when the Seeder is destroyed), they may attempt a contested <strong>Systems</strong> check against the Seeder as a <strong>quick action</strong> while the Seeder (or its wreck) is within <strong>Sensors</strong>. If that character succeeds, this trait is disabled. This check automatically succeeds against destroyed Seeders.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -3626,7 +3626,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Sentinel becomes <strong>Slowed</strong>, but can take the <strong>Overwatch</strong> reaction <strong>1/turn</strong> instead of <strong>1/round</strong>. Additionally, they may attack with <strong>Overwatch</strong> using the <strong>Combat Shotgun</strong> when hostile characters enter, leave, or exit spaces within their <strong>Threat</strong> no matter whether they started their movement there. Once activated, this effect lasts until it is deactivated as a <strong>quick action</strong>.",
+    "effect": "The Sentinel becomes <strong>Slowed</strong>, but can take the <strong>Overwatch</strong> Reaction <strong>1/turn</strong> instead of <strong>1/round</strong>. Additionally, they may attack with <strong>Overwatch</strong> using the <strong>Combat Shotgun</strong> when hostile characters enter, leave, or exit spaces within their <strong>Threat</strong> no matter whether they started their movement there. Once activated, this effect lasts until it is deactivated as a <strong>quick action</strong>.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -3669,7 +3669,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Sentinel chooses an allied character within <strong>Range 5</strong> as their ward and gains the <strong>Reflexive Blow</strong> reaction, which can be taken as many times per round as it is triggered",
+    "effect": "The Sentinel chooses an allied character within <strong>Range 5</strong> as their ward and gains the <strong>Reflexive Blow</strong> Reaction, which can be taken as many times per round as it is triggered",
     "tags": [
       {
         "id": "tg_protocol"
@@ -3690,7 +3690,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Sentinel may move their <strong>Speed</strong> towards their ward by the most direct route possible, then attack the inciting character with <strong>Overwatch</strong>. This reaction interrupts and resolves before the triggering action, ignores engagement, and doesn’t provoke reactions.",
+    "effect": "The Sentinel may move their <strong>Speed</strong> towards their ward by the most direct route possible, then attack the inciting character with <strong>Overwatch</strong>. This Reaction interrupts and resolves before the triggering action, ignores engagement, and doesn’t provoke reactions.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -3814,7 +3814,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Specter is permanently <strong>Invisible</strong>. As a <strong>Full Action</strong>, a character can engage in a contested <strong>Systems</strong> check with the Specter to attempt to disable their cloak; all characters are aware of this. The Specter must be within their Sensors for them to attempt this check. If they succeed, the Specter takes <strong>4 heat</strong> and this trait is disabled until the end of their next turn. If they fail, that character gains <strong>Lock On</strong>.",
+    "effect": "The Specter is permanently <strong>Invisible</strong>. As a <strong>Full Action</strong>, a character can engage in a contested <strong>Systems</strong> check with the Specter to attempt to disable their cloak; all characters are aware of this. The Specter must be within their Sensors for them to attempt this check. If they succeed, the Specter takes <strong>4 Heat</strong> and this trait is disabled until the end of their next turn. If they fail, that character gains <strong>Lock On</strong>.",
     "tags": []
   },
   {
@@ -3968,7 +3968,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Support chooses a character within line of sight and <strong>Range 5</strong>, allied or hostile:<ul><li><strong>Allied:</strong> The target clears all <strong>burn</strong>, but becomes <strong>Slowed</strong> until the end of their next turn.</li><li><strong>Hostile:</strong> The target must pass an <strong>Agility</strong> save or become <strong>Slowed</strong> until the end of their next turn. Succeed of fail, a <strong>Burst 1</strong> area around them becomes <strong>difficult terrain</strong> for the rest of the scene.</li></ul>",
+    "effect": "The Support chooses a character within line of sight and <strong>Range 5</strong>, allied or hostile:<ul><li><strong>Allied:</strong> The target clears all <strong>Burn</strong>, but becomes <strong>Slowed</strong> until the end of their next turn.</li><li><strong>Hostile:</strong> The target must pass an <strong>Agility</strong> save or become <strong>Slowed</strong> until the end of their next turn. Succeed of fail, a <strong>Burst 1</strong> area around them becomes <strong>difficult terrain</strong> for the rest of the scene.</li></ul>",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -4077,7 +4077,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When they start their turn adjacent to the Support, allied characters may clear one <strong>Condition</strong>. The Support takes <strong>4 heat</strong> for each <strong>condition</strong> cleared this way.",
+    "effect": "When they start their turn adjacent to the Support, allied characters may clear one <strong>Condition</strong>. The Support takes <strong>4 Heat</strong> for each <strong>condition</strong> cleared this way.",
     "tags": []
   },
   {
