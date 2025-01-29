@@ -2386,7 +2386,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Hive deploys a Blast 1 razor swarm in a free area within Sensors. Allied characters gain soft cover as long as they are at least partially within the affected area. Hostile characters start their turn at least partially within the area or move into it for the first time in a round take {2/3/4} Burn. At the start of the Hive's turn, they may move the Razor Swarm up to 2 spaces in any direction, including into spaces occupied by other characters. Only a single Razor Swarm may be deployed at a time, and if a new one is deployed (or the Hive is destroyed) the old one is destroyed.",
+    "effect": "The Hive deploys a <strong>Blast 1</strong> razor swarm in a free area within <strong>Sensors</strong>. Allied characters gain <strong>soft cover</strong> as long as they are at least partially within the affected area. Hostile characters start their turn at least partially within the area or move into it for the first time in a round take <strong>{2/3/4} Burn</strong>. At the start of the Hive's turn, they may move the <strong>Razor Swarm</strong> up to <strong>2 spaces</strong> in any direction, including into spaces occupied by other characters. Only a single <strong>Razor Swarm</strong> may be deployed at a time, and if a new one is deployed (or the Hive is destroyed) the old one is destroyed.",
     "tags": [
       {
         "id": "tg_drone"
@@ -2406,7 +2406,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Hive makes a tech attack against a character within Sensors. On a success, the target chooses one: they become Immobilized and Impaired until the end of their next turn, or they immediately move up to 4 spaces in a direction chosen by the Hive. This movement ignores engagement and does not provoke reactions.",
+    "effect": "The Hive makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target chooses one: they become <strong>Immobilized</strong> and <strong>Impaired</strong> until the end of their next turn, or they immediately move up to <strong>4 spaces</strong> in a direction chosen by the Hive. This movement ignores engagement and does not provoke <strong>reactions</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -2429,7 +2429,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever characters take Burn from a Razor Swarm, they must pass a Systems save or immediately move 4 spaces in a direction chosen by the Hive after taking damage. This movement ignores engagement and does not provoke reactions.",
+    "effect": "Whenever characters take <strong>Burn</strong> from a <strong>Razor Swarm</strong>, they must pass a <strong>Systems</strong> save or immediately move <strong>4 spaces</strong> in a direction chosen by the Hive after taking damage. This movement ignores engagement and does not provoke <strong>reactions</strong>.",
     "tags": []
   },
   {
@@ -2442,7 +2442,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Hive releases a swarm of tiny drones and makes a tech attack against a hostile character within Sensors. On a success, the Hive pushes the target up to 2 spaces in a direction of their choice and the drones create a swarming Burst 2 area centered around them that lasts until the end of their next turn. All other hostile characters that start their turn at least partially within the area or move into it for the first time in a round take {2/3/4} Burn. This counts as taking Burn from a Razor Swarm.",
+    "effect": "The Hive releases a swarm of tiny drones and makes a tech attack against a hostile character within <strong>Sensors</strong>. On a success, the Hive pushes the target up to <strong>2 spaces</strong> in a direction of their choice and the drones create a swarming <strong>Burst 2</strong> area centered around them that lasts until the end of their next turn. All other hostile characters that start their turn at least partially within the area or move into it for the first time in a round take <strong>{2/3/4} Burn</strong>. This counts as taking <strong>Burn</strong> from a <strong>Razor Swarm</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -2465,7 +2465,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "At the start of their turn, characters within Range 3 of the Hive take {2/3/4} Burn. This counts as taking Burn from a Razor Swarm.",
+    "effect": "At the start of their turn, characters within <strong>Range 3</strong> of the Hive take <strong>{2/3/4} Burn</strong>. This counts as taking <strong>Burn</strong> from a <strong>Razor Swarm</strong>.",
     "tags": []
   },
   {
@@ -2478,7 +2478,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Until the end of their next turn, any character that takes Burn from the Hive or a Razor Swarm makes all checks and saves at +1 Difficulty, and all Tech Attacks are made against them with +1 Accuracy. This effect of this trait does not stack.",
+    "effect": "Until the end of their next turn, any character that takes <strong>Burn</strong> from the Hive or a <strong>Razor Swarm</strong> makes all checks and saves at <strong>+1 Difficulty</strong>, and all Tech Attacks are made against them with <strong>+1 Accuracy</strong>. This effect of this trait does not stack.",
     "tags": []
   },
   {
@@ -2491,7 +2491,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Hive chooses up to three Drones within Sensors (including those belonging to other characters) and moves them 3 spaces in any direction. Then all characters adjacent to any of those Drones must pass a Systems save or take {2/3/4} Burn and gain Lock On. This counts as taking Burn from a Razor Swarm.",
+    "effect": "The Hive chooses up to three <strong>Drones</strong> within <strong>Sensors</strong> (including those belonging to other characters) and moves them <strong>3 spaces</strong> in any direction. Then all characters adjacent to any of those <strong>Drones</strong> must pass a <strong>Systems</strong> save or take <strong>{2/3/4} Burn</strong> and gain <strong>Lock On</strong>. This counts as taking <strong>Burn</strong> from a <strong>Razor Swarm</strong>.",
     "tags": [
       {
         "id": "tg_quick_tech"
