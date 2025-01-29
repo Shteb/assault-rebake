@@ -1626,7 +1626,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Bombard’s attacks deal +2/+3/+4 damage to all characters for each targeted character beyond the first.",
+    "effect": "The Bombard’s attacks deal <strong>{+2/+3/+4} damage</strong> to all characters for each targeted character beyond the first.",
     "tags": []
   },
   {
@@ -1639,7 +1639,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When attacking with the Bombard Cannon, the Bombard may also fire a special earthshaker shell. In addition to any damage, all characters within the Blast must pass a Hull save or be knocked Prone. Debris or broken earth is thrown up by the impact, creating two Size 1 segments of hard cover in free spaces within Range 5 of the targeted space. The Bombard Cannon must then be reloaded before it can be used again (as though it was Loading) unless three or more characters were targeted by this attack.",
+    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may also fire a special earthshaker shell. In addition to any damage, all characters within the <strong>Blast</strong> must pass a <strong>Hull</strong> save or be knocked <strong>Prone</strong>. Debris or broken earth is thrown up by the impact, creating two <strong>Size 1</strong> segments of hard cover in free spaces within <strong>Range 5</strong> of the targeted space. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>three or more characters</strong> were targeted by this attack.",
     "tags": []
   },
   {
@@ -1652,7 +1652,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Bombard has Resistance to all damage from attacks that originate beyond range 3.",
+    "effect": "The Bombard has <strong>Resistance</strong> to all damage from attacks that originate beyond <strong>range 3</strong>.",
     "tags": []
   },
   {
@@ -1665,7 +1665,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When attacking with the Bombard Cannon, the Bombard may fire a special high-impact shell. On hit, characters are knocked back 3 spaces either directly away from the Bombard or away from the center of the Blast. The Bombard Cannon must then be reloaded before it can be used again (as though it was Loading) unless three or more characters were targeted by this attack. Only one type of special shell can be fired at a time.",
+    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may fire a special high-impact shell. <strong>On hit</strong>, characters are knocked back <strong>3 spaces</strong> either directly away from the Bombard or away from the center of the <strong>Blast</strong>. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>three or more characters</strong> were targeted by this attack. Only one type of special shell can be fired at a time.",
     "tags": []
   },
   {
@@ -1678,7 +1678,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When attacking with the Bombard Cannon, the Bombard may fire a special bunker buster shell. The Bombard Cannon automatically deals 10/20/30 AP explosive damage to all objects and terrain in the affected area, and the area within the Blast also becomes difficult terrain. The Bombard Cannon must then be reloaded before it can be used again (as though it was Loading) unless three or more characters were targeted by this attack. Only one type of special shell can be fired at a time.",
+    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may fire a special bunker buster shell. The <strong>Bombard Cannon</strong> automatically deals <strong>{10/20/30} AP explosive damage</strong> to all objects and terrain in the affected area, and the area within the <strong>Blast</strong> also becomes <strong>difficult terrain</strong>. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>three or more characters</strong> were targeted by this attack. Only one type of special shell can be fired at a time.",
     "tags": []
   },
   {
@@ -1691,7 +1691,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Flare Drone (Size 1/2, HP {10/20/30}, Evasion {10/10/10}, E-Defense {10/10/10}, Tags: Drone)<br>This drone can be deployed to a space within line of sight and Range 25, where it hovers in place and begins projecting bright light in a Burst 2 area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose Invisible and Hidden, and cannot Hide or turn Invisible within the area. Additionally, the Bombard gains +1 Accuracy to attacks against characters within the affected area (including the drone itself). The Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates.",
+    "effect": "<strong>Flare Drone</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/20/30}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags</strong>: Drone)<br>This drone can be deployed to a space within line of sight and <strong>Range 25</strong>, where it hovers in place and begins projecting bright light in a <strong>Burst 2</strong> area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose <strong>Invisible</strong> and <strong>Hidden</strong>, and cannot <strong>Hide</strong> or turn <strong>Invisible</strong> within the area. Additionally, the Bombard gains <strong>+1 Accuracy</strong> to attacks against characters within the affected area (including the drone itself). The Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates.",
     "tags": [
       {
         "id": "tg_drone"
@@ -1711,7 +1711,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Bombard may prepare a delayed, high-angle shot with the Bombard Cannon. Choose a Blast 3 area, which becomes visible to all characters; the Bombard then makes an attack at the end of the next round with the Bombard Cannon, after all characters have acted, against every target within the area.",
+    "effect": "The Bombard may prepare a delayed, high-angle shot with the <strong>Bombard Cannon</strong>. Choose a <strong>Blast 3</strong> area, which becomes visible to all characters; the Bombard then makes an attack at the end of the next round with the <strong>Bombard Cannon</strong>, after all characters have acted, against every target within the area.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -1732,7 +1732,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The triggering character gains Lock On. This Reaction can't be used against characters within Range 3 of the Bombard.",
+    "effect": "The triggering character gains <strong>Lock On</strong>. This <strong>Reaction</strong> can't be used against characters within <strong>Range 3</strong> of the Bombard.",
     "tags": [
       {
         "id": "tg_round",
