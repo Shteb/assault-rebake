@@ -1,6 +1,6 @@
 [
     {
-        "id": "npc-rebake_npc_classes_assault",
+        "id": "npc-rebake_npcc_assault",
         "name": "ASSAULT [K]",
         "info": {
             "flavor": "Assault mechs are the most common primary battle frames found throughout the galaxy. Fitted with a heavy rifle, a sidearm, and a suite of systems that enhance movement, targeting, and defensibility, they are straightforward, reliable, and hardy combatants. The pilots of Assault mechs are also the cheapest to train and outfit, but that doesn’t make them any less dangerous.",
@@ -102,7 +102,7 @@
         "power": 100
     },
     {
-        "id": "npc-rebake_classes_aegis",
+        "id": "npc-rebake_npcc_aegis",
         "name": "AEGIS [K]",
         "info": {
             "flavor": "",
@@ -204,7 +204,7 @@
         "power": 100
     },
     {
-        "id": "npcc_ace",
+        "id": "npc-rebake_npcc_ace",
         "name": "ACE [K]",
         "role": "striker",
         "info": {
@@ -579,13 +579,13 @@
             ],
             "size": [
                 [
-                    1
+                    2
                 ],
                 [
-                    1
+                    2
                 ],
                 [
-                    1
+                    2
                 ]
             ],
             "activations": [
@@ -1069,7 +1069,7 @@
                 3
             ],
             "agility": [
-                0,
+                2,
                 3,
                 4
             ],
@@ -2121,7 +2121,7 @@
             "npc-rebake_npcf_step_specter",
             "npc-rebake_npcf_drain_systems_specter",
             "npc-rebake_npcf_lure_specter",
-            "npc-rebake_npcf_ghostride_specter",
+            "npc-rebake_npcf_ghostwalk_specter",
             "npc-rebake_npcf_machine_pistol_specter"
         ],
         "power": 100
