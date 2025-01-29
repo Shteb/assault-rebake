@@ -110,7 +110,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "The Assault gains <strong>Resistance to all damage from the attack</strong>, but becomes <strong>Slowed</strong> until the end of its next turn.",
+    "effect": "",
     "tags": [
       {
         "id": "tg_knockback",
@@ -737,7 +737,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "After the Archer makes a successful attack, they may force their target to pass an Engineering save. Ona failure, the target only has line of sight to adjacent spaces until the end of their next turn.",
+    "effect": "After the Archer makes a successful attack, they may force their target to pass an Engineering save. On a failure, the target only has line of sight to adjacent spaces until the end of their next turn.",
     "tags": [
       {
         "id": "tg_round",
@@ -1090,7 +1090,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The cube printed by Mobile Printer is covered in piercing spikes; the first time in a round any charactermoves adjacent to it, that character takes 2/3/4 AP kinetic damage and must pass an Agility save or lose all their remaining movement as though they had become Engaged.",
+    "effect": "The cube printed by Mobile Printer is covered in piercing spikes; the first time in a round any character moves adjacent to it, that character takes 2/3/4 AP kinetic damage and must pass an Agility save or lose all their remaining movement as though they had become Engaged.",
     "tags": []
   },
   {
