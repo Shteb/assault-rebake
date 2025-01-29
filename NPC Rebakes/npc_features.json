@@ -2558,7 +2558,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Operator teleports when they make their standard move. Whenever the Operator exceeds their Heat Cap, this system is disabled until the end of their next turn.",
+    "effect": "The Operator <strong>teleports</strong> when they make their standard move. Whenever the Operator exceeds their <strong>Heat Cap</strong>, this system is disabled until the end of their next turn.",
     "tags": []
   },
   {
@@ -2571,7 +2571,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Operator teleports during their turn before making any attacks, they gain +1 Accuracy on all attacks with the Raptor Plasma Rifle until the end of their turn. Whenever the Operator teleports during their turn after making any attacks, all attacks against them recieve +1 Difficulty until the end of their next turn.",
+    "effect": "Whenever the Operator <strong>teleports</strong> during their turn before making any attacks, they gain <strong>+1 Accuracy</strong> on all attacks with the <strong>Raptor Plasma Rifle</strong> until the end of their turn. Whenever the Operator <strong>teleports</strong> during their turn after making any attacks, all attacks against them recieve <strong>+1 Difficulty</strong> until the end of their next turn.",
     "tags": []
   },
   {
@@ -2584,7 +2584,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Operator is destroyed, it immediately self-immolates in a wave of superheated plasma. All characters adjacent to the Operator when this takes place must succeed on an Agility save or take {4/6/8} Energy damage and rendered only able to draw line of sight to adjacent spaces until the end of their next. On a success, they take half damage only. This mech is then removed from the battlefield – it is utterly annihilated.",
+    "effect": "When the Operator is destroyed, it immediately self-immolates in a wave of superheated plasma. All characters adjacent to the Operator when this takes place must succeed on an <strong>Agility</strong> save or take <strong>{4/6/8} Energy damage</strong> and rendered only able to draw line of sight to adjacent spaces until the end of their next. On a success, they take half damage only. This mech is then removed from the battlefield – it is utterly annihilated.",
     "tags": []
   },
   {
@@ -2597,7 +2597,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Operator teleports into a space occupied by another character within line of sight and range 15. The target must succeed on an Agility save or take {4/5/6} AP Energy damage and become Jammed and Shredded until the end of their next turn. On a successful save, they take half damage only. Succeed or fail, the Operator takes 1d6 AP Energy damage and then teleports to a new space within Range 5.",
+    "effect": "The Operator <strong>teleports</strong> into a space occupied by another character within line of sight and <strong>range 15</strong>. The target must succeed on an <strong>Agility</strong> save or take <strong>{4/5/6} AP Energy damage</strong> and become <strong>Jammed</strong> and <strong>Shredded</strong> until the end of their next turn. On a successful save, they take half damage only. Succeed or fail, the Operator takes <strong>1d6 AP Energy damage</strong> and then <strong>teleports</strong> to a new space within <strong>Range 5</strong>.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -2618,7 +2618,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Operator makes an attack with the Raptor Plasma Rifle, treating its Range as Line 10.",
+    "effect": "The Operator makes an attack with the <strong>Raptor Plasma Rifle</strong>, treating its <strong>Range</strong> as <strong>Line 10</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2639,7 +2639,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Operator teleports to a space within Range 2. They may choose to teleport further taking 1d6 heat and adding that many additonal spaces to the movement.",
+    "effect": "The Operator teleports to a space within <strong>Range 2</strong>. They may choose to teleport further taking <strong>1d6 heat</strong> and adding that many additonal spaces to the movement.",
     "tags": [
       {
         "id": "tg_round",
@@ -2661,7 +2661,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Operator may expend a charge to throw a grenade to a space within Range 5. Characters in the Blast 2 energy pulse (excluding the Operator) must pass a Systems save or be teleported 2 spaces in a direction of the Operator's choice and treat the Operator as Invisible until the end of their next turn.<Br>The Operator then teleports their Speed.",
+    "effect": "The Operator may expend a charge to throw a grenade to a space within <strong>Range 5</strong>. Characters in the <strong>Blast 2</strong> energy pulse (excluding the Operator) must pass a <strong>Systems</strong> save or be <strong>teleported 2 spaces</strong> in a direction of the Operator's choice and treat the Operator as <strong>Invisible</strong> until the end of their next turn.<Br>The Operator then <strong>teleports</strong> their <strong>Speed</strong>.",
     "tags": [
       {
         "id": "tg_grenade"
@@ -2685,7 +2685,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Self Erasure now deals {6/8/10} damage (half on a successful save), and when the Operator is destroyed they may immediately teleport their Speed as a Reaction before self-immolating.",
+    "effect": "Self Erasure now deals <strong>{6/8/10} damage</strong> (half on a successful save), and when the Operator is destroyed they may immediately <strong>teleport</strong> their <strong>Speed</strong> as a <strong>Reaction</strong> before self-immolating.",
     "tags": []
   },
   {
