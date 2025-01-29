@@ -2176,7 +2176,7 @@
         "val": 2
       }
     ],
-    "on_hit": "Targets must succeed on a Hull save or be Stunned until the end of their next turn."
+    "on_hit": "Targets must succeed on a <strong>Hull</strong> save or be <strong>Stunned</strong> until the end of their next turn."
   },
   {
     "id": "npc-rebake_npcf_earthshatter_demolisher",
@@ -2188,7 +2188,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "On Attack: The Demolisher deals 10/20/30 AP kinetic damage to an object or piece of terrain within Range 2, if there is one. Hit or miss, place a Size 1 piece of terrain that grants hard cover in a free space adjacent to your target. The terrain has 10 HP and Evasion 5.",
+    "effect": "<strong>On Attack</strong>: The Demolisher deals <strong>10/20/30 AP kinetic damage</strong> to an object or piece of terrain within <strong>Range 2</strong>, if there is one. Hit or miss, place a <strong>Size 1</strong> piece of terrain that grants <strong>hard cover</strong> in a free space adjacent to your target. The terrain has <strong>10 HP</strong> and <strong>Evasion 5</strong>.",
     "tags": [
       {
         "id": "tg_thrown",
@@ -2233,7 +2233,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Demolisher has Resistance to damage from melee weapons.",
+    "effect": "The Demolisher has <strong>Resistance to damage from melee weapons</strong>.",
     "resistance": [
       "Melee"
     ],
@@ -2249,7 +2249,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Demolisher can’t be pushed, pulled, knocked Prone, or knocked back by smaller characters.",
+    "effect": "The Demolisher can’t be pushed, pulled, knocked <strong>Prone</strong>, or knocked back by smaller characters.",
     "tags": []
   },
   {
@@ -2262,7 +2262,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Whenever the Demolisher makes an attack with the Demolition Hammer, it may take 4 heat to move 4 spaces in a straight line directly towards the target before the attack.",
+    "effect": "Whenever the Demolisher makes an attack with the <strong>Demolition Hammer</strong>, it may take <strong>4 heat</strong> to move <strong>4 spaces</strong> in a straight line directly towards the target before the attack.",
     "tags": []
   },
   {
@@ -2275,7 +2275,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Each time the Demolisher misses with the Demolition Hammer, they gain +1 Accuracy on all subsequent attacks with it until they hit. This Accuracy can be gained multiple times and stacks.",
+    "effect": "Each time the Demolisher misses with the <strong>Demolition Hammer</strong>, they gain <strong>+1 Accuracy</strong> on all subsequent attacks with it until they hit. This <strong>Accuracy</strong> can be gained multiple times and stacks.",
     "tags": []
   },
   {
@@ -2288,7 +2288,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Unless they can fly, all characters in a Cone 5 area pass an Agility save or be knocked Prone. All objects and terrain within this area takes 10/20/30 AP kinetic damage; if any terrain or objects are destroyed this way, all affected characters also automatically take 4/6/8 kinetic damage.",
+    "effect": "Unless they can fly, all characters in a <strong>Cone 5</strong> area pass an <strong>Agility</strong> save or be knocked <strong>Prone</strong>. All objects and terrain within this area takes <strong>{10/20/30} AP kinetic damage</strong>; if any terrain or objects are destroyed this way, all affected characters also automatically take <strong>{4/6/8} kinetic damage</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2309,7 +2309,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Demolisher chooses a character within Range 2: they must pass a Hull save or be Immobilzed and Shredded until the end of their next turn.",
+    "effect": "The Demolisher chooses a character within <strong>Range 2</strong>: they must pass a <strong>Hull</strong> save or be <strong>Immobilzed</strong> and <strong>Shredded</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2330,7 +2330,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Demolisher chooses a character within Range 5; that character must pass a Hull save or become embedded with high-tensile cable anchors. If the target is Stunned, they automatically fail this save. While these anchors are embedded, neither the target nor the Demolisher can move more than 5 spacesaway from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can activate this system again and force an embedded character to pass another Hull save or be pulled adjacent to the Demolisher.<br>An embedded character can remove the cables on a hit with a melee attack against Evasion 10. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target.",
+    "effect": "The Demolisher chooses a character within <strong>Range 5</strong>; that character must pass a <strong>Hull</strong> save or become embedded with high-tensile cable anchors. If the target is Stunned, they automatically fail this save. While these anchors are embedded, neither the target nor the Demolisher can move more than <strong>5 spaces</strong> away from one another. If the target is smaller than the Demolisher, they move when the Demolisher moves, mirroring their movements. The Demolisher can activate this system again and force an embedded character to pass another <strong>Hull</strong> save or be pulled adjacent to the Demolisher.<br>An embedded character can remove the cables on a hit with a <strong>melee attack</strong> against <strong>Evasion 10</strong>. Otherwise, this effect lasts until the end of the scene, until either character is destroyed, or until the Demolisher uses this system on a new target.",
     "tags": []
   },
   {
