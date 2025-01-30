@@ -20,6 +20,7 @@ jobs:
                 MANIFEST_VERSION: ${{ github.event.release.tag_name }}
               run:  
                 contents="$(jq --arg version "$MANIFEST_VERSION" '.version |= $version' lcp_manifest.json)"
+                echo -E "${contents}"
                 echo -E "${contents}" > lcp_manifest.json
             - name: zip up the LCP
               run: |
