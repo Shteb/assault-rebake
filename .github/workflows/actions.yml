@@ -19,8 +19,7 @@ jobs:
               run:  
                 touch lcp_manifest.tmp.json
                 cp lcp_manifest.json lcp_manifest.tmp.json
-                cat lcp_manifest.tmp.json
-                jq '.version |= ${{ github.event.release.tag_name }}' > lcp_manifest.json
+                cat lcp_manifest.tmp.json | jq '.version |= ${{ github.event.release.tag_name }}' > lcp_manifest.json
                 rm lcp_manifest.tmp.json
             - name: zip up the LCP
               run: |
