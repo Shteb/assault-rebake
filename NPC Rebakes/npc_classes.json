@@ -2026,6 +2026,107 @@
         "power": 100
     },
     {
+        "id": "npc-rebake_npcc_sniper",
+        "name": "SNIPER [K]",
+        "role": "artillery",
+        "info": {
+          "flavor": "The reason some pilots haven’t seen a Sniper on the battlefield is that those pilots are dead. These mechs are built for stability, targeting, and extremely long-range  kinetic damage weapons at the cost of mobility, and they tend to operate in small, self-sufficient teams far removed from direct combat. Sniper pilots are a proud breed, emphasizing economy and elegance over destructive power.",
+          "tactics": "Rightly feared, Snipers are devastating when it comes to dealing focused, long-range damage. Using <strong>Sniper’s Mark</strong>, they can deal direct structure damage, bypassing most conventional defenses such as <strong>Armor</strong> or <strong>Resistance</strong>. Opponents can avoid this with clever use of cover, or by dropping <strong>Prone</strong>. The Snipers’ main downside is a lack of mobility, as their rifle posseses both <strong>Ordnance</strong> and requires a full action to either fire or reload."
+        },
+        "stats": {
+          "armor": [
+            0,
+            0,
+            0
+          ],
+          "hp": [
+            10,
+            12,
+            14
+          ],
+          "evade": [
+            10,
+            13,
+            16
+          ],
+          "edef": [
+            8,
+            9,
+            10
+          ],
+          "heatcap": [
+            6,
+            6,
+            6
+          ],
+          "speed": [
+            4,
+            4,
+            4
+          ],
+          "sensor": [
+            15,
+            15,
+            15
+          ],
+          "save": [
+            11,
+            13,
+            15
+          ],
+          "hull": [
+            -2,
+            -2,
+            -2
+          ],
+          "agility": [
+            1,
+            2,
+            3
+          ],
+          "systems": [
+            2,
+            3,
+            4
+          ],
+          "engineering": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [
+              1
+            ]
+          ],
+          "activations": [
+            1,
+            1,
+            1
+          ]
+        },
+        "base_features": [
+          "npc-rebake_npcf_anti_materiel_rifle_sniper",
+          "npc-rebake_npcf_snipers_mark_sniper",
+          "npc-rebake_npcf_climber_sniper"
+        ],
+        "optional_features": [
+          "npc-rebake_npcf_sharpshooter_sniper",
+          "npc-rebake_npcf_shift_sights_sniper",
+          "npc-rebake_npcf_defensive_grapple_sniper",
+          "npc-rebake_npcf_relocation_sniper",
+          "npc-rebake_npcf_moving_target_sniper",
+          "npc-rebake_npcf_deadeye_sniper"
+        ],
+        "power": 100
+      },
+    {
         "id": "npc-rebake_npcc_specter",
         "name": "SPECTER [K]",
         "role": "striker",
