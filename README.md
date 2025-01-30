@@ -14,7 +14,7 @@ Classes and features are organised by Class alphabetically, then by feature as t
 ### When making changes
 - Update Readme with progress.
 
-# Classes & Features: 100% Up to date as of 25/01/2025
+# Classes & Features: 100% Up to date as of 30/01/2025
 
 | Class | Status |
 | ------ | :------: |
@@ -44,7 +44,7 @@ Scourer | ✓
 Scout | ✓
 Seeder | ✓
 Sentinel | ✓
-Sniper | n/a
+Sniper | ✓
 Specter | ✓
 Support | ✓
 ## Grunt Progress: 20%
