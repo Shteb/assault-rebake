@@ -3752,6 +3752,88 @@
     "tags": []
   },
   {
+    "id": "npc-rebake_npcf_anti_materiel_rifle_sniper",
+    "name": "ANTI-MATERIEL RIFLE",
+    "origin": {
+      "type": "Class",
+      "name": "SNIPER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon does not gain <strong>Accuracy</strong> from attacking <strong>Prone</strong> targets",
+    "tags": [{
+        "id": "tg_ap"
+      },
+      {
+        "id": "tg_ordnance"
+      },
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "weapon_type": "Superheavy Rifle",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [{
+      "type": "kinetic",
+      "damage": [
+        10,
+        15,
+        20
+      ]
+    }],
+    "range": [{
+      "type": "Range",
+      "val": 20
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_snipers_mark_sniper",
+    "name": "SNIPER’S MARK",
+    "origin": {
+      "type": "Class",
+      "name": "SNIPER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "A character within <strong>Range 20</strong> and line of sight gains the <strong>Sniper’s Mark</strong>. Against targets with the <strong>Sniper’s Mark</strong>, the sniper gains <strong>+1 Accuracy</strong> on attacks with the <strong>Anti-Material Rifle</strong> and may choose to deal <strong>1 structure damage</strong> instead of its usual damage on hit.<br>Characters know when they have the <strong>Sniper's Mark</strong> They ignore its effects if they are in cover or <strong>Prone</strong>. On their turn, characters with the <strong>Sniper's Mark</strong> may drop <strong>Prone</strong> as a <strong>free action</strong><br>The Sniper can only mark one character at a time, but can transfer the <strong>Sniper's Mark</strong> to another character within <strong>Range 20</strong> and line of sight as a <strong>full action</strong>, or whenever the sniper reloads the <strong>Anti-Material Rifle</strong>.",
+    "tags": [{
+      "id": "tg_full_action"
+    }]
+  },
+  {
+    "id": "npc-rebake_npcf_climber_sniper",
+    "name": "CLIMBER",
+    "origin": {
+      "type": "Class",
+      "name": "SNIPER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Sniper treats all solid surfaces as flat ground for the purposes of movement; they can move and remain stationary on any surface without penalty, including overhanging and vertical surfaces, although they begin to fall if knocked <strong>Prone</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_sharpshooter_sniper",
+    "name": "SHARPSHOOTER",
+    "origin": {
+      "type": "Class",
+      "name": "SNIPER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Sniper can attempt a called shot before attacking characters with the <strong>Sniper's Mark</strong> using the <strong>Anti-Material Rifle</strong>. This attack function as usual, with an additional effect on a successful attack.<br>The Sniper may choose from the following:<ul><li><strong>Target Head:</strong> Targets must pass a <strong>Hull</strong> save or only be able to draw line of sight to adjacent spaces until the end of their next turn.</li><li><strong>Target Legs:</strong> Targets must pass an <strong>Agility</strong> save or be <strong>Immobilized</strong> until the end of their next turn.</li><li><strong>Target Hardpoints</strong>: Targets must pass a <strong>Systems</strong> save or become <strong>Jammed</strong> until the end of their next turn.</li><li><strong>Target Body:</strong> Targets must pass an <strong>Engineering</strong> save or become <strong>Shredded</strong> until the end of their next turn.</li></ul>",
+    "tags": []
+  },
+  {
     "id": "npc-rebake_npcf_monowire_sword_specter",
     "name": "MONOWIRE SWORD",
     "origin": {
