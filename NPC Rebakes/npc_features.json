@@ -3830,7 +3830,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Sniper can attempt a called shot before attacking characters with the <strong>Sniper's Mark</strong> using the <strong>Anti-Materiel Rifle</strong>. This attack function as usual, with an additional effect on a successful attack.<br>The Sniper may choose from the following:<ul><li><strong>Target Head:</strong> Targets must pass a <strong>Hull</strong> save or only be able to draw line of sight to adjacent spaces until the end of their next turn.</li><li><strong>Target Legs:</strong> Targets must pass an <strong>Agility</strong> save or be <strong>Immobilized</strong> until the end of their next turn.</li><li><strong>Target Hardpoints</strong>: Targets must pass a <strong>Systems</strong> save or become <strong>Jammed</strong> until the end of their next turn.</li><li><strong>Target Body:</strong> Targets must pass an <strong>Engineering</strong> save or become <strong>Shredded</strong> until the end of their next turn.</li></ul>",
+    "effect": "The Sniper can attempt a called shot before attacking characters with the <strong>Sniper's Mark</strong> using the <strong>Anti-Materiel Rifle</strong>. This attack functions as usual, with an additional effect on a successful attack.<br>The Sniper may choose from the following:<ul><li><strong>Target Head:</strong> Targets must pass a <strong>Hull</strong> save or only be able to draw line of sight to adjacent spaces until the end of their next turn.</li><li><strong>Target Legs:</strong> Targets must pass an <strong>Agility</strong> save or be <strong>Immobilized</strong> until the end of their next turn.</li><li><strong>Target Hardpoints</strong>: Targets must pass a <strong>Systems</strong> save or become <strong>Jammed</strong> until the end of their next turn.</li><li><strong>Target Body:</strong> Targets must pass an <strong>Engineering</strong> save or become <strong>Shredded</strong> until the end of their next turn.</li></ul>",
     "tags": []
   },
   {
@@ -3839,7 +3839,7 @@
     "origin": {
       "type": "Class",
       "name": "SNIPER",
-      "base": true
+      "base": false
     },
     "locked": false,
     "type": "Trait",
@@ -3917,7 +3917,7 @@
         "id": "tg_reaction"
       }
     ],
-    "trigger": "A hostile character in line of sight and <strong>range 20</strong> moves."
+    "trigger": "A hostile character in line of sight and <strong>Range 20</strong> moves."
   },
   {
     "id": "npc-rebake_npcf_deadeye_sniper",
