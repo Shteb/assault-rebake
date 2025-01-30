@@ -18,7 +18,7 @@ jobs:
             - name: bump the lcp_manifest version
               env:
                 MANIFEST_VERSION: ${{ github.event.release.tag_name }}
-              run:  
+              run: |
                 contents="$(jq --arg version "$MANIFEST_VERSION" '.version |= $version' lcp_manifest.json)"
                 echo -E "${contents}" >> $GITHUB_OUTPUT
                 echo -E "${contents}" > lcp_manifest.json
