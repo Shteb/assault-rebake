@@ -3863,7 +3863,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Sniper uses a grappling hook to <strong>fly</strong> to any free space that ends on an object or surface within <strong>Range 5</strong>, including vertical and overhanging surfaces. The Sniper also gains the Relocation reaction.",
+    "effect": "The Sniper uses a grappling hook to <strong>fly</strong> to any free space that ends on an object or surface within <strong>Range 5</strong>, including vertical and overhanging surfaces. The Sniper also gains the <strong>Relocation</strong> reaction.",
     "tags": [{
         "id": "tg_recharge",
         "val": 4
