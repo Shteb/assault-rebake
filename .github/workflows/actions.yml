@@ -16,11 +16,11 @@ jobs:
         steps:
             - uses: actions/checkout@v4
             - name: bump the lcp_manifest version
+              env:
+                MANIFEST_VERSION: ${{ github.event.release.tag_name }}
               run:  
-                touch lcp_manifest.tmp.json
-                cp lcp_manifest.json lcp_manifest.tmp.json
-                cat lcp_manifest.tmp.json | jq '.version |= ${{ github.event.release.tag_name }}' > lcp_manifest.json
-                rm lcp_manifest.tmp.json
+                contents="$(jq --arg version "$MANIFEST_VERSION" '.version |= $version')"
+                echo -E "${contents}" > lcp_manifest.json
             - name: zip up the LCP
               run: |
                 zip -r "kais-npc-rebakes-${{ github.event.release.tag_name }}.lcp" *.json
