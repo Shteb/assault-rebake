@@ -1399,7 +1399,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "On Critical Hit: Target becomes Shredded until the end of their next turn.",
+    "effect": "<strong>On Critical Hit</strong>: Target becomes <strong>Shredded</strong> until the end of their next turn.",
     "tags": [],
     "weapon_type": "Heavy Melee",
     "attack_bonus": [
@@ -1435,7 +1435,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Berserker has Resistance to all damage unless they are Impaired, Stunned, Immobilized, Shredded, Slowed or Exposed.",
+    "effect": "The Berserker has <strong>Resistance</strong> to all damage unless they are <strong>Impaired</strong>, <strong>Stunned</strong>, <strong>Immobilized</strong>, <strong>Shredded</strong>, <strong>Slowed</strong> or <strong>Exposed</strong>.",
     "tags": []
   },
   {
@@ -1448,7 +1448,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "After taking damage for the first time each round, the Berserker must immediately attack a random adjacent character, hostile or allied, with the Chain Axe. This attack happens even if the Berserker is reduced to 0 HP.",
+    "effect": "After taking damage for the first time each round, the Berserker must immediately attack a random adjacent character, hostile or allied, with the <strong>Chain Axe</strong>. This attack happens even if the Berserker is reduced to <strong>0 HP</strong>.",
     "tags": []
   },
   {
@@ -1461,7 +1461,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Berserker moves spaces equal to their Speed in a straight line, ignoring reactions and engagement, then attacks a random adjacent character – hostile or allied — with the Chain Axe.",
+    "effect": "The Berserker moves spaces equal to their <strong>Speed</strong> in a straight line, ignoring reactions and engagement, then attacks a random adjacent character – hostile or allied — with the <strong>Chain Axe</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1482,7 +1482,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Berserker uses Avalanche Charge, all characters adjacent to the path they follow or adjacent to their final position – hostile and allied – must succeed on a Hull save or be knocked Prone.",
+    "effect": "When the Berserker uses <strong>Avalanche Charge</strong>, all characters adjacent to the path they follow or adjacent to their final position – hostile and allied – must succeed on a <strong>Hull</strong> save or be knocked <strong>Prone</strong>.",
     "tags": []
   },
   {
@@ -1523,7 +1523,7 @@
         "val": 3
       }
     ],
-    "on_hit": "Targets of smaller or equal Size to the Berserker are pulled adjacent to them in a straight line,or as close as possible. If they’re larger, the Berserker is pulled adjacent to them instead. If this ends with the Berserker adjacent to the target, the Berserker Grapples them."
+    "on_hit": "Targets of smaller or equal <strong>Size</strong> to the Berserker are pulled adjacent to them in a straight line,or as close as possible. If they’re larger, the Berserker is pulled adjacent to them instead. If this ends with the Berserker adjacent to the target, the Berserker <strong>Grapples</strong> them."
   },
   {
     "id": "npc-rebake_npcf_retribution_berserker",
@@ -1535,7 +1535,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Berserker takes damage, their next attack deals +1d6 bonus damage. This bonus damage is lost when the Berserker attacks, or at the end of their next turn.",
+    "effect": "Whenever the Berserker takes damage, their next attack deals <strong>+1d6 bonus damage</strong>. This bonus damage is lost when the Berserker attacks, or at the end of their next turn.",
     "tags": []
   },
   {
@@ -1548,7 +1548,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Berserker attacks a target that is Grappled, Immobilized, Stunned, or Prone with the Chain Axe, they become Shredded on hit rather than on critical hit.",
+    "effect": "Whenever the Berserker attacks a target that is <strong>Grappled</strong>, <strong>Immobilized</strong>, <strong>Stunned</strong>, or <strong>Prone</strong> with the <strong>Chain Axe</strong>, they become <strong>Shredded</strong> on hit rather than on critical hit.",
     "tags": []
   },
   {
@@ -1561,7 +1561,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Berserker counts as Size 3 for Ram and Grapple, and they deal 3/4/5 kinetic damage on hit with Ram and Grapple.",
+    "effect": "The Berserker counts as <strong>Size 3</strong> for <strong>Ram</strong> and <strong>Grapple</strong>, and they deal <strong>{3/4/5} kinetic damage</strong> on hit with <strong>Ram</strong> and <strong>Grapple</strong>.",
     "tags": []
   },
   {
