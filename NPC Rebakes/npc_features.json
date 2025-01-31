@@ -609,7 +609,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Archer chooses a target within line of sight and Range 10: they become Impaired and the Archer gains the Moving Target Reaction.<br>his effect lasts until the Archer uses Moving Target; the target damages the Archer or leaves the Archer’s line of sight; the Archer is Stunned, Jammed, or destroyed; the Archer chooses a new target for this action; or, the Archer ends it as a free action.",
+    "effect": "The Archer chooses a target within line of sight and <strong>Range 10</strong>: they become <strong>Impaired</strong> and the Archer gains the <strong>Moving Target</strong> reaction.<br>This effect lasts until the Archer uses <strong>Moving Target</strong>; the target damages the Archer or leaves the Archer’s line of sight; the Archer is <strong>Stunned</strong>, <strong>Jammed</strong>, or destroyed; the Archer chooses a new target for this action; or, the Archer ends it as a free action.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -630,13 +630,13 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Archer makes an attack against them with the Light Machine Gun. This attack interrupts and resolves before the triggering movement",
+    "effect": "The Archer makes an attack against them with the <strong>Light Machine Gun</strong>. This attack interrupts and resolves before the triggering movement",
     "tags": [
       {
         "id": "tg_reaction"
       }
     ],
-    "trigger": "The Archer’s Suppress target starts to move."
+    "trigger": "The Archer’s <strong>Suppress</strong> target starts to move."
   },
   {
     "id": "npc-rebake_npcf_superior_sentinel_archer",
@@ -648,7 +648,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Archer gains +1 Accuracy on all attacks made as reactions (e.g., Overwatch).",
+    "effect": "The Archer gains <strong>+1 Accuracy</strong> on all attacks made as reactions (e.g., <strong>Overwatch</strong>).",
     "tags": []
   },
   {
@@ -661,7 +661,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Archer creates a Blast 3 area within Range 10 and line of sight, and gains the Got Your Back Reaction. This area lasts until the end of the Archer's next turn or until the Archer creates a new area, and this Reaction can be taken as many times per round as it is triggered.",
+    "effect": "The Archer creates a <strong>Blast 3</strong> area within <strong>Range 10</strong> and line of sight, and gains the <strong>Got Your Back</strong> reaction. This area lasts until the end of the Archer's next turn or until the Archer creates a new area, and this Reaction can be taken as many times per round as it is triggered.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -685,13 +685,13 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Archer may attack that character with the Light Machine Gun.",
+    "effect": "The Archer may attack that character with the <strong>Light Machine Gun</strong>.",
     "tags": [
       {
         "id": "tg_reaction"
       }
     ],
-    "trigger": "A character in the Covering Fire area makes an attack."
+    "trigger": "A character in the <strong>Covering Fire</strong> area makes an attack."
   },
   {
     "id": "npc-rebake_npcf_impending_threat_archer",
@@ -703,7 +703,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Moving Target's trigger now includes the target taking any action that does not target the Archer",
+    "effect": "<strong>Moving Target</strong>'s trigger now includes the target taking any action that does not target the Archer",
     "tags": []
   },
   {
@@ -716,7 +716,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Archer chooses a character within Range 10: that character must either move their Speed in a direction of the Archer's choice, or allow the Archer to attack them with the Light Machine Gun. This movement ignores engagement and does not provoke reactions.",
+    "effect": "The Archer chooses a character within <strong>Range 10</strong>: that character must either move their <strong>Speed</strong> in a direction of the Archer's choice, or allow the Archer to attack them with the <strong>Light Machine Gun</strong>. This movement ignores engagement and does not provoke reactions.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -737,7 +737,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "After the Archer makes a successful attack, they may force their target to pass an Engineering save. On a failure, the target only has line of sight to adjacent spaces until the end of their next turn.",
+    "effect": "After the Archer makes a successful attack, they may force their target to pass an <strong>Engineering</strong> save. On a failure, the target only has line of sight to adjacent spaces until the end of their next turn.",
     "tags": [
       {
         "id": "tg_round",
@@ -755,7 +755,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Archer may Boost. If they end this movement within Range 10 and line of sight of the triggering character, that character takes 3/4/5 kinetic damage.",
+    "effect": "The Archer may <strong>Boost</strong>. If they end this movement within <strong>Range 10</strong> and line of sight of the triggering character, that character takes <strong>{3/4/5} kinetic damage</strong>.",
     "tags": [
       {
         "id": "tg_round",
