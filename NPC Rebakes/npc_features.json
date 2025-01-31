@@ -1025,7 +1025,7 @@
         "val": 10
       }
     ],
-    "on_hit": "Target is Slowed until the end of their next turn."
+    "on_hit": "Target is <strong>Slowed</strong> until the end of their next turn."
   },
   {
     "id": "npc-rebake_npcf_mobile_printer_barricade",
@@ -1037,7 +1037,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Barricade prints a Size 2 cube in a free area within Range 3. The cube provides hard cover and is a single object with 20 HP and Evasion 5. The Barricade can only have one cube deployed at a time; if a new one is deployed, the first one dissolves.",
+    "effect": "The Barricade prints a <strong>Size 2</strong> cube in a free area within <strong>Range 3</strong>. The cube provides <strong>hard cover</strong> and is a single object with <strong>20 HP</strong> and <strong>Evasion 5</strong>. The Barricade can only have one cube deployed at a time; if a new one is deployed, the first one dissolves.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -1054,7 +1054,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Barricade makes a tech attack against a character within Sensors. On a success, they take 2 AP Energy damage per space that they voluntarily move until the end of their next turn.",
+    "effect": "The Barricade makes a tech attack against a character within <strong>Sensors</strong>. On a success, they take <strong>2 AP Energy damage</strong> per space that they voluntarily move until the end of their next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -1077,7 +1077,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Barricade ignores difficult terrain and dangerous terrain.",
+    "effect": "The Barricade ignores <strong>difficult terrain</strong> and <strong>dangerous terrain</strong>.",
     "tags": []
   },
   {
@@ -1090,7 +1090,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The cube printed by Mobile Printer is covered in piercing spikes; the first time in a round any character moves adjacent to it, that character takes 2/3/4 AP kinetic damage and must pass an Agility save or lose all their remaining movement as though they had become Engaged.",
+    "effect": "The cube printed by Mobile Printer is covered in piercing spikes; the first time in a round any character moves adjacent to it, that character takes <strong>{2/3/4} AP kinetic damage</strong> and must pass an <strong>Agility</strong> save or lose all their remaining movement as though they had become <strong>Engaged</strong>.",
     "tags": []
   },
   {
@@ -1103,7 +1103,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Barricade can print two separate cubes at a time with Mobile Printer instead of one, and cubes no longer dissolve when new ones are printed. Replace \"Mobile Printer\" with \"Extruding Printer\".",
+    "effect": "The Barricade can print two separate cubes at a time with instead of one, and cubes no longer dissolve when new ones are printed. Replace <strong>Mobile Printer</strong> with <strong>Extruding Printer</strong>.",
     "tags": []
   },
   {
@@ -1116,7 +1116,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Barricade prints 2 Size 2 cubes in free areas within Range 3. The cubes provides hard cover and are each single objects with 20 HP and Evasion 5.",
+    "effect": "The Barricade prints 2 <strong>Size 2</strong> cubes in free areas within <strong>Range 3</strong>. The cubes provides <strong>hard cover</strong> and are each single objects with <strong>20 HP</strong> and <strong>Evasion 5</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1137,7 +1137,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Barricade emits a seismic pulse from one of its printed cubes, creating a Burst 3 area around it. Allnon-flying characters within that area must pass a Hull save or be knocked 3 spaces back from the cube and knocked Prone. Allied characters affected this way (including the Barricade itself) are not knocked Prone. The cube is then destroyed.",
+    "effect": "The Barricade emits a seismic pulse from one of its printed cubes, creating a <strong>Burst 3</strong> area around it. All non-flying characters within that area must pass a <strong>Hull</strong> save or be knocked <strong>3 spaces</strong> back from the cube and knocked <strong>Prone</strong>. Allied characters affected this way (including the Barricade itself) are not knocked <strong>Prone</strong>. The cube is then destroyed.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1158,7 +1158,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Barricade rapidly prints and deploys a field of tiny, mobile mines in a free Size 4 area adjacent to them. The affected area becomes difficult terrain; additionally, hostile characters that enter the area forthe first time in a round or start their turn there must pass a Systems save or be Slowed until the end of their next turn.",
+    "effect": "The Barricade rapidly prints and deploys a field of tiny, mobile mines in a free <strong>Size 4</strong> area adjacent to them. The affected area becomes <strong>difficult terrain</strong>; additionally, hostile characters that enter the area forthe first time in a round or start their turn there must pass a <strong>Systems</strong> save or be <strong>Slowed</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1179,7 +1179,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Snare Drone (Size 1/2, HP {5/8/10}, Evasion {10/12/14}, E-Defense {10/12/14}, Tags: Drone)<br>This drone can be printed and deployed to any free adjacent space. When hostile characters move into or start their turn within Range 3 of the drone, it emits a pulse, and they become Immobilized until thedrone is destroyed.",
+    "effect": "Snare Drone (<strong>Size 1/2,</strong> <strong>HP {5/8/10}</strong>, <strong>Evasion {10/12/14}</strong>, <strong>E-Defense {10/12/14}</strong>, Tags: Drone)<br>This drone can be printed and deployed to any free adjacent space. When hostile characters move into or start their turn within <strong>Range 3</strong> of the drone, it emits a pulse, and they become <strong>Immobilized</strong> until the drone is destroyed.",
     "tags": [
       {
         "id": "tg_drone"
