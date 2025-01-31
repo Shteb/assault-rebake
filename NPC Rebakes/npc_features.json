@@ -2334,6 +2334,205 @@
     "tags": []
   },
   {
+    "id": "npc-rebake_npcf_drum_shotgun_goliath",
+    "name": "DRUM SHOTGUN",
+    "origin": {
+      "type": "Class",
+      "name": "GOLIATH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon ignores ranged penalties from <strong>Engaged</strong>.",
+    "tags": [],
+    "weapon_type": "Heavy CQB",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_crush_targeting_goliath",
+    "name": "CRUSH TARGETING",
+    "origin": {
+      "type": "Class",
+      "name": "GOLIATH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "A hostile character within Sensors and line of sight gains <strong>+3 Difficulty</strong> to attack against any character other than the Goliath until the start of the Goliath’s next turn. This effect does not stack, and the effect ends immediately if the Goliath becomes <strong>Jammed</strong> or <strong>Stunned</strong>.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "npc-rebake_npcf_towering_stride_goliath",
+    "name": "HEAVY FRAME",
+    "origin": {
+      "type": "Class",
+      "name": "GOLIATH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Goliath can end its turn overlapping obstructions, cover, and terrain smaller than <strong>Size 3</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_heavy_frame_goliath",
+    "name": "HEAVY FRAME",
+    "origin": {
+      "type": "Class",
+      "name": "GOLIATH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Goliath can’t be pushed, pulled, knocked <strong>Prone</strong>, or knocked back by smaller characters.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_guardian_goliath",
+    "name": "GUARDIAN",
+    "origin": {
+      "type": "Class",
+      "name": "GOLIATH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Adjacent allied characters can use the Goliath for <strong>hard cover</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_power_knuckle_goliath",
+    "name": "POWER KNUCKLE",
+    "origin": {
+      "type": "Class",
+      "name": "GOLIATH",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "A character within <strong>Range 2</strong> must pass a <strong>Hull</strong> save or take <strong>{4/5/6} Kinetic damage</strong>, be pushed <strong>5 spaces</strong> directly away from the Goliath, and knocked <strong>Prone</strong>.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_pin_goliath",
+    "name": "PIN",
+    "origin": {
+      "type": "Class",
+      "name": "GOLIATH",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "A character within <strong>Range 2</strong> becomes <strong>Immobilized</strong> and <strong>Impaired</strong> until they either damage the Goliath, the Goliath is <strong>Stunned</strong> or destroyed, or the Goliath targets another character with this effect. The Goliath is <strong>Immobilized</strong> for the duration of this effect.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_mag_gauntlet_goliath",
+    "name": "MAG GAUNTLET",
+    "origin": {
+      "type": "Class",
+      "name": "GOLIATH",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "A character within <strong>Sensors</strong> and line of sight must pass a <strong>Hull</strong> save or be pulled <strong>3 spaces</strong> towards the Goliath. If they are pulled adjacent to the Goliath, they automatically become grappled. The Goliath can only grapple one character this way at a time, and can't use this system while grappling someone this way.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_coercive_force_goliath",
+    "name": "COERCIVE FORCE",
+    "origin": {
+      "type": "Class",
+      "name": "GOLIATH",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "All characters of the Goliath's choice within <strong>Sensors</strong> are pulled <strong>2 spaces</strong> towards the Goliath.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_attractor_field_goliath",
+    "name": "ATTRACTOR FIELD",
+    "origin": {
+      "type": "Class",
+      "name": "GOLIATH",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Goliath becomes the target of the attack instead. If the attack was an area of effect, such as a <strong>Line</strong>, <strong>Cone</strong>, <strong>Blast</strong>, etc, the attacker must now position it so it targets the Goliath, or as close as possible, which could change its targets. This transfer takes place even if the attack could not have hit the Goliath (i.e. it was a melee attack).",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "An allied character within <strong>Range 2</strong> and line of sight is targeted by an attack dealing <strong>kinetic</strong> or <strong>explosive</strong> damage."
+  },
+  {
     "id": "npc-rebake_npcf_hunter_killer_nexus_hive",
     "name": "HUNTER-KILLER NEXUS",
     "origin": {
@@ -3762,7 +3961,8 @@
     "locked": false,
     "type": "Weapon",
     "effect": "This weapon does not gain <strong>Accuracy</strong> from attacking <strong>Prone</strong> targets",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_ap"
       },
       {
@@ -3778,18 +3978,22 @@
       4,
       6
     ],
-    "damage": [{
-      "type": "kinetic",
-      "damage": [
-        10,
-        15,
-        20
-      ]
-    }],
-    "range": [{
-      "type": "Range",
-      "val": 20
-    }],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          10,
+          15,
+          20
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 20
+      }
+    ],
     "on_hit": ""
   },
   {
@@ -3803,9 +4007,11 @@
     "locked": false,
     "type": "System",
     "effect": "A character within <strong>Range 20</strong> and line of sight gains the <strong>Sniper’s Mark</strong>. Against targets with the <strong>Sniper’s Mark</strong>, the sniper gains <strong>+1 Accuracy</strong> on attacks with the <strong>Anti-Materiel Rifle</strong> and may choose to deal <strong>1 structure damage</strong> instead of its usual damage on hit.<br>Characters know when they have the <strong>Sniper's Mark</strong> They ignore its effects if they are in cover or <strong>Prone</strong>. On their turn, characters with the <strong>Sniper's Mark</strong> may drop <strong>Prone</strong> as a <strong>free action</strong><br>The Sniper can only mark one character at a time, but can transfer the <strong>Sniper's Mark</strong> to another character within <strong>Range 20</strong> and line of sight as a <strong>full action</strong>, or whenever the sniper reloads the <strong>Anti-Material Rifle</strong>.",
-    "tags": [{
-      "id": "tg_full_action"
-    }]
+    "tags": [
+      {
+        "id": "tg_full_action"
+      }
+    ]
   },
   {
     "id": "npc-rebake_npcf_climber_sniper",
@@ -3844,13 +4050,14 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Sniper may transfer the <strong>Sniper's Mark</strong> to a character within <strong>Range 2</strong> of the currently marked character.",
-    "tags": [{
-      "id":"tg_recharge",
-      "val": 5
-    },
-    {
-      "id":"tg_protocol"
-    }
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_protocol"
+      }
     ]
   },
   {
@@ -3864,7 +4071,8 @@
     "locked": false,
     "type": "System",
     "effect": "The Sniper uses a grappling hook to <strong>fly</strong> to any free space that ends on an object or surface within <strong>Range 5</strong>, including vertical and overhanging surfaces. The Sniper also gains the <strong>Relocation</strong> reaction.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_recharge",
         "val": 4
       },
@@ -3888,7 +4096,8 @@
     "locked": false,
     "type": "Reaction",
     "effect": "The Sniper uses Defensive Grapple.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_round",
         "val": 1
       },
@@ -3909,7 +4118,8 @@
     "locked": false,
     "type": "Reaction",
     "effect": "The Sniper interrupts the movement. The character must immediately stop, give up all remaining movement, and fall <strong>Prone</strong> or they gain the <strong>Sniper's Mark.</strong> <br>If they already have the <strong>Sniper's Mark</strong>, the Sniper instead may make an immediate attack against them with the <strong>Anti-Materiel Rifle</strong>.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_round",
         "val": 1
       },

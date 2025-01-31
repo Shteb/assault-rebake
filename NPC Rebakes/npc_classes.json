@@ -1303,18 +1303,18 @@
             ]
         },
         "base_features": [
-            "npcf_drum_shotgun_goliath",
-            "npcf_crush_targeting_goliath",
-            "npcf_heavy_frame_goliath",
-            "npcf_guardian_goliath",
-            "npcf_siege_armor_goliath"
+            "npc-rebake_npcf_drum_shotgun_goliath",
+            "npc-rebake_npcf_crush_targeting_goliath",
+            "npc-rebake_npcf_towering_stride_goliath",
+            "npc-rebake_npcf_heavy_frame_goliath",
+            "npc-rebake_npcf_guardian_goliath"
         ],
         "optional_features": [
-            "npcf_power_knuckle_goliath",
-            "npcf_pin_goliath",
-            "npcf_crushing_embrace_goliath",
-            "npcf_watchful_guardian_goliath",
-            "npcf_retribution_goliath"
+            "npc-rebake_npcf_power_knuckle_goliath",
+            "npc-rebake_npcf_pin_goliath",
+            "npc-rebake_npcf_mag_gauntlet_goliath",
+            "npc-rebake_npcf_coercive_force_goliath",
+            "npc-rebake_npcf_attractor_field_goliath"
         ],
         "power": 100
     },
