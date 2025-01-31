@@ -1731,8 +1731,8 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
-    "effect": "The triggering character gains <strong>Lock On</strong>. This <strong>Reaction</strong> can't be used against characters within <strong>Range 3</strong> of the Bombard.",
+    "type": "Reaction",
+    "effect": "The triggering character gains Lock On. This Reaction can't be used against characters within Range 3 of the Bombard.",
     "tags": [
       {
         "id": "tg_round",
@@ -1846,7 +1846,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Breacher makes a tech attack against a character within <strong>Sensors</strong>. On a success, the Breacher gains <strong>+1 Accuracy</strong> on all attacks against their target, and may <strong>Boost</strong> once per turn as a <strong>free action</strong> so long as it moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target unless the Breacher takes <strong>4 Heat</strong> to attempt this tech attack against a different target",
+    "effect": "The Breacher makes a tech attack against a character within <strong>Sensors</strong>. On a success, the Breacher gains <strong>+1 Accuracy</strong> on all attacks against their target, and may <strong>Boost</strong> once per turn as a <strong>free action</strong> so long as it moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target unless the Breacher takes <strong>4 Heat</strong> to attempt this tech attack against a different target.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -1898,7 +1898,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Breacher prepares a salvo of shells, becoming <strong>Slowed</strong> until the end of their next turn. This effect isvisible to everyone. During the Breacher's next turn, the next time they use the <strong>Dual Shotguns</strong>, they may make four attacks at once instead of two.",
+    "effect": "The Breacher prepares a salvo of shells, becoming <strong>Slowed</strong> until the end of their next turn. This effect is visible to everyone. During the Breacher's next turn, the next time they use the <strong>Dual Shotguns</strong>, they may make four attacks at once instead of two.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -2309,7 +2309,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Demolisher chooses a character within <strong>Range 2</strong>: they must pass a <strong>Hull</strong> save or be <strong>Immobilzed</strong> and <strong>Shredded</strong> until the end of their next turn.",
+    "effect": "The Demolisher chooses a character within <strong>Range 2</strong>: they must pass a <strong>Hull</strong> save or be <strong>Immobilized</strong> and <strong>Shredded</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2837,7 +2837,7 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Reaction",
     "effect": "The Operator teleports to a space within <strong>Range 2</strong>. They may choose to teleport further taking <strong>1d6 Heat</strong> and adding that many additonal spaces to the movement.",
     "tags": [
       {
@@ -2938,7 +2938,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "At the end of the Pyro's turn, they create a <strong>Line 5</strong> wall of flame, <strong>4 spaces high</strong>, in free spaces within <strong>Range 3</strong> and line of sight. This wall doesn't block line of sight, but provides <strong>soft cover</strong>; when an attackis made against a character benefiting from this cover, roll <strong>1d6</strong>. On a <strong>4+</strong>, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take <strong>{2/3/4} Burn</strong>. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is <strong>Stunned</strong>, and its effect doesn't stack with <strong>Invisible</strong>.",
+    "effect": "At the end of the Pyro's turn, they create a <strong>Line 5</strong> wall of flame, <strong>4 spaces high</strong>, in free spaces within <strong>Range 3</strong> and line of sight. This wall doesn't block line of sight, but provides <strong>soft cover</strong>; when an attack is made against a character benefiting from this cover, roll <strong>1d6</strong>. On a <strong>4+</strong>, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take <strong>{2/3/4} Burn</strong>. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is <strong>Stunned</strong>, and its effect doesn't stack with <strong>Invisible</strong>.",
     "tags": [
       {
         "id": "tg_shield"
