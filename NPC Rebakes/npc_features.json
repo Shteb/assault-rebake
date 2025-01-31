@@ -9,7 +9,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Ace can count any or all of their movement as flying.",
+    "effect": "The Ace can count any or all of their movement as <strong>flying</strong>.",
     "tags": []
   },
   {
@@ -22,7 +22,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "Attacks made with this weapon against targets that have Lock On ignore cover.",
+    "effect": "Attacks made with this weapon against targets that have <strong>Lock On</strong> ignore cover.",
     "tags": [
       {
         "id": "tg_smart"
@@ -66,7 +66,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Ace performs a barrel roll, flying 6 spaces in any direction and causing the attack to miss. This movement ignores engagement and does not provoke reactions. This Reaction can't be used if the Ace can't move (e.g. if it's Slowed or Immobilized).",
+    "effect": "The Ace performs a barrel roll, flying <strong>6 spaces</strong> in any direction and causing the attack to miss. This movement ignores engagement and does not provoke reactions. This reaction can't be used if the Ace can't move (e.g. if it's <strong>Slowed</strong> or <strong>Immobilized</strong>).",
     "tags": [
       {
         "id": "tg_recharge",
@@ -88,7 +88,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "1/round, the Ace can fly spaces equal to their Speed in any direction, automatically dealing {3/4/5} kinetic damage to one character below or adjacent to the path taken, plus any number of additional characters below or adjacent to the path taken who have Lock On.",
+    "effect": "<strong>1/round</strong>, the Ace can fly spaces equal to their <strong>Speed</strong> in any direction, automatically dealing <strong>{3/4/5} kinetic damage</strong> to one character below or adjacent to the path taken, plus any number of additional characters below or adjacent to the path taken who have <strong>Lock On</strong>.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -105,7 +105,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "This weapon deals double damage to characters with Lock On, and doesn’t affect allied characters.",
+    "effect": "This weapon deals double damage to characters with <strong>Lock On</strong>, and doesn’t affect allied characters.",
     "tags": [
       {
         "id": "tg_loading"
@@ -145,7 +145,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Ace moves 10 spaces in any direction and gains soft cover until the end of their next turn.",
+    "effect": "The Ace moves <strong>10 spaces</strong> in any direction and gains <strong>soft cover</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_reaction"
@@ -167,7 +167,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Whenever the Ace would gain a condition from a hostile character, it may spend a charge from this system to ignore that condition. The Ace then takes 4 Heat, and the character that inflicted that condition gains Lock On.",
+    "effect": "Whenever the Ace would gain a condition from a hostile character, it may spend a charge from this system to ignore that condition. The Ace then takes <strong>4 Heat</strong>, and the character that inflicted that condition gains <strong>Lock On</strong>.",
     "tags": [
       {
         "id": "tg_limited",
@@ -185,7 +185,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Ace is destroyed, it instead moves up to its Speed and immediately lands, remaining at 1 HP. The SSC Flight System is then permanently destroyed, and all of the Ace's other systems and traits are disabled. If the SSC Flight System is already destroyed, this trait has no effect.",
+    "effect": "Whenever the Ace is destroyed, it instead moves up to its <strong>Speed</strong> and immediately lands, remaining at <strong>1 HP</strong>. The <strong>SSC Flight System</strong> is then permanently destroyed, and all of the Ace's other systems and traits are disabled. If the <strong>SSC Flight System</strong> is already destroyed, this trait has no effect.",
     "tags": []
   },
   {
