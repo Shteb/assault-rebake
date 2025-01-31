@@ -14,7 +14,7 @@ Classes and features are organised by Class alphabetically, then by feature as t
 ### When making changes
 - Update Readme with progress.
 
-# Classes & Features: 100% Up to date as of 30/01/2025
+# Classes & Features: 100% Up to date as of 31/01/2025
 
 | Class | Status |
 | ------ | :------: |
@@ -31,7 +31,7 @@ Breacher | ✓
 Cataphract | ✓
 Demolisher | ✓
 Engineer | n/a
-Goliath | n/a
+Goliath | ✓
 Hive | ✓
 Hornet | n/a
 Mirage | n/a
