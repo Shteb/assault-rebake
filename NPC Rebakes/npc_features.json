@@ -1,5 +1,792 @@
 [
   {
+    "id": "npc-rebake_npcf_ssc_flight_system_ace",
+    "name": "SSC FLIGHT SYSTEM",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ace can count any or all of their movement as <strong>flying</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_missile_launcher_ace",
+    "name": "MISSILE LAUNCHER",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Attacks made with this weapon against targets that have <strong>Lock On</strong> ignore cover.",
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "weapon_type": "Main Launcher",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_barrel_roll_ace",
+    "name": "BARREL ROLL",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Ace performs a barrel roll, flying <strong>6 spaces</strong> in any direction and causing the attack to miss. This movement ignores engagement and does not provoke reactions. This reaction can't be used if the Ace can't move (e.g. if it's <strong>Slowed</strong> or <strong>Immobilized</strong>).",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "A melee or ranged attack hits the Ace."
+  },
+  {
+    "id": "npc-rebake_npcf_strafe_ace",
+    "name": "STRAFE",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "<strong>1/round</strong>, the Ace can fly spaces equal to their <strong>Speed</strong> in any direction, automatically dealing <strong>{3/4/5} kinetic damage</strong> to one character below or adjacent to the path taken, plus any number of additional characters below or adjacent to the path taken who have <strong>Lock On</strong>.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_missile_swarm_ace",
+    "name": "MISSILE SWARM",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon deals double damage to characters with <strong>Lock On</strong>, and doesn’t affect allied characters.",
+    "tags": [
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "weapon_type": "Main Launcher",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Burst",
+        "val": 5
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_full_throttle_ace",
+    "name": "FULL THROTTLE",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Ace moves <strong>10 spaces</strong> in any direction and gains <strong>soft cover</strong> until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "trigger": "An enemy character in line of sight moves."
+  },
+  {
+    "id": "npc-rebake_npcf_countermeasures_ace",
+    "name": "COUNTERMEASURES",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Whenever the Ace would gain a condition from a hostile character, it may spend a charge from this system to ignore that condition. The Ace then takes <strong>4 Heat</strong>, and the character that inflicted that condition gains <strong>Lock On</strong>.",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": "1"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_emergency_jettison_ace",
+    "name": "EMERGENCY JETTISON",
+    "origin": {
+      "type": "Class",
+      "name": "ACE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever the Ace is destroyed, it instead moves up to its <strong>Speed</strong> and immediately lands, remaining at <strong>1 HP</strong>. The <strong>SSC Flight System</strong> is then permanently destroyed, and all of the Ace's other systems and traits are disabled. If the <strong>SSC Flight System</strong> is already destroyed, this trait has no effect.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_light_laser_aegis",
+    "name": "LIGHT LASER",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "type": "Burn",
+        "damage": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_defense_net_aegis",
+    "name": "DEFENSE NET",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a <strong>Burst 2</strong> area. While active, the Aegis is <strong>Immobilized</strong>, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive <strong>+2 Difficulty</strong> and cannot result in <strong>critical hits</strong>; whenever an attack receiving this <strong>Difficulty</strong> misses, the Aegis takes <strong>2 Heat</strong>. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Slowed</strong>, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a <strong>protocol</strong> or is destroyed. If the Aegis exceeds their <strong>Heat Cap</strong>, becomes <strong>Stunned</strong>, or becomes <strong>Jammed</strong> while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.",
+    "tags": [
+      {
+        "id": "tg_shield"
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_regenerative_shielding_aegis",
+    "name": "REGENERATIVE SHIELDING",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Aegis has <strong>Immunity</strong> to <strong>Impaired</strong> and <strong>Slowed</strong> and can’t be critically hit.",
+    "immunity": [
+      "Impaired",
+      "Slowed",
+      "Critical Hits"
+    ],
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_focused_shielding_aegis",
+    "name": "FOCUSED SHIELDING",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "That character gains <strong>resistance to all damage from the attack</strong>, then the <strong>Defense Net</strong> is deactivated.",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "An allied character within your <strong>Defense Net</strong> area is hit by a ranged or melee attack."
+  },
+  {
+    "id": "npc-rebake_npcf_guardian_aegis",
+    "name": "GUARDIAN",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Allied characters can use the Aegis for <strong>hard cover</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_ring_of_fire_aegis",
+    "name": "RING OF FIRE",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Any hostile characters that start their turn inside the area affected by the <strong>Defense Net</strong> or that enter it for the first time in a round take <strong>2 Heat</strong> and become <strong>Shredded</strong> until they leave the area.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_remote_projector_aegis",
+    "name": "REMOTE PROJECTOR",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Aegis activates <strong>Defense Net</strong>, it may choose a free space within <strong>Range 10</strong> and generate a <strong>Burst 2</strong> area centered on that space instead. All other effects of <strong>Defense Net</strong> remain the same while this remote field is active (e.g. the Aegis is <strong>Immobilized</strong>, etc).",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_ha_blackwall_system_aegis",
+    "name": "HA BLACKWALL SYSTEM",
+    "origin": {
+      "type": "Class",
+      "name": "AEGIS",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "As a full action, the Aegis generates a pitch-black wall of blinkspace <strong>5 spaces high</strong> covering a <strong>line 10</strong> area starting within <strong>range 5</strong>. All spaces must be free. The wall blocks line of sight, effects or attacks and provides <strong>hard cover</strong>. Characters that start their turn in the wall or who enter it on their turn roll <strong>1d6</strong>. On a <strong>4+</strong> they are removed from play until the end of their next turn, when they reappear in a free space of their choice in <strong>Range 10</strong> of the wall. If there are no free spaces, they return when a space becomes free. The wall lasts until the Aegis ends it as a <strong>quick action</strong>, or is destroyed. When it ends, characters remaining in blinkspace reappear.",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_light_machine_gun_archer",
+    "name": "LIGHT MACHINE GUN",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": "{3/4/5}"
+      }
+    ],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_suppress_archer",
+    "name": "SUPPRESS",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Archer chooses a target within line of sight and <strong>Range 10</strong>: they become <strong>Impaired</strong> and the Archer gains the <strong>Moving Target</strong> reaction.<br>This effect lasts until the Archer uses <strong>Moving Target</strong>; the target damages the Archer or leaves the Archer’s line of sight; the Archer is <strong>Stunned</strong>, <strong>Jammed</strong>, or destroyed; the Archer chooses a new target for this action; or, the Archer ends it as a free action.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": ""
+  },
+  {
+    "id": "npc-rebake_npcf_moving_target_archer",
+    "name": "MOVING TARGET",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Archer makes an attack against them with the <strong>Light Machine Gun</strong>. This attack interrupts and resolves before the triggering movement",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "The Archer’s <strong>Suppress</strong> target starts to move."
+  },
+  {
+    "id": "npc-rebake_npcf_superior_sentinel_archer",
+    "name": "SUPERIOR SENTINEL",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Archer gains <strong>+1 Accuracy</strong> on all attacks made as reactions (e.g., <strong>Overwatch</strong>).",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_covering_fire_archer",
+    "name": "COVERING FIRE",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Archer creates a <strong>Blast 3</strong> area within <strong>Range 10</strong> and line of sight, and gains the <strong>Got Your Back</strong> reaction. This area lasts until the end of the Archer's next turn or until the Archer creates a new area, and this Reaction can be taken as many times per round as it is triggered.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_got_your_back_archer",
+    "name": "GOT YOUR BACK",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Archer may attack that character with the <strong>Light Machine Gun</strong>.",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "A character in the <strong>Covering Fire</strong> area makes an attack."
+  },
+  {
+    "id": "npc-rebake_npcf_impending_threat_archer",
+    "name": "IMPENDING THREAT",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "<strong>Moving Target</strong>'s trigger now includes the target taking any action that does not target the Archer",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_flush_out_archer",
+    "name": "FLUSH OUT",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Archer chooses a character within <strong>Range 10</strong>: that character must either move their <strong>Speed</strong> in a direction of the Archer's choice, or allow the Archer to attack them with the <strong>Light Machine Gun</strong>. This movement ignores engagement and does not provoke reactions.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_blinding_shells_archer",
+    "name": "BLINDING SHELLS",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "After the Archer makes a successful attack, they may force their target to pass an <strong>Engineering</strong> save. On a failure, the target only has line of sight to adjacent spaces until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_fire_and_maneuver_archer",
+    "name": "FIRE AND MANEUVER",
+    "origin": {
+      "type": "Class",
+      "name": "ARCHER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Archer may <strong>Boost</strong>. If they end this movement within <strong>Range 10</strong> and line of sight of the triggering character, that character takes <strong>{3/4/5} kinetic damage</strong>.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "An enemy character in line of sight moves."
+  },
+  {
+    "id": "npc-rebake_npcf_kai_bioplating_assassin",
+    "name": "KAI BIOPLATING",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Assassin gains <strong>+1 Accuracy</strong> on all <strong>Agility</strong> checks; additionally, they climb and swim at normal speed, ignore <strong>difficult terrain</strong>, and, when making a standard move, can jump horizontally up to their <strong>Speed</strong> and vertically up to half their <strong>Speed</strong> (in any combination).",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_heated_blade_assassin",
+    "name": "HEATED BLADE",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Deals double damage to <strong>Prone</strong>, <strong>Shredded</strong>, <strong>Immobilized</strong>, or <strong>Stunned</strong> targets.",
+    "tags": [],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [
+      2,
+      3,
+      4
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_assassins_mark_assassin",
+    "name": "ASSASSIN’S MARK",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Assassin chooses a character in line of sight. For the rest of the scene, these effects apply:<ul><li>It has Resistance to that target’s damage.</li><li>Damage it deals to that target cannot be reduced.</li><li>It gains <strong>+1 Accuracy</strong> on all saves forced by that target.</li></ul><br>The Assassin can only choose a new target if the current target is destroyed.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_leap_assassin",
+    "name": "LEAP",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Assassin flies <strong>6 spaces</strong> in any direction but must land on a surface. When they land, characters adjacent to the Assassin must succeed on an <strong>Agility</strong> save or be knocked <strong>Prone</strong>.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_devils_cough_shotgun_assassin",
+    "name": "“DEVIL’S COUGH” SHOTGUN",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 2
+      },
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "weapon_type": "Heavy CQB",
+    "attack_bonus": [
+      0,
+      1,
+      2
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          10,
+          15,
+          20
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 3
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npc-rebake_npcf_spinning_kick_assassin",
+    "name": "SPINNING KICK",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Assassin chooses a character next to them: they must pass a <strong>Hull</strong> save or be pushed <strong>4 spaces</strong> away from the Assassin and knocked <strong>Prone</strong>.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_shroud_projector_assassin",
+    "name": "SHROUD PROJECTOR",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Assassin sets off a charge, creating a <strong>Burst 3</strong> concealing shroud. The Assassin gains <strong>soft cover</strong> within the affected area, and characters other than the Assassin fully inside or outside the area cannot draw line of sight into or out of the area. Characters partially within the area are not affected. The <strong>Heated Blade</strong> deals double damage to characters inside this area (as though they were <strong>Prone</strong> etc). This effect lasts until the end of the Assassin’s next turn, or until the Assassin uses this system again.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_explosive_knives_assassin",
+    "name": "EXPLOSIVE KNIVES",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Assassin throws an explosive knife at a character within <strong>Range 5</strong>, making a ranged attack at <strong>{+2/+4/+6}</strong>. On a hit, the knife embeds itself in the target and explodes at the end of their next turn, dealing <strong>{4/6/8} explosive damage</strong> in a <strong>Burst 1</strong> area and forcing the struck target to pass a <strong>Hull</strong> save or become <strong>Shredded</strong> until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_transfix_assassin",
+    "name": "TRANSFIX",
+    "origin": {
+      "type": "Class",
+      "name": "ASSASSIN",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Assassin jams their blade into a vital part of an adjacent character: that character must pass an <strong>Engineering</strong> save or become <strong>Stunned</strong>. While <strong>Stunned</strong> this way, the Assassin becomes <strong>Immobilized</strong>.This effect lasts until the Assassin and the target are no longer adjacent or until the target takes <strong>structure damage</strong>.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ]
+  },
+  {
     "id": "npc-rebake_npcf_weapon_heavy_assault",
     "name": "HEAVY ASSAULT RIFLE",
     "origin": {
@@ -201,793 +988,6 @@
     "tags": []
   },
   {
-    "id": "npc-rebake_npcf_light_laser_aegis",
-    "name": "LIGHT LASER",
-    "origin": {
-      "type": "Class",
-      "name": "AEGIS",
-      "base": true
-    },
-    "locked": false,
-    "type": "Weapon",
-    "effect": "",
-    "tags": [],
-    "weapon_type": "Main Cannon",
-    "attack_bonus": [
-      1,
-      2,
-      3
-    ],
-    "damage": [
-      {
-        "type": "Energy",
-        "damage": [
-          3,
-          3,
-          3
-        ]
-      },
-      {
-        "type": "Burn",
-        "damage": [
-          2,
-          3,
-          4
-        ]
-      }
-    ],
-    "range": [
-      {
-        "type": "Range",
-        "val": 8
-      }
-    ],
-    "on_hit": ""
-  },
-  {
-    "id": "npc-rebake_npcf_defense_net_aegis",
-    "name": "DEFENSE NET",
-    "origin": {
-      "type": "Class",
-      "name": "AEGIS",
-      "base": true
-    },
-    "locked": false,
-    "type": "System",
-    "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a Burst 2 area. While active, the Aegis is Immobilized, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive +2 Difficulty and cannot result in critical hits; whenever an attack receiving this Difficulty misses, the Aegis takes 2 Heat. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain Immunity to Impaired and Slowed, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a protocol or is destroyed. If the Aegis exceeds their Heat Cap, becomes Stunned, or becomes Jammed while the shield is active, the shield deactivates and can't be reactivated until the end of the Aegis' next turn.",
-    "tags": [
-      {
-        "id": "tg_shield"
-      },
-      {
-        "id": "tg_full_action"
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_regenerative_shielding_aegis",
-    "name": "REGENERATIVE SHIELDING",
-    "origin": {
-      "type": "Class",
-      "name": "AEGIS",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Aegis has Immunity to Impaired and Slowed and can’t be critically hit.",
-    "immunity": [
-      "Impaired",
-      "Slowed",
-      "Critical Hits"
-    ],
-    "tags": []
-  },
-  {
-    "id": "npc-rebake_npcf_focused_shielding_aegis",
-    "name": "FOCUSED SHIELDING",
-    "origin": {
-      "type": "Class",
-      "name": "AEGIS",
-      "base": false
-    },
-    "locked": false,
-    "type": "Reaction",
-    "effect": "That character gains resistance to all damage from the attack, then the Defense Net is deactivated.",
-    "tags": [
-      {
-        "id": "tg_reaction"
-      },
-      {
-        "id": "tg_round",
-        "val": 1
-      }
-    ],
-    "trigger": "An allied character within your Defense Net area is hit by a ranged or melee attack."
-  },
-  {
-    "id": "npc-rebake_npcf_guardian_aegis",
-    "name": "GUARDIAN",
-    "origin": {
-      "type": "Class",
-      "name": "AEGIS",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "Allied characters can use the Aegis for hard cover.",
-    "tags": []
-  },
-  {
-    "id": "npc-rebake_npcf_ring_of_fire_aegis",
-    "name": "RING OF FIRE",
-    "origin": {
-      "type": "Class",
-      "name": "AEGIS",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "Any hostile characters that start their turn inside the area affected by the Defense Net or that enter it for the first time in a round take 2 Heat and become Shredded until they leave the area.",
-    "tags": []
-  },
-  {
-    "id": "npc-rebake_npcf_remote_projector_aegis",
-    "name": "REMOTE PROJECTOR",
-    "origin": {
-      "type": "Class",
-      "name": "AEGIS",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "When the Aegis activates Defense Net, it may choose a free space within Range 10 and generate a Burst 2 area centered on that space instead. All other effects of Defense Net remain the same while this remote field is active (e.g. the Aegis is Immobilized, etc).",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 5
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_ha_blackwall_system_aegis",
-    "name": "HA BLACKWALL SYSTEM",
-    "origin": {
-      "type": "Class",
-      "name": "AEGIS",
-      "base": false
-    },
-    "locked": false,
-    "type": "System",
-    "effect": "As a full action, the Aegis generates a pitch-black wall of blinkspace 5 spaces high covering a line10 area starting within range 5. All spaces must be free. The wall blocks line of sight, effects or attacks and provides hard cover. Characters that start their turn in the wall or who enter it on their turn roll 1d6. On a 4+ they are removed from play until the end of their next turn, when they reappear in a free space of their choice in Range 10 of the wall. If there are no free spaces, they return when a space becomes free. The wall lasts until the Aegis ends it as a quick action, or is destroyed. When it ends, characters remaining in blinkspace reappear.",
-    "tags": [
-      {
-        "id": "tg_limited",
-        "val": 1
-      },
-      {
-        "id": "tg_full_action"
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_ssc_flight_system_ace",
-    "name": "SSC FLIGHT SYSTEM",
-    "origin": {
-      "type": "Class",
-      "name": "ACE",
-      "base": true
-    },
-    "locked": false,
-    "type": "System",
-    "effect": "The Ace can count any or all of their movement as flying.",
-    "tags": []
-  },
-  {
-    "id": "npc-rebake_npcf_missile_launcher_ace",
-    "name": "MISSILE LAUNCHER",
-    "origin": {
-      "type": "Class",
-      "name": "ACE",
-      "base": true
-    },
-    "locked": false,
-    "type": "Weapon",
-    "effect": "Attacks made with this weapon against targets that have Lock On ignore cover.",
-    "tags": [
-      {
-        "id": "tg_smart"
-      }
-    ],
-    "weapon_type": "Main Launcher",
-    "attack_bonus": [
-      1,
-      2,
-      3
-    ],
-    "damage": [
-      {
-        "type": "Explosive",
-        "damage": [
-          4,
-          6,
-          8
-        ]
-      }
-    ],
-    "range": [
-      {
-        "type": "Range",
-        "val": 10
-      },
-      {
-        "type": "Blast",
-        "val": 1
-      }
-    ],
-    "on_hit": ""
-  },
-  {
-    "id": "npc-rebake_npcf_barrel_roll_ace",
-    "name": "BARREL ROLL",
-    "origin": {
-      "type": "Class",
-      "name": "ACE",
-      "base": true
-    },
-    "locked": false,
-    "type": "Reaction",
-    "effect": "The Ace performs a barrel roll, flying 6 spaces in any direction and causing the attack to miss. This movement ignores engagement and does not provoke reactions. This Reaction can't be used if the Ace can't move (e.g. if it's Slowed or Immobilized).",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 5
-      },
-      {
-        "id": "tg_reaction"
-      }
-    ],
-    "trigger": "A melee or ranged attack hits the Ace."
-  },
-  {
-    "id": "npc-rebake_npcf_strafe_ace",
-    "name": "STRAFE",
-    "origin": {
-      "type": "Class",
-      "name": "ACE",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "1/round, the Ace can fly spaces equal to their Speed in any direction, automatically dealing {3/4/5} kinetic damage to one character below or adjacent to the path taken, plus any number of additional characters below or adjacent to the path taken who have Lock On.",
-    "tags": [
-      {
-        "id": "tg_quick_action"
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_missile_swarm_ace",
-    "name": "MISSILE SWARM",
-    "origin": {
-      "type": "Class",
-      "name": "ACE",
-      "base": false
-    },
-    "locked": false,
-    "type": "Weapon",
-    "effect": "This weapon deals double damage to characters with Lock On, and doesn’t affect allied characters.",
-    "tags": [
-      {
-        "id": "tg_loading"
-      }
-    ],
-    "weapon_type": "Main Launcher",
-    "attack_bonus": [
-      1,
-      2,
-      3
-    ],
-    "damage": [
-      {
-        "type": "Explosive",
-        "damage": [
-          3,
-          4,
-          5
-        ]
-      }
-    ],
-    "range": [
-      {
-        "type": "Burst",
-        "val": 5
-      }
-    ],
-    "on_hit": ""
-  },
-  {
-    "id": "npc-rebake_npcf_full_throttle_ace",
-    "name": "FULL THROTTLE",
-    "origin": {
-      "type": "Class",
-      "name": "ACE",
-      "base": false
-    },
-    "locked": false,
-    "type": "Reaction",
-    "effect": "The Ace moves 10 spaces in any direction and gains soft cover until the end of their next turn.",
-    "tags": [
-      {
-        "id": "tg_reaction"
-      },
-      {
-        "id": "tg_recharge",
-        "val": 5
-      }
-    ],
-    "trigger": "An enemy character in line of sight moves."
-  },
-  {
-    "id": "npc-rebake_npcf_countermeasures_ace",
-    "name": "COUNTERMEASURES",
-    "origin": {
-      "type": "Class",
-      "name": "ACE",
-      "base": false
-    },
-    "locked": false,
-    "type": "System",
-    "effect": "Whenever the Ace would gain a condition from a hostile character, it may spend a charge from this system to ignore that condition. The Ace then takes 4 Heat, and the character that inflicted that condition gains Lock On.",
-    "tags": [
-      {
-        "id": "tg_limited",
-        "val": "1"
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_emergency_jettison_ace",
-    "name": "EMERGENCY JETTISON",
-    "origin": {
-      "type": "Class",
-      "name": "ACE",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "Whenever the Ace is destroyed, it instead moves up to its Speed and immediately lands, remaining at 1 HP. The SSC Flight System is then permanently destroyed, and all of the Ace's other systems and traits are disabled. If the SSC Flight System is already destroyed, this trait has no effect.",
-    "tags": []
-  },
-  {
-    "id": "npc-rebake_npcf_light_machine_gun_archer",
-    "name": "LIGHT MACHINE GUN",
-    "origin": {
-      "type": "Class",
-      "name": "ARCHER",
-      "base": true
-    },
-    "locked": false,
-    "type": "Weapon",
-    "effect": "",
-    "tags": [
-      {
-        "id": "tg_reliable",
-        "val": "{3/4/5}"
-      }
-    ],
-    "weapon_type": "Main Cannon",
-    "attack_bonus": [
-      2,
-      4,
-      6
-    ],
-    "damage": [
-      {
-        "type": "kinetic",
-        "damage": [
-          5,
-          6,
-          7
-        ]
-      }
-    ],
-    "range": [
-      {
-        "type": "Range",
-        "val": 10
-      }
-    ],
-    "on_hit": ""
-  },
-  {
-    "id": "npc-rebake_npcf_suppress_archer",
-    "name": "SUPPRESS",
-    "origin": {
-      "type": "Class",
-      "name": "ARCHER",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Archer chooses a target within line of sight and Range 10: they become Impaired and the Archer gains the Moving Target Reaction.<br>his effect lasts until the Archer uses Moving Target; the target damages the Archer or leaves the Archer’s line of sight; the Archer is Stunned, Jammed, or destroyed; the Archer chooses a new target for this action; or, the Archer ends it as a free action.",
-    "tags": [
-      {
-        "id": "tg_quick_action"
-      },
-      {
-        "id": "tg_reaction"
-      }
-    ],
-    "trigger": ""
-  },
-  {
-    "id": "npc-rebake_npcf_moving_target_archer",
-    "name": "MOVING TARGET",
-    "origin": {
-      "type": "Class",
-      "name": "ARCHER",
-      "base": true
-    },
-    "locked": false,
-    "type": "Reaction",
-    "effect": "The Archer makes an attack against them with the Light Machine Gun. This attack interrupts and resolves before the triggering movement",
-    "tags": [
-      {
-        "id": "tg_reaction"
-      }
-    ],
-    "trigger": "The Archer’s Suppress target starts to move."
-  },
-  {
-    "id": "npc-rebake_npcf_superior_sentinel_archer",
-    "name": "SUPERIOR SENTINEL",
-    "origin": {
-      "type": "Class",
-      "name": "ARCHER",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Archer gains +1 Accuracy on all attacks made as reactions (e.g., Overwatch).",
-    "tags": []
-  },
-  {
-    "id": "npc-rebake_npcf_covering_fire_archer",
-    "name": "COVERING FIRE",
-    "origin": {
-      "type": "Class",
-      "name": "ARCHER",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Archer creates a Blast 3 area within Range 10 and line of sight, and gains the Got Your Back Reaction. This area lasts until the end of the Archer's next turn or until the Archer creates a new area, and this Reaction can be taken as many times per round as it is triggered.",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 4
-      },
-      {
-        "id": "tg_quick_action"
-      },
-      {
-        "id": "tg_reaction"
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_got_your_back_archer",
-    "name": "GOT YOUR BACK",
-    "origin": {
-      "type": "Class",
-      "name": "ARCHER",
-      "base": false
-    },
-    "locked": false,
-    "type": "Reaction",
-    "effect": "The Archer may attack that character with the Light Machine Gun.",
-    "tags": [
-      {
-        "id": "tg_reaction"
-      }
-    ],
-    "trigger": "A character in the Covering Fire area makes an attack."
-  },
-  {
-    "id": "npc-rebake_npcf_impending_threat_archer",
-    "name": "IMPENDING THREAT",
-    "origin": {
-      "type": "Class",
-      "name": "ARCHER",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "Moving Target's trigger now includes the target taking any action that does not target the Archer",
-    "tags": []
-  },
-  {
-    "id": "npc-rebake_npcf_flush_out_archer",
-    "name": "FLUSH OUT",
-    "origin": {
-      "type": "Class",
-      "name": "ARCHER",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Archer chooses a character within Range 10: that character must either move their Speed in a direction of the Archer's choice, or allow the Archer to attack them with the Light Machine Gun. This movement ignores engagement and does not provoke reactions.",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 4
-      },
-      {
-        "id": "tg_quick_action"
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_blinding_shells_archer",
-    "name": "BLINDING SHELLS",
-    "origin": {
-      "type": "Class",
-      "name": "ARCHER",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "After the Archer makes a successful attack, they may force their target to pass an Engineering save. On a failure, the target only has line of sight to adjacent spaces until the end of their next turn.",
-    "tags": [
-      {
-        "id": "tg_round",
-        "val": 1
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_fire_and_maneuver_archer",
-    "name": "FIRE AND MANEUVER",
-    "origin": {
-      "type": "Class",
-      "name": "ARCHER",
-      "base": false
-    },
-    "locked": false,
-    "type": "Reaction",
-    "effect": "The Archer may Boost. If they end this movement within Range 10 and line of sight of the triggering character, that character takes 3/4/5 kinetic damage.",
-    "tags": [
-      {
-        "id": "tg_round",
-        "val": 1
-      },
-      {
-        "id": "tg_reaction"
-      }
-    ],
-    "trigger": "An enemy character in line of sight moves."
-  },
-  {
-    "id": "npc-rebake_npcf_kai_bioplating_assassin",
-    "name": "KAI BIOPLATING",
-    "origin": {
-      "type": "Class",
-      "name": "ASSASSIN",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Assassin gains +1 Accuracy on all Agility checks; additionally, they climb and swim at normal speed, ignore difficult terrain, and, when making a standard move, can jump horizontally up to their Speed and vertically up to half their Speed (in any combination).",
-    "tags": []
-  },
-  {
-    "id": "npc-rebake_npcf_heated_blade_assassin",
-    "name": "HEATED BLADE",
-    "origin": {
-      "type": "Class",
-      "name": "ASSASSIN",
-      "base": true
-    },
-    "locked": false,
-    "type": "Weapon",
-    "effect": "Deals double damage to Prone, Shredded, Immobilized, or Stunned targets.",
-    "tags": [],
-    "weapon_type": "Main Melee",
-    "attack_bonus": [
-      2,
-      3,
-      4
-    ],
-    "accuracy": [
-      1,
-      1,
-      1
-    ],
-    "damage": [
-      {
-        "type": "Kinetic",
-        "damage": [
-          4,
-          5,
-          6
-        ]
-      }
-    ],
-    "range": [
-      {
-        "type": "Threat",
-        "val": 2
-      }
-    ],
-    "on_hit": ""
-  },
-  {
-    "id": "npc-rebake_npcf_assassins_mark_assassin",
-    "name": "ASSASSIN’S MARK",
-    "origin": {
-      "type": "Class",
-      "name": "ASSASSIN",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Assassin chooses a character in line of sight. For the rest of the scene, these effects apply:<ul><li>It has Resistance to that target’s damage.</li><li>Damage it deals to that target cannot be reduced.</li><li>It gains +1 Accuracy on all saves forced by that target.</li></ul><br>The Assassin can only choose a new target if the current target is destroyed.",
-    "tags": [
-      {
-        "id": "tg_quick_action"
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_leap_assassin",
-    "name": "LEAP",
-    "origin": {
-      "type": "Class",
-      "name": "ASSASSIN",
-      "base": true
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Assassin flies 6 spaces in any direction but must land on a surface. When they land, characters adjacent to the Assassin must succeed on an Agility save or be knocked Prone.",
-    "tags": [
-      {
-        "id": "tg_quick_action"
-      },
-      {
-        "id": "tg_recharge",
-        "val": 5
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_devils_cough_shotgun_assassin",
-    "name": "“DEVIL’S COUGH” SHOTGUN",
-    "origin": {
-      "type": "Class",
-      "name": "ASSASSIN",
-      "base": false
-    },
-    "locked": false,
-    "type": "Weapon",
-    "effect": "",
-    "tags": [
-      {
-        "id": "tg_knockback",
-        "val": 2
-      },
-      {
-        "id": "tg_loading"
-      }
-    ],
-    "weapon_type": "Heavy CQB",
-    "attack_bonus": [
-      0,
-      1,
-      2
-    ],
-    "damage": [
-      {
-        "type": "kinetic",
-        "damage": [
-          10,
-          15,
-          20
-        ]
-      }
-    ],
-    "range": [
-      {
-        "type": "Range",
-        "val": 3
-      },
-      {
-        "type": "Threat",
-        "val": 3
-      }
-    ],
-    "on_hit": ""
-  },
-  {
-    "id": "npc-rebake_npcf_spinning_kick_assassin",
-    "name": "SPINNING KICK",
-    "origin": {
-      "type": "Class",
-      "name": "ASSASSIN",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Assassin chooses a character next to them: they must pass a Hull save or be pushed 4 spaces away from the Assassin and knocked Prone.",
-    "tags": [
-      {
-        "id": "tg_quick_action"
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_shroud_projector_assassin",
-    "name": "SHROUD PROJECTOR",
-    "origin": {
-      "type": "Class",
-      "name": "ASSASSIN",
-      "base": false
-    },
-    "locked": false,
-    "type": "System",
-    "effect": "The Assassin sets off a charge, creating a Burst 3 concealing shroud. The Assassin gains soft coverwithin the affected area, and characters other than the Assassin fully inside or outside the area cannot draw line of sight into or out of the area. Characters partially within the area are not affected. The Heated Blade deals double damage to characters inside this area (as though they were Prone etc). This effect lasts until the end of the Assassin’s next turn, or until the Assassin uses this system again.",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 6
-      },
-      {
-        "id": "tg_quick_action"
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_explosive_knives_assassin",
-    "name": "EXPLOSIVE KNIVES",
-    "origin": {
-      "type": "Class",
-      "name": "ASSASSIN",
-      "base": false
-    },
-    "locked": false,
-    "type": "System",
-    "effect": "The Assassin throws an explosive knife at a character within Range 5, making a ranged attack at +2/+4/+6. On a hit, the knife embeds itself in the target and explodes at the end of their next turn, dealing 4/6/8 explosive damage in a Burst 1 area and forcing the struck target to pass a Hull save or become Shredded until the end of their next turn.",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 5
-      },
-      {
-        "id": "tg_quick_action"
-      }
-    ]
-  },
-  {
-    "id": "npc-rebake_npcf_transfix_assassin",
-    "name": "TRANSFIX",
-    "origin": {
-      "type": "Class",
-      "name": "ASSASSIN",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "effect": "The Assassin jams their blade into a vital part of an adjacent character: that character must pass an Engineering save or become Stunned. While Stunned this way, the Assassin becomes Immobilized.This effect lasts until the Assassin and the target are no longer adjacent or until the target takes structure damage.",
-    "tags": [
-      {
-        "id": "tg_recharge",
-        "val": 6
-      },
-      {
-        "id": "tg_quick_tech"
-      }
-    ]
-  },
-  {
     "id": "npc-rebake_npcf_graviton_lance_barricade",
     "name": "GRAVITON LANCE",
     "origin": {
@@ -1025,7 +1025,7 @@
         "val": 10
       }
     ],
-    "on_hit": "Target is Slowed until the end of their next turn."
+    "on_hit": "Target is <strong>Slowed</strong> until the end of their next turn."
   },
   {
     "id": "npc-rebake_npcf_mobile_printer_barricade",
@@ -1037,7 +1037,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Barricade prints a Size 2 cube in a free area within Range 3. The cube provides hard cover and is a single object with 20 HP and Evasion 5. The Barricade can only have one cube deployed at a time; if a new one is deployed, the first one dissolves.",
+    "effect": "The Barricade prints a <strong>Size 2</strong> cube in a free area within <strong>Range 3</strong>. The cube provides <strong>hard cover</strong> and is a single object with <strong>20 HP</strong> and <strong>Evasion 5</strong>. The Barricade can only have one cube deployed at a time; if a new one is deployed, the first one dissolves.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -1054,7 +1054,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Barricade makes a tech attack against a character within Sensors. On a success, they take 2 AP Energy damage per space that they voluntarily move until the end of their next turn.",
+    "effect": "The Barricade makes a tech attack against a character within <strong>Sensors</strong>. On a success, they take <strong>2 AP Energy damage</strong> per space that they voluntarily move until the end of their next turn.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -1077,7 +1077,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Barricade ignores difficult terrain and dangerous terrain.",
+    "effect": "The Barricade ignores <strong>difficult terrain</strong> and <strong>dangerous terrain</strong>.",
     "tags": []
   },
   {
@@ -1090,7 +1090,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The cube printed by Mobile Printer is covered in piercing spikes; the first time in a round any character moves adjacent to it, that character takes 2/3/4 AP kinetic damage and must pass an Agility save or lose all their remaining movement as though they had become Engaged.",
+    "effect": "The cube printed by Mobile Printer is covered in piercing spikes; the first time in a round any character moves adjacent to it, that character takes <strong>{2/3/4} AP kinetic damage</strong> and must pass an <strong>Agility</strong> save or lose all their remaining movement as though they had become <strong>Engaged</strong>.",
     "tags": []
   },
   {
@@ -1103,7 +1103,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Barricade can print two separate cubes at a time with Mobile Printer instead of one, and cubes no longer dissolve when new ones are printed. Replace \"Mobile Printer\" with \"Extruding Printer\".",
+    "effect": "The Barricade can print two separate cubes at a time with instead of one, and cubes no longer dissolve when new ones are printed. Replace <strong>Mobile Printer</strong> with <strong>Extruding Printer</strong>.",
     "tags": []
   },
   {
@@ -1116,7 +1116,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Barricade prints 2 Size 2 cubes in free areas within Range 3. The cubes provides hard cover and are each single objects with 20 HP and Evasion 5.",
+    "effect": "The Barricade prints 2 <strong>Size 2</strong> cubes in free areas within <strong>Range 3</strong>. The cubes provides <strong>hard cover</strong> and are each single objects with <strong>20 HP</strong> and <strong>Evasion 5</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1137,7 +1137,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Barricade emits a seismic pulse from one of its printed cubes, creating a Burst 3 area around it. Allnon-flying characters within that area must pass a Hull save or be knocked 3 spaces back from the cube and knocked Prone. Allied characters affected this way (including the Barricade itself) are not knocked Prone. The cube is then destroyed.",
+    "effect": "The Barricade emits a seismic pulse from one of its printed cubes, creating a <strong>Burst 3</strong> area around it. All non-flying characters within that area must pass a <strong>Hull</strong> save or be knocked <strong>3 spaces</strong> back from the cube and knocked <strong>Prone</strong>. Allied characters affected this way (including the Barricade itself) are not knocked <strong>Prone</strong>. The cube is then destroyed.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1158,7 +1158,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Barricade rapidly prints and deploys a field of tiny, mobile mines in a free Size 4 area adjacent to them. The affected area becomes difficult terrain; additionally, hostile characters that enter the area forthe first time in a round or start their turn there must pass a Systems save or be Slowed until the end of their next turn.",
+    "effect": "The Barricade rapidly prints and deploys a field of tiny, mobile mines in a free <strong>Size 4</strong> area adjacent to them. The affected area becomes <strong>difficult terrain</strong>; additionally, hostile characters that enter the area forthe first time in a round or start their turn there must pass a <strong>Systems</strong> save or be <strong>Slowed</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1179,7 +1179,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Snare Drone (Size 1/2, HP {5/8/10}, Evasion {10/12/14}, E-Defense {10/12/14}, Tags: Drone)<br>This drone can be printed and deployed to any free adjacent space. When hostile characters move into or start their turn within Range 3 of the drone, it emits a pulse, and they become Immobilized until thedrone is destroyed.",
+    "effect": "Snare Drone (<strong>Size 1/2,</strong> <strong>HP {5/8/10}</strong>, <strong>Evasion {10/12/14}</strong>, <strong>E-Defense {10/12/14}</strong>, Tags: Drone)<br>This drone can be printed and deployed to any free adjacent space. When hostile characters move into or start their turn within <strong>Range 3</strong> of the drone, it emits a pulse, and they become <strong>Immobilized</strong> until the drone is destroyed.",
     "tags": [
       {
         "id": "tg_drone"
@@ -1203,7 +1203,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "An adjacent allied character can spend a quick action to reload this weapon.",
+    "effect": "An adjacent allied character can spend a <strong>quick action</strong> to reload this weapon.",
     "tags": [
       {
         "id": "tg_arcing"
@@ -1279,7 +1279,7 @@
         "val": 1
       }
     ],
-    "on_hit": "Target must pass a Hull save or be knocked Prone."
+    "on_hit": "Target must pass a <strong>Hull</strong> save or be knocked <strong>Prone</strong>."
   },
   {
     "id": "npc-rebake_npcf_friendly_interdiction_bastion",
@@ -1291,7 +1291,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Bastion and one allied character adjacent to it gain Resistance to all damage dealt by one characterwithin line of sight. The Bastion may choose a new allied character or a new character to gain Resistance from as a protocol. The allied character loses Resistance if they break adjacency.",
+    "effect": "The Bastion and one allied character adjacent to it gain <strong>Resistance</strong> to all damage dealt by one characterwithin line of sight. The Bastion may choose a new allied character or a new character to gain <strong>Resistance</strong> from as a <strong>protocol</strong>. The allied character loses <strong>Resistance</strong> if they break adjacency.",
     "tags": [
       {
         "id": "tg_protocol"
@@ -1308,7 +1308,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Allied characters can use the Bastion for hard cover.",
+    "effect": "Allied characters can use the Bastion for <strong>hard cover</strong>.",
     "tags": []
   },
   {
@@ -1321,7 +1321,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When characters within Range 3 attack the Bastion or a character being protected by Friendly Interdiction, they take 2/3/4 AP explosive damage before rolling.",
+    "effect": "When characters within <strong>Range 3</strong> attack the Bastion or a character being protected by <strong>Friendly Interdiction</strong>, they take <strong>{2/3/4} AP explosive damage</strong> before rolling.",
     "tags": []
   },
   {
@@ -1334,7 +1334,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Allied characters gain Resistance to damage from Blast, Burst, Line, and Cone attacks while they’re adjacent to the Bastion.",
+    "effect": "Allied characters gain <strong>Resistance</strong> to damage from <strong>Blast</strong>, <strong>Burst</strong>, <strong>Line</strong>, and <strong>Cone</strong> attacks while they’re adjacent to the Bastion.",
     "tags": []
   },
   {
@@ -1347,7 +1347,7 @@
     },
     "locked": false,
     "type": "Reaction",
-    "effect": "The Bastion moves to a space adjacent to the triggering character and takes the damage instead. The Bastion may then immediately use Friendly Interdiction on the triggering character.",
+    "effect": "The Bastion moves to a space adjacent to the triggering character and takes the damage instead. The Bastion may then immediately use <strong>Friendly Interdiction</strong> on the triggering character.",
     "tags": [
       {
         "id": "tg_round",
@@ -1357,7 +1357,7 @@
         "id": "tg_reaction"
       }
     ],
-    "trigger": "An allied character in range 5 of the Bastion takes damage, and the Bastion isn’t Immobilized, Slowed, Stunned or otherwise cannot move."
+    "trigger": "An allied character in <strong>range 5</strong> of the Bastion takes damage, and the Bastion isn’t <strong>Immobilized</strong>, <strong>Slowed</strong>, <strong>Stunned</strong> or otherwise cannot move."
   },
   {
     "id": "npc-rebake_npcf_deathcounter_bastion",
@@ -1369,7 +1369,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Bastion is wreathed in a crackling energy field visible to all characters. The first time the Bastion is successfully hit by a ranged or melee attack each round, all damage is reduced to 0, after which the field visibly dissipates until the start of the next round.",
+    "effect": "The Bastion is wreathed in a crackling energy field visible to all characters. The first time the Bastion is successfully hit by a ranged or melee attack each round, all damage is reduced to <strong>0</strong>, after which the field visibly dissipates until the start of the next round.",
     "tags": [
       {
         "id": "tg_shield"
@@ -1386,7 +1386,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Bastion takes its standard move or Boosts, an adjacent allied character can choose to move with them, mirroring their movement. This allied character's movement ignores engagement and does not provoke reactions. Each allied character can only move a number of spaces this way each round equal to their Speed.",
+    "effect": "When the Bastion takes its standard move or <strong>Boosts</strong>, an adjacent allied character can choose to move with them, mirroring their movement. This allied character's movement ignores engagement and does not provoke <strong>reactions</strong>. Each allied character can only move a number of spaces this way each round equal to their <strong>Speed</strong>.",
     "tags": []
   },
   {
@@ -1399,7 +1399,7 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "On Critical Hit: Target becomes Shredded until the end of their next turn.",
+    "effect": "<strong>On Critical Hit</strong>: Target becomes <strong>Shredded</strong> until the end of their next turn.",
     "tags": [],
     "weapon_type": "Heavy Melee",
     "attack_bonus": [
@@ -1435,7 +1435,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Berserker has Resistance to all damage unless they are Impaired, Stunned, Immobilized, Shredded, Slowed or Exposed.",
+    "effect": "The Berserker has <strong>Resistance</strong> to all damage unless they are <strong>Impaired</strong>, <strong>Stunned</strong>, <strong>Immobilized</strong>, <strong>Shredded</strong>, <strong>Slowed</strong> or <strong>Exposed</strong>.",
     "tags": []
   },
   {
@@ -1448,7 +1448,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "After taking damage for the first time each round, the Berserker must immediately attack a random adjacent character, hostile or allied, with the Chain Axe. This attack happens even if the Berserker is reduced to 0 HP.",
+    "effect": "After taking damage for the first time each round, the Berserker must immediately attack a random adjacent character, hostile or allied, with the <strong>Chain Axe</strong>. This attack happens even if the Berserker is reduced to <strong>0 HP</strong>.",
     "tags": []
   },
   {
@@ -1461,7 +1461,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Berserker moves spaces equal to their Speed in a straight line, ignoring reactions and engagement, then attacks a random adjacent character – hostile or allied — with the Chain Axe.",
+    "effect": "The Berserker moves spaces equal to their <strong>Speed</strong> in a straight line, ignoring reactions and engagement, then attacks a random adjacent character – hostile or allied — with the <strong>Chain Axe</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1482,7 +1482,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Berserker uses Avalanche Charge, all characters adjacent to the path they follow or adjacent to their final position – hostile and allied – must succeed on a Hull save or be knocked Prone.",
+    "effect": "When the Berserker uses <strong>Avalanche Charge</strong>, all characters adjacent to the path they follow or adjacent to their final position – hostile and allied – must succeed on a <strong>Hull</strong> save or be knocked <strong>Prone</strong>.",
     "tags": []
   },
   {
@@ -1523,7 +1523,7 @@
         "val": 3
       }
     ],
-    "on_hit": "Targets of smaller or equal Size to the Berserker are pulled adjacent to them in a straight line,or as close as possible. If they’re larger, the Berserker is pulled adjacent to them instead. If this ends with the Berserker adjacent to the target, the Berserker Grapples them."
+    "on_hit": "Targets of smaller or equal <strong>Size</strong> to the Berserker are pulled adjacent to them in a straight line,or as close as possible. If they’re larger, the Berserker is pulled adjacent to them instead. If this ends with the Berserker adjacent to the target, the Berserker <strong>Grapples</strong> them."
   },
   {
     "id": "npc-rebake_npcf_retribution_berserker",
@@ -1535,7 +1535,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Berserker takes damage, their next attack deals +1d6 bonus damage. This bonus damage is lost when the Berserker attacks, or at the end of their next turn.",
+    "effect": "Whenever the Berserker takes damage, their next attack deals <strong>+1d6 bonus damage</strong>. This bonus damage is lost when the Berserker attacks, or at the end of their next turn.",
     "tags": []
   },
   {
@@ -1548,7 +1548,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever the Berserker attacks a target that is Grappled, Immobilized, Stunned, or Prone with the Chain Axe, they become Shredded on hit rather than on critical hit.",
+    "effect": "Whenever the Berserker attacks a target that is <strong>Grappled</strong>, <strong>Immobilized</strong>, <strong>Stunned</strong>, or <strong>Prone</strong> with the <strong>Chain Axe</strong>, they become <strong>Shredded</strong> on hit rather than on critical hit.",
     "tags": []
   },
   {
@@ -1561,7 +1561,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Berserker counts as Size 3 for Ram and Grapple, and they deal 3/4/5 kinetic damage on hit with Ram and Grapple.",
+    "effect": "The Berserker counts as <strong>Size 3</strong> for <strong>Ram</strong> and <strong>Grapple</strong>, and they deal <strong>{3/4/5} kinetic damage</strong> on hit with <strong>Ram</strong> and <strong>Grapple</strong>.",
     "tags": []
   },
   {
@@ -1626,7 +1626,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Bombard’s attacks deal +2/+3/+4 damage to all characters for each targeted character beyond the first.",
+    "effect": "The Bombard’s attacks deal <strong>{+2/+3/+4} damage</strong> to all characters for each targeted character beyond the first.",
     "tags": []
   },
   {
@@ -1639,7 +1639,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When attacking with the Bombard Cannon, the Bombard may also fire a special earthshaker shell. In addition to any damage, all characters within the Blast must pass a Hull save or be knocked Prone. Debris or broken earth is thrown up by the impact, creating two Size 1 segments of hard cover in free spaces within Range 5 of the targeted space. The Bombard Cannon must then be reloaded before it can be used again (as though it was Loading) unless three or more characters were targeted by this attack.",
+    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may also fire a special earthshaker shell. In addition to any damage, all characters within the <strong>Blast</strong> must pass a <strong>Hull</strong> save or be knocked <strong>Prone</strong>. Debris or broken earth is thrown up by the impact, creating two <strong>Size 1</strong> segments of hard cover in free spaces within <strong>Range 5</strong> of the targeted space. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>three or more characters</strong> were targeted by this attack.",
     "tags": []
   },
   {
@@ -1652,7 +1652,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Bombard has Resistance to all damage from attacks that originate beyond range 3.",
+    "effect": "The Bombard has <strong>Resistance</strong> to all damage from attacks that originate beyond <strong>range 3</strong>.",
     "tags": []
   },
   {
@@ -1665,7 +1665,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When attacking with the Bombard Cannon, the Bombard may fire a special high-impact shell. On hit, characters are knocked back 3 spaces either directly away from the Bombard or away from the center of the Blast. The Bombard Cannon must then be reloaded before it can be used again (as though it was Loading) unless three or more characters were targeted by this attack. Only one type of special shell can be fired at a time.",
+    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may fire a special high-impact shell. <strong>On hit</strong>, characters are knocked back <strong>3 spaces</strong> either directly away from the Bombard or away from the center of the <strong>Blast</strong>. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>three or more characters</strong> were targeted by this attack. Only one type of special shell can be fired at a time.",
     "tags": []
   },
   {
@@ -1678,7 +1678,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When attacking with the Bombard Cannon, the Bombard may fire a special bunker buster shell. The Bombard Cannon automatically deals 10/20/30 AP explosive damage to all objects and terrain in the affected area, and the area within the Blast also becomes difficult terrain. The Bombard Cannon must then be reloaded before it can be used again (as though it was Loading) unless three or more characters were targeted by this attack. Only one type of special shell can be fired at a time.",
+    "effect": "When attacking with the <strong>Bombard Cannon</strong>, the Bombard may fire a special bunker buster shell. The <strong>Bombard Cannon</strong> automatically deals <strong>{10/20/30} AP explosive damage</strong> to all objects and terrain in the affected area, and the area within the <strong>Blast</strong> also becomes <strong>difficult terrain</strong>. The <strong>Bombard Cannon</strong> must then be reloaded before it can be used again (as though it was <strong>Loading</strong>) unless <strong>three or more characters</strong> were targeted by this attack. Only one type of special shell can be fired at a time.",
     "tags": []
   },
   {
@@ -1691,7 +1691,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Flare Drone (Size 1/2, HP {10/20/30}, Evasion {10/10/10}, E-Defense {10/10/10}, Tags: Drone)<br>This drone can be deployed to a space within line of sight and Range 25, where it hovers in place and begins projecting bright light in a Burst 2 area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose Invisible and Hidden, and cannot Hide or turn Invisible within the area. Additionally, the Bombard gains +1 Accuracy to attacks against characters within the affected area (including the drone itself). The Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates.",
+    "effect": "<strong>Flare Drone</strong> (<strong>Size</strong> 1/2, <strong>HP</strong> {10/20/30}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags</strong>: Drone)<br>This drone can be deployed to a space within line of sight and <strong>Range 25</strong>, where it hovers in place and begins projecting bright light in a <strong>Burst 2</strong> area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose <strong>Invisible</strong> and <strong>Hidden</strong>, and cannot <strong>Hide</strong> or turn <strong>Invisible</strong> within the area. Additionally, the Bombard gains <strong>+1 Accuracy</strong> to attacks against characters within the affected area (including the drone itself). The Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates.",
     "tags": [
       {
         "id": "tg_drone"
@@ -1711,7 +1711,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Bombard may prepare a delayed, high-angle shot with the Bombard Cannon. Choose a Blast 3 area, which becomes visible to all characters; the Bombard then makes an attack at the end of the next round with the Bombard Cannon, after all characters have acted, against every target within the area.",
+    "effect": "The Bombard may prepare a delayed, high-angle shot with the <strong>Bombard Cannon</strong>. Choose a <strong>Blast 3</strong> area, which becomes visible to all characters; the Bombard then makes an attack at the end of the next round with the <strong>Bombard Cannon</strong>, after all characters have acted, against every target within the area.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -1732,7 +1732,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The triggering character gains Lock On. This Reaction can't be used against characters within Range 3 of the Bombard.",
+    "effect": "The triggering character gains <strong>Lock On</strong>. This <strong>Reaction</strong> can't be used against characters within <strong>Range 3</strong> of the Bombard.",
     "tags": [
       {
         "id": "tg_round",
