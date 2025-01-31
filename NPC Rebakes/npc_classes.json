@@ -1217,6 +1217,108 @@
         "power": 100
     },
     {
+        "id": "npc-rebake_npcc_goliath",
+        "name": "GOLIATH [K]",
+        "role": "defender",
+        "info": {
+            "flavor": "Along the Sierra Madre Line – the eighth ring of territory out from Cradle – the Dangun frame is a familiar sight. Manufactured by Park Armored Systems and popularized by the Dagger Squadron mercenary company, the Dangun is popular for its toughness, kinetic damage-trade ability, and reliable all-theater performance. The Dangun is a mech to build strike forces around – a Goliath-class frame capable of mounting powerful magtech, with a design that’s tough to counter in kinetic damage combat.<br>With a number of small fleet contracts in its portfolio, Park Armored Systems is a manufacturer worth keeping an eye on; indeed, Harrison Armory has taken particular notice, and omninet rumors suggest a possible partnership in the near future.",
+            "tactics": "Goliaths are relatively mobile defenders (for their size, that is) that can bring enemies to them. With <strong>Crush Targeting</strong>, Goliaths force dangerous enemies to focus attacks on them; all it needs is line of sight, allowing Goliaths to target even fast or hard-to-hit characters. The prodigious size of Goliaths also lets them provide cover for their allies and obstruct the battlefield with their presence."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                25,
+                30,
+                35
+            ],
+            "evade": [
+                6,
+                7,
+                8
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                8,
+                10,
+                12
+            ],
+            "speed": [
+                3,
+                3,
+                3
+            ],
+            "sensor": [
+                8,
+                8,
+                8
+            ],
+            "save": [
+                11,
+                12,
+                14
+            ],
+            "hull": [
+                4,
+                5,
+                6
+            ],
+            "agility": [
+                -2,
+                -2,
+                -2
+            ],
+            "systems": [
+                1,
+                2,
+                3
+            ],
+            "engineering": [
+                1,
+                1,
+                1
+            ],
+            "size": [
+                [
+                    3
+                ],
+                [
+                    3
+                ],
+                [
+                    3
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_drum_shotgun_goliath",
+            "npc-rebake_npcf_crush_targeting_goliath",
+            "npc-rebake_npcf_towering_stride_goliath",
+            "npc-rebake_npcf_heavy_frame_goliath",
+            "npc-rebake_npcf_guardian_goliath"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_power_knuckle_goliath",
+            "npc-rebake_npcf_pin_goliath",
+            "npc-rebake_npcf_mag_gauntlet_goliath",
+            "npc-rebake_npcf_coercive_force_goliath",
+            "npc-rebake_npcf_attractor_field_goliath"
+        ],
+        "power": 100
+    },
+    {
         "id": "npc-rebake_npcc_hive",
         "name": "HIVE [K]",
         "role": "controller",
@@ -2030,102 +2132,102 @@
         "name": "SNIPER [K]",
         "role": "artillery",
         "info": {
-          "flavor": "The reason some pilots haven’t seen a Sniper on the battlefield is that those pilots are dead. These mechs are built for stability, targeting, and extremely long-range  kinetic damage weapons at the cost of mobility, and they tend to operate in small, self-sufficient teams far removed from direct combat. Sniper pilots are a proud breed, emphasizing economy and elegance over destructive power.",
-          "tactics": "Rightly feared, Snipers are devastating when it comes to dealing focused, long-range damage. Using <strong>Sniper’s Mark</strong>, they can deal direct structure damage, bypassing most conventional defenses such as <strong>Armor</strong> or <strong>Resistance</strong>. Opponents can avoid this with clever use of cover, or by dropping <strong>Prone</strong>. The Snipers’ main downside is a lack of mobility, as their rifle posseses both <strong>Ordnance</strong> and requires a full action to either fire or reload."
+            "flavor": "The reason some pilots haven’t seen a Sniper on the battlefield is that those pilots are dead. These mechs are built for stability, targeting, and extremely long-range  kinetic damage weapons at the cost of mobility, and they tend to operate in small, self-sufficient teams far removed from direct combat. Sniper pilots are a proud breed, emphasizing economy and elegance over destructive power.",
+            "tactics": "Rightly feared, Snipers are devastating when it comes to dealing focused, long-range damage. Using <strong>Sniper’s Mark</strong>, they can deal direct structure damage, bypassing most conventional defenses such as <strong>Armor</strong> or <strong>Resistance</strong>. Opponents can avoid this with clever use of cover, or by dropping <strong>Prone</strong>. The Snipers’ main downside is a lack of mobility, as their rifle posseses both <strong>Ordnance</strong> and requires a full action to either fire or reload."
         },
         "stats": {
-          "armor": [
-            0,
-            0,
-            0
-          ],
-          "hp": [
-            10,
-            12,
-            14
-          ],
-          "evade": [
-            10,
-            13,
-            16
-          ],
-          "edef": [
-            8,
-            9,
-            10
-          ],
-          "heatcap": [
-            6,
-            6,
-            6
-          ],
-          "speed": [
-            4,
-            4,
-            4
-          ],
-          "sensor": [
-            15,
-            15,
-            15
-          ],
-          "save": [
-            11,
-            13,
-            15
-          ],
-          "hull": [
-            -2,
-            -2,
-            -2
-          ],
-          "agility": [
-            1,
-            2,
-            3
-          ],
-          "systems": [
-            2,
-            3,
-            4
-          ],
-          "engineering": [
-            0,
-            0,
-            0
-          ],
-          "size": [
-            [
-              1
+            "armor": [
+                0,
+                0,
+                0
             ],
-            [
-              1
+            "hp": [
+                10,
+                12,
+                14
             ],
-            [
-              1
+            "evade": [
+                10,
+                13,
+                16
+            ],
+            "edef": [
+                8,
+                9,
+                10
+            ],
+            "heatcap": [
+                6,
+                6,
+                6
+            ],
+            "speed": [
+                4,
+                4,
+                4
+            ],
+            "sensor": [
+                15,
+                15,
+                15
+            ],
+            "save": [
+                11,
+                13,
+                15
+            ],
+            "hull": [
+                -2,
+                -2,
+                -2
+            ],
+            "agility": [
+                1,
+                2,
+                3
+            ],
+            "systems": [
+                2,
+                3,
+                4
+            ],
+            "engineering": [
+                0,
+                0,
+                0
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
             ]
-          ],
-          "activations": [
-            1,
-            1,
-            1
-          ]
         },
         "base_features": [
-          "npc-rebake_npcf_anti_materiel_rifle_sniper",
-          "npc-rebake_npcf_snipers_mark_sniper",
-          "npc-rebake_npcf_climber_sniper"
+            "npc-rebake_npcf_anti_materiel_rifle_sniper",
+            "npc-rebake_npcf_snipers_mark_sniper",
+            "npc-rebake_npcf_climber_sniper"
         ],
         "optional_features": [
-          "npc-rebake_npcf_sharpshooter_sniper",
-          "npc-rebake_npcf_shift_sights_sniper",
-          "npc-rebake_npcf_defensive_grapple_sniper",
-          "npc-rebake_npcf_relocation_sniper",
-          "npc-rebake_npcf_moving_target_sniper",
-          "npc-rebake_npcf_deadeye_sniper"
+            "npc-rebake_npcf_sharpshooter_sniper",
+            "npc-rebake_npcf_shift_sights_sniper",
+            "npc-rebake_npcf_defensive_grapple_sniper",
+            "npc-rebake_npcf_relocation_sniper",
+            "npc-rebake_npcf_moving_target_sniper",
+            "npc-rebake_npcf_deadeye_sniper"
         ],
         "power": 100
-      },
+    },
     {
         "id": "npc-rebake_npcc_specter",
         "name": "SPECTER [K]",
