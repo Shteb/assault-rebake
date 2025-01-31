@@ -609,7 +609,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Archer chooses a target within line of sight and Range 10: they become Impaired and the Archer gains the Moving Target Reaction.<br>his effect lasts until the Archer uses Moving Target; the target damages the Archer or leaves the Archer’s line of sight; the Archer is Stunned, Jammed, or destroyed; the Archer chooses a new target for this action; or, the Archer ends it as a free action.",
+    "effect": "The Archer chooses a target within line of sight and Range 10: they become Impaired and the Archer gains the Moving Target Reaction.<br>This effect lasts until the Archer uses Moving Target; the target damages the Archer or leaves the Archer’s line of sight; the Archer is Stunned, Jammed, or destroyed; the Archer chooses a new target for this action; or, the Archer ends it as a free action.",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -1137,7 +1137,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Barricade emits a seismic pulse from one of its printed cubes, creating a Burst 3 area around it. Allnon-flying characters within that area must pass a Hull save or be knocked 3 spaces back from the cube and knocked Prone. Allied characters affected this way (including the Barricade itself) are not knocked Prone. The cube is then destroyed.",
+    "effect": "The Barricade emits a seismic pulse from one of its printed cubes, creating a Burst 3 area around it. All non-flying characters within that area must pass a Hull save or be knocked 3 spaces back from the cube and knocked Prone. Allied characters affected this way (including the Barricade itself) are not knocked Prone. The cube is then destroyed.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1158,7 +1158,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Barricade rapidly prints and deploys a field of tiny, mobile mines in a free Size 4 area adjacent to them. The affected area becomes difficult terrain; additionally, hostile characters that enter the area forthe first time in a round or start their turn there must pass a Systems save or be Slowed until the end of their next turn.",
+    "effect": "The Barricade rapidly prints and deploys a field of tiny, mobile mines in a free Size 4 area adjacent to them. The affected area becomes difficult terrain; additionally, hostile characters that enter the area for the first time in a round or start their turn there must pass a Systems save or be Slowed until the end of their next turn.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -1291,7 +1291,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Bastion and one allied character adjacent to it gain Resistance to all damage dealt by one characterwithin line of sight. The Bastion may choose a new allied character or a new character to gain Resistance from as a protocol. The allied character loses Resistance if they break adjacency.",
+    "effect": "The Bastion and one allied character adjacent to it gain Resistance to all damage dealt by one character within line of sight. The Bastion may choose a new allied character or a new character to gain Resistance from as a protocol. The allied character loses Resistance if they break adjacency.",
     "tags": [
       {
         "id": "tg_protocol"
@@ -1523,7 +1523,7 @@
         "val": 3
       }
     ],
-    "on_hit": "Targets of smaller or equal Size to the Berserker are pulled adjacent to them in a straight line,or as close as possible. If they’re larger, the Berserker is pulled adjacent to them instead. If this ends with the Berserker adjacent to the target, the Berserker Grapples them."
+    "on_hit": "Targets of smaller or equal Size to the Berserker are pulled adjacent to them in a straight line, or as close as possible. If they’re larger, the Berserker is pulled adjacent to them instead. If this ends with the Berserker adjacent to the target, the Berserker Grapples them."
   },
   {
     "id": "npc-rebake_npcf_retribution_berserker",
@@ -1731,7 +1731,7 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Reaction",
     "effect": "The triggering character gains Lock On. This Reaction can't be used against characters within Range 3 of the Bombard.",
     "tags": [
       {
@@ -1846,7 +1846,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Breacher makes a tech attack against a character within <strong>Sensors</strong>. On a success, the Breacher gains <strong>+1 Accuracy</strong> on all attacks against their target, and may <strong>Boost</strong> once per turn as a <strong>free action</strong> so long as it moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target unless the Breacher takes <strong>4 Heat</strong> to attempt this tech attack against a different target",
+    "effect": "The Breacher makes a tech attack against a character within <strong>Sensors</strong>. On a success, the Breacher gains <strong>+1 Accuracy</strong> on all attacks against their target, and may <strong>Boost</strong> once per turn as a <strong>free action</strong> so long as it moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target unless the Breacher takes <strong>4 Heat</strong> to attempt this tech attack against a different target.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -1898,7 +1898,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Breacher prepares a salvo of shells, becoming <strong>Slowed</strong> until the end of their next turn. This effect isvisible to everyone. During the Breacher's next turn, the next time they use the <strong>Dual Shotguns</strong>, they may make four attacks at once instead of two.",
+    "effect": "The Breacher prepares a salvo of shells, becoming <strong>Slowed</strong> until the end of their next turn. This effect is visible to everyone. During the Breacher's next turn, the next time they use the <strong>Dual Shotguns</strong>, they may make four attacks at once instead of two.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -2309,7 +2309,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Demolisher chooses a character within <strong>Range 2</strong>: they must pass a <strong>Hull</strong> save or be <strong>Immobilzed</strong> and <strong>Shredded</strong> until the end of their next turn.",
+    "effect": "The Demolisher chooses a character within <strong>Range 2</strong>: they must pass a <strong>Hull</strong> save or be <strong>Immobilized</strong> and <strong>Shredded</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2638,7 +2638,7 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Reaction",
     "effect": "The Operator teleports to a space within <strong>Range 2</strong>. They may choose to teleport further taking <strong>1d6 Heat</strong> and adding that many additonal spaces to the movement.",
     "tags": [
       {
@@ -2739,7 +2739,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "At the end of the Pyro's turn, they create a <strong>Line 5</strong> wall of flame, <strong>4 spaces high</strong>, in free spaces within <strong>Range 3</strong> and line of sight. This wall doesn't block line of sight, but provides <strong>soft cover</strong>; when an attackis made against a character benefiting from this cover, roll <strong>1d6</strong>. On a <strong>4+</strong>, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take <strong>{2/3/4} Burn</strong>. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is <strong>Stunned</strong>, and its effect doesn't stack with <strong>Invisible</strong>.",
+    "effect": "At the end of the Pyro's turn, they create a <strong>Line 5</strong> wall of flame, <strong>4 spaces high</strong>, in free spaces within <strong>Range 3</strong> and line of sight. This wall doesn't block line of sight, but provides <strong>soft cover</strong>; when an attack is made against a character benefiting from this cover, roll <strong>1d6</strong>. On a <strong>4+</strong>, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take <strong>{2/3/4} Burn</strong>. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is <strong>Stunned</strong>, and its effect doesn't stack with <strong>Invisible</strong>.",
     "tags": [
       {
         "id": "tg_shield"
