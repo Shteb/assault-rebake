@@ -2477,7 +2477,7 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Tech",
     "effect": "A character within <strong>Sensors</strong> and line of sight must pass a <strong>Hull</strong> save or be pulled <strong>3 spaces</strong> towards the Goliath. If they are pulled adjacent to the Goliath, they automatically become grappled. The Goliath can only grapple one character this way at a time, and can't use this system while grappling someone this way.",
     "tags": [
       {
