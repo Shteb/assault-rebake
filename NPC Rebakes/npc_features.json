@@ -1731,8 +1731,8 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
-    "effect": "The triggering character gains <strong>Lock On</strong>. This <strong>Reaction</strong> can't be used against characters within <strong>Range 3</strong> of the Bombard.",
+    "type": "Reaction",
+    "effect": "The triggering character gains Lock On. This Reaction can't be used against characters within Range 3 of the Bombard.",
     "tags": [
       {
         "id": "tg_round",
@@ -1846,7 +1846,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Breacher makes a tech attack against a character within <strong>Sensors</strong>. On a success, the Breacher gains <strong>+1 Accuracy</strong> on all attacks against their target, and may <strong>Boost</strong> once per turn as a <strong>free action</strong> so long as it moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target unless the Breacher takes <strong>4 Heat</strong> to attempt this tech attack against a different target",
+    "effect": "The Breacher makes a tech attack against a character within <strong>Sensors</strong>. On a success, the Breacher gains <strong>+1 Accuracy</strong> on all attacks against their target, and may <strong>Boost</strong> once per turn as a <strong>free action</strong> so long as it moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target unless the Breacher takes <strong>4 Heat</strong> to attempt this tech attack against a different target.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -1898,7 +1898,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Breacher prepares a salvo of shells, becoming <strong>Slowed</strong> until the end of their next turn. This effect isvisible to everyone. During the Breacher's next turn, the next time they use the <strong>Dual Shotguns</strong>, they may make four attacks at once instead of two.",
+    "effect": "The Breacher prepares a salvo of shells, becoming <strong>Slowed</strong> until the end of their next turn. This effect is visible to everyone. During the Breacher's next turn, the next time they use the <strong>Dual Shotguns</strong>, they may make four attacks at once instead of two.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -2309,7 +2309,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Demolisher chooses a character within <strong>Range 2</strong>: they must pass a <strong>Hull</strong> save or be <strong>Immobilzed</strong> and <strong>Shredded</strong> until the end of their next turn.",
+    "effect": "The Demolisher chooses a character within <strong>Range 2</strong>: they must pass a <strong>Hull</strong> save or be <strong>Immobilized</strong> and <strong>Shredded</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -2638,7 +2638,7 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Reaction",
     "effect": "The Operator teleports to a space within <strong>Range 2</strong>. They may choose to teleport further taking <strong>1d6 Heat</strong> and adding that many additonal spaces to the movement.",
     "tags": [
       {
@@ -2739,7 +2739,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "At the end of the Pyro's turn, they create a <strong>Line 5</strong> wall of flame, <strong>4 spaces high</strong>, in free spaces within <strong>Range 3</strong> and line of sight. This wall doesn't block line of sight, but provides <strong>soft cover</strong>; when an attackis made against a character benefiting from this cover, roll <strong>1d6</strong>. On a <strong>4+</strong>, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take <strong>{2/3/4} Burn</strong>. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is <strong>Stunned</strong>, and its effect doesn't stack with <strong>Invisible</strong>.",
+    "effect": "At the end of the Pyro's turn, they create a <strong>Line 5</strong> wall of flame, <strong>4 spaces high</strong>, in free spaces within <strong>Range 3</strong> and line of sight. This wall doesn't block line of sight, but provides <strong>soft cover</strong>; when an attack is made against a character benefiting from this cover, roll <strong>1d6</strong>. On a <strong>4+</strong>, that attack misses. Characters can pass through this wall, but when crossing the wall for the first time in a round or starting their turn overlapping its spaces, they take <strong>{2/3/4} Burn</strong>. This wall lasts until the start of the Pyro's next turn, or until the Pyro moves or is <strong>Stunned</strong>, and its effect doesn't stack with <strong>Invisible</strong>.",
     "tags": [
       {
         "id": "tg_shield"
@@ -3762,7 +3762,8 @@
     "locked": false,
     "type": "Weapon",
     "effect": "This weapon does not gain <strong>Accuracy</strong> from attacking <strong>Prone</strong> targets",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_ap"
       },
       {
@@ -3778,18 +3779,22 @@
       4,
       6
     ],
-    "damage": [{
-      "type": "kinetic",
-      "damage": [
-        10,
-        15,
-        20
-      ]
-    }],
-    "range": [{
-      "type": "Range",
-      "val": 20
-    }],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          10,
+          15,
+          20
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 20
+      }
+    ],
     "on_hit": ""
   },
   {
@@ -3803,9 +3808,11 @@
     "locked": false,
     "type": "System",
     "effect": "A character within <strong>Range 20</strong> and line of sight gains the <strong>Sniper’s Mark</strong>. Against targets with the <strong>Sniper’s Mark</strong>, the sniper gains <strong>+1 Accuracy</strong> on attacks with the <strong>Anti-Materiel Rifle</strong> and may choose to deal <strong>1 structure damage</strong> instead of its usual damage on hit.<br>Characters know when they have the <strong>Sniper's Mark</strong> They ignore its effects if they are in cover or <strong>Prone</strong>. On their turn, characters with the <strong>Sniper's Mark</strong> may drop <strong>Prone</strong> as a <strong>free action</strong><br>The Sniper can only mark one character at a time, but can transfer the <strong>Sniper's Mark</strong> to another character within <strong>Range 20</strong> and line of sight as a <strong>full action</strong>, or whenever the sniper reloads the <strong>Anti-Material Rifle</strong>.",
-    "tags": [{
-      "id": "tg_full_action"
-    }]
+    "tags": [
+      {
+        "id": "tg_full_action"
+      }
+    ]
   },
   {
     "id": "npc-rebake_npcf_climber_sniper",
@@ -3844,13 +3851,14 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Sniper may transfer the <strong>Sniper's Mark</strong> to a character within <strong>Range 2</strong> of the currently marked character.",
-    "tags": [{
-      "id":"tg_recharge",
-      "val": 5
-    },
-    {
-      "id":"tg_protocol"
-    }
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_protocol"
+      }
     ]
   },
   {
@@ -3864,7 +3872,8 @@
     "locked": false,
     "type": "System",
     "effect": "The Sniper uses a grappling hook to <strong>fly</strong> to any free space that ends on an object or surface within <strong>Range 5</strong>, including vertical and overhanging surfaces. The Sniper also gains the <strong>Relocation</strong> reaction.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_recharge",
         "val": 4
       },
@@ -3888,7 +3897,8 @@
     "locked": false,
     "type": "Reaction",
     "effect": "The Sniper uses Defensive Grapple.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_round",
         "val": 1
       },
@@ -3909,7 +3919,8 @@
     "locked": false,
     "type": "Reaction",
     "effect": "The Sniper interrupts the movement. The character must immediately stop, give up all remaining movement, and fall <strong>Prone</strong> or they gain the <strong>Sniper's Mark.</strong> <br>If they already have the <strong>Sniper's Mark</strong>, the Sniper instead may make an immediate attack against them with the <strong>Anti-Materiel Rifle</strong>.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_round",
         "val": 1
       },
