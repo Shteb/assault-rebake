@@ -2386,10 +2386,6 @@
     "effect": "A hostile character within Sensors and line of sight gains <strong>+3 Difficulty</strong> to attack against any character other than the Goliath until the start of the Goliath’s next turn. This effect does not stack, and the effect ends immediately if the Goliath becomes <strong>Jammed</strong> or <strong>Stunned</strong>.",
     "tags": [
       {
-        "id": "tg_recharge",
-        "val": 4
-      },
-      {
         "id": "tg_quick_tech"
       }
     ],
@@ -2397,7 +2393,7 @@
   },
   {
     "id": "npc-rebake_npcf_towering_stride_goliath",
-    "name": "HEAVY FRAME",
+    "name": "TOWERING STRIDE",
     "origin": {
       "type": "Class",
       "name": "GOLIATH",
@@ -2481,7 +2477,7 @@
       "base": false
     },
     "locked": false,
-    "type": "System",
+    "type": "Tech",
     "effect": "A character within <strong>Sensors</strong> and line of sight must pass a <strong>Hull</strong> save or be pulled <strong>3 spaces</strong> towards the Goliath. If they are pulled adjacent to the Goliath, they automatically become grappled. The Goliath can only grapple one character this way at a time, and can't use this system while grappling someone this way.",
     "tags": [
       {
