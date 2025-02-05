@@ -2703,6 +2703,194 @@
     "tech_type": "Quick"
   },
   {
+    "id": "npc-rebake_npcf_stinger_pistol_hornet",
+    "name": "STINGER PISTOL",
+    "origin": {
+      "type": "Class",
+      "name": "HORNET",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Auxiliary CQB",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ],
+    "damage": [{
+      "type": "Energy",
+      "damage": [
+        1,
+        2,
+        3
+      ]
+    }],
+    "range": [{
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": "Targets become <strong>Impaired</strong> until the end of their next turn."
+  },
+  {
+    "id": "npc-rebake_npcf_ssc_total_suite_hornet",
+    "name": "SSC TOTAL SUITE",
+    "origin": {
+      "type": "Class",
+      "name": "HORNET",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Hornet can <strong>hover</strong> whenever they move.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_weave_hornet",
+    "name": "WEAVE",
+    "origin": {
+      "type": "Class",
+      "name": "HORNET",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Each round, the first attack made against the Hornet as a <strong>reaction</strong> automatically fails.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_impale_systems_hornet",
+    "name": "IMPALE SYSTEMS",
+    "origin": {
+      "type": "Class",
+      "name": "HORNET",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Hornet makes a tech attack against a character within <strong>Sensors</strong>. On a hit, they take <strong>{3/4/5} Heat</strong> and become <strong>Jammed</strong> until the end of their next turn.",
+    "tags": [{
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_supersonic_hornet",
+    "name": "SUPERSONIC",
+    "origin": {
+      "type": "Class",
+      "name": "HORNET",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Hornet flies to a space in line of sight and <strong>Range 50</strong> so impossibly fast that it counts as <strong>teleportation</strong>. If they end this movement within <strong>Range 5</strong> of another character, that character becomes <strong>Impaired</strong> until the end of their next turn and this ability automatically recharges; If multiple characters are within <strong>Range 5</strong>, the Hornet chooses one of them.",
+    "tags": [{
+      "id": "tg_full_action"
+    },
+    {
+      "id":"tg_recharge",
+      "val": 6
+    }]
+  },
+  {
+    "id": "npc-rebake_npcf_umbral_interdiction_hornet",
+    "name": "UMBRAL INTERDICTION",
+    "origin": {
+      "type": "Class",
+      "name": "HORNET",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "If the target is not <strong>Impaired</strong>, they immediately become <strong>Impaired</strong> until the end of their next turn. If the target is <strong>Impaired</strong>, they must pass a <strong>Systems</strong> check or their attack automatically misses.",
+    "tags": [{
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "A character within <strong>Sensors</strong> and line of sight attempts an attack."
+  },
+  {
+    "id": "npc-rebake_npcf_system_spike_hornet",
+    "name": "SYSTEM SPIKE",
+    "origin": {
+      "type": "Class",
+      "name": "HORNET",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "<strong>Impaired</strong> characters within the Hornet's <strong>Sensors</strong> recieve <strong>+2 Difficulty</strong> on all attacks, checks, and saves instead of <strong>+1 Difficulty</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_slingshot_hornet",
+    "name": "SLINGSHOT",
+    "origin": {
+      "type": "Class",
+      "name": "HORNET",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Hornet makes a Tech Attack against a target in <strong>Sensors</strong>. On a success, they take <strong>{3/4/5} Heat</strong> and are pushed <strong>3 spaces</strong> in a direction of the Hornet's choice, then the Hornet moves to a free space within <strong>Range 5</strong> of the target as directly as possible.",
+    "tags": [{
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_lock_hold_javelins_hornet",
+    "name": "LOCK/HOLD JAVELINS",
+    "origin": {
+      "type": "Class",
+      "name": "HORNET",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Hornet fires a javelin at a character within <strong>Range 5</strong> and line of sight. The target must succeed on a <strong>Hull</strong> save or be impaled, at which point the javelin tethers itself and its victim to the ground (or another surface), rendering them <strong>Immobilized</strong> and <strong>Shredded</strong>. They, or any adjacent character, can attempt to remove the javelin with a successful <strong>Hull</strong> save as a <strong>full action</strong>; otherwise, this effect lasts for the rest of the scene or until the Hornet takes this action again.",
+    "tags": [{
+      "id": "tg_full_action"
+    }]
+  },
+  {
     "id": "npc-rebake_npcf_raptor_plasma_rifle_operator",
     "name": "RAPTOR PLASMA RIFLE",
     "origin": {
