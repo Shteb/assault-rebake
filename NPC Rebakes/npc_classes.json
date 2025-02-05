@@ -1419,6 +1419,107 @@
         "power": 100
     },
     {
+        "id": "npcc_hornet",
+        "name": "HORNET",
+        "role": "controller",
+        "info": {
+            "flavor": "SatriaBarong’s Espada range of half-frame mechs has long been a popular choice in the chassis racing circuit; notably, Espadas are the mechs of choice for the vaunted SatriaBarong–ShimanoLUX chassis racing team. Recently, SatriaBarong – with the blessing of SSC – has moved to create a mil-spec, de-licensed variant of the Espada without the ShimanoLUX branding, giving rise to the Hornet archetype, a platform open for other companies to adapt and improve. The most notable of these competitors is Chandrasekhar & Herschel, the primary sponsor of the new Blueshift Grand Prix racing circuit.",
+            "tactics": "Hornets are small, fast controllers that are extremely hard to hit and incredibly annoying. They deal limited damage, but their ability to inflict mobility-reducing conditions is great for locking down enemy strikers. Fortunately for their enemies, Hornets have a low E-Defense that makes them vulnerable to smart weaponry and tech attacks."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                8,
+                8,
+                8
+            ],
+            "evade": [
+                16,
+                18,
+                20
+            ],
+            "edef": [
+                6,
+                7,
+                8
+            ],
+            "heatcap": [
+                5,
+                6,
+                7
+            ],
+            "speed": [
+                6,
+                8,
+                10
+            ],
+            "sensor": [
+                5,
+                5,
+                5
+            ],
+            "save": [
+                12,
+                14,
+                16
+            ],
+            "hull": [
+                -2,
+                -2,
+                -2
+            ],
+            "agility": [
+                2,
+                4,
+                6
+            ],
+            "systems": [
+                2,
+                3,
+                4
+            ],
+            "engineering": [
+                0,
+                0,
+                0
+            ],
+            "size": [
+                [
+                    0.5
+                ],
+                [
+                    0.5
+                ],
+                [
+                    0.5
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [
+            "npc-rebake_npcf_stinger_pistol_hornet",
+            "npc-rebake_npcf_ssc_total_suite_hornet",
+            "npc-rebake_npcf_weave_hornet",
+            "npc-rebake_npcf_impale_systems_hornet"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_supersonic_hornet",
+            "npc-rebake_npcf_umbral_interdiction_hornet",
+            "npc-rebake_npcf_system_spike_hornet",
+            "npc-rebake_npcf_slingshot_hornet",
+            "npc-rebake_npcf_lock_hold_javelins_hornet"
+        ],
+        "power": 100
+    },
+    {
         "id": "npc-rebake_npcc_operator",
         "name": "OPERATOR [K]",
         "role": "artillery",
