@@ -1419,7 +1419,7 @@
         "power": 100
     },
     {
-        "id": "npcc_hornet",
+        "id": "npc-rebake_npcc_hornet",
         "name": "HORNET",
         "role": "controller",
         "info": {
