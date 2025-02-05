@@ -2846,7 +2846,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "<strong>Impaired</strong> characters within the Hornet's <strong>Sensors</strong> recieve <strong>+2 Difficulty</strong> on all attacks, checks, and saves instead of <strong>+1 Difficulty</strong>.",
+    "effect": "Hostile <strong>Impaired</strong> characters within the Hornet's <strong>Sensors</strong> recieve <strong>+2 Difficulty</strong> on all attacks, checks, and saves instead of <strong>+1 Difficulty</strong>.",
     "tags": []
   },
   {
