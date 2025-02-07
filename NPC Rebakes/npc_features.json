@@ -3633,7 +3633,7 @@
       "base": true
     },
     "locked": false,
-    "type": "System",
+    "type": "Tech",
     "effect": "The Scout makes a tech attack against a target in Sensors. On a success, the target and all hostile characters within <strong>Range 3</strong> of the target lose <strong>Hidden</strong> and <strong>Invisible</strong> and can't regain either status or benefit from any cover until the start of the Scout's next turn.",
     "tags": [
       {
@@ -3644,7 +3644,12 @@
         "val": 4
       }
     ],
-    "tech_type": "Quick"
+    "tech_type": "Quick",
+    "attack_bonus": [
+      2,
+      3,
+      4
+    ]
   },
   {
     "id": "npc-rebake_npcf_cloaking_field_scout",
