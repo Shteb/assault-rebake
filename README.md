@@ -47,6 +47,7 @@ Sentinel | ✓
 Sniper | ✓
 Specter | ✓
 Support | ✓
+Witch | ✓
 ## Grunt Progress: 20%
 | Class | Status |
 | ------ | :------: |
