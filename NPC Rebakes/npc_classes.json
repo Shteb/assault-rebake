@@ -2529,5 +2529,98 @@
             "npc-rebake_npcf_latch_drone_support"
         ],
         "power": 100
+    },
+    {
+        "id": "npcc_witch",
+        "name": "WITCH",
+        "role": "controller",
+        "info": {
+            "flavor": "Witch-archetype chassis can always be found in the eye of a systemic storm, where they are adept at generating realspace and legionspace terrors to blanket battlefields. At any given time, they are likely to be operating in both the physical battlefield and the tempest of the omninet. To handle the chaotic swirl of inputs and outputs that results from this split perception, Witches often pair with personality-clone NHPs, splitting tasks along parallel tracks to increase combat efficacy.",
+            "tactics": "Witches are no-nonsense controllers that use <strong>Tear Down</strong> to inflict heat and <strong>Blind</strong> to shut down ranged attackers. <strong>Predatory Logic</strong> gives them a tool to use against characters with powerful heavy weapons, especially ones with <strong>Loading</strong> or <strong>Limited</strong> charges. Targets generally have opportunities to mitigate their more potent abilities, though this often comes at the cost of their actions."
+        },
+        "stats": {
+            "armor": [
+                0,
+                0,
+                0
+            ],
+            "hp": [
+                12,
+                14,
+                16
+            ],
+            "evade": [
+                8,
+                10,
+                12
+            ],
+            "edef": [
+                12,
+                16,
+                20
+            ],
+            "heatcap": [
+                8,
+                8,
+                8
+            ],
+            "speed": [
+                5,
+                5,
+                5
+            ],
+            "sensor": [
+                15,
+                15,
+                15
+            ],
+            "save": [
+                12,
+                14,
+                16
+            ],
+            "hull": [
+                -2,
+                -2,
+                -2
+            ],
+            "agility": [
+                1,
+                2,
+                3
+            ],
+            "systems": [
+                4,
+                5,
+                6
+            ],
+            "engineering": [
+                0,
+                0,
+                0
+            ],
+            "size": [
+                [
+                    0.5,
+                    1
+                ],
+                [
+                    0.5,
+                    1
+                ],
+                [
+                    0.5,
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
+            ]
+        },
+        "base_features": [],
+        "optional_features": [],
+        "power": 100
     }
 ]
