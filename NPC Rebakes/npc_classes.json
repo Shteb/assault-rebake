@@ -2619,8 +2619,19 @@
                 1
             ]
         },
-        "base_features": [],
-        "optional_features": [],
+        "base_features": [
+            "npc-rebake_npcf_tear_down_witch",
+            "npc-rebake_npcf_blind_witch",
+            "npc-rebake_npcf_predatory_logic_witch",
+            "npc-rebake_npcf_blur_witch"
+        ],
+        "optional_features": [
+            "npc-rebake_npcf_dark_cloud_witch",
+            "npc-rebake_npcf_chain_witch",
+            "npc-rebake_npcf_petrify_witch",
+            "npc-rebake_npcf_pain_transference_witch",
+            "npc-rebake_npcf_immolate_witch"
+        ],
         "power": 100
     }
 ]
