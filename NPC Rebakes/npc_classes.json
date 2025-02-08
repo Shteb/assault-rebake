@@ -2531,8 +2531,8 @@
         "power": 100
     },
     {
-        "id": "npcc_witch",
-        "name": "WITCH",
+        "id": "npc-rebake_npcc_witch",
+        "name": "WITCH [K]",
         "role": "controller",
         "info": {
             "flavor": "Witch-archetype chassis can always be found in the eye of a systemic storm, where they are adept at generating realspace and legionspace terrors to blanket battlefields. At any given time, they are likely to be operating in both the physical battlefield and the tempest of the omninet. To handle the chaotic swirl of inputs and outputs that results from this split perception, Witches often pair with personality-clone NHPs, splitting tasks along parallel tracks to increase combat efficacy.",
