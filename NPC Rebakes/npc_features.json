@@ -2725,15 +2725,18 @@
       1,
       1
     ],
-    "damage": [{
-      "type": "Energy",
-      "damage": [
-        1,
-        2,
-        3
-      ]
-    }],
-    "range": [{
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "range": [
+      {
         "type": "Range",
         "val": 5
       },
@@ -2781,7 +2784,8 @@
     "locked": false,
     "type": "Tech",
     "effect": "The Hornet makes a tech attack against a character within <strong>Sensors</strong>. On a hit, they take <strong>{3/4/5} Heat</strong> and become <strong>Jammed</strong> until the end of their next turn.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_recharge",
         "val": 5
       },
@@ -2807,13 +2811,15 @@
     "locked": false,
     "type": "Trait",
     "effect": "The Hornet flies to a space in line of sight and <strong>Range 50</strong> so impossibly fast that it counts as <strong>teleportation</strong>. If they end this movement within <strong>Range 5</strong> of another character, that character becomes <strong>Impaired</strong> until the end of their next turn and this ability automatically recharges; If multiple characters are within <strong>Range 5</strong>, the Hornet chooses one of them.",
-    "tags": [{
-      "id": "tg_full_action"
-    },
-    {
-      "id":"tg_recharge",
-      "val": 6
-    }]
+    "tags": [
+      {
+        "id": "tg_full_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ]
   },
   {
     "id": "npc-rebake_npcf_umbral_interdiction_hornet",
@@ -2826,7 +2832,8 @@
     "locked": false,
     "type": "Reaction",
     "effect": "If the target is not <strong>Impaired</strong>, they immediately become <strong>Impaired</strong> until the end of their next turn. If the target is <strong>Impaired</strong>, they must pass a <strong>Systems</strong> check or their attack automatically misses.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_round",
         "val": 1
       },
@@ -2860,7 +2867,8 @@
     "locked": false,
     "type": "Tech",
     "effect": "The Hornet makes a Tech Attack against a target in <strong>Sensors</strong>. On a success, they take <strong>{3/4/5} Heat</strong> and are pushed <strong>3 spaces</strong> in a direction of the Hornet's choice, then the Hornet moves to a free space within <strong>Range 5</strong> of the target as directly as possible.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_quick_tech"
       },
       {
@@ -2886,9 +2894,11 @@
     "locked": false,
     "type": "System",
     "effect": "The Hornet fires a javelin at a character within <strong>Range 5</strong> and line of sight. The target must succeed on a <strong>Hull</strong> save or be impaled, at which point the javelin tethers itself and its victim to the ground (or another surface), rendering them <strong>Immobilized</strong> and <strong>Shredded</strong>. They, or any adjacent character, can attempt to remove the javelin with a successful <strong>Hull</strong> save as a <strong>full action</strong>; otherwise, this effect lasts for the rest of the scene or until the Hornet takes this action again.",
-    "tags": [{
-      "id": "tg_full_action"
-    }]
+    "tags": [
+      {
+        "id": "tg_full_action"
+      }
+    ]
   },
   {
     "id": "npc-rebake_npcf_raptor_plasma_rifle_operator",
@@ -4677,6 +4687,201 @@
       {
         "id": "tg_full_action"
       }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_tear_down_witch",
+    "name": "TEAR DOWN",
+    "origin": {
+      "type": "Class",
+      "name": "WITCH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>{1/2/3} Heat</strong> immediately, and then a further <strong>4 Heat</strong> at the start of the Witch’s next turn; this effect does not stack. If an affected target or an adjacent hostile character takes the <strong>Stabilize</strong> action, they can choose to end the effect of this system in place of cooling their mech.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_blind_witch",
+    "name": "BLIND",
+    "origin": {
+      "type": "Class",
+      "name": "WITCH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>{2/3/4} Heat</strong> and must pass a <strong>Systems</strong> save or only be able to draw line of sight to adjacent spaces until the end of their next turn. If the target succeeds, they become <strong>Impaired</strong> until the end of their next turn instead.",
+    "tags": [
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "tech_type": "Full",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_predatory_logic_witch",
+    "name": "PREDATORY LOGIC",
+    "origin": {
+      "type": "Class",
+      "name": "WITCH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Witch makes a tech attack against a hostile character within <strong>Sensors</strong>. On a success, the target immediately uses a <strong>non-Superheavy</strong> weapon chosen by the Witch to attack a character within <strong>Range</strong> also chosen by the Witch as a reaction. If the target takes the <strong>Brace</strong> reaction in response to this tech attack, they ignore the effect of this system; characters in the <strong>Danger Zone</strong> can't take the <strong>Brace</strong> reaction against this attack.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_blur_witch",
+    "name": "BLUR",
+    "origin": {
+      "type": "Class",
+      "name": "WITCH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Witch counts as <strong>Invisible</strong> against characters in the <strong>Danger Zone</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_dark_cloud_witch",
+    "name": "DARK CLOUD",
+    "origin": {
+      "type": "Class",
+      "name": "WITCH",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The additional Heat dealt by <strong>Tear Down</strong> on the Witch’s next turn increases to <strong>7 Heat</strong> if the target is in the <strong>Danger Zone</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_chain_witch",
+    "name": "CHAIN",
+    "origin": {
+      "type": "Class",
+      "name": "WITCH",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the Witch chains their target’s systems to a space within <strong>Range 3</strong> of the target. If the target moves more than <strong>3 spaces</strong> from that point (voluntarily or otherwise), they take <strong>{2/3/4} Heat</strong> and become <strong>Jammed</strong> until the end of their next turn, but the effect ends. Otherwise, they are chained until the Witch is destroyed or <strong>Stunned</strong>, or until the end of the scene.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_petrify_witch",
+    "name": "PETRIFY",
+    "origin": {
+      "type": "Class",
+      "name": "WITCH",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target becomes <strong>Slowed</strong> until the end of their next turn. When <strong>Slowed</strong> expires, they then become <strong>Immobilized</strong> until the end of their next turn. When <strong>Immobilized</strong> expires, they then become <strong>Stunned</strong> until the end of their next turn. Clearing any of these conditions (e.g. with <strong>Stabilize</strong>) prevents further conditions from occurring on subsequent turns.\n\nThis system can't be used again while it is currently in the process of affecting a character, and it can only be used 1/scene on each character.",
+    "tags": [
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "tech_type": "Full",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_pain_transference_witch",
+    "name": "PAIN TRANSFERENCE",
+    "origin": {
+      "type": "Class",
+      "name": "WITCH",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever a character takes additional Heat dealt by <strong>Tear Down</strong> on the Witch’s next turn, all other hostile characters within <strong>Range 3</strong> of that character also take the same amount of <strong>heat</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_immolate_witch",
+    "name": "IMMOLATE",
+    "origin": {
+      "type": "Class",
+      "name": "WITCH",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>burn</strong> equal to their current Heat. If the target is in the <strong>Danger Zone</strong>, all characters of the Witch's choice within a <strong>Burst 2</strong> area around the target must pass a <strong>Systems</strong> save or take half the amount of burn that the target takes. On a miss, the target takes <strong>2 Heat</strong> and becomes <strong>Impaired</strong> until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "tech_type": "Full",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "accuracy": [
+      1,
+      1,
+      1
     ]
   }
 ]
