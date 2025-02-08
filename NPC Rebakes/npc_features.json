@@ -4699,7 +4699,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>{1/2/3} heat</strong> immediately, and then a further <strong>4 heat</strong> at the start of the Witch’s next turn; this effect does not stack. If an affected target or an adjacent hostile character takes the <strong>Stabilize</strong> action, they can choose to end the effect of this system in place of cooling their mech.",
+    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>{1/2/3} Heat</strong> immediately, and then a further <strong>4 Heat</strong> at the start of the Witch’s next turn; this effect does not stack. If an affected target or an adjacent hostile character takes the <strong>Stabilize</strong> action, they can choose to end the effect of this system in place of cooling their mech.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -4722,13 +4722,13 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>{2/3/4} heat</strong> and must pass a <strong>Systems</strong> save or only be able to draw line of sight to adjacent spaces until the end of their next turn. If the target succeeds, they become <strong>Impaired</strong> until the end of their next turn instead.",
+    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>{2/3/4} Heat</strong> and must pass a <strong>Systems</strong> save or only be able to draw line of sight to adjacent spaces until the end of their next turn. If the target succeeds, they become <strong>Impaired</strong> until the end of their next turn instead.",
     "tags": [
       {
-        "id": "tg_quick_tech"
+        "id": "tg_full_tech"
       }
     ],
-    "tech_type": "Quick",
+    "tech_type": "Full",
     "attack_bonus": [
       2,
       4,
@@ -4790,7 +4790,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The additional heat dealt by <strong>Tear Down</strong> on the Witch’s next turn increases to <strong>7 heat</strong> if the target is in the <strong>Danger Zone</strong>.",
+    "effect": "The additional Heat dealt by <strong>Tear Down</strong> on the Witch’s next turn increases to <strong>7 Heat</strong> if the target is in the <strong>Danger Zone</strong>.",
     "tags": []
   },
   {
@@ -4803,7 +4803,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the Witch chains their target’s systems to a space within <strong>Range 3</strong> of the target. If the target moves more than <strong>3 spaces</strong> from that point (voluntarily or otherwise), they take <strong>{2/3/4} heat</strong> and become <strong>Jammed</strong> until the end of their next turn, but the effect ends. Otherwise, they are chained until the Witch is destroyed or <strong>Stunned</strong>, or until the end of the scene.",
+    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the Witch chains their target’s systems to a space within <strong>Range 3</strong> of the target. If the target moves more than <strong>3 spaces</strong> from that point (voluntarily or otherwise), they take <strong>{2/3/4} Heat</strong> and become <strong>Jammed</strong> until the end of their next turn, but the effect ends. Otherwise, they are chained until the Witch is destroyed or <strong>Stunned</strong>, or until the end of the scene.",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -4849,7 +4849,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Whenever a character takes additional heat dealt by <strong>Tear Down</strong> on the Witch’s next turn, all other hostile characters within <strong>Range 3</strong> of that character also take the same amount of <strong>heat</strong>.",
+    "effect": "Whenever a character takes additional Heat dealt by <strong>Tear Down</strong> on the Witch’s next turn, all other hostile characters within <strong>Range 3</strong> of that character also take the same amount of <strong>heat</strong>.",
     "tags": []
   },
   {
@@ -4862,7 +4862,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>burn</strong> equal to their current heat. If the target is in the <strong>Danger Zone</strong>, all characters of the Witch's choice within a <strong>Burst 2</strong> area around the target must pass a <strong>Systems</strong> save or take half the amount of burn that the target takes. On a miss, the target takes <strong>2 heat</strong> and becomes <strong>Impaired</strong> until the end of their next turn.",
+    "effect": "The Witch makes a tech attack against a character within <strong>Sensors</strong>. On a success, the target takes <strong>burn</strong> equal to their current Heat. If the target is in the <strong>Danger Zone</strong>, all characters of the Witch's choice within a <strong>Burst 2</strong> area around the target must pass a <strong>Systems</strong> save or take half the amount of burn that the target takes. On a miss, the target takes <strong>2 Heat</strong> and becomes <strong>Impaired</strong> until the end of their next turn.",
     "tags": [
       {
         "id": "tg_limited",
