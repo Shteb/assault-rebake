@@ -30,10 +30,10 @@ Bombard: | ✓
 Breacher | ✓
 Cataphract | ✓
 Demolisher | ✓
-Engineer | n/a
+Engineer | WIP
 Goliath | ✓
 Hive | ✓
-Hornet | n/a
+Hornet | ✓
 Mirage | n/a
 Operator | ✓
 Priest | n/a
