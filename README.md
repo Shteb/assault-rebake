@@ -30,7 +30,7 @@ Bombard: | ✓
 Breacher | ✓
 Cataphract | ✓
 Demolisher | ✓
-Engineer | WIP
+Engineer | ✓
 Goliath | ✓
 Hive | ✓
 Hornet | ✓
