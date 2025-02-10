@@ -1217,6 +1217,107 @@
         "power": 100
     },
     {
+        "id": "npc-rebake_npcc_engineer",
+        "name": "ENGINEER [K]",
+        "role": "striker",
+        "info": {
+          "flavor": "Various types of localized Engineer-class mechs are common throughout the galaxy, unique to the worlds or theaters in which they operate. The Engineer has long existed as an archetype, but it remained largely undefined until a full design doctrine was laid out by Corrida Isolde-Nollet, an Armory civil service director on Ras Shamra. In all cases, the mission of Engineers is the same: defend, maintain, secure. Engineers operate best in the middle or rear of the battle line, coordinating the defense of important positions and overseeing comprehensive deployment of all operational assets. Remember: if you can’t get to the enemy, you lose.",
+          "tactics": "Engineers’ <strong>Deployable Turrets</strong> make them potent force multipliers, as they can continue to deploy new ones each turn. If enemies don’t deal with an Engineer's turrets, their potential damage and battefield utility quickly skyrockets. <strong>Target Designator</strong> can be used to focus fire upon selected foes, as otherwise turrets attack the nearest target, which players can use to control who takes damage."
+        },
+        "stats": {
+          "armor": [
+            0,
+            0,
+            0
+          ],
+          "hp": [
+            20,
+            22,
+            24
+          ],
+          "evade": [
+            7,
+            8,
+            9
+          ],
+          "edef": [
+            10,
+            12,
+            14
+          ],
+          "heatcap": [
+            10,
+            10,
+            10
+          ],
+          "speed": [
+            3,
+            3,
+            3
+          ],
+          "sensor": [
+            15,
+            15,
+            15
+          ],
+          "save": [
+            10,
+            12,
+            14
+          ],
+          "hull": [
+            -1,
+            -1,
+            -1
+          ],
+          "agility": [
+            -1,
+            -1,
+            -1
+          ],
+          "systems": [
+            1,
+            2,
+            3
+          ],
+          "engineering": [
+            3,
+            4,
+            5
+          ],
+          "size": [
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [
+              1
+            ]
+          ],
+          "activations": [
+            1,
+            1,
+            1
+          ]
+        },
+        "base_features": [
+          "npc-rebake_npcf_flak_cannon_engineer",
+          "npc-rebake_npcf_deployable_turret_engineer",
+          "npc-rebake_npcf_target_designator_engineer"
+        ],
+        "optional_features": [
+          "npc-rebake_npcf_deployable_fortifications_engineer",
+          "npc-rebake_npcf_perimeter_defense_engineer",
+          "npc-rebake_npcf_auto_tracking_engineer",
+          "npc-rebake_npcf_mobile_turrets_engineer",
+          "npc-rebake_npcf_skyshield_protocol_engineer",
+          "npc-rebake_npcf_repurpose_engineer"
+        ],
+        "power": 100
+      },
+    {
         "id": "npc-rebake_npcc_goliath",
         "name": "GOLIATH [K]",
         "role": "defender",
