@@ -1291,7 +1291,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Bastion and one allied character adjacent to it gain <strong>Resistance</strong> to all damage dealt by one characterwithin line of sight. The Bastion may choose a new allied character or a new character to gain <strong>Resistance</strong> from as a <strong>protocol</strong>. The allied character loses <strong>Resistance</strong> if they break adjacency.",
+    "effect": "The Bastion and one allied character adjacent to it gain <strong>Resistance</strong> to all damage dealt by one character within line of sight. The Bastion may choose a new allied character or a new character to gain <strong>Resistance</strong> from as a <strong>protocol</strong>. The allied character loses <strong>Resistance</strong> if they break adjacency.",
     "tags": [
       {
         "id": "tg_protocol"
@@ -3803,7 +3803,7 @@
       "base": true
     },
     "locked": false,
-    "type": "System",
+    "type": "Tech",
     "effect": "The Scout makes a tech attack against a target in Sensors. On a success, the target and all hostile characters within <strong>Range 3</strong> of the target lose <strong>Hidden</strong> and <strong>Invisible</strong> and can't regain either status or benefit from any cover until the start of the Scout's next turn.",
     "tags": [
       {
@@ -3814,7 +3814,12 @@
         "val": 4
       }
     ],
-    "tech_type": "Quick"
+    "tech_type": "Quick",
+    "attack_bonus": [
+      2,
+      3,
+      4
+    ]
   },
   {
     "id": "npc-rebake_npcf_cloaking_field_scout",
@@ -4730,7 +4735,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Restock Drone (Size 1/2, HP {5/8/10}, Evasion {10/10/10}, E-Defense {10/10/10}, Tags: Drone)<br>This drone can be deployed hovering in a space within <strong>Range 5</strong>. The next time an allied character moves through or next to the drone, it clamps on and discharges its reserves, letting them either regain {5/6/10} <strong>HP</strong> or reload one <strong>Loading</strong> weapon.",
+    "effect": "Restock Drone (Size 1/2, HP {5/8/10}, Evasion {10/10/10}, E-Defense {10/10/10}, Tags: Drone)<br>This drone can be deployed hovering in a space within <strong>Range 5</strong>. The next time an allied character moves through or next to the drone, it clamps on and discharges its reserves, letting them either regain {5/8/10} <strong>HP</strong> or reload one <strong>Loading</strong> weapon.",
     "tags": [
       {
         "id": "tg_drone"
