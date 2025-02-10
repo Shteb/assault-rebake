@@ -2369,7 +2369,7 @@
   },
 
   {
-    "id": "npcf_deployable_turret_engineer",
+    "id": "npc-rebake_npcf_deployable_turret_engineer",
     "name": "DEPLOYABLE TURRET",
     "origin": {
       "type": "Class",
@@ -2401,6 +2401,92 @@
     "tags": [{
         "id": "tg_recharge",
         "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npc-rebake_npcf_deployable_fortifications_engineer",
+    "name": "DEPLOYABLE FORTIFICATIONS",
+    "origin": {
+      "type": "Class",
+      "name": "ENGINEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "<strong>Deployable Turrets</strong> are <strong>Size 1</strong>, and adjacent allied characters can use them for <strong>hard cover</strong>.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_perimeter_defense_engineer",
+    "name": "PERIMITER DEFENSE",
+    "origin": {
+      "type": "Class",
+      "name": "ENGINEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "<strong>Deployable Turrets</strong> gain <strong>Threat 3</strong> and can <strong>Overwatch</strong> (1/round per turret), and the Engineer gains the <strong>Auto-Tracking</strong> reaction.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_auto_tracking_engineer",
+    "name": "AUTO-TRACKING",
+    "origin": {
+      "type": "Reaction",
+      "name": "ENGINEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The <strong>Deployable Turret</strong> makes an attack against the triggering character's target, as long as the target is within line of sight and <strong>Range</strong>.",
+    "tags": [],
+    "trigger": "An allied character within <strong>Range 3</strong> of a <strong>Deployable Turret</strong> makes a successful attack."
+  },
+  {
+    "id": "npc-rebake_npcf_mobile_turrets_engineer",
+    "name": "MOBILE TURRETS",
+    "origin": {
+      "type": "Class",
+      "name": "ENGINEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "At the start of the Engineer’s turn, they may move two <strong>Deployable Turrets</strong> up to <strong>3 spaces</strong> in any direction.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_skyshield_protocol_engineer",
+    "name": "SKYSHIELD PROTOCOL",
+    "origin": {
+      "type": "Class",
+      "name": "ENGINEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Deployable Turrets gain <strong>+1 Accuracy</strong> against <strong>flying</strong> targets.",
+    "tags": []
+  },
+  {
+    "id": "npc-rebake_npcf_repurpose_engineer",
+    "name": "REPURPOSE",
+    "origin": {
+      "type": "Class",
+      "name": "ENGINEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Engineer chooses an allied character adjacent to one of their <strong>Deployable Turrets</strong>; that character either gains {3/4/5} <strong>Overshield</strong> or gains <strong>+1 Accuracy</strong> on all attacks, checks and saves until the end of their next turn. The turret is then destroyed.",
+    "tags": [{
+        "id": "round",
+        "val": 1
       },
       {
         "id": "tg_quick_action"
