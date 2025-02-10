@@ -2354,7 +2354,7 @@
       3
     ],
     "damage": [{
-      "type": "kinetic",
+      "type": "Explosive",
       "damage": [
         3,
         4,
@@ -2485,7 +2485,7 @@
     "type": "Trait",
     "effect": "The Engineer chooses an allied character adjacent to one of their <strong>Deployable Turrets</strong>; that character either gains {3/4/5} <strong>Overshield</strong> or gains <strong>+1 Accuracy</strong> on all attacks, checks and saves until the end of their next turn. The turret is then destroyed.",
     "tags": [{
-        "id": "round",
+        "id": "tg_round",
         "val": 1
       },
       {
