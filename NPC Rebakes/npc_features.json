@@ -2442,7 +2442,7 @@
       "base": false
     },
     "locked": false,
-    "type": "Trait",
+    "type": "Reaction",
     "effect": "The <strong>Deployable Turret</strong> makes an attack against the triggering character's target, as long as the target is within line of sight and <strong>Range</strong>.",
     "tags": [],
     "trigger": "An allied character within <strong>Range 3</strong> of a <strong>Deployable Turret</strong> makes a successful attack."
