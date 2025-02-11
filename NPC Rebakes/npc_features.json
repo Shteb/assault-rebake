@@ -2741,7 +2741,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Hive deploys a <strong>Blast 1</strong> razor swarm in a free area within <strong>Sensors</strong>. Allied characters gain <strong>soft cover</strong> as long as they are at least partially within the affected area. Hostile characters start their turn at least partially within the area or move into it for the first time in a round take <strong>{2/3/4} Burn</strong>. At the start of the Hive's turn, they may move the <strong>Razor Swarm</strong> up to <strong>2 spaces</strong> in any direction, including into spaces occupied by other characters. Only a single <strong>Razor Swarm</strong> may be deployed at a time, and if a new one is deployed (or the Hive is destroyed) the old one is destroyed.",
+    "effect": "The Hive deploys a <strong>Blast 1</strong> razor swarm in a free area within <strong>Sensors</strong>. Allied characters gain <strong>soft cover</strong> as long as they are at least partially within the affected area. Hostile characters that start their turn at least partially within the area or move into it for the first time in a round take <strong>{2/3/4} Burn</strong>. At the start of the Hive's turn, they may move the <strong>Razor Swarm</strong> up to <strong>2 spaces</strong> in any direction, including into spaces occupied by other characters. Only a single <strong>Razor Swarm</strong> may be deployed at a time, and if a new one is deployed (or the Hive is destroyed) the old one is destroyed.",
     "tags": [
       {
         "id": "tg_drone"
