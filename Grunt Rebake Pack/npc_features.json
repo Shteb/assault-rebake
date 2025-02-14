@@ -55,7 +55,7 @@
     },
     {
         "id": "grunt-rebake_gruntf_shoulder_mortar_artillery",
-        "name": "Shouler Mortar",
+        "name": "Shoulder Mortar",
         "origin": {
             "type": "Class",
             "name": "Artillery Grunt",

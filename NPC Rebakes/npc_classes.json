@@ -1,7 +1,7 @@
 [
     {
         "id": "npc-rebake_npcc_assault",
-        "name": "ASSAULT [K]",
+        "name": "Assault [K]",
         "info": {
             "flavor": "Assault mechs are the most common primary battle frames found throughout the galaxy. Fitted with a heavy rifle, a sidearm, and a suite of systems that enhance movement, targeting, and defensibility, they are straightforward, reliable, and hardy combatants. The pilots of Assault mechs are also the cheapest to train and outfit, but that doesn’t make them any less dangerous.",
             "tactics": "The Assault is a straightforward, damage-dealing striker that emphasizes the importance of taking cover. Equipped to do good damage at decent range, they want to flank their opponents or drive them out of cover in order to maximize their effectiveness. <strong>Hunker Down</strong> can increase their survivability, but leaves them less able to maneuver in return."
@@ -103,7 +103,7 @@
     },
     {
         "id": "npc-rebake_npcc_aegis",
-        "name": "AEGIS [K]",
+        "name": "Aegis [K]",
         "info": {
             "flavor": "",
             "tactics": "Aegises are tough and defensive support units. They are most effective when positioned so that their Defense Net can cover as many allies as possible, as the Aegis itself is slow-moving and can't reposition quickly. They can also protect their allies from the effects of Impaired and Slowed while being immune to those conditions themselves."
@@ -205,7 +205,7 @@
     },
     {
         "id": "npc-rebake_npcc_ace",
-        "name": "ACE [K]",
+        "name": "Ace [K]",
         "role": "striker",
         "info": {
             "flavor": "The first person to embody the “Ace” archetype was Aisling Jensen, an auxiliary pilot active during the liberation of Verdana. Knights of the chassis and sky, Aces like Aisling throw their mechs into battle with high-speed strafing runs, agile maneuvers, and reckless feats of daring. Cocky and self-assured, Aces relish a good duel.",
@@ -305,7 +305,7 @@
     },
     {
         "id": "npc-rebake_npcc_archer",
-        "name": "ARCHER [K]",
+        "name": "Archer [K]",
         "role": "controller",
         "info": {
             "flavor": "The basis of the Archer archetype, Ursa Major’s Gatekeeper Key-II, was popularized by Ichabod Carden’s heroic actions in the Battle of Terramoto. Archer-archetype mechs sacrifice armor for powerful targeting and superpositional maneuvering systems, making them especially popular with pilots who prefer to have control over the precise destination of each shot.",
@@ -406,7 +406,7 @@
     },
     {
         "id": "npc-rebake_npcc_assassin",
-        "name": "ASSASSIN [K]",
+        "name": "Assassin [K]",
         "role": "striker",
         "info": {
             "flavor": "Assassins tend towards agility, damage, and speed. These pilots sacrifice comfort for efficiency, stripping out everything from life-support to comms systems and replacing them with increased processing power and stealth capabilities. Assassins work alone or in small groups, piloting their small, sleek mechs through near-impenetrable terrain to catch their targets off-guard.",
@@ -510,7 +510,7 @@
     },
     {
         "id": "npc-rebake_npcc_barricade",
-        "name": "BARRICADE [K]",
+        "name": "Barricade [K]",
         "role": "controller",
         "info": {
             "flavor": "Veld Systems’ Keeper Pattern 5 is a common guard mech made famous after the platform’s performance during the Battle of Sing Rama Sing. During the battle, Audrey Reimaus of the Seraphs’ Company used a Keeper P5 to singlehandedly secure Rama City’s main uplift tower, thus guaranteeing an evacuation corridor for the city’s civilian population.",
@@ -612,7 +612,7 @@
     },
     {
         "id": "npc-rebake_npcc_bastion",
-        "name": "BASTION [K]",
+        "name": "Bastion [K]",
         "role": "defender",
         "info": {
             "flavor": "Bastions trade the pure defensive edge of Aegis-archetype mechs for greater mobility. They blend area-denial offensive capabilities with hardened defense systems and advanced communication suites. These mechs are favorites of many strong squadron commanders. The efficacy of the pairing was best displayed by the actions of Zander Reeves, a field-promoted auxiliary officer, during engagements with the “Space Between” interstellar pirate guild in the Dromeda system.",
@@ -713,7 +713,7 @@
     },
     {
         "id": "npc-rebake_npcc_berserker",
-        "name": "BERSERKER [K]",
+        "name": "Berserker [K]",
         "role": "striker",
         "info": {
             "flavor": "Berserker mechs are built to take advantage of advanced heat-cycling systems that allow them to shunt heat - as it is generated - into pure offensive force, increasing their weapon output by orders of magnitude. The archetype, best-known for its use by Gen’Dal Merlos’s Knights of Imminent Destruction, is preferred by pure combat-focus organizations, PMCs, and deniable-asset corps in established states.",
@@ -814,7 +814,7 @@
     },
     {
         "id": "npc-rebake_npcc_bombard",
-        "name": "BOMBARD [K]",
+        "name": "Bombard [K]",
         "role": "artillery",
         "info": {
             "flavor": "Alta All-Theater Ballistics’ archetypal Bombard chassis and their licensed facsimiles are a common sight in flashpoints across the galaxy. Built for staying power across long-uptime deployments, Bombard-type mechs are an accessible solution for armed forces looking to quickly deploy artillery to a theater. Chassis configured to the parameters of this class are usually positioned in fortified positions miles behind the line; one especially asymmetrical deployment strategy involves placing Bombard batteries above the theater of operations – typically on a local moon, locked-orbit natural satellite, or on a purpose-built orbital platform. From their vantage point, the battery can then rain shells down upon the world below, far removed from the dangers of combat.",
@@ -915,7 +915,7 @@
     },
     {
         "id": "npc-rebake_npcc_breacher",
-        "name": "BREACHER [K]",
+        "name": "Breacher [K]",
         "role": "striker",
         "info": {
             "flavor": "Notoriously effective in boarding operations, the Campbell Orbital Dynamics C-O MkIII is often seen in the arsenals of suborbital planetary defense forces and their pirate counterparts. Officially, the CO designation is an abbreviation of “CombatOrbital”, but unofficially, the CO3 goes by a different name: the “Can Opener”, inspired by the callsign of Valeria Rojas-Sarnik, one of the most storied CO3 pilots.",
@@ -1016,7 +1016,7 @@
     },
     {
         "id": "npc-rebake_npcc_cataphract",
-        "name": "CATAPHRACT [K]",
+        "name": "Cataphract [K]",
         "role": "striker",
         "info": {
             "flavor": "Cataphract squadrons are made up of rapid-strike mechs that emphasize mobility, shock, and tenacity; it follows, then, that Cataphract archetypes are feared across the galaxy for their ability to overwhelm defenses in moments. There are few things more terrifying (or inspiring) than a squadron of Cataphracts punching through a static battle line, heavy cannons and point-defense weapons wiping out previously immovable defenders. The flagship Cataphract-class chassis is the Sine Die Systems END-44, an angular beast of a mech outfitted with SDS’s fearsome Ram Cannon. The enduring popularity of the chassis can be attributed to the success of Catherine “C-80” Need, who made their name piloting an END-44 to victory in the defense of Carina-Proximal.",
@@ -1117,7 +1117,7 @@
     },
     {
         "id": "npc-rebake_npcc_demolisher",
-        "name": "DEMOLISHER [K]",
+        "name": "Demolisher [K]",
         "role": "defender",
         "info": {
             "flavor": "The lengthy siege of Jadigmora City saw the development of the first true Demolisher frames. Based on antique Berserker mechs, Demolishers swapped dramatic heat flows for more sustainable systems, improved hydraulic strength, and stabilizers for supermassive melee weapons. Demolisher pilots soon discovered a range of new applications for their concussion-wave ordnance. A lancer named Hayes Rothford and their NHP, Clarke, were the first pilot/co-pilot team to truly show the power of the platform, singlehandedly bringing down a siege frigate in low orbit.",
@@ -1218,108 +1218,108 @@
     },
     {
         "id": "npc-rebake_npcc_engineer",
-        "name": "ENGINEER [K]",
+        "name": "Engineer [K]",
         "role": "striker",
         "info": {
-          "flavor": "Various types of localized Engineer-class mechs are common throughout the galaxy, unique to the worlds or theaters in which they operate. The Engineer has long existed as an archetype, but it remained largely undefined until a full design doctrine was laid out by Corrida Isolde-Nollet, an Armory civil service director on Ras Shamra. In all cases, the mission of Engineers is the same: defend, maintain, secure. Engineers operate best in the middle or rear of the battle line, coordinating the defense of important positions and overseeing comprehensive deployment of all operational assets. Remember: if you can’t get to the enemy, you lose.",
-          "tactics": "Engineers’ <strong>Deployable Turrets</strong> make them potent force multipliers, as they can continue to deploy new ones each turn. If enemies don’t deal with an Engineer's turrets, their potential damage and battefield utility quickly skyrockets. <strong>Target Designator</strong> can be used to focus fire upon selected foes, as otherwise turrets attack the nearest target, which players can use to control who takes damage."
+            "flavor": "Various types of localized Engineer-class mechs are common throughout the galaxy, unique to the worlds or theaters in which they operate. The Engineer has long existed as an archetype, but it remained largely undefined until a full design doctrine was laid out by Corrida Isolde-Nollet, an Armory civil service director on Ras Shamra. In all cases, the mission of Engineers is the same: defend, maintain, secure. Engineers operate best in the middle or rear of the battle line, coordinating the defense of important positions and overseeing comprehensive deployment of all operational assets. Remember: if you can’t get to the enemy, you lose.",
+            "tactics": "Engineers’ <strong>Deployable Turrets</strong> make them potent force multipliers, as they can continue to deploy new ones each turn. If enemies don’t deal with an Engineer's turrets, their potential damage and battefield utility quickly skyrockets. <strong>Target Designator</strong> can be used to focus fire upon selected foes, as otherwise turrets attack the nearest target, which players can use to control who takes damage."
         },
         "stats": {
-          "armor": [
-            0,
-            0,
-            0
-          ],
-          "hp": [
-            20,
-            22,
-            24
-          ],
-          "evade": [
-            7,
-            8,
-            9
-          ],
-          "edef": [
-            10,
-            12,
-            14
-          ],
-          "heatcap": [
-            10,
-            10,
-            10
-          ],
-          "speed": [
-            3,
-            3,
-            3
-          ],
-          "sensor": [
-            15,
-            15,
-            15
-          ],
-          "save": [
-            10,
-            12,
-            14
-          ],
-          "hull": [
-            -1,
-            -1,
-            -1
-          ],
-          "agility": [
-            -1,
-            -1,
-            -1
-          ],
-          "systems": [
-            1,
-            2,
-            3
-          ],
-          "engineering": [
-            3,
-            4,
-            5
-          ],
-          "size": [
-            [
-              1
+            "armor": [
+                0,
+                0,
+                0
             ],
-            [
-              1
+            "hp": [
+                20,
+                22,
+                24
             ],
-            [
-              1
+            "evade": [
+                7,
+                8,
+                9
+            ],
+            "edef": [
+                10,
+                12,
+                14
+            ],
+            "heatcap": [
+                10,
+                10,
+                10
+            ],
+            "speed": [
+                3,
+                3,
+                3
+            ],
+            "sensor": [
+                15,
+                15,
+                15
+            ],
+            "save": [
+                10,
+                12,
+                14
+            ],
+            "hull": [
+                -1,
+                -1,
+                -1
+            ],
+            "agility": [
+                -1,
+                -1,
+                -1
+            ],
+            "systems": [
+                1,
+                2,
+                3
+            ],
+            "engineering": [
+                3,
+                4,
+                5
+            ],
+            "size": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "activations": [
+                1,
+                1,
+                1
             ]
-          ],
-          "activations": [
-            1,
-            1,
-            1
-          ]
         },
         "base_features": [
-          "npc-rebake_npcf_flak_cannon_engineer",
-          "npc-rebake_npcf_deployable_turret_engineer",
-          "npc-rebake_npcf_target_designator_engineer"
+            "npc-rebake_npcf_flak_cannon_engineer",
+            "npc-rebake_npcf_deployable_turret_engineer",
+            "npc-rebake_npcf_target_designator_engineer"
         ],
         "optional_features": [
-          "npc-rebake_npcf_deployable_fortifications_engineer",
-          "npc-rebake_npcf_perimeter_defense_engineer",
-          "npc-rebake_npcf_auto_tracking_engineer",
-          "npc-rebake_npcf_mobile_turrets_engineer",
-          "npc-rebake_npcf_skyshield_protocol_engineer",
-          "npc-rebake_npcf_repurpose_engineer"
+            "npc-rebake_npcf_deployable_fortifications_engineer",
+            "npc-rebake_npcf_perimeter_defense_engineer",
+            "npc-rebake_npcf_auto_tracking_engineer",
+            "npc-rebake_npcf_mobile_turrets_engineer",
+            "npc-rebake_npcf_skyshield_protocol_engineer",
+            "npc-rebake_npcf_repurpose_engineer"
         ],
         "power": 100
-      },
+    },
     {
         "id": "npc-rebake_npcc_goliath",
-        "name": "GOLIATH [K]",
+        "name": "Goliath [K]",
         "role": "defender",
         "info": {
             "flavor": "Along the Sierra Madre Line – the eighth ring of territory out from Cradle – the Dangun frame is a familiar sight. Manufactured by Park Armored Systems and popularized by the Dagger Squadron mercenary company, the Dangun is popular for its toughness, kinetic damage-trade ability, and reliable all-theater performance. The Dangun is a mech to build strike forces around – a Goliath-class frame capable of mounting powerful magtech, with a design that’s tough to counter in kinetic damage combat.<br>With a number of small fleet contracts in its portfolio, Park Armored Systems is a manufacturer worth keeping an eye on; indeed, Harrison Armory has taken particular notice, and omninet rumors suggest a possible partnership in the near future.",
@@ -1421,7 +1421,7 @@
     },
     {
         "id": "npc-rebake_npcc_hive",
-        "name": "HIVE [K]",
+        "name": "Hive [K]",
         "role": "controller",
         "info": {
             "flavor": "In theory, drones and drone swarms developed after the Deimos Event are not too different from their older cousins: they establish a local omninetwork; fabricate and deploy a century or half-century of drones; and then coordinate them to achieve their objectives. Still, the complex handler–trainer relationships that allow pilots to segue between direct control and autonomous operation cause psychological trauma after a month of continuous drone operation. It is recommended that they cycle their paired hive nexus every two weeks.",
@@ -1521,7 +1521,7 @@
     },
     {
         "id": "npc-rebake_npcc_hornet",
-        "name": "HORNET [K]",
+        "name": "Hornet [K]",
         "role": "controller",
         "info": {
             "flavor": "SatriaBarong’s Espada range of half-frame mechs has long been a popular choice in the chassis racing circuit; notably, Espadas are the mechs of choice for the vaunted SatriaBarong–ShimanoLUX chassis racing team. Recently, SatriaBarong – with the blessing of SSC – has moved to create a mil-spec, de-licensed variant of the Espada without the ShimanoLUX branding, giving rise to the Hornet archetype, a platform open for other companies to adapt and improve. The most notable of these competitors is Chandrasekhar & Herschel, the primary sponsor of the new Blueshift Grand Prix racing circuit.",
@@ -1622,7 +1622,7 @@
     },
     {
         "id": "npc-rebake_npcc_operator",
-        "name": "OPERATOR [K]",
+        "name": "Operator [K]",
         "role": "artillery",
         "info": {
             "flavor": "Operators are known-unknowns, rarely encountered on the front lines, but this should not be mistaken for fragility. Operators are dangerous and deadly in every way. Like their mechs, Operators’ bodies are loaded with the most advanced tech available. When they die in combat, it’s not unknown for their bodies – and their mechs — to self-immolate, rendering any technology and data into ash.",
@@ -1723,7 +1723,7 @@
     },
     {
         "id": "npc-rebake_npcc_pyro",
-        "name": "PYRO [K]",
+        "name": "Pyro [K]",
         "role": "defender",
         "info": {
             "flavor": "First popularized in the wake of the Hercynian Crisis by the lancer Flama and their aptly named Devil Corps, Pyro frames are reviled across the galaxy as the embodiment of the pure destructive power held by militarized states and corpro-states. Their use is common within organizations for which the ends justify the means. Pyros are well-armored, and better insulated than most chassis of similar gross weight, designed to manage incredible internal heat while projecting volatile mixes of chemicals and flame toward their enemies. Pyros are often used in urban and jungle warfare, where they can be used to root out entrenched defenders.",
@@ -1824,7 +1824,7 @@
     },
     {
         "id": "npc-rebake_npcc_ronin",
-        "name": "RONIN [K]",
+        "name": "Ronin [K]",
         "role": "striker",
         "info": {
             "flavor": "Ronin frames differ from those favored by Berserkers and Demolishers in that they aren’t retrofitted or improvised for creative tactical applications – they are purpose-built to excel in melee combat by boutique fabricators. Although they are seen as somewhat antique by many commentators, the rise of stasis- and mag-based defensive technologies has made Ronins more viable in modern combat.<br>Ronin are common among both martial cultures and performance-combat firms, where their superb melee abilities elevate them above the competition. They see less use in cultures that have a preference for ranged combat, but there is a certain prestige accorded to pilots who adopt ancient weapons and survive to do it again. The mythic lancer Susanoo elevated this archetype to legendary status when she endorsed the GRAMtech Strike-1 chassis, which she piloted alongside numerous Albatross wings during the Neo-Celestine Disappointment.",
@@ -1924,7 +1924,7 @@
     },
     {
         "id": "npc-rebake_npcc_scourer",
-        "name": "SCOURER [K]",
+        "name": "Scourer [K]",
         "role": "striker",
         "info": {
             "flavor": "Scourer-class mechs are distinctive for carrying deadly Energy damage weapons powered by massive-output recursive power plants. These mechs are found across the galaxy in specialist roles, supporting conventional ground troops with powerful beam attacks that stop electronic threats as easily as they stop enemy soldiers.",
@@ -2025,7 +2025,7 @@
     },
     {
         "id": "npc-rebake_npcc_scout",
-        "name": "SCOUT [K]",
+        "name": "Scout [K]",
         "role": "support",
         "info": {
             "flavor": "The most devastating mechanized-warfare strategies call for the active, close, and aggressive application of orbital, atmospheric, and terrestrial fire-support. Enter Scout-class mechs and their pilots. Using advanced targeting systems, Scouts are equal parts tactical coordinator and artillery commander, working with allies to map the battlescape and accurately place direct-targeted and autonomous fire.",
@@ -2129,7 +2129,7 @@
     },
     {
         "id": "npc-rebake_npcc_seeder",
-        "name": "SEEDER [K]",
+        "name": "Seeder [K]",
         "role": "controller",
         "info": {
             "flavor": "Seeder-archetype mechs are sappers, adept at deploying defensive nets of mines and traps. Laden with ordnance and bristling with sensor suites, Seeders operate in small teams: together, they blanket battlefields in traps and pitfalls, planting mines and other area-denial systems to guide the enemy into kill-boxes.",
@@ -2229,7 +2229,7 @@
     },
     {
         "id": "npc-rebake_npcc_sentinel",
-        "name": "SENTINEL [K]",
+        "name": "Sentinel [K]",
         "role": "defender",
         "info": {
             "flavor": "Sentinel archetypes are typically employed as guards and escorts, often in the retinues of commanders or posted in defense of artillery. These mechs and their pilots employ advanced suites of technology to ensure their wards stay alive and operational, even if that costs their own chassis – or lives. Unlike the heavier Bastion archetypes, Sentinels are quick and light: they practice active defense, preemptively striking with suites of advanced technical, systemic, and direct weaponry to protect their charges.",
@@ -2331,7 +2331,7 @@
     },
     {
         "id": "npc-rebake_npcc_sniper",
-        "name": "SNIPER [K]",
+        "name": "Sniper [K]",
         "role": "artillery",
         "info": {
             "flavor": "The reason some pilots haven’t seen a Sniper on the battlefield is that those pilots are dead. These mechs are built for stability, targeting, and extremely long-range  kinetic damage weapons at the cost of mobility, and they tend to operate in small, self-sufficient teams far removed from direct combat. Sniper pilots are a proud breed, emphasizing economy and elegance over destructive power.",
@@ -2432,7 +2432,7 @@
     },
     {
         "id": "npc-rebake_npcc_specter",
-        "name": "SPECTER [K]",
+        "name": "Specter [K]",
         "role": "striker",
         "info": {
             "flavor": "The principle behind the development of Specter-archetype mechs is a simple one: not being hit is better than the strongest armor. Specters employ cutting-edge optical-electronic camouflage to vanish from the battlefield and enemy scans. They flicker in and out of vision, confusing the eye and the radar. That’s what makes them so deadly, though their weapons certainly help.",
@@ -2533,7 +2533,7 @@
     },
     {
         "id": "npc-rebake_npcc_support",
-        "name": "SUPPORT [K]",
+        "name": "Support [K]",
         "role": "support",
         "info": {
             "flavor": "Support-archetype mechs keep their allies alive and operational with a broad library of immediate triage systems, from basic flash-weld plating through to shallow–medium structural reinforcement packs and whitewash nanite slurry. From the famed Laughter of a Solemn God, working the front lines of Boundary Garden’s battlefields, to the precision actions undertaken by the rogue-world hunters of ExtraSolar Acquisitions, Inc., the efficacy of Support-archetype mechs is unparalleled when mech teams need to stay alive longer than deployment.",
@@ -2633,7 +2633,7 @@
     },
     {
         "id": "npc-rebake_npcc_witch",
-        "name": "WITCH [K]",
+        "name": "Witch [K]",
         "role": "controller",
         "info": {
             "flavor": "Witch-archetype chassis can always be found in the eye of a systemic storm, where they are adept at generating realspace and legionspace terrors to blanket battlefields. At any given time, they are likely to be operating in both the physical battlefield and the tempest of the omninet. To handle the chaotic swirl of inputs and outputs that results from this split perception, Witches often pair with personality-clone NHPs, splitting tasks along parallel tracks to increase combat efficacy.",
