@@ -1,7 +1,7 @@
 [
     {
         "id": "grunt-rebake_gruntc_artillery",
-        "name": "ARTILLERY GRUNT",
+        "name": "Artillery Grunt",
         "role": "artillery",
         "info": {
             "flavor": "",
@@ -98,7 +98,7 @@
     },
     {
         "id": "grunt-rebake_gruntc_controller",
-        "name": "CONTROLLER GRUNT",
+        "name": "Controller Grunt",
         "role": "controller",
         "info": {
             "flavor": "",
@@ -183,16 +183,16 @@
             ]
         },
         "base_features": [
-            "npcf_flamethrower_pyro",
+            "npcf_flamethrower_pyro"
         ],
         "optional_features": [
-            "npcf_unshielded_reactor_pyro",
+            "npcf_unshielded_reactor_pyro"
         ],
         "power": 100
     },
     {
         "id": "grunt-rebake_gruntc_defender",
-        "name": "DEFENDER GRUNT",
+        "name": "Defender Grunt",
         "role": "defender",
         "info": {
             "flavor": "",
@@ -277,16 +277,16 @@
             ]
         },
         "base_features": [
-            "npcf_flamethrower_pyro",
+            "npcf_flamethrower_pyro"
         ],
         "optional_features": [
-            "npcf_unshielded_reactor_pyro",
+            "npcf_unshielded_reactor_pyro"
         ],
         "power": 100
     },
     {
         "id": "grunt-rebake_gruntc_striker",
-        "name": "STRIKER GRUNT",
+        "name": "Striker Grunt",
         "role": "striker",
         "info": {
             "flavor": "",
@@ -371,16 +371,16 @@
             ]
         },
         "base_features": [
-            "npcf_flamethrower_pyro",
+            "npcf_flamethrower_pyro"
         ],
         "optional_features": [
-            "npcf_unshielded_reactor_pyro",
+            "npcf_unshielded_reactor_pyro"
         ],
         "power": 100
     },
     {
         "id": "grunt-rebake_gruntc_support",
-        "name": "SUPPORT GRUNT",
+        "name": "Support Grunt",
         "role": "support",
         "info": {
             "flavor": "",
@@ -465,11 +465,11 @@
             ]
         },
         "base_features": [
-            "npcf_flamethrower_pyro",
+            "npcf_flamethrower_pyro"
         ],
         "optional_features": [
-            "npcf_unshielded_reactor_pyro",
+            "npcf_unshielded_reactor_pyro"
         ],
         "power": 100
-    },
+    }
 ]

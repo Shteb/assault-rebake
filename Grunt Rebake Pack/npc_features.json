@@ -1,10 +1,10 @@
 [
     {
         "id": "grunt-rebake_gruntf_artillery_type_artillery",
-        "name": "ARTILLERY TYPE",
+        "name": "Artillery Type",
         "origin": {
             "type": "Class",
-            "name": "ARTILLERY GRUNT",
+            "name": "Artillery Grunt",
             "base": true
         },
         "locked": false,
@@ -17,7 +17,7 @@
         "name": "DMR",
         "origin": {
             "type": "Class",
-            "name": "ARTILLERY GRUNT",
+            "name": "Artillery Grunt",
             "base": false
         },
         "locked": false,
@@ -55,10 +55,10 @@
     },
     {
         "id": "grunt-rebake_gruntf_shoulder_mortar_artillery",
-        "name": "SHOULER MORTAR",
+        "name": "Shoulder Mortar",
         "origin": {
             "type": "Class",
-            "name": "ARTILLERY GRUNT",
+            "name": "Artillery Grunt",
             "base": false
         },
         "locked": false,
@@ -105,10 +105,10 @@
     },
     {
         "id": "grunt-rebake_gruntf_survival_pistol_artillery",
-        "name": "SURVIVAL PISTOL",
+        "name": "Survival Pistol",
         "origin": {
             "type": "Class",
-            "name": "ARTILLERY GRUNT",
+            "name": "Artillery Grunt",
             "base": true
         },
         "locked": false,
@@ -152,15 +152,15 @@
     },
     {
         "id": "grunt-rebake_gruntf_reflex_targeting_artillery",
-        "name": "REFLEX TARGETING",
+        "name": "Reflex Targeting",
         "origin": {
             "type": "Class",
-            "name": "ARTILLERY GRUNT",
+            "name": "Artillery Grunt",
             "base": true
         },
         "locked": false,
         "type": "Trait",
         "effect": "The Artillery-Type has +5 Sensors, and may take the Lock On and Search actions before attacking with Ordnance weapons.",
         "tags": []
-    },
+    }
 ]

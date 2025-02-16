@@ -1,10 +1,10 @@
 [
   {
     "id": "npc-rebake_npcf_ssc_flight_system_ace",
-    "name": "SSC FLIGHT SYSTEM",
+    "name": "SSC Flight System",
     "origin": {
       "type": "Class",
-      "name": "ACE",
+      "name": "Ace [K]",
       "base": true
     },
     "locked": false,
@@ -14,10 +14,10 @@
   },
   {
     "id": "npc-rebake_npcf_missile_launcher_ace",
-    "name": "MISSILE LAUNCHER",
+    "name": "Missile Launcher",
     "origin": {
       "type": "Class",
-      "name": "ACE",
+      "name": "Ace [K]",
       "base": true
     },
     "locked": false,
@@ -58,10 +58,10 @@
   },
   {
     "id": "npc-rebake_npcf_barrel_roll_ace",
-    "name": "BARREL ROLL",
+    "name": "Barrel Roll",
     "origin": {
       "type": "Class",
-      "name": "ACE",
+      "name": "Ace [K]",
       "base": true
     },
     "locked": false,
@@ -80,10 +80,10 @@
   },
   {
     "id": "npc-rebake_npcf_strafe_ace",
-    "name": "STRAFE",
+    "name": "Strafe",
     "origin": {
       "type": "Class",
-      "name": "ACE",
+      "name": "Ace [K]",
       "base": false
     },
     "locked": false,
@@ -97,10 +97,10 @@
   },
   {
     "id": "npc-rebake_npcf_missile_swarm_ace",
-    "name": "MISSILE SWARM",
+    "name": "Missile Swarm",
     "origin": {
       "type": "Class",
-      "name": "ACE",
+      "name": "Ace [K]",
       "base": false
     },
     "locked": false,
@@ -137,10 +137,10 @@
   },
   {
     "id": "npc-rebake_npcf_full_throttle_ace",
-    "name": "FULL THROTTLE",
+    "name": "Full Throttle",
     "origin": {
       "type": "Class",
-      "name": "ACE",
+      "name": "Ace [K]",
       "base": false
     },
     "locked": false,
@@ -159,10 +159,10 @@
   },
   {
     "id": "npc-rebake_npcf_countermeasures_ace",
-    "name": "COUNTERMEASURES",
+    "name": "Countermeasures",
     "origin": {
       "type": "Class",
-      "name": "ACE",
+      "name": "Ace [K]",
       "base": false
     },
     "locked": false,
@@ -177,10 +177,10 @@
   },
   {
     "id": "npc-rebake_npcf_emergency_jettison_ace",
-    "name": "EMERGENCY JETTISON",
+    "name": "Emergency Jettison",
     "origin": {
       "type": "Class",
-      "name": "ACE",
+      "name": "Ace [K]",
       "base": false
     },
     "locked": false,
@@ -190,10 +190,10 @@
   },
   {
     "id": "npc-rebake_npcf_light_laser_aegis",
-    "name": "LIGHT LASER",
+    "name": "Light Laser",
     "origin": {
       "type": "Class",
-      "name": "AEGIS",
+      "name": "Aegis [K]",
       "base": true
     },
     "locked": false,
@@ -234,10 +234,10 @@
   },
   {
     "id": "npc-rebake_npcf_defense_net_aegis",
-    "name": "DEFENSE NET",
+    "name": "Defense Net",
     "origin": {
       "type": "Class",
-      "name": "AEGIS",
+      "name": "Aegis [K]",
       "base": true
     },
     "locked": false,
@@ -254,10 +254,10 @@
   },
   {
     "id": "npc-rebake_npcf_regenerative_shielding_aegis",
-    "name": "REGENERATIVE SHIELDING",
+    "name": "Regenerative Shielding",
     "origin": {
       "type": "Class",
-      "name": "AEGIS",
+      "name": "Aegis [K]",
       "base": true
     },
     "locked": false,
@@ -272,10 +272,10 @@
   },
   {
     "id": "npc-rebake_npcf_focused_shielding_aegis",
-    "name": "FOCUSED SHIELDING",
+    "name": "Focused Shielding",
     "origin": {
       "type": "Class",
-      "name": "AEGIS",
+      "name": "Aegis [K]",
       "base": false
     },
     "locked": false,
@@ -294,10 +294,10 @@
   },
   {
     "id": "npc-rebake_npcf_guardian_aegis",
-    "name": "GUARDIAN",
+    "name": "Guardian",
     "origin": {
       "type": "Class",
-      "name": "AEGIS",
+      "name": "Aegis [K]",
       "base": false
     },
     "locked": false,
@@ -307,10 +307,10 @@
   },
   {
     "id": "npc-rebake_npcf_ring_of_fire_aegis",
-    "name": "RING OF FIRE",
+    "name": "Ring of Fire",
     "origin": {
       "type": "Class",
-      "name": "AEGIS",
+      "name": "Aegis [K]",
       "base": false
     },
     "locked": false,
@@ -320,10 +320,10 @@
   },
   {
     "id": "npc-rebake_npcf_remote_projector_aegis",
-    "name": "REMOTE PROJECTOR",
+    "name": "Remote Projector",
     "origin": {
       "type": "Class",
-      "name": "AEGIS",
+      "name": "Aegis [K]",
       "base": false
     },
     "locked": false,
@@ -338,10 +338,10 @@
   },
   {
     "id": "npc-rebake_npcf_ha_blackwall_system_aegis",
-    "name": "HA BLACKWALL SYSTEM",
+    "name": "HA Blackwall System",
     "origin": {
       "type": "Class",
-      "name": "AEGIS",
+      "name": "Aegis [K]",
       "base": false
     },
     "locked": false,
@@ -359,10 +359,10 @@
   },
   {
     "id": "npc-rebake_npcf_light_machine_gun_archer",
-    "name": "LIGHT MACHINE GUN",
+    "name": "Light Machine Gun",
     "origin": {
       "type": "Class",
-      "name": "ARCHER",
+      "name": "Archer [K]",
       "base": true
     },
     "locked": false,
@@ -400,10 +400,10 @@
   },
   {
     "id": "npc-rebake_npcf_suppress_archer",
-    "name": "SUPPRESS",
+    "name": "Suppress",
     "origin": {
       "type": "Class",
-      "name": "ARCHER",
+      "name": "Archer [K]",
       "base": true
     },
     "locked": false,
@@ -421,10 +421,10 @@
   },
   {
     "id": "npc-rebake_npcf_moving_target_archer",
-    "name": "MOVING TARGET",
+    "name": "Moving Target",
     "origin": {
       "type": "Class",
-      "name": "ARCHER",
+      "name": "Archer [K]",
       "base": true
     },
     "locked": false,
@@ -439,10 +439,10 @@
   },
   {
     "id": "npc-rebake_npcf_superior_sentinel_archer",
-    "name": "SUPERIOR SENTINEL",
+    "name": "Superior Sentinel",
     "origin": {
       "type": "Class",
-      "name": "ARCHER",
+      "name": "Archer [K]",
       "base": true
     },
     "locked": false,
@@ -452,10 +452,10 @@
   },
   {
     "id": "npc-rebake_npcf_covering_fire_archer",
-    "name": "COVERING FIRE",
+    "name": "Covering Fire",
     "origin": {
       "type": "Class",
-      "name": "ARCHER",
+      "name": "Archer [K]",
       "base": false
     },
     "locked": false,
@@ -476,10 +476,10 @@
   },
   {
     "id": "npc-rebake_npcf_got_your_back_archer",
-    "name": "GOT YOUR BACK",
+    "name": "Got Your Back",
     "origin": {
       "type": "Class",
-      "name": "ARCHER",
+      "name": "Archer [K]",
       "base": false
     },
     "locked": false,
@@ -494,10 +494,10 @@
   },
   {
     "id": "npc-rebake_npcf_impending_threat_archer",
-    "name": "IMPENDING THREAT",
+    "name": "Impending Threat",
     "origin": {
       "type": "Class",
-      "name": "ARCHER",
+      "name": "Archer [K]",
       "base": false
     },
     "locked": false,
@@ -507,10 +507,10 @@
   },
   {
     "id": "npc-rebake_npcf_flush_out_archer",
-    "name": "FLUSH OUT",
+    "name": "Flush Out",
     "origin": {
       "type": "Class",
-      "name": "ARCHER",
+      "name": "Archer [K]",
       "base": false
     },
     "locked": false,
@@ -528,10 +528,10 @@
   },
   {
     "id": "npc-rebake_npcf_blinding_shells_archer",
-    "name": "BLINDING SHELLS",
+    "name": "Blinding Shells",
     "origin": {
       "type": "Class",
-      "name": "ARCHER",
+      "name": "Archer [K]",
       "base": false
     },
     "locked": false,
@@ -546,10 +546,10 @@
   },
   {
     "id": "npc-rebake_npcf_fire_and_maneuver_archer",
-    "name": "FIRE AND MANEUVER",
+    "name": "Fire and Maneuver",
     "origin": {
       "type": "Class",
-      "name": "ARCHER",
+      "name": "Archer [K]",
       "base": false
     },
     "locked": false,
@@ -568,10 +568,10 @@
   },
   {
     "id": "npc-rebake_npcf_kai_bioplating_assassin",
-    "name": "KAI BIOPLATING",
+    "name": "Kai Bioplating",
     "origin": {
       "type": "Class",
-      "name": "ASSASSIN",
+      "name": "Assassin [K]",
       "base": true
     },
     "locked": false,
@@ -581,10 +581,10 @@
   },
   {
     "id": "npc-rebake_npcf_heated_blade_assassin",
-    "name": "HEATED BLADE",
+    "name": "Heated Blade",
     "origin": {
       "type": "Class",
-      "name": "ASSASSIN",
+      "name": "Assassin [K]",
       "base": true
     },
     "locked": false,
@@ -622,10 +622,10 @@
   },
   {
     "id": "npc-rebake_npcf_assassins_mark_assassin",
-    "name": "ASSASSIN’S MARK",
+    "name": "Assassin’s Mark",
     "origin": {
       "type": "Class",
-      "name": "ASSASSIN",
+      "name": "Assassin [K]",
       "base": true
     },
     "locked": false,
@@ -639,10 +639,10 @@
   },
   {
     "id": "npc-rebake_npcf_leap_assassin",
-    "name": "LEAP",
+    "name": "Leap",
     "origin": {
       "type": "Class",
-      "name": "ASSASSIN",
+      "name": "Assassin [K]",
       "base": true
     },
     "locked": false,
@@ -660,10 +660,10 @@
   },
   {
     "id": "npc-rebake_npcf_devils_cough_shotgun_assassin",
-    "name": "“DEVIL’S COUGH” SHOTGUN",
+    "name": "“Devil’s Cough” Shotgun",
     "origin": {
       "type": "Class",
-      "name": "ASSASSIN",
+      "name": "Assassin [K]",
       "base": false
     },
     "locked": false,
@@ -708,10 +708,10 @@
   },
   {
     "id": "npc-rebake_npcf_spinning_kick_assassin",
-    "name": "SPINNING KICK",
+    "name": "Spinning Kick",
     "origin": {
       "type": "Class",
-      "name": "ASSASSIN",
+      "name": "Assassin [K]",
       "base": false
     },
     "locked": false,
@@ -725,10 +725,10 @@
   },
   {
     "id": "npc-rebake_npcf_shroud_projector_assassin",
-    "name": "SHROUD PROJECTOR",
+    "name": "Shroud Projector",
     "origin": {
       "type": "Class",
-      "name": "ASSASSIN",
+      "name": "Assassin [K]",
       "base": false
     },
     "locked": false,
@@ -746,10 +746,10 @@
   },
   {
     "id": "npc-rebake_npcf_explosive_knives_assassin",
-    "name": "EXPLOSIVE KNIVES",
+    "name": "Explosive Knives",
     "origin": {
       "type": "Class",
-      "name": "ASSASSIN",
+      "name": "Assassin [K]",
       "base": false
     },
     "locked": false,
@@ -767,10 +767,10 @@
   },
   {
     "id": "npc-rebake_npcf_transfix_assassin",
-    "name": "TRANSFIX",
+    "name": "Transfix",
     "origin": {
       "type": "Class",
-      "name": "ASSASSIN",
+      "name": "Assassin [K]",
       "base": false
     },
     "locked": false,
@@ -788,10 +788,10 @@
   },
   {
     "id": "npc-rebake_npcf_weapon_heavy_assault",
-    "name": "HEAVY ASSAULT RIFLE",
+    "name": "Heavy Assault Rifle",
     "origin": {
       "type": "Class",
-      "name": "ASSAULT",
+      "name": "Assault [K]",
       "base": true
     },
     "locked": false,
@@ -823,10 +823,10 @@
   },
   {
     "id": "npc-rebake_npcf_weapon_combat_knife",
-    "name": "COMBAT KNIFE",
+    "name": "Combat Knife",
     "origin": {
       "type": "Class",
-      "name": "ASSAULT",
+      "name": "Assault [K]",
       "base": true
     },
     "locked": false,
@@ -857,10 +857,10 @@
   },
   {
     "id": "npc-rebake_npcf_trait_hunker_down",
-    "name": "HUNKER DOWN",
+    "name": "Hunker Down",
     "origin": {
       "type": "Class",
-      "name": "ASSAULT",
+      "name": "Assault [K]",
       "base": true
     },
     "locked": false,
@@ -876,10 +876,10 @@
   },
   {
     "id": "npc-rebake_npcf_trait_rank_discipline",
-    "name": "RANK DISCIPLINE",
+    "name": "Rank Discipline",
     "origin": {
       "type": "Class",
-      "name": "ASSAULT",
+      "name": "Assault [K]",
       "base": false
     },
     "locked": false,
@@ -889,10 +889,10 @@
   },
   {
     "id": "npc-rebake_npcf_weapon_underslung_grenade",
-    "name": "UNDERSLUNG GRENADE LAUNCER",
+    "name": "Underslung Grenade Launcer",
     "origin": {
       "type": "Class",
-      "name": "ASSAULT",
+      "name": "Assault [K]",
       "base": false
     },
     "locked": false,
@@ -936,10 +936,10 @@
   },
   {
     "id": "npc-rebake_npcf_system_micromissile_barrage",
-    "name": "MICRO-MISSILE BARRAGE",
+    "name": "Micro-Missile Barrage",
     "origin": {
       "type": "Class",
-      "name": "ASSAULT",
+      "name": "Assault [K]",
       "base": false
     },
     "locked": false,
@@ -957,10 +957,10 @@
   },
   {
     "id": "npc-rebake_npcf_trait_flank_and_fix",
-    "name": "FLANK AND FIX",
+    "name": "Fix and Flank",
     "origin": {
       "type": "Class",
-      "name": "ASSAULT",
+      "name": "Assault [K]",
       "base": false
     },
     "locked": false,
@@ -976,10 +976,10 @@
   },
   {
     "id": "npc-rebake_npcf_trait_stormtrooper",
-    "name": "STORMTROOPER",
+    "name": "Stormtrooper",
     "origin": {
       "type": "Class",
-      "name": "ASSAULT",
+      "name": "Assault [K]",
       "base": false
     },
     "locked": false,
@@ -989,10 +989,10 @@
   },
   {
     "id": "npc-rebake_npcf_graviton_lance_barricade",
-    "name": "GRAVITON LANCE",
+    "name": "Graviton Lance",
     "origin": {
       "type": "Class",
-      "name": "BARRICADE",
+      "name": "Barricade [K]",
       "base": true
     },
     "locked": false,
@@ -1029,10 +1029,10 @@
   },
   {
     "id": "npc-rebake_npcf_mobile_printer_barricade",
-    "name": "MOBILE PRINTER",
+    "name": "Mobile Printer",
     "origin": {
       "type": "Class",
-      "name": "BARRICADE",
+      "name": "Barricade [K]",
       "base": true
     },
     "locked": false,
@@ -1046,10 +1046,10 @@
   },
   {
     "id": "npc-rebake_npcf_drag_down_barricade",
-    "name": "DRAG DOWN",
+    "name": "Drag Down",
     "origin": {
       "type": "Class",
-      "name": "BARRICADE",
+      "name": "Barricade [K]",
       "base": true
     },
     "locked": false,
@@ -1069,10 +1069,10 @@
   },
   {
     "id": "npc-rebake_npcf_bulwark_mods_barricade",
-    "name": "BULWARK MODS",
+    "name": "Bulwark Mods",
     "origin": {
       "type": "Class",
-      "name": "BARRICADE",
+      "name": "Barricade [K]",
       "base": true
     },
     "locked": false,
@@ -1082,10 +1082,10 @@
   },
   {
     "id": "npc-rebake_npcf_spike_barrier_barricade",
-    "name": "SPIKE BARRIER",
+    "name": "Spike Barrier",
     "origin": {
       "type": "Class",
-      "name": "BARRICADE",
+      "name": "Barricade [K]",
       "base": false
     },
     "locked": false,
@@ -1095,10 +1095,10 @@
   },
   {
     "id": "npc-rebake_npcf_extrudite_barricade",
-    "name": "EXTRUDITE",
+    "name": "Extrudite",
     "origin": {
       "type": "Class",
-      "name": "BARRICADE",
+      "name": "Barricade [K]",
       "base": false
     },
     "locked": false,
@@ -1108,10 +1108,10 @@
   },
   {
     "id": "npc-rebake_npcf_extruding_printer_barricade",
-    "name": "EXTRUDING PRINTER",
+    "name": "Extruding Printer",
     "origin": {
       "type": "Class",
-      "name": "BARRICADE",
+      "name": "Barricade [K]",
       "base": false
     },
     "locked": false,
@@ -1129,10 +1129,10 @@
   },
   {
     "id": "npc-rebake_npcf_seismic_repulsor_barricade",
-    "name": "SEISMIC REPULSOR",
+    "name": "Seismic Repulsor",
     "origin": {
       "type": "Class",
-      "name": "BARRICADE",
+      "name": "Barricade [K]",
       "base": false
     },
     "locked": false,
@@ -1150,10 +1150,10 @@
   },
   {
     "id": "npc-rebake_npcf_hunger_pursuit_limpets_barricade",
-    "name": "HUNGER/PURSUIT LIMPETS",
+    "name": "Hunger/Pursuit Limpets",
     "origin": {
       "type": "Class",
-      "name": "BARRICADE",
+      "name": "Barricade [K]",
       "base": false
     },
     "locked": false,
@@ -1171,10 +1171,10 @@
   },
   {
     "id": "npc-rebake_npcf_titan_snare_drone_barricade",
-    "name": "TITAN-SNARE DRONE",
+    "name": "Titan-Snare Drone",
     "origin": {
       "type": "Class",
-      "name": "BARRICADE",
+      "name": "Barricade [K]",
       "base": false
     },
     "locked": false,
@@ -1195,10 +1195,10 @@
   },
   {
     "id": "npc-rebake_npcf_rotary_grenade_launcher_bastion",
-    "name": "ROTARY GRENADE LAUNCHER",
+    "name": "Rotary Grenade Launcher",
     "origin": {
       "type": "Class",
-      "name": "BASTION",
+      "name": "Bastion [K]",
       "base": true
     },
     "locked": false,
@@ -1242,10 +1242,10 @@
   },
   {
     "id": "npc-rebake_npcf_heavy_assault_shield_bastion",
-    "name": "HEAVY ASSAULT SHIELD",
+    "name": "Heavy Assault Shield",
     "origin": {
       "type": "Class",
-      "name": "BASTION",
+      "name": "Bastion [K]",
       "base": true
     },
     "locked": false,
@@ -1283,10 +1283,10 @@
   },
   {
     "id": "npc-rebake_npcf_friendly_interdiction_bastion",
-    "name": "FRIENDLY INTERDICTION",
+    "name": "Friendly Interdiction",
     "origin": {
       "type": "Class",
-      "name": "BASTION",
+      "name": "Bastion [K]",
       "base": true
     },
     "locked": false,
@@ -1300,10 +1300,10 @@
   },
   {
     "id": "npc-rebake_npcf_guardian_bastion",
-    "name": "GUARDIAN",
+    "name": "Guardian",
     "origin": {
       "type": "Class",
-      "name": "BASTION",
+      "name": "Bastion [K]",
       "base": true
     },
     "locked": false,
@@ -1313,10 +1313,10 @@
   },
   {
     "id": "npc-rebake_npcf_near_threat_denial_system_bastion",
-    "name": "NEAR-THREAT DENIAL SYSTEM",
+    "name": "Near-Threat Denial System",
     "origin": {
       "type": "Class",
-      "name": "BASTION",
+      "name": "Bastion [K]",
       "base": false
     },
     "locked": false,
@@ -1326,10 +1326,10 @@
   },
   {
     "id": "npc-rebake_npcf_siege_guardian_bastion",
-    "name": "SIEGE GUARDIAN",
+    "name": "Siege Guardian",
     "origin": {
       "type": "Class",
-      "name": "BASTION",
+      "name": "Bastion [K]",
       "base": false
     },
     "locked": false,
@@ -1339,10 +1339,10 @@
   },
   {
     "id": "npc-rebake_npcf_fearless_defender_bastion",
-    "name": "FEARLESS DEFENDER",
+    "name": "Fearless Defender",
     "origin": {
       "type": "Class",
-      "name": "BASTION",
+      "name": "Bastion [K]",
       "base": false
     },
     "locked": false,
@@ -1361,10 +1361,10 @@
   },
   {
     "id": "npc-rebake_npcf_deathcounter_bastion",
-    "name": "DEATHCOUNTER",
+    "name": "Deathcounter",
     "origin": {
       "type": "Class",
-      "name": "BASTION",
+      "name": "Bastion [K]",
       "base": false
     },
     "locked": false,
@@ -1378,10 +1378,10 @@
   },
   {
     "id": "npc-rebake_npcf_stack_up_bastion",
-    "name": "STACK UP",
+    "name": "Stack Up",
     "origin": {
       "type": "Class",
-      "name": "BASTION",
+      "name": "Bastion [K]",
       "base": false
     },
     "locked": false,
@@ -1391,10 +1391,10 @@
   },
   {
     "id": "npc-rebake_npcf_chain_axe_berserker",
-    "name": "CHAIN AXE",
+    "name": "Chain Axe",
     "origin": {
       "type": "Class",
-      "name": "BERSERKER",
+      "name": "Berserker [K]",
       "base": true
     },
     "locked": false,
@@ -1427,10 +1427,10 @@
   },
   {
     "id": "npc-rebake_npcf_stampede_defense_berserker",
-    "name": "STAMPEDE DEFENSE",
+    "name": "Stampede Defense",
     "origin": {
       "type": "Class",
-      "name": "BERSERKER",
+      "name": "Berserker [K]",
       "base": true
     },
     "locked": false,
@@ -1440,10 +1440,10 @@
   },
   {
     "id": "npc-rebake_npcf_aggression_berserker",
-    "name": "AGGRESSION",
+    "name": "Aggression",
     "origin": {
       "type": "Class",
-      "name": "BERSERKER",
+      "name": "Berserker [K]",
       "base": true
     },
     "locked": false,
@@ -1453,10 +1453,10 @@
   },
   {
     "id": "npc-rebake_npcf_avalanche_charge_berserker",
-    "name": "AVALANCHE CHARGE",
+    "name": "Avalanche Charge",
     "origin": {
       "type": "Class",
-      "name": "BERSERKER",
+      "name": "Berserker [K]",
       "base": true
     },
     "locked": false,
@@ -1474,10 +1474,10 @@
   },
   {
     "id": "npc-rebake_npcf_juggernaut_berserker",
-    "name": "JUGGERNAUT",
+    "name": "Juggernaut",
     "origin": {
       "type": "Class",
-      "name": "BERSERKER",
+      "name": "Berserker [K]",
       "base": false
     },
     "locked": false,
@@ -1487,10 +1487,10 @@
   },
   {
     "id": "npc-rebake_npcf_harpoon_cannon_berserker",
-    "name": "HARPOON CANNON",
+    "name": "Harpoon Cannon",
     "origin": {
       "type": "Class",
-      "name": "BERSERKER",
+      "name": "Berserker [K]",
       "base": false
     },
     "locked": false,
@@ -1527,10 +1527,10 @@
   },
   {
     "id": "npc-rebake_npcf_retribution_berserker",
-    "name": "RETRIBUTION",
+    "name": "Retribution",
     "origin": {
       "type": "Class",
-      "name": "BERSERKER",
+      "name": "Berserker [K]",
       "base": false
     },
     "locked": false,
@@ -1540,10 +1540,10 @@
   },
   {
     "id": "npc-rebake_npcf_headhunter_berserker",
-    "name": "HEADHUNTER",
+    "name": "Headhunter",
     "origin": {
       "type": "Class",
-      "name": "BERSERKER",
+      "name": "Berserker [K]",
       "base": false
     },
     "locked": false,
@@ -1553,10 +1553,10 @@
   },
   {
     "id": "npc-rebake_npcf_overdrive_servos_berserker",
-    "name": "OVERDRIVE SERVOS",
+    "name": "Overdrive Servos",
     "origin": {
       "type": "Class",
-      "name": "BERSERKER",
+      "name": "Berserker [K]",
       "base": false
     },
     "locked": false,
@@ -1566,10 +1566,10 @@
   },
   {
     "id": "npc-rebake_npcf_bombard_cannon_bombard",
-    "name": "BOMBARD CANNON",
+    "name": "Bombard Cannon",
     "origin": {
       "type": "Class",
-      "name": "BOMBARD",
+      "name": "Bombard [K]",
       "base": true
     },
     "locked": false,
@@ -1618,10 +1618,10 @@
   },
   {
     "id": "npc-rebake_npcf_cluster_munitions_bombard",
-    "name": "CLUSTER MUNITIONS",
+    "name": "Cluster Munitions",
     "origin": {
       "type": "Class",
-      "name": "BOMBARD",
+      "name": "Bombard [K]",
       "base": true
     },
     "locked": false,
@@ -1631,10 +1631,10 @@
   },
   {
     "id": "npc-rebake_npcf_earthshaker_shells_bombard",
-    "name": "EARTHSHAKER SHELLS",
+    "name": "Earthshaker Shells",
     "origin": {
       "type": "Class",
-      "name": "BOMBARD",
+      "name": "Bombard [K]",
       "base": true
     },
     "locked": false,
@@ -1644,10 +1644,10 @@
   },
   {
     "id": "npc-rebake_npcf_siege_armor_bombard",
-    "name": "SIEGE ARMOR",
+    "name": "Siege Armor",
     "origin": {
       "type": "Class",
-      "name": "BOMBARD",
+      "name": "Bombard [K]",
       "base": true
     },
     "locked": false,
@@ -1657,10 +1657,10 @@
   },
   {
     "id": "npc-rebake_npcf_high_impact_shells_bombard",
-    "name": "HIGH-IMPACT SHELLS",
+    "name": "High-Impact Shells",
     "origin": {
       "type": "Class",
-      "name": "BOMBARD",
+      "name": "Bombard [K]",
       "base": false
     },
     "locked": false,
@@ -1670,10 +1670,10 @@
   },
   {
     "id": "npc-rebake_npcf_bunker_buster_bombard",
-    "name": "BUNKER BUSTER",
+    "name": "Bunker Buster",
     "origin": {
       "type": "Class",
-      "name": "BOMBARD",
+      "name": "Bombard [K]",
       "base": false
     },
     "locked": false,
@@ -1683,10 +1683,10 @@
   },
   {
     "id": "npc-rebake_npcf_flare_drone_bombard",
-    "name": "FLARE DRONE",
+    "name": "Flare Drone",
     "origin": {
       "type": "Class",
-      "name": "BOMBARD",
+      "name": "Bombard [K]",
       "base": false
     },
     "locked": false,
@@ -1703,10 +1703,10 @@
   },
   {
     "id": "npc-rebake_npcf_high-angle_fire_bombard",
-    "name": "HIGH-ANGLE FIRE",
+    "name": "High-Angle Fire",
     "origin": {
       "type": "Class",
-      "name": "BOMBARD",
+      "name": "Bombard [K]",
       "base": false
     },
     "locked": false,
@@ -1724,10 +1724,10 @@
   },
   {
     "id": "npc-rebake_npcf_counterbattery_suite_bombard",
-    "name": "COUNTERBATTERY SUITE",
+    "name": "Counterbattery Suite",
     "origin": {
       "type": "Class",
-      "name": "BOMBARD",
+      "name": "Bombard [K]",
       "base": false
     },
     "locked": false,
@@ -1746,10 +1746,10 @@
   },
   {
     "id": "npc-rebake_npcf_dual_shotguns_breacher",
-    "name": "DUAL SHOTGUNS",
+    "name": "Dual Shotguns",
     "origin": {
       "type": "Class",
-      "name": "BREACHER",
+      "name": "Breacher [K]",
       "base": true
     },
     "locked": false,
@@ -1791,10 +1791,10 @@
   },
   {
     "id": "npc-rebake_npcf_breach_ram_breacher",
-    "name": "BREACH RAM",
+    "name": "Breach Ram",
     "origin": {
       "type": "Class",
-      "name": "BREACHER",
+      "name": "Breacher [K]",
       "base": true
     },
     "locked": false,
@@ -1812,10 +1812,10 @@
   },
   {
     "id": "npc-rebake_npcf_break_armor_breacher",
-    "name": "BREAK ARMOR",
+    "name": "Break Armor",
     "origin": {
       "type": "Class",
-      "name": "BREACHER",
+      "name": "Breacher [K]",
       "base": true
     },
     "locked": false,
@@ -1825,10 +1825,10 @@
   },
   {
     "id": "npc-rebake_npcf_ram_plating_breacher",
-    "name": "RAM PLATING",
+    "name": "Ram Plating",
     "origin": {
       "type": "Class",
-      "name": "BREACHER",
+      "name": "Breacher [K]",
       "base": true
     },
     "locked": false,
@@ -1838,10 +1838,10 @@
   },
   {
     "id": "npc-rebake_npcf_follower_count_breacher",
-    "name": "FOLLOWER COUNT",
+    "name": "Follower Count",
     "origin": {
       "type": "Class",
-      "name": "BREACHER",
+      "name": "Breacher [K]",
       "base": false
     },
     "locked": false,
@@ -1866,10 +1866,10 @@
   },
   {
     "id": "npc-rebake_npcf_thermal_charge_breacher",
-    "name": "THERMAL CHARGE",
+    "name": "Thermal Charge",
     "origin": {
       "type": "Class",
-      "name": "BREACHER",
+      "name": "Breacher [K]",
       "base": false
     },
     "locked": false,
@@ -1890,10 +1890,10 @@
   },
   {
     "id": "npc-rebake_npcf_painmaker_breacher",
-    "name": "PAINMAKER",
+    "name": "Painmaker",
     "origin": {
       "type": "Class",
-      "name": "BREACHER",
+      "name": "Breacher [K]",
       "base": false
     },
     "locked": false,
@@ -1907,10 +1907,10 @@
   },
   {
     "id": "npc-rebake_npcf_fragmentation_shells_breacher",
-    "name": "FRAGMENTATION SHELLS",
+    "name": "Fragmentation Shells",
     "origin": {
       "type": "Class",
-      "name": "BREACHER",
+      "name": "Breacher [K]",
       "base": false
     },
     "locked": false,
@@ -1925,10 +1925,10 @@
   },
   {
     "id": "npc-rebake_npcf_breach_and_clear_breacher",
-    "name": "BREACH AND CLEAR",
+    "name": "Breach and Clear",
     "origin": {
       "type": "Class",
-      "name": "BREACHER",
+      "name": "Breacher [K]",
       "base": false
     },
     "locked": false,
@@ -1938,10 +1938,10 @@
   },
   {
     "id": "npc-rebake_npcf_ram_cannon_cataphract",
-    "name": "RAM CANNON",
+    "name": "Ram Cannon",
     "origin": {
       "type": "Class",
-      "name": "CATAPHRACT",
+      "name": "Cataphract [K]",
       "base": true
     },
     "locked": false,
@@ -1983,10 +1983,10 @@
   },
   {
     "id": "npc-rebake_npcf_trample_cataphract",
-    "name": "TRAMPLE",
+    "name": "Trample",
     "origin": {
       "type": "Class",
-      "name": "CATAPHRACT",
+      "name": "Cataphract [K]",
       "base": true
     },
     "locked": false,
@@ -1996,10 +1996,10 @@
   },
   {
     "id": "npc-rebake_npcf_impale_cataphract",
-    "name": "IMPALE",
+    "name": "Impale",
     "origin": {
       "type": "Class",
-      "name": "CATAPHRACT",
+      "name": "Cataphract [K]",
       "base": true
     },
     "locked": false,
@@ -2017,10 +2017,10 @@
   },
   {
     "id": "npc-rebake_npcf_point_defense_shield_cataphract",
-    "name": "POINT-DEFENSE SHIELD",
+    "name": "Point-Defense Shield",
     "origin": {
       "type": "Class",
-      "name": "CATAPHRACT",
+      "name": "Cataphract [K]",
       "base": true
     },
     "locked": false,
@@ -2034,10 +2034,10 @@
   },
   {
     "id": "npc-rebake_npcf_electrified_lasso_cataphract",
-    "name": "ELECTRIFIED LASSO",
+    "name": "Electrified Lasso",
     "origin": {
       "type": "Class",
-      "name": "CATAPHRACT",
+      "name": "Cataphract [K]",
       "base": false
     },
     "locked": false,
@@ -2055,10 +2055,10 @@
   },
   {
     "id": "npc-rebake_npcf_lance_shot_cataphract",
-    "name": "LANCE SHOT",
+    "name": "Lance Shot",
     "origin": {
       "type": "Class",
-      "name": "CATAPHRACT",
+      "name": "Cataphract [K]",
       "base": false
     },
     "locked": false,
@@ -2076,10 +2076,10 @@
   },
   {
     "id": "npc-rebake_npcf_electromagnetic_bola_cataphract",
-    "name": "ELECTROMAGNETIC BOLA",
+    "name": "Electromagnetic Bola",
     "origin": {
       "type": "Class",
-      "name": "CATAPHRACT",
+      "name": "Cataphract [K]",
       "base": false
     },
     "locked": false,
@@ -2097,10 +2097,10 @@
   },
   {
     "id": "npc-rebake_npcf_charge_cataphract",
-    "name": "CHARGE",
+    "name": "Charge",
     "origin": {
       "type": "Class",
-      "name": "CATAPHRACT",
+      "name": "Cataphract [K]",
       "base": false
     },
     "locked": false,
@@ -2118,10 +2118,10 @@
   },
   {
     "id": "npc-rebake_npcf_capacitor_discharge_cataphract",
-    "name": "CAPACITOR DISCHARGE",
+    "name": "Capacitor Discharge",
     "origin": {
       "type": "Class",
-      "name": "CATAPHRACT",
+      "name": "Cataphract [K]",
       "base": false
     },
     "locked": false,
@@ -2131,10 +2131,10 @@
   },
   {
     "id": "npc-rebake_npcf_demolition_hammer_demolisher",
-    "name": "DEMOLITION HAMMER",
+    "name": "Demolition Hammer",
     "origin": {
       "type": "Class",
-      "name": "DEMOLISHER",
+      "name": "Demolisher [K]",
       "base": true
     },
     "locked": false,
@@ -2180,10 +2180,10 @@
   },
   {
     "id": "npc-rebake_npcf_earthshatter_demolisher",
-    "name": "EARTHSHATTER",
+    "name": "Earthshatter",
     "origin": {
       "type": "Class",
-      "name": "DEMOLISHER",
+      "name": "Demolisher [K]",
       "base": true
     },
     "locked": false,
@@ -2225,10 +2225,10 @@
   },
   {
     "id": "npc-rebake_npcf_shock_armor_demolisher",
-    "name": "SHOCK ARMOR",
+    "name": "Shock Armor",
     "origin": {
       "type": "Class",
-      "name": "DEMOLISHER",
+      "name": "Demolisher [K]",
       "base": true
     },
     "locked": false,
@@ -2241,10 +2241,10 @@
   },
   {
     "id": "npc-rebake_npcf_heavy_frame_demolisher",
-    "name": "HEAVY FRAME",
+    "name": "Heavy Frame",
     "origin": {
       "type": "Class",
-      "name": "DEMOLISHER",
+      "name": "Demolisher [K]",
       "base": true
     },
     "locked": false,
@@ -2254,10 +2254,10 @@
   },
   {
     "id": "npc-rebake_npcf_jet_propulsion_demolisher",
-    "name": "JET PROPULSION",
+    "name": "Jet Propulsion",
     "origin": {
       "type": "Class",
-      "name": "DEMOLISHER",
+      "name": "Demolisher [K]",
       "base": false
     },
     "locked": false,
@@ -2267,10 +2267,10 @@
   },
   {
     "id": "npc-rebake_npcf_kinetic_compensation_demolisher",
-    "name": "KINETIC COMPENSATION",
+    "name": "Kinetic Compensation",
     "origin": {
       "type": "Class",
-      "name": "DEMOLISHER",
+      "name": "Demolisher [K]",
       "base": false
     },
     "locked": false,
@@ -2280,10 +2280,10 @@
   },
   {
     "id": "npc-rebake_npcf_seismic_destroyer_demolisher",
-    "name": "SEISMIC DESTROYER",
+    "name": "Seismic Destroyer",
     "origin": {
       "type": "Class",
-      "name": "DEMOLISHER",
+      "name": "Demolisher [K]",
       "base": false
     },
     "locked": false,
@@ -2301,10 +2301,10 @@
   },
   {
     "id": "npc-rebake_npcf_hullcracker_demolisher",
-    "name": "HULLCRACKER",
+    "name": "Hullcracker",
     "origin": {
       "type": "Class",
-      "name": "DEMOLISHER",
+      "name": "Demolisher [K]",
       "base": false
     },
     "locked": false,
@@ -2322,10 +2322,10 @@
   },
   {
     "id": "npc-rebake_npcf_drag_cables_demolisher",
-    "name": "DRAG CABLES",
+    "name": "Drag Cables",
     "origin": {
       "type": "Class",
-      "name": "DEMOLISHER",
+      "name": "Demolisher [K]",
       "base": false
     },
     "locked": false,
@@ -2335,51 +2335,57 @@
   },
   {
     "id": "npc-rebake_npcf_flak_cannon_engineer",
-    "name": "FLAK CANNON",
+    "name": "Flak Cannon",
     "origin": {
       "type": "Class",
-      "name": "ENGINEER",
+      "name": "Engineer [K]",
       "base": true
     },
     "locked": false,
     "type": "Weapon",
     "effect": "This weapon gains <strong>+1 Accuracy</strong> against <strong>flying</strong> targets.",
-    "tags": [{
-      "id": "tg_smart"
-    }],
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
     "weapon_type": "Heavy Cannon",
     "attack_bonus": [
       1,
       2,
       3
     ],
-    "damage": [{
-      "type": "Explosive",
-      "damage": [
-        3,
-        4,
-        5
-      ]
-    }],
-    "range": [{
-      "type": "Range",
-      "val": 15
-    }],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      }
+    ],
     "on_hit": ""
   },
-
   {
     "id": "npc-rebake_npcf_deployable_turret_engineer",
-    "name": "DEPLOYABLE TURRET",
+    "name": "Deployable Turret",
     "origin": {
       "type": "Class",
-      "name": "ENGINEER",
+      "name": "Engineer [K]",
       "base": true
     },
     "locked": false,
     "type": "System",
     "effect": "Deployable Turret (<strong>Size</strong> 1/2, <strong>HP</strong> {1/1/1}, <strong>Evasion</strong> {10/10/10}, <strong>E-Defense</strong> {10/10/10}, <strong>Tags:</strong> Drone)<br>Up to two of these self-constructing turrets can be deployed to any free space within <strong>Range 3</strong>. At the end of Engineer’s turn, deployed turrets attack the nearest hostile character within <strong>Range 10</strong>. They attack at +{1/2/3} and deal <strong>{4/5/6} Kinetic damage</strong>. The Engineer may have six turrets deployed at one time; if they deploy additional turrets beyond this, previous turrets of their choice are destroyed until they have no more than six total.<br>All turrets are destroyed when the Engineer is destroyed. If the Engineer becomes <strong>Jammed</strong> or <strong>Stunned</strong>, their turrets are also disabled for the duration of those conditions.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_drone"
       },
       {
@@ -2389,16 +2395,17 @@
   },
   {
     "id": "npc-rebake_npcf_target_designator_engineer",
-    "name": "TARGET DESIGNATOR",
+    "name": "Target Designator",
     "origin": {
       "type": "Class",
-      "name": "ENGINEER",
+      "name": "Engineer [K]",
       "base": true
     },
     "locked": false,
     "type": "System",
     "effect": "The Engineer chooses a character within line of sight and <strong>Sensors</strong>; they gain <strong>Lock On</strong>. At the end of the Engineer's turn, up to two of their <strong>Deployable Turrets</strong> will attack that target (if it is within range) instead of attacking the nearest hostile character.<br>This trait automatically <strong>recharges</strong> whenever two or more <strong>Deployable Turrets</strong> are destroyed by hostile characters before the end of the Engineer's next turn.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_recharge",
         "val": 6
       },
@@ -2409,10 +2416,10 @@
   },
   {
     "id": "npc-rebake_npcf_deployable_fortifications_engineer",
-    "name": "DEPLOYABLE FORTIFICATIONS",
+    "name": "Deployable Fortifications",
     "origin": {
       "type": "Class",
-      "name": "ENGINEER",
+      "name": "Engineer [K]",
       "base": false
     },
     "locked": false,
@@ -2422,10 +2429,10 @@
   },
   {
     "id": "npc-rebake_npcf_perimeter_defense_engineer",
-    "name": "PERIMITER DEFENSE",
+    "name": "Perimiter Defense",
     "origin": {
       "type": "Class",
-      "name": "ENGINEER",
+      "name": "Engineer [K]",
       "base": false
     },
     "locked": false,
@@ -2435,10 +2442,10 @@
   },
   {
     "id": "npc-rebake_npcf_auto_tracking_engineer",
-    "name": "AUTO-TRACKING",
+    "name": "Auto-Tracking",
     "origin": {
       "type": "Reaction",
-      "name": "ENGINEER",
+      "name": "Engineer [K]",
       "base": false
     },
     "locked": false,
@@ -2449,10 +2456,10 @@
   },
   {
     "id": "npc-rebake_npcf_mobile_turrets_engineer",
-    "name": "MOBILE TURRETS",
+    "name": "Mobile Turrets",
     "origin": {
       "type": "Class",
-      "name": "ENGINEER",
+      "name": "Engineer [K]",
       "base": false
     },
     "locked": false,
@@ -2462,10 +2469,10 @@
   },
   {
     "id": "npc-rebake_npcf_skyshield_protocol_engineer",
-    "name": "SKYSHIELD PROTOCOL",
+    "name": "Skyshield Protocol",
     "origin": {
       "type": "Class",
-      "name": "ENGINEER",
+      "name": "Engineer [K]",
       "base": false
     },
     "locked": false,
@@ -2475,16 +2482,17 @@
   },
   {
     "id": "npc-rebake_npcf_repurpose_engineer",
-    "name": "REPURPOSE",
+    "name": "Repurpose",
     "origin": {
       "type": "Class",
-      "name": "ENGINEER",
+      "name": "Engineer [K]",
       "base": false
     },
     "locked": false,
     "type": "Trait",
     "effect": "The Engineer chooses an allied character adjacent to one of their <strong>Deployable Turrets</strong>; that character either gains {3/4/5} <strong>Overshield</strong> or gains <strong>+1 Accuracy</strong> on all attacks, checks and saves until the end of their next turn. The turret is then destroyed.",
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_round",
         "val": 1
       },
@@ -2495,10 +2503,10 @@
   },
   {
     "id": "npc-rebake_npcf_drum_shotgun_goliath",
-    "name": "DRUM SHOTGUN",
+    "name": "Drum Shotgun",
     "origin": {
       "type": "Class",
-      "name": "GOLIATH",
+      "name": "Goliath [K]",
       "base": true
     },
     "locked": false,
@@ -2535,10 +2543,10 @@
   },
   {
     "id": "npc-rebake_npcf_crush_targeting_goliath",
-    "name": "CRUSH TARGETING",
+    "name": "Crush Targeting",
     "origin": {
       "type": "Class",
-      "name": "GOLIATH",
+      "name": "Goliath [K]",
       "base": true
     },
     "locked": false,
@@ -2553,10 +2561,10 @@
   },
   {
     "id": "npc-rebake_npcf_towering_stride_goliath",
-    "name": "TOWERING STRIDE",
+    "name": "Towering Stride",
     "origin": {
       "type": "Class",
-      "name": "GOLIATH",
+      "name": "Goliath [K]",
       "base": true
     },
     "locked": false,
@@ -2566,10 +2574,10 @@
   },
   {
     "id": "npc-rebake_npcf_heavy_frame_goliath",
-    "name": "HEAVY FRAME",
+    "name": "Heavy Frame",
     "origin": {
       "type": "Class",
-      "name": "GOLIATH",
+      "name": "Goliath [K]",
       "base": true
     },
     "locked": false,
@@ -2579,10 +2587,10 @@
   },
   {
     "id": "npc-rebake_npcf_guardian_goliath",
-    "name": "GUARDIAN",
+    "name": "Guardian",
     "origin": {
       "type": "Class",
-      "name": "GOLIATH",
+      "name": "Goliath [K]",
       "base": true
     },
     "locked": false,
@@ -2592,10 +2600,10 @@
   },
   {
     "id": "npc-rebake_npcf_power_knuckle_goliath",
-    "name": "POWER KNUCKLE",
+    "name": "Power Knuckle",
     "origin": {
       "type": "Class",
-      "name": "GOLIATH",
+      "name": "Goliath [K]",
       "base": false
     },
     "locked": false,
@@ -2613,10 +2621,10 @@
   },
   {
     "id": "npc-rebake_npcf_pin_goliath",
-    "name": "PIN",
+    "name": "Pin",
     "origin": {
       "type": "Class",
-      "name": "GOLIATH",
+      "name": "Goliath [K]",
       "base": false
     },
     "locked": false,
@@ -2630,10 +2638,10 @@
   },
   {
     "id": "npc-rebake_npcf_mag_gauntlet_goliath",
-    "name": "MAG GAUNTLET",
+    "name": "Mag Gauntlet",
     "origin": {
       "type": "Class",
-      "name": "GOLIATH",
+      "name": "Goliath [K]",
       "base": false
     },
     "locked": false,
@@ -2647,10 +2655,10 @@
   },
   {
     "id": "npc-rebake_npcf_coercive_force_goliath",
-    "name": "COERCIVE FORCE",
+    "name": "Coercive Force",
     "origin": {
       "type": "Class",
-      "name": "GOLIATH",
+      "name": "Goliath [K]",
       "base": false
     },
     "locked": false,
@@ -2668,10 +2676,10 @@
   },
   {
     "id": "npc-rebake_npcf_attractor_field_goliath",
-    "name": "ATTRACTOR FIELD",
+    "name": "Attractor Field",
     "origin": {
       "type": "Class",
-      "name": "GOLIATH",
+      "name": "Goliath [K]",
       "base": false
     },
     "locked": false,
@@ -2690,10 +2698,10 @@
   },
   {
     "id": "npc-rebake_npcf_hunter_killer_nexus_hive",
-    "name": "HUNTER-KILLER NEXUS",
+    "name": "Hunter-Killer Nexus",
     "origin": {
       "type": "Class",
-      "name": "HIVE",
+      "name": "Hive [K]",
       "base": true
     },
     "locked": false,
@@ -2733,10 +2741,10 @@
   },
   {
     "id": "npc-rebake_npcf_razor_swarm_hive",
-    "name": "RAZOR SWARM",
+    "name": "Razor Swarm",
     "origin": {
       "type": "Class",
-      "name": "HIVE",
+      "name": "Hive [K]",
       "base": true
     },
     "locked": false,
@@ -2753,10 +2761,10 @@
   },
   {
     "id": "npc-rebake_npcf_drone_barrage_hive",
-    "name": "DRONE BARRAGE",
+    "name": "Drone Barrage",
     "origin": {
       "type": "Class",
-      "name": "HIVE",
+      "name": "Hive [K]",
       "base": true
     },
     "locked": false,
@@ -2776,10 +2784,10 @@
   },
   {
     "id": "npc-rebake_npcf_driving_swarm_hive",
-    "name": "DRIVING SWARM",
+    "name": "Driving Swarm",
     "origin": {
       "type": "Class",
-      "name": "HIVE",
+      "name": "Hive [K]",
       "base": false
     },
     "locked": false,
@@ -2789,10 +2797,10 @@
   },
   {
     "id": "npc-rebake_npcf_harrier_maniple_hive",
-    "name": "HARRIER MANIPLE",
+    "name": "Harrier Maniple",
     "origin": {
       "type": "Class",
-      "name": "HIVE",
+      "name": "Hive [K]",
       "base": false
     },
     "locked": false,
@@ -2812,10 +2820,10 @@
   },
   {
     "id": "npc-rebake_npcf_solipsis_swarm_hive",
-    "name": "SOLIPSIS SWARM",
+    "name": "Solipsis Swarm",
     "origin": {
       "type": "Class",
-      "name": "HIVE",
+      "name": "Hive [K]",
       "base": false
     },
     "locked": false,
@@ -2825,10 +2833,10 @@
   },
   {
     "id": "npc-rebake_npcf_electro_nanite_payloads_hive",
-    "name": "ELECTRO-NANITE PAYLOADS",
+    "name": "Electro-Nanite Payloads",
     "origin": {
       "type": "Class",
-      "name": "HIVE",
+      "name": "Hive [K]",
       "base": false
     },
     "locked": false,
@@ -2838,10 +2846,10 @@
   },
   {
     "id": "npc-rebake_npcf_command_override_hive",
-    "name": "COMMAND OVERRIDE",
+    "name": "Command Override",
     "origin": {
       "type": "Class",
-      "name": "HIVE",
+      "name": "Hive [K]",
       "base": false
     },
     "locked": false,
@@ -2864,10 +2872,10 @@
   },
   {
     "id": "npc-rebake_npcf_stinger_pistol_hornet",
-    "name": "STINGER PISTOL",
+    "name": "Stinger Pistol",
     "origin": {
       "type": "Class",
-      "name": "HORNET",
+      "name": "Hornet [K]",
       "base": true
     },
     "locked": false,
@@ -2909,10 +2917,10 @@
   },
   {
     "id": "npc-rebake_npcf_ssc_total_suite_hornet",
-    "name": "SSC TOTAL SUITE",
+    "name": "SSC Total Suite",
     "origin": {
       "type": "Class",
-      "name": "HORNET",
+      "name": "Hornet [K]",
       "base": true
     },
     "locked": false,
@@ -2922,10 +2930,10 @@
   },
   {
     "id": "npc-rebake_npcf_weave_hornet",
-    "name": "WEAVE",
+    "name": "Weave",
     "origin": {
       "type": "Class",
-      "name": "HORNET",
+      "name": "Hornet [K]",
       "base": true
     },
     "locked": false,
@@ -2935,10 +2943,10 @@
   },
   {
     "id": "npc-rebake_npcf_impale_systems_hornet",
-    "name": "IMPALE SYSTEMS",
+    "name": "Impale Systems",
     "origin": {
       "type": "Class",
-      "name": "HORNET",
+      "name": "Hornet [K]",
       "base": true
     },
     "locked": false,
@@ -2962,10 +2970,10 @@
   },
   {
     "id": "npc-rebake_npcf_supersonic_hornet",
-    "name": "SUPERSONIC",
+    "name": "Supersonic",
     "origin": {
       "type": "Class",
-      "name": "HORNET",
+      "name": "Hornet [K]",
       "base": false
     },
     "locked": false,
@@ -2983,10 +2991,10 @@
   },
   {
     "id": "npc-rebake_npcf_umbral_interdiction_hornet",
-    "name": "UMBRAL INTERDICTION",
+    "name": "Umbral Interdiction",
     "origin": {
       "type": "Class",
-      "name": "HORNET",
+      "name": "Hornet [K]",
       "base": false
     },
     "locked": false,
@@ -3005,10 +3013,10 @@
   },
   {
     "id": "npc-rebake_npcf_system_spike_hornet",
-    "name": "SYSTEM SPIKE",
+    "name": "System Spike",
     "origin": {
       "type": "Class",
-      "name": "HORNET",
+      "name": "Hornet [K]",
       "base": false
     },
     "locked": false,
@@ -3018,10 +3026,10 @@
   },
   {
     "id": "npc-rebake_npcf_slingshot_hornet",
-    "name": "SLINGSHOT",
+    "name": "Slingshot",
     "origin": {
       "type": "Class",
-      "name": "HORNET",
+      "name": "Hornet [K]",
       "base": false
     },
     "locked": false,
@@ -3045,10 +3053,10 @@
   },
   {
     "id": "npc-rebake_npcf_lock_hold_javelins_hornet",
-    "name": "LOCK/HOLD JAVELINS",
+    "name": "Lock/Hold Javelins",
     "origin": {
       "type": "Class",
-      "name": "HORNET",
+      "name": "Hornet [K]",
       "base": false
     },
     "locked": false,
@@ -3062,10 +3070,10 @@
   },
   {
     "id": "npc-rebake_npcf_raptor_plasma_rifle_operator",
-    "name": "RAPTOR PLASMA RIFLE",
+    "name": "Raptor Plasma Rifle",
     "origin": {
       "type": "Class",
-      "name": "OPERATOR",
+      "name": "Operator [K]",
       "base": true
     },
     "locked": false,
@@ -3103,10 +3111,10 @@
   },
   {
     "id": "npc-rebake_npcf_trace_drive_operator",
-    "name": "TRACE DRIVE",
+    "name": "Trace Drive",
     "origin": {
       "type": "Class",
-      "name": "OPERATOR",
+      "name": "Operator [K]",
       "base": true
     },
     "locked": false,
@@ -3116,10 +3124,10 @@
   },
   {
     "id": "npc-rebake_npcf_strike_and_fade_operator",
-    "name": "STRIKE AND FADE",
+    "name": "Strike and Fade",
     "origin": {
       "type": "Class",
-      "name": "OPERATOR",
+      "name": "Operator [K]",
       "base": true
     },
     "locked": false,
@@ -3129,10 +3137,10 @@
   },
   {
     "id": "npc-rebake_npcf_self_erasure_operator",
-    "name": "SELF-ERASURE",
+    "name": "Self-Erasure",
     "origin": {
       "type": "Class",
-      "name": "OPERATOR",
+      "name": "Operator [K]",
       "base": true
     },
     "locked": false,
@@ -3142,10 +3150,10 @@
   },
   {
     "id": "npc-rebake_npcf_telefrag_operator",
-    "name": "TELEFRAG",
+    "name": "Telefrag",
     "origin": {
       "type": "Class",
-      "name": "OPERATOR",
+      "name": "Operator [K]",
       "base": false
     },
     "locked": false,
@@ -3163,10 +3171,10 @@
   },
   {
     "id": "npc-rebake_npcf_overload_shot_operator",
-    "name": "OVERLOAD SHOT",
+    "name": "Overload Shot",
     "origin": {
       "type": "Class",
-      "name": "OPERATOR",
+      "name": "Operator [K]",
       "base": false
     },
     "locked": false,
@@ -3184,10 +3192,10 @@
   },
   {
     "id": "npc-rebake_npcf_fade_generator_operator",
-    "name": "FADE GENERATOR",
+    "name": "Fade Generator",
     "origin": {
       "type": "Class",
-      "name": "OPERATOR",
+      "name": "Operator [K]",
       "base": false
     },
     "locked": false,
@@ -3206,10 +3214,10 @@
   },
   {
     "id": "npc-rebake_npcf_singularity_grenade_operator",
-    "name": "SINGULARITY GRENADE",
+    "name": "Singularity Grenade",
     "origin": {
       "type": "Class",
-      "name": "OPERATOR",
+      "name": "Operator [K]",
       "base": false
     },
     "locked": false,
@@ -3230,10 +3238,10 @@
   },
   {
     "id": "npc-rebake_npcf_deniable_asset_operator",
-    "name": "DENIABLE ASSET",
+    "name": "Deniable Asset",
     "origin": {
       "type": "Class",
-      "name": "OPERATOR",
+      "name": "Operator [K]",
       "base": false
     },
     "locked": false,
@@ -3243,10 +3251,10 @@
   },
   {
     "id": "npc-rebake_npcf_flamethrower_pyro",
-    "name": "FLAMETHROWER",
+    "name": "Flamethrower",
     "origin": {
       "type": "Class",
-      "name": "PYRO",
+      "name": "Pyro [K]",
       "base": true
     },
     "locked": false,
@@ -3284,10 +3292,10 @@
   },
   {
     "id": "npc-rebake_npcf_firebreak_shield_pyro",
-    "name": "FIREBREAK SHIELD",
+    "name": "Firebreak Shield",
     "origin": {
       "type": "Class",
-      "name": "PYRO",
+      "name": "Pyro [K]",
       "base": true
     },
     "locked": false,
@@ -3301,10 +3309,10 @@
   },
   {
     "id": "npc-rebake_npcf_explosive_vent_pyro",
-    "name": "EXPLOSIVE VENT",
+    "name": "Explosive Vent",
     "origin": {
       "type": "Class",
-      "name": "PYRO",
+      "name": "Pyro [K]",
       "base": true
     },
     "locked": false,
@@ -3318,10 +3326,10 @@
   },
   {
     "id": "npc-rebake_npcf_insulated_pyro",
-    "name": "INSULATED",
+    "name": "Insulated",
     "origin": {
       "type": "Class",
-      "name": "PYRO",
+      "name": "Pyro [K]",
       "base": true
     },
     "locked": false,
@@ -3331,10 +3339,10 @@
   },
   {
     "id": "npc-rebake_npcf_napalm_bomb_pyro",
-    "name": "NAPALM BOMB",
+    "name": "Napalm Bomb",
     "origin": {
       "type": "Class",
-      "name": "PYRO",
+      "name": "Pyro [K]",
       "base": false
     },
     "locked": false,
@@ -3352,10 +3360,10 @@
   },
   {
     "id": "npc-rebake_npcf_unshielded_reactor_pyro",
-    "name": "UNSHIELDED REACTOR",
+    "name": "Unshielded Reactor",
     "origin": {
       "type": "Class",
-      "name": "PYRO",
+      "name": "Pyro [K]",
       "base": false
     },
     "locked": false,
@@ -3365,10 +3373,10 @@
   },
   {
     "id": "npc-rebake_npcf_superhot_pyro",
-    "name": "SUPERHOT",
+    "name": "Superhot",
     "origin": {
       "type": "Class",
-      "name": "PYRO",
+      "name": "Pyro [K]",
       "base": false
     },
     "locked": false,
@@ -3391,10 +3399,10 @@
   },
   {
     "id": "npc-rebake_npcf_explosive_jet_pyro",
-    "name": "EXPLOSIVE JET",
+    "name": "Explosive Jet",
     "origin": {
       "type": "Class",
-      "name": "PYRO",
+      "name": "Pyro [K]",
       "base": false
     },
     "locked": false,
@@ -3412,10 +3420,10 @@
   },
   {
     "id": "npc-rebake_npcf_lingering_flames_pyro",
-    "name": "LINGERING FLAMES",
+    "name": "Lingering Flames",
     "origin": {
       "type": "Class",
-      "name": "PYRO",
+      "name": "Pyro [K]",
       "base": false
     },
     "locked": false,
@@ -3425,10 +3433,10 @@
   },
   {
     "id": "npc-rebake_npcf_carbon_fiber_sword_ronin",
-    "name": "CARBON FIBER SWORD",
+    "name": "Carbon Fiber Sword",
     "origin": {
       "type": "Class",
-      "name": "RONIN",
+      "name": "Ronin [K]",
       "base": true
     },
     "locked": false,
@@ -3465,10 +3473,10 @@
   },
   {
     "id": "npc-rebake_npcf_rebound_ronin",
-    "name": "REBOUND",
+    "name": "Rebound",
     "origin": {
       "type": "Class",
-      "name": "RONIN",
+      "name": "Ronin [K]",
       "base": true
     },
     "locked": false,
@@ -3490,10 +3498,10 @@
   },
   {
     "id": "npc-rebake_npcf_counter-ballistic_suite_ronin",
-    "name": "COUNTER-BALLISTIC SUITE",
+    "name": "Counter-Ballistic Suite",
     "origin": {
       "type": "Class",
-      "name": "RONIN",
+      "name": "Ronin [K]",
       "base": true
     },
     "locked": false,
@@ -3503,10 +3511,10 @@
   },
   {
     "id": "npc-rebake_npcf_chaff_launchers_ronin",
-    "name": "CHAFF LAUNCHERS",
+    "name": "Chaff Launchers",
     "origin": {
       "type": "Class",
-      "name": "RONIN",
+      "name": "Ronin [K]",
       "base": false
     },
     "locked": false,
@@ -3516,15 +3524,15 @@
   },
   {
     "id": "npc-rebake_npcf_instinct_mode_ronin",
-    "name": "INSTINCT MODE",
+    "name": "Instinct Mode",
     "origin": {
       "type": "Class",
-      "name": "RONIN",
+      "name": "Ronin [K]",
       "base": false
     },
     "locked": false,
     "type": "System",
-    "effect": " The Ronin enters a prepared stance, visible to everyone. Until the end of the Ronin’s next turn, the first time each turn that a hostile character in line of sight makes a ranged attack, as a <strong>reaction</strong> the Ronin may first <strong>Boost</strong> towards the triggering attacker and then make an attack against them with the <strong>Carbon Fiber Sword</strong> if they are within <strong>Range</strong>.",
+    "effect": "The Ronin enters a prepared stance, visible to everyone. Until the end of the Ronin’s next turn, the first time each turn that a hostile character in line of sight makes a ranged attack, as a <strong>reaction</strong> the Ronin may first <strong>Boost</strong> towards the triggering attacker and then make an attack against them with the <strong>Carbon Fiber Sword</strong> if they are within <strong>Range</strong>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3537,10 +3545,10 @@
   },
   {
     "id": "npc-rebake_npcf_mag_field_ronin",
-    "name": "MAG FIELD",
+    "name": "Mag Field",
     "origin": {
       "type": "Class",
-      "name": "RONIN",
+      "name": "Ronin [K]",
       "base": false
     },
     "locked": false,
@@ -3550,15 +3558,15 @@
   },
   {
     "id": "npc-rebake_npcf_charged_slash_ronin",
-    "name": "CHARGED SLASH",
+    "name": "Charged Slash",
     "origin": {
       "type": "Class",
-      "name": "RONIN",
+      "name": "Ronin [K]",
       "base": false
     },
     "locked": false,
     "type": "System",
-    "effect": " An adjacent character must pass an <strong>Agility</strong> save or choose: become <strong>Jammed</strong> until the end of their next turn, or the Ronin chooses one of their equipped weapons and they take half that weapon's damage from a ruptured magazine or power cell, then they become <strong>Impaired</strong> until the end of their next turn. On a success, they become <strong>Impaired</strong> until the end of their next turn only.",
+    "effect": "An adjacent character must pass an <strong>Agility</strong> save or choose: become <strong>Jammed</strong> until the end of their next turn, or the Ronin chooses one of their equipped weapons and they take half that weapon's damage from a ruptured magazine or power cell, then they become <strong>Impaired</strong> until the end of their next turn. On a success, they become <strong>Impaired</strong> until the end of their next turn only.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -3571,23 +3579,23 @@
   },
   {
     "id": "npc-rebake_npcf_extended_blade_ronin",
-    "name": "EXTENDED BLADE",
+    "name": "Extended Blade",
     "origin": {
       "type": "Class",
-      "name": "RONIN",
+      "name": "Ronin [K]",
       "base": false
     },
     "locked": false,
     "type": "System",
-    "effect": " The Ronin’s <strong>Carbon Fiber Sword</strong> becomes <strong>Threat 3</strong>. The first time each turn that the Ronin performs a critical hit with it, all characters of their choice within <strong>Threat</strong> take <strong>{2/3/4} Kinetic damage</strong>, excluding the target just attacked.",
+    "effect": "The Ronin’s <strong>Carbon Fiber Sword</strong> becomes <strong>Threat 3</strong>. The first time each turn that the Ronin performs a critical hit with it, all characters of their choice within <strong>Threat</strong> take <strong>{2/3/4} Kinetic damage</strong>, excluding the target just attacked.",
     "tags": []
   },
   {
     "id": "npc-rebake_npcf_thermal_lance_scourer",
-    "name": "THERMAL LANCE",
+    "name": "Thermal Lance",
     "origin": {
       "type": "Class",
-      "name": "SCOURER",
+      "name": "Scourer [K]",
       "base": true
     },
     "locked": false,
@@ -3630,10 +3638,10 @@
   },
   {
     "id": "npc-rebake_npcf_focus_down_scourer",
-    "name": "FOCUS DOWN",
+    "name": "Focus Down",
     "origin": {
       "type": "Class",
-      "name": "SCOURER",
+      "name": "Scourer [K]",
       "base": true
     },
     "locked": false,
@@ -3643,10 +3651,10 @@
   },
   {
     "id": "npc-rebake_npcf_cooling_module_scourer",
-    "name": "COOLING MODULE",
+    "name": "Cooling Module",
     "origin": {
       "type": "Class",
-      "name": "SCOURER",
+      "name": "Scourer [K]",
       "base": true
     },
     "locked": false,
@@ -3656,10 +3664,10 @@
   },
   {
     "id": "npc-rebake_npcf_ablative_shielding_scourer",
-    "name": "ABLATIVE SHIELDING",
+    "name": "Ablative Shielding",
     "origin": {
       "type": "Class",
-      "name": "SCOURER",
+      "name": "Scourer [K]",
       "base": true
     },
     "locked": false,
@@ -3669,10 +3677,10 @@
   },
   {
     "id": "npc-rebake_npcf_supercharged_scourer",
-    "name": "SUPERCHARGED",
+    "name": "Supercharged",
     "origin": {
       "type": "Class",
-      "name": "SCOURER",
+      "name": "Scourer [K]",
       "base": false
     },
     "locked": false,
@@ -3682,10 +3690,10 @@
   },
   {
     "id": "npc-rebake_npcf_emergency_vent_scourer",
-    "name": "EMERGENCY VENT",
+    "name": "Emergency Vent",
     "origin": {
       "type": "Class",
-      "name": "SCOURER",
+      "name": "Scourer [K]",
       "base": false
     },
     "locked": false,
@@ -3695,10 +3703,10 @@
   },
   {
     "id": "npc-rebake_npcf_pulse_laser_scourer",
-    "name": "PULSE LASER",
+    "name": "Pulse Laser",
     "origin": {
       "type": "Class",
-      "name": "SCOURER",
+      "name": "Scourer [K]",
       "base": false
     },
     "locked": false,
@@ -3713,10 +3721,10 @@
   },
   {
     "id": "npc-rebake_npcf_melt_scourer",
-    "name": "MELT",
+    "name": "Melt",
     "origin": {
       "type": "Class",
-      "name": "SCOURER",
+      "name": "Scourer [K]",
       "base": false
     },
     "locked": false,
@@ -3734,10 +3742,10 @@
   },
   {
     "id": "npc-rebake_npcf_thermal_overload_scourer",
-    "name": "THERMAL OVERLOAD",
+    "name": "Thermal Overload",
     "origin": {
       "type": "Class",
-      "name": "SCOURER",
+      "name": "Scourer [K]",
       "base": false
     },
     "locked": false,
@@ -3747,10 +3755,10 @@
   },
   {
     "id": "npc-rebake_npcf_marker_rifle_scout",
-    "name": "MARKER RIFLE",
+    "name": "Marker Rifle",
     "origin": {
       "type": "Class",
-      "name": "SCOUT",
+      "name": "Scout [K]",
       "base": true
     },
     "locked": false,
@@ -3783,10 +3791,10 @@
   },
   {
     "id": "npc-rebake_npcf_sight_scout",
-    "name": "SIGHT",
+    "name": "Sight",
     "origin": {
       "type": "Class",
-      "name": "SCOUT",
+      "name": "Scout [K]",
       "base": true
     },
     "locked": false,
@@ -3796,10 +3804,10 @@
   },
   {
     "id": "npc-rebake_npcf_rebound_scan_scout",
-    "name": "REBOUND SCAN",
+    "name": "Rebound Scan",
     "origin": {
       "type": "Class",
-      "name": "SCOUT",
+      "name": "Scout [K]",
       "base": true
     },
     "locked": false,
@@ -3823,10 +3831,10 @@
   },
   {
     "id": "npc-rebake_npcf_cloaking_field_scout",
-    "name": "CLOAKING FIELD",
+    "name": "Cloaking Field",
     "origin": {
       "type": "Class",
-      "name": "SCOUT",
+      "name": "Scout [K]",
       "base": true
     },
     "locked": false,
@@ -3844,10 +3852,10 @@
   },
   {
     "id": "npc-rebake_npcf_spotter_scout",
-    "name": "SPOTTER",
+    "name": "Spotter",
     "origin": {
       "type": "Class",
-      "name": "SCOUT",
+      "name": "Scout [K]",
       "base": false
     },
     "locked": false,
@@ -3857,10 +3865,10 @@
   },
   {
     "id": "npc-rebake_npcf_scout_drone_scout",
-    "name": "SCOUT DRONE",
+    "name": "Scout Drone",
     "origin": {
       "type": "Class",
-      "name": "SCOUT",
+      "name": "Scout [K]",
       "base": true
     },
     "locked": false,
@@ -3881,10 +3889,10 @@
   },
   {
     "id": "npc-rebake_npcf_orbital_strike_scout",
-    "name": "ORBITAL STRIKE",
+    "name": "Orbital Strike",
     "origin": {
       "type": "Class",
-      "name": "SCOUT",
+      "name": "Scout [K]",
       "base": false
     },
     "locked": false,
@@ -3902,10 +3910,10 @@
   },
   {
     "id": "npc-rebake_npcf_expose_weakness_scout",
-    "name": "EXPOSE WEAKNESS",
+    "name": "Expose Weakness",
     "origin": {
       "type": "Class",
-      "name": "SCOUT",
+      "name": "Scout [K]",
       "base": false
     },
     "locked": false,
@@ -3915,10 +3923,10 @@
   },
   {
     "id": "npc-rebake_npcf_pathfinder_scout",
-    "name": "PATHFINDER",
+    "name": "Pathfinder",
     "origin": {
       "type": "Class",
-      "name": "SCOUT",
+      "name": "Scout [K]",
       "base": false
     },
     "locked": false,
@@ -3928,10 +3936,10 @@
   },
   {
     "id": "npc-rebake_npcf_grav_grenade_launcher_seeder",
-    "name": "GRAV-GRENADE LAUNCHER",
+    "name": "Grav-Grenade Launcher",
     "origin": {
       "type": "Class",
-      "name": "SEEDER",
+      "name": "Seeder [K]",
       "base": true
     },
     "locked": false,
@@ -3972,10 +3980,10 @@
   },
   {
     "id": "npc-rebake_npcf_lay_mines_seeder",
-    "name": "LAY MINES",
+    "name": "Lay Mines",
     "origin": {
       "type": "Class",
-      "name": "SEEDER",
+      "name": "Seeder [K]",
       "base": true
     },
     "locked": false,
@@ -3996,10 +4004,10 @@
   },
   {
     "id": "npc-rebake_npcf_safety_net_seeder",
-    "name": "SAFETY NET",
+    "name": "Safety Net",
     "origin": {
       "type": "Class",
-      "name": "SEEDER",
+      "name": "Seeder [K]",
       "base": true
     },
     "locked": false,
@@ -4009,10 +4017,10 @@
   },
   {
     "id": "npc-rebake_npcf_grav_spike_seeder",
-    "name": "GRAV SPIKE",
+    "name": "Grav Spike",
     "origin": {
       "type": "Class",
-      "name": "SEEDER",
+      "name": "Seeder [K]",
       "base": false
     },
     "locked": false,
@@ -4029,7 +4037,7 @@
     "name": "FASCAM",
     "origin": {
       "type": "Class",
-      "name": "SEEDER",
+      "name": "Seeder [K]",
       "base": false
     },
     "locked": false,
@@ -4047,10 +4055,10 @@
   },
   {
     "id": "npc-rebake_npcf_speed_deployer_seeder",
-    "name": "SPEED DEPLOYER",
+    "name": "Speed Deployer",
     "origin": {
       "type": "Class",
-      "name": "SEEDER",
+      "name": "Seeder [K]",
       "base": false
     },
     "locked": false,
@@ -4060,10 +4068,10 @@
   },
   {
     "id": "npc-rebake_npcf_hopping_mines_seeder",
-    "name": "HOPPING MINES",
+    "name": "Hopping Mines",
     "origin": {
       "type": "Class",
-      "name": "SEEDER",
+      "name": "Seeder [K]",
       "base": false
     },
     "locked": false,
@@ -4073,10 +4081,10 @@
   },
   {
     "id": "npc-rebake_npcf_last_line_seeder",
-    "name": "LAST LINE",
+    "name": "Last Line",
     "origin": {
       "type": "Class",
-      "name": "SEEDER",
+      "name": "Seeder [K]",
       "base": false
     },
     "locked": false,
@@ -4095,10 +4103,10 @@
   },
   {
     "id": "npc-rebake_npcf_combat_shotgun_sentinel",
-    "name": "COMBAT SHOTGUN",
+    "name": "Combat Shotgun",
     "origin": {
       "type": "Class",
-      "name": "SENTINEL",
+      "name": "Sentinel [K]",
       "base": true
     },
     "locked": false,
@@ -4140,10 +4148,10 @@
   },
   {
     "id": "npc-rebake_npcf_retractable_sword_sentinel",
-    "name": "RETRACTABLE SWORD",
+    "name": "Retractable Sword",
     "origin": {
       "type": "Class",
-      "name": "SENTINEL",
+      "name": "Sentinel [K]",
       "base": true
     },
     "locked": false,
@@ -4176,10 +4184,10 @@
   },
   {
     "id": "npc-rebake_npcf_eye_of_midnight_sentinel",
-    "name": "EYE OF MIDNIGHT",
+    "name": "Eye of Midnight",
     "origin": {
       "type": "Class",
-      "name": "SENTINEL",
+      "name": "Sentinel [K]",
       "base": true
     },
     "locked": false,
@@ -4193,10 +4201,10 @@
   },
   {
     "id": "npc-rebake_npcf_guardian_sentinel",
-    "name": "GUARDIAN",
+    "name": "Guardian",
     "origin": {
       "type": "Class",
-      "name": "SENTINEL",
+      "name": "Sentinel [K]",
       "base": true
     },
     "locked": false,
@@ -4206,10 +4214,10 @@
   },
   {
     "id": "npc-rebake_npcf_punisher_ammunition_sentinel",
-    "name": "PUNISHER AMMUNITION",
+    "name": "Punisher Ammunition",
     "origin": {
       "type": "Class",
-      "name": "SENTINEL",
+      "name": "Sentinel [K]",
       "base": false
     },
     "locked": false,
@@ -4219,10 +4227,10 @@
   },
   {
     "id": "npc-rebake_npcf_bodyguard_sentinel",
-    "name": "BODYGUARD",
+    "name": "Bodyguard",
     "origin": {
       "type": "Class",
-      "name": "SENTINEL",
+      "name": "Sentinel [K]",
       "base": false
     },
     "locked": false,
@@ -4240,10 +4248,10 @@
   },
   {
     "id": "npc-rebake_npcf_reflexive_blow_sentinel",
-    "name": "REFLEXIVE BLOW",
+    "name": "Reflexive Blow",
     "origin": {
       "type": "Class",
-      "name": "SENTINEL",
+      "name": "Sentinel [K]",
       "base": false
     },
     "locked": false,
@@ -4258,10 +4266,10 @@
   },
   {
     "id": "npc-rebake_npcf_wrath_lock_sentinel",
-    "name": "WRATH-LOCK",
+    "name": "Wrath-Lock",
     "origin": {
       "type": "Class",
-      "name": "SENTINEL",
+      "name": "Sentinel [K]",
       "base": false
     },
     "locked": false,
@@ -4280,10 +4288,10 @@
   },
   {
     "id": "npc-rebake_npcf_impaler_sentinel",
-    "name": "IMPALER",
+    "name": "Impaler",
     "origin": {
       "type": "Class",
-      "name": "SENTINEL",
+      "name": "Sentinel [K]",
       "base": false
     },
     "locked": false,
@@ -4298,10 +4306,10 @@
   },
   {
     "id": "npc-rebake_npcf_marker_shells_sentinel",
-    "name": "MARKER SHELLS",
+    "name": "Marker Shells",
     "origin": {
       "type": "Class",
-      "name": "SENTINEL",
+      "name": "Sentinel [K]",
       "base": false
     },
     "locked": false,
@@ -4311,10 +4319,10 @@
   },
   {
     "id": "npc-rebake_npcf_anti_materiel_rifle_sniper",
-    "name": "ANTI-MATERIEL RIFLE",
+    "name": "Anti-Materiel Rifle",
     "origin": {
       "type": "Class",
-      "name": "SNIPER",
+      "name": "Sniper [K]",
       "base": true
     },
     "locked": false,
@@ -4357,10 +4365,10 @@
   },
   {
     "id": "npc-rebake_npcf_snipers_mark_sniper",
-    "name": "SNIPER’S MARK",
+    "name": "Sniper’s Mark",
     "origin": {
       "type": "Class",
-      "name": "SNIPER",
+      "name": "Sniper [K]",
       "base": true
     },
     "locked": false,
@@ -4374,10 +4382,10 @@
   },
   {
     "id": "npc-rebake_npcf_climber_sniper",
-    "name": "CLIMBER",
+    "name": "Climber",
     "origin": {
       "type": "Class",
-      "name": "SNIPER",
+      "name": "Sniper [K]",
       "base": true
     },
     "locked": false,
@@ -4387,10 +4395,10 @@
   },
   {
     "id": "npc-rebake_npcf_sharpshooter_sniper",
-    "name": "SHARPSHOOTER",
+    "name": "Sharpshooter",
     "origin": {
       "type": "Class",
-      "name": "SNIPER",
+      "name": "Sniper [K]",
       "base": false
     },
     "locked": false,
@@ -4400,10 +4408,10 @@
   },
   {
     "id": "npc-rebake_npcf_shift_sights_sniper",
-    "name": "SHIFT SIGHTS",
+    "name": "Shift Sights",
     "origin": {
       "type": "Class",
-      "name": "SNIPER",
+      "name": "Sniper [K]",
       "base": false
     },
     "locked": false,
@@ -4421,10 +4429,10 @@
   },
   {
     "id": "npc-rebake_npcf_defensive_grapple_sniper",
-    "name": "DEFENSIVE GRAPPLE",
+    "name": "Defensive Grapple",
     "origin": {
       "type": "Class",
-      "name": "SNIPER",
+      "name": "Sniper [K]",
       "base": false
     },
     "locked": false,
@@ -4446,10 +4454,10 @@
   },
   {
     "id": "npc-rebake_npcf_relocation_sniper",
-    "name": "RELOCATION",
+    "name": "Relocation",
     "origin": {
       "type": "Class",
-      "name": "SNIPER",
+      "name": "Sniper [K]",
       "base": false
     },
     "locked": false,
@@ -4468,10 +4476,10 @@
   },
   {
     "id": "npc-rebake_npcf_moving_target_sniper",
-    "name": "MOVING TARGET",
+    "name": "Moving Target",
     "origin": {
       "type": "Class",
-      "name": "SNIPER",
+      "name": "Sniper [K]",
       "base": false
     },
     "locked": false,
@@ -4490,10 +4498,10 @@
   },
   {
     "id": "npc-rebake_npcf_deadeye_sniper",
-    "name": "DEADEYE",
+    "name": "Deadeye",
     "origin": {
       "type": "Class",
-      "name": "SNIPER",
+      "name": "Sniper [K]",
       "base": false
     },
     "locked": false,
@@ -4503,10 +4511,10 @@
   },
   {
     "id": "npc-rebake_npcf_monowire_sword_specter",
-    "name": "MONOWIRE SWORD",
+    "name": "Monowire Sword",
     "origin": {
       "type": "Class",
-      "name": "SPECTER",
+      "name": "Specter [K]",
       "base": true
     },
     "locked": false,
@@ -4539,10 +4547,10 @@
   },
   {
     "id": "npc-rebake_npcf_prowl_specter",
-    "name": "PROWL",
+    "name": "Prowl",
     "origin": {
       "type": "Class",
-      "name": "SPECTER",
+      "name": "Specter [K]",
       "base": true
     },
     "locked": false,
@@ -4556,10 +4564,10 @@
   },
   {
     "id": "npc-rebake_npcf_tactical_cloak_specter",
-    "name": "TACTICAL CLOAK",
+    "name": "Tactical Cloak",
     "origin": {
       "type": "Class",
-      "name": "SPECTER",
+      "name": "Specter [K]",
       "base": true
     },
     "locked": false,
@@ -4569,10 +4577,10 @@
   },
   {
     "id": "npc-rebake_npcf_hunt_specter",
-    "name": "HUNT",
+    "name": "Hunt",
     "origin": {
       "type": "Class",
-      "name": "SPECTER",
+      "name": "Specter [K]",
       "base": true
     },
     "locked": false,
@@ -4582,10 +4590,10 @@
   },
   {
     "id": "npc-rebake_npcf_step_specter",
-    "name": "STEP",
+    "name": "Step",
     "origin": {
       "type": "Class",
-      "name": "SPECTER",
+      "name": "Specter [K]",
       "base": false
     },
     "locked": false,
@@ -4603,10 +4611,10 @@
   },
   {
     "id": "npc-rebake_npcf_drain_systems_specter",
-    "name": "DRAIN SYSTEMS",
+    "name": "Drain Systems",
     "origin": {
       "type": "Class",
-      "name": "SPECTER",
+      "name": "Specter [K]",
       "base": false
     },
     "locked": false,
@@ -4626,10 +4634,10 @@
   },
   {
     "id": "npc-rebake_npcf_lure_specter",
-    "name": "LURE",
+    "name": "Lure",
     "origin": {
       "type": "Class",
-      "name": "SPECTER",
+      "name": "Specter [K]",
       "base": false
     },
     "locked": false,
@@ -4653,10 +4661,10 @@
   },
   {
     "id": "npc-rebake_npcf_ghostwalk_specter",
-    "name": "GHOSTWALK",
+    "name": "Ghostwalk",
     "origin": {
       "type": "Class",
-      "name": "SPECTER",
+      "name": "Specter [K]",
       "base": false
     },
     "locked": false,
@@ -4670,10 +4678,10 @@
   },
   {
     "id": "npc-rebake_npcf_machine_pistol_specter",
-    "name": "MACHINE PISTOL",
+    "name": "Machine Pistol",
     "origin": {
       "type": "Class",
-      "name": "SPECTER",
+      "name": "Specter [K]",
       "base": false
     },
     "locked": false,
@@ -4710,10 +4718,10 @@
   },
   {
     "id": "npc-rebake_npcf_sealant_gun_support",
-    "name": "SEALANT GUN",
+    "name": "Sealant Gun",
     "origin": {
       "type": "Class",
-      "name": "SUPPORT",
+      "name": "Support [K]",
       "base": true
     },
     "locked": false,
@@ -4727,10 +4735,10 @@
   },
   {
     "id": "npc-rebake_npcf_restock_drone_support",
-    "name": "RESTOCK DRONE",
+    "name": "Restock Drone",
     "origin": {
       "type": "Class",
-      "name": "SUPPORT",
+      "name": "Support [K]",
       "base": true
     },
     "locked": false,
@@ -4751,10 +4759,10 @@
   },
   {
     "id": "npc-rebake_npcf_nano-repair_cloud_support",
-    "name": "NANO-REPAIR CLOUD",
+    "name": "Nano-Repair Cloud",
     "origin": {
       "type": "Class",
-      "name": "SUPPORT",
+      "name": "Support [K]",
       "base": true
     },
     "locked": false,
@@ -4764,10 +4772,10 @@
   },
   {
     "id": "npc-rebake_npcf_desant_hardpoints_support",
-    "name": "DESANT HARDPOINTS",
+    "name": "Desant Hardpoints",
     "origin": {
       "type": "Class",
-      "name": "SUPPORT",
+      "name": "Support [K]",
       "base": false
     },
     "locked": false,
@@ -4777,10 +4785,10 @@
   },
   {
     "id": "npc-rebake_npcf_remote_cloud_support",
-    "name": "REMOTE CLOUD",
+    "name": "Remote Cloud",
     "origin": {
       "type": "Class",
-      "name": "SUPPORT",
+      "name": "Support [K]",
       "base": false
     },
     "locked": false,
@@ -4798,10 +4806,10 @@
   },
   {
     "id": "npc-rebake_npcf_remote_reboot_support",
-    "name": "REMOTE REBOOT",
+    "name": "Remote Reboot",
     "origin": {
       "type": "Class",
-      "name": "SUPPORT",
+      "name": "Support [K]",
       "base": false
     },
     "locked": false,
@@ -4819,10 +4827,10 @@
   },
   {
     "id": "npc-rebake_npcf_empowered_cloud_support",
-    "name": "EMPOWERED CLOUD",
+    "name": "Empowered Cloud",
     "origin": {
       "type": "Class",
-      "name": "SUPPORT",
+      "name": "Support [K]",
       "base": false
     },
     "locked": false,
@@ -4832,10 +4840,10 @@
   },
   {
     "id": "npc-rebake_npcf_latch_drone_support",
-    "name": "LATCH DRONE",
+    "name": "Latch Drone",
     "origin": {
       "type": "Class",
-      "name": "SUPPORT",
+      "name": "Support [K]",
       "base": false
     },
     "locked": false,
@@ -4856,10 +4864,10 @@
   },
   {
     "id": "npc-rebake_npcf_tear_down_witch",
-    "name": "TEAR DOWN",
+    "name": "Tear Down",
     "origin": {
       "type": "Class",
-      "name": "WITCH",
+      "name": "Witch [K]",
       "base": true
     },
     "locked": false,
@@ -4879,10 +4887,10 @@
   },
   {
     "id": "npc-rebake_npcf_blind_witch",
-    "name": "BLIND",
+    "name": "Blind",
     "origin": {
       "type": "Class",
-      "name": "WITCH",
+      "name": "Witch [K]",
       "base": true
     },
     "locked": false,
@@ -4902,10 +4910,10 @@
   },
   {
     "id": "npc-rebake_npcf_predatory_logic_witch",
-    "name": "PREDATORY LOGIC",
+    "name": "Predatory Logic",
     "origin": {
       "type": "Class",
-      "name": "WITCH",
+      "name": "Witch [K]",
       "base": true
     },
     "locked": false,
@@ -4934,10 +4942,10 @@
   },
   {
     "id": "npc-rebake_npcf_blur_witch",
-    "name": "BLUR",
+    "name": "Blur",
     "origin": {
       "type": "Class",
-      "name": "WITCH",
+      "name": "Witch [K]",
       "base": true
     },
     "locked": false,
@@ -4947,10 +4955,10 @@
   },
   {
     "id": "npc-rebake_npcf_dark_cloud_witch",
-    "name": "DARK CLOUD",
+    "name": "Dark Cloud",
     "origin": {
       "type": "Class",
-      "name": "WITCH",
+      "name": "Witch [K]",
       "base": false
     },
     "locked": false,
@@ -4960,10 +4968,10 @@
   },
   {
     "id": "npc-rebake_npcf_chain_witch",
-    "name": "CHAIN",
+    "name": "Chain",
     "origin": {
       "type": "Class",
-      "name": "WITCH",
+      "name": "Witch [K]",
       "base": false
     },
     "locked": false,
@@ -4983,10 +4991,10 @@
   },
   {
     "id": "npc-rebake_npcf_petrify_witch",
-    "name": "PETRIFY",
+    "name": "Petrify",
     "origin": {
       "type": "Class",
-      "name": "WITCH",
+      "name": "Witch [K]",
       "base": false
     },
     "locked": false,
@@ -5006,10 +5014,10 @@
   },
   {
     "id": "npc-rebake_npcf_pain_transference_witch",
-    "name": "PAIN TRANSFERENCE",
+    "name": "Pain Transference",
     "origin": {
       "type": "Class",
-      "name": "WITCH",
+      "name": "Witch [K]",
       "base": false
     },
     "locked": false,
@@ -5019,10 +5027,10 @@
   },
   {
     "id": "npc-rebake_npcf_immolate_witch",
-    "name": "IMMOLATE",
+    "name": "Immolate",
     "origin": {
       "type": "Class",
-      "name": "WITCH",
+      "name": "Witch [K]",
       "base": false
     },
     "locked": false,
